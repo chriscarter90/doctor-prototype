@@ -33,7 +33,8 @@ group :test do
   gem 'turn', :require => false
 
   # To use debugger
-  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'debugger'
+  gem 'shoulda-matchers'
 
   gem 'guard-rspec'
   gem 'capybara'
