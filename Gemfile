@@ -9,6 +9,7 @@ gem 'pg'
 
 gem 'less-rails-bootstrap'
 gem 'annotate', ">=2.5.0"
+gem 'faker'
 
 # Gems used only for assets and not required
 # in production environments by default.
