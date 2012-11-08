@@ -13,6 +13,7 @@ gem 'less-rails-bootstrap'
 # in production environments by default.
 group :assets do
   gem 'uglifier'
+  gem 'therubyracer', :platform => :ruby
 end
 
 gem 'jquery-rails'
