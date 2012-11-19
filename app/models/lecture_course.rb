@@ -4,10 +4,11 @@ class LectureCourse < ActiveRecord::Base
 
   # = Validations =
   validates_uniqueness_of :code
-  validates_presence_of :code, :title, :term, :classes, :lecturehours, :tutorialhours, :labhours, :weeklyhours, :popestimate, :popregistered
+  validates_presence_of :code, :title, :term
 
   # = Relationships =
   has_many :requirements
-  has_many :student_options
   has_many :lecturers
+  has_many :staff_members, :through => :lecturers
+  has_many :degree_classes, :through => :requirements
 end
