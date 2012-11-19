@@ -8,4 +8,5 @@ class StaffMember < ActiveRecord::Base
 
   # = Relationships =
   has_many :lecturers
+  has_many :lecture_courses, :through => :lecturers
 end
