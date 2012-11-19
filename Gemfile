@@ -22,6 +22,11 @@ gem 'jquery-rails'
 
 gem 'rspec-rails', :group => [:test, :development]
 
+group :development do
+  gem 'guard'
+  gem 'guard-rspec'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -36,8 +41,13 @@ group :test do
   gem 'debugger'
   gem 'shoulda-matchers'
 
-  gem 'guard-rspec'
   gem 'capybara'
   gem 'launchy'
   gem 'factory_girl_rails'
+
+  gem 'rspec'
+  gem 'growl'
+  gem 'rb-fsevent'
+  gem 'spork-rails'
+  gem 'guard-spork'
 end
