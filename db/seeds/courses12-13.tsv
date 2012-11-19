@@ -1,0 +1,212 @@
+code	title	term	classes	lecturehours	tutorialhours	labhours	weeklyhours	popestimate	popregistered
+223	Concurrency	1	c2, j2	18	9	0	3	133	0
+M4P6	Probability Theory with Advanced Study	2	j4						
+M3P6	Probability Theory	2	j3						
+M4P19	Measure & Integration with Advanced Study	1	j4						
+M3P19	Measure & Integration	1	j3						
+M4S11	Games, Risks & Decisions with Advanced Study	2	j4						
+M3S11	Games, Risks & Decisions	2	j3						
+M4P7	Functional Analysis with Advanced Study	1	j4						
+M3P7	Functional Analysis	1	j3						
+M4P18	Fourier Analysis & Theory of Distributions with Advanced Study	2	j4						
+M3P18	Fourier Analysis & Theory of Distributions	2	j3						
+M4S17	Credit Scoring II with Advanced Study	2	j4						
+M3S17	Credit Scoring II	2	j3						
+M4P23	Computational Algebra & Geometry with Advanced Study	1	j4						
+M3P23	Computational Algebra & Geometry	1	j3						
+M4P57	Complex Manifolds	2	j4						
+M4A42	Applied Stochastic Processes	2	j4						
+471	Advanced Issues in Object Oriented Programming	1	a5, c4, j4, o3, r5, s5, y5	18	9	0	3	46	0
+421	Computational Neurodynamics	1	a5, c4, i4, j4, o3, r5, s5, x4, x5	18	9	0	0	56	0
+493	Intelligent Data and Probabilistic Inference	2	a5, c4, i4, j4, o4, r5, s5, v5, x1, x4	18	9	0	3	79	0
+317	Graphics	2	c3, i3, j3, o3, s5, v5, x4	18	9	0	3	140	0
+480	Automated Reasoning	1	a5, c4, i4, j4, o3, r5, s5	18	9	0	3	29	0
+501	Computer Architecture	1	v5	18	9	0	30	50	0
+437	Distributed Algorithms	2	a5, c4, i4, j4, o4, r5, s5	18	9	0	3	108	0
+ZZ322	Communicating Computer Science in Schools	1,2,3		0	0	0	0	0	0
+M4P5	Geometry of Curves and Surfaces with Advanced Study	2	j4	0	0	0	0	0	0
+M4S9	Stochastic Simulation I with Advanced study	2	j4	0	0	0	0	4	0
+M3S9	Stochastic Simulation I	2	j3	0	0	0	0	1	0
+M2AA3	Introduction to Numerical Analysis	2	j2	0	0	0	0	26	0
+M4P14	Number Theory with Advanced Study	1	j4	0	0	0	0	0	0
+M3P14	Number Theory	1	j3	0	0	0	0	9	0
+M4S16	Credit Scoring I with Advanced Study	1	j4	0	0	0	0	3	0
+M3S16	Credit Scoring I	1	j3	0	0	0	0	5	0
+ZZ345	Ludic Computing	2		18	9	0	3	87	0
+302	Software Engineering Practice	1	c3, j3, o3	9	9	0	3	141	0
+337	Simulation and Modelling	1	c3, i3, j3, o4, s5, x1	18	9	0	3	49	0
+534	Short Introduction to Prolog and Matlab	1	a5, r5, s5	6	0	8	0	0	0
+M2PM1	Real Analysis	1	j2	9	18	0	3	0	0
+M2PM3	Complex Analysis	2	j2	9	18	0	3	0	0
+M2AA2	Multivariable Calculus	1	j2	9	18	0	3	0	0
+M1M2	Mathematical Methods II	2	j2	9	18	0	3	0	0
+475	Software Engineering for Industry	1	a5, c4, i4, j4, o4, r5, s5, y5	18	9	0	3	124	0
+220	Software Engineering Design	1	c2, j2	18	9	0	3	155	0
+477	Computing for Optimal Decisions	1	a5, c4, i4, j4, r5, s5, x1	18	9	0	3	30	0
+531	Prolog	1,2	a5, r5, s5	9	9	60	3	27	0
+551	C++ Programming Test	2	v5	0	0	6	0	61	0
+552	AI Programming Test	2	v5	0	0	4	0	0	0
+440	Software Reliability	1	c4, j4, o3	18	9	0	0	0	0
+343	Operations Research	1	c3, i3, j3, j4, o3, o4, s5	18	9	0	3	77	0
+312	Advanced Databases	1	a5, c3, o3, o4, r5, s5	18	9	0	3	136	0
+332	Advanced Computer Architecture	2	a5, c3, i4, j3, j4, r5, s5, x4	18	9	0	3	33	0
+382	Type Systems for Programming Languages	1	a5, c3, j3, j4, o3, r5, s5	18	9	0	0	14	0
+303	Software Engineering - Systems Verification	2	c3, j3, o3, s5, y5	18	9	0	0	103	28
+499	Modal and Temporal Logic	1	a5, c4, j4, o3, r5, s5	18	9	0	3	48	0
+474	Multi-agent Systems	2	a5, c4, i4, j4, o4, r5, s5	18	9	0	3	66	0
+436	Performance Analysis	2	a5, c4, i4, j4, r5, s5	18	9	0	3	30	0
+335	Distributed Systems	1	c3, i3, j3, o3, o4, s5, y5	18	9	0	3	109	0
+333	Robotics	2	c3, j3, o4, s5, v5	18	9	0	3	71	0
+516	Introduction to C++ Programming	1	v5	12	8	0	1	63	0
+502	Computer Systems	1	v5	18	9	0	3	60	0
+417	Advanced Graphics and Visualisation	2	a5, c4, i4, j4, r5, s5	18	9	0	3	30	0
+275	C++ Introduction	1	c2, j2	6	0	6	0	151	0
+212	Networks and Communications	2	c2	18	9	0	3	161	0
+438	Complexity	2	a5, c4, i4, j4, r5, s5	18	9	0	3	24	0
+484	Quantum Computing	2	a5, c4, i4, j4, o4, r5, s5	18	9	0	3	24	0
+424	Machine Learning and Neural Computation	1	a5, c4, j4, o4, r5, s5, x4, x5, x6	18	9	0	0	54	0
+422	Computational Finance	2	a5, c4, i4, j4, o4, r5, s5, v5, x4	18	9	0	3	97	0
+470	Program Analysis	2	a5, c4, j4, r5, r6, s5	18	9	0	3	48	0
+341	Introduction to Bioinformatics	2	c3, i3, j3, s5, v5, x1, x3, x4	18	9	0	3	61	0
+210	Computer Architecture	2	c2	18	9	0	3	82	0
+526	Databases	2	i2, j2, j3, v5	18	9	0	3	103	0
+401I	Individual Project MEng - ISE	1,2,3	i4	0	50	10	6	0	0
+610	PhD 1st Year	1,2,3	r6					42	0
+272	Team Skills Development	3	c2, j2	2	0	5	0	125	0
+301J	Individual Project BSci - JMC	1,2,3	j3	0	50	10	6	16	0
+330	Network Security	1	a5, c3, i4, j3, j4, o3, r5, s5, x4, y5	18	9	0	3	91	0
+395	Machine Learning	1	a5, c3, i4, j3, o3, r5, s5, x4	18	9	0	3	135	0
+520	MRes Research Seminar	2	r5, r6	18	0	0	2	15	0
+481	Models of Concurrent Computation	1	a5, c4, j4, r5, r6, s5	18	9	0	3	49	0
+202	Software Engineering - Algorithms	2	c2, j2, v5	18	9	0	3	171	0
+211	Operating Systems	2	c2, j2	18	9	0	3	156	0
+350	Management and Business for Computing Engineers	2	c3, o3	10	0	0	2	115	0
+318	Custom Computing	2	a5, c3, i3, j3, o4, r5, s5	18	9	0	3	24	0
+338	Pervasive Computing	2	c3, o3, o4, s5	18	9	0	0	58	0
+276	Introduction to Prolog	1,2	c2, j2	9	3	10	2	151	0
+164	Ethics in Computing 1	2	c1, j1	4	0	0	0	166	0
+221	Compilers	1	c2, j2	18	9	0	3	137	0
+142	Discrete Mathematics	1,2	c1	18	9	0	3	133	0
+141	Reasoning about Programs	2	c1	18	9	0	3	133	0
+140	Logic	1	c1, j1	18	9	0	3	168	0
+130	Databases I	2	c1	18	9	0	3	133	0
+113	Architecture	2	c1, j1	18	9	0	3	168	0
+120.2	Programming II	1,2	c1, j1	24	12	0	3	166	0
+112	Hardware	1	c1	18	9	0	3	133	0
+356	Technical Presentations Skills	1	c3, j3	2	0	0	0	141	0
+518	Logic and AI Programming	1	v5	27	10	0	3	63	0
+176	Laboratory I (JMC)	1,2,3	j1	20	0	110	4	35	0
+464	Industrial Placement - Presentation and Report	1	c4, j4	0	15	0	1	82	0
+541	MSc Computing Science Individual Project	3	v5	0	0	0	0	61	0
+523	MAC Individual Project	3	a5	0	0	0	0	37	0
+245	Statistics	1	c2	18	9	0	3	129	0
+517	Object Oriented Design & Programming.	1	v5	18	9	0	3	63	0
+261J	JMC2 Laboratory	1,2	j2	0	0	60	3	26	0
+527	Computer Networks and Distributed Systems	2	i2, j3, v5	18	9	0	3	51	0
+252	Foreign Language II	1,2	c2	18	9	0	3	0	0
+512	Independent Study Option	2	a5, s5	0	0	0	0	13	0
+271	2nd Year Group Projects	3	c2, j2	0	0	20	0	129	0
+M3IPJ	Math Individual Project BSci - JMC	3	j3	0	0	0	0	1	0
+301I	Individual Project BEng - ISE	1,2,3	i3	0	50	10	6	0	0
+120.3	Programming III	3	c1, j1	14	0	30	0	166	0
+161	Laboratory 1	1,2,3	c1	20	0	156	6	131	0
+265	Ethics in Computing 2	1		4	0	0	0	151	0
+261	Laboratory 2	1,2	c2	12	0	120	6	125	0
+362	3rd Year Group Projects	1	c3, j3	0	20	10	3	141	0
+120.1	Programming I	1	c1, j1	22	9	0	4	166	0
+401	Individual Project MEng	1,2,3	c4, o4	0	50	10	6	75	0
+145	Mathematical Methods	1	c1	23	9	0	3	133	0
+418	Computer Vision	1	a5, c4, i4, j4, o4, r5, s5, x4, y5	18	9	0	3	79	0
+452	External Course 4II	1,2	c4	18	9	0	3	0	0
+491	Knowledge Representation	2	a5, c4, j4, r5, s5	18	9	0	3	19	0
+231	Introduction to Artificial Intelligence	2	c2, j2, v5	18	9	0	3	154	0
+429	Parallel Algorithms	2	a5, c4, i4, j4, o4, r5, s5	18	9	0	3	62	0
+233	Computational Techniques	2	c2	18	9	0	3	42	0
+163	Computing Topics	2	c1	8	3	0	1	131	0
+203	Human-Centred Design	3	c2, j2	12	4	0	0	125	0
+351J	External Course - JMC	1,2	j3	0	0	0	0	0	0
+M4IPJ	Math Individual Project MSci - JMC	1,2,3	j4	0	0	0	0	2	0
+M3T	Communicating Mathematics	2,3	j3, j4	0	0	0	0	1	0
+M3S8	Time Series	1	j3	0	0	0	0	2	0
+M3S7	Statistical Pattern Recognition	1	j3	0	0	0	0	0	0
+M3S4	Applied Probability	1	j3	0	0	0	0	1	0
+M3S2	Statistical Modelling II	2	j3	0	0	0	0	0	0
+M3S14	Survival Models and Actuarial Applications	2	j3	0	0	0	0	4	0
+M3S1	Statistical Theory I	1	j3	0	0	0	0	0	0
+M3P8	Algebra III	1	j3	0	0	0	0	3	0
+M3P5	Geometry of Curves and Surfaces	2	j3	0	0	0	0	0	0
+M3P21	Geometry II: Algebraic Topology	2	j3	0	0	0	0	0	0
+M3P20	Geometry I: Algebraic Curves	1	j3	0	0	0	0	0	0
+M3P17	Algebraic Combinatorics	1	j3	0	0	0	0	8	0
+M3P16	Analytic Number Theory	2	j3	0	0	0	0	0	0
+M3P15	Algebraic Number Theory	2	j3	0	0	0	0	0	0
+M3P12	Group Representation Theory	2	j3	0	0	0	0	2	0
+M3P11	Galois Theory	1	j3	0	0	0	0	3	0
+M3P10	Group Theory	1	j3	0	0	0	0	2	0
+M3N7	Numerical Solution of Ordinary Differential Equations	1	j3	0	0	0	0	0	0
+M3N10	Computational Partial Differential Equations I	2	j3	0	0	0	0	0	0
+M4S2	Statistical Modelling II with Advanced Study	2	j4	0	0	0	0	0	0
+M4S14	Survival Models and Actuarial Applications with Advanced Study	2	j4	0	0	0	0	2	0
+M4S1	Statistical Theory I with Advanced Study	1	j4	0	0	0	0	0	0
+M4P8	Algebra III with Advanced Study	1	j4	0	0	0	0	0	0
+M4P55	Commutative Algebra	1	j4	0	0	0	0	0	0
+M4P54	Differential Topology	2	j4	0	0	0	0	0	0
+M4P52	Manifolds	1	j4	0	0	0	0	0	0
+M4P51	Riemannian Geometry	2	j4	0	0	0	0	0	0
+M4P46	Lie Algebras	2	j4	0	0	0	0	0	0
+M4P34	Groups and Representations	1	j4	0	0	0	0	0	0
+M4P32	Number Theory: Elliptic Curves	1	j4	0	0	0	0	2	0
+M4P21	Geometry II: Algebraic Topology with Advanced Study	2	j4	0	0	0	0	0	0
+M4P20	Geometry I: Algebraic Curves with Advanced Study	1	j4	0	0	0	0	0	0
+M4P17	Algebraic Combinatorics with Advanced Study	1	j4	0	0	0	0	0	0
+M4P16	Analytic Number Theory with Advanced Study	2	j4	0	0	0	0	0	0
+M4P15	Algebraic Number Theory with Advanced Study	2	j4	0	0	0	0	1	0
+M4P12	Group Representation Theory with Advanced Study	2	j4	0	0	0	0	2	0
+M4P11	Galois Theory with Advanced study	1	j4	0	0	0	0	1	0
+M4P10	Group Theory with Advanced Study	1	j4	0	0	0	0	0	0
+M4N7	Numerical Solution of Ordinary Differential Equations with Advanced Study	1	j4	0	0	0	0	0	0
+M2S1	Probability and Statistics II	1	j3	0	0	0	0	13	0
+M2GPJ	Math Group Project JMC	3		0	0	0	0	26	0
+M2AA1	Differential Equations	2	j2, j3	0	0	0	0	2	0
+M2PM5	Metric Spaces and Topology	2	j2, j3	0	0	0	0	24	0
+M2PM2	Algebra II	1	j2	0	0	0	0	26	0
+141J	Reasoning about programs (JMC)	2	j1	18	9	0	3	35	0
+M1F	Foundations of Analysis	1	j1	18	9	0	3	35	0
+M1GLA	Geometry and Linear Algebra	1	j1	18	9	0	3	36	0
+173	Computer Algebra Project	3	j1	0	0	10	3	35	0
+M1M1	Mathematical Methods I	1	j1	18	9	0	3	35	0
+M2S2	Statistical Modelling I	2	j2, j3	0	0	0	0	2	0
+M4N10	Computational Partial Differential Equations I with Advanced Study	2	j4	0	0	0	0	0	0
+351	External Course	1,2	c3	18	0	0	0	0	0
+M1P2	Algebra I	2	j1	18	9	0	3	36	0
+M1P1	Analysis I	2	j1	18	9	0	3	35	0
+522	ZZAlgorithms	2		18	9	0	2	0	0
+528	Concurrent Programming	2	i3, j3, o4, v5	18	9	9	0	27	0
+451	External Course 4I	1,2	c4	18	9	0	3	0	0
+550	Integrated Programming Laboratory	1,2	v5	10	60	80	7	61	0
+543	MRes Individual Project	3	r5	0	0	0	0	8	0
+513	MRes Research Project (1st)	1	r5	0	0	0	0	8	0
+521	Research Skills	1	r5	18	0	0	0	8	0
+530	Software Engineering Practice	2	v5	9	0	0	2	60	0
+542	MSc Computing Science (Specialist) Individual Project	3	s5	0	0	0	0	47	0
+525	Software Engineering	2	v5	18	9	0	3	20	0
+240	Models of Computation	1	c2, j2	18	9	0	3	150	0
+320	Complex Systems	1	a5, c3, j3, j4, o3, o4, r5, s5	18	9	0	0	21	0
+M4S8	Time Series with Advanced Study	1	j4	0	0	0	0	2	0
+M4S7	Statistical Pattern Recognition with Advanced Study	1	j4	0	0	0	0	0	0
+M4S4	Applied Probability with Advanced Study	1	j4	0	0	0	0	0	0
+478	ZZ Advanced Operations Research	2		18	9	0	3	0	0
+325	Erasmus Seminars	1,2,3		0	0	0	0	0	0
+301	Individual Project BEng	1,2,3	c3, o3	0	50	10	6	40	0
+401J	Individual Project MSci - JMC	1,2,3	j4	0	50	10	6	6	0
+514	MRes Research Project (2nd)	2	r5	0	0	0	0	8	0
+602	PhD Reports	1,2,3	r6	0	0	0	0	237	0
+601	PhD Logbook	1,2,3	r6					237	0
+640	PhD 4th Year	1,2,3	r6					1	0
+630	PhD 3rd Year	1,2,3	r6					0	0
+620	PhD 2nd Year	1,2,3	r6					0	0
+451J	External Course 4 - JMC	1,2	j4	0	0	0	0	0	0
+M1S	Probability and Statistics I	1	j2	0	0	0	0	26	0
+533	Software Engineering Group Project	1,2	s5	9	0	0	2	19	0
+570	MSc for Industry Individual Project	1,2,3	y5	0	0	0	0	1	0
+(210 rows)

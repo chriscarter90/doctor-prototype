@@ -1,0 +1,70 @@
+letteryr	degree	yr	title
+a5	pac	5	M.Sc Advanced Computing
+b5	pb	5	M.Sc Bioinformatics
+c1	bc	1	B.Eng Computing
+c1	mc	1	M.Eng Computing
+c1	mcai	1	M.Eng Computing (Artifical Intelligence)
+c1	mcbm	1	MEng Computing (Computation in Biology and Medicine)
+c1	mcgvi	1	MEng Computing (Games, Vision and Interaction)
+c1	mcip	1	MEng Computing (International Programme)
+c1	mcse	1	M.Eng Computing (Software Engineering)
+c2	bc	2	B.Eng Computing
+c2	mc	2	M.Eng Computing
+c2	mcai	2	M.Eng Computing (Artifical Intelligence)
+c2	mcbm	2	MEng Computing (Computation in Biology and Medicine)
+c2	mcgvi	2	MEng Computing (Games, Vision and Interaction)
+c2	mcip	2	MEng Computing (International Programme)
+c2	mcse	2	M.Eng Computing (Software Engineering)
+c3	bc	3	B.Eng Computing
+c3	mc	3	M.Eng Computing
+c3	mcai	3	M.Eng Computing (Artifical Intelligence)
+c3	mcbm	3	MEng Computing (Computation in Biology and Medicine)
+c3	mcgvi	3	MEng Computing (Games, Vision and Interaction)
+c3	mcip	3	MEng Computing (International Programme)
+c3	mcse	3	M.Eng Computing (Software Engineering)
+c4	mc	4	M.Eng Computing
+c4	mcai	4	M.Eng Computing (Artifical Intelligence)
+c4	mcbm	4	MEng Computing (Computation in Biology and Medicine)
+c4	mcgvi	4	MEng Computing (Games, Vision and Interaction)
+c4	mcip	4	MEng Computing (International Programme)
+c4	mcse	4	M.Eng Computing (Software Engineering)
+i2	bise	2	B.Eng Information Systems Engineering
+i2	mise	2	M.Eng Information Systems Engineering
+i3	bise	3	B.Eng Information Systems Engineering
+i3	mise	3	M.Eng Information Systems Engineering
+i4	mise	4	M.Eng Information Systems Engineering
+j1	bjmc	1	B.Eng Mathematics and Computer Science
+j1	mjmc	1	MEng Mathematics and Computer Science
+j1	mjmccs	1	MEng Mathematics and Computer Science (Computational Statisctics)
+j1	mjmcml	1	MEng Mathematics and Computer Science (Pure Maths and Computational Logic)
+j2	bjmc	2	B.Eng Mathematics and Computer Science
+j2	mjmc	2	MEng Mathematics and Computer Science
+j2	mjmccs	2	MEng Mathematics and Computer Science (Computational Statisctics)
+j2	mjmcml	2	MEng Mathematics and Computer Science (Pure Maths and Computational Logic)
+j3	bjmc	3	B.Sc Mathematics and Computer Science
+j3	mjmc	3	M.Sci Mathematics and Computer Science
+j4	mjmc	4	M.Sci Mathematics and Computer Science
+o2	bocc	2	BEng Exchange Students
+o3	bocc	3	BEng Exchange Students
+o3	mocc	3	MEng Exchange Students
+o4	mocc	4	MEng Exchange Students
+r5	pres	5	M.Res in Advanced Computing
+r6	res	6	PhD Computing
+s5	pcsa	5	M.Sc in Computing (Architecture)
+s5	pcsai	5	M.Sc in Computing  (Artificial Intelligence)
+s5	pcsci	5	M.Sc in Computing (Creative Industries)
+s5	pcscm	5	M.Sc in Computing  (Computational Management Science)
+s5	pcsds	5	M.Sc in Computing  (Distributed Systems)
+s5	pcsml	5	MSc in Computing (Machine Learning)
+s5	pcspm	5	MSc in Computing (Performance Modelling)
+s5	pcsse	5	M.Sc in Computing  (Software Engineering)
+s5	pcsvip	5	M.Sc in Computing  (Visual Information Processing)
+v5	pcs	5	M.Sc Computing Science
+x1	bxx	1	BEng External Departmetns
+x3	bxx	3	BEng External Departmetns
+x3	mxx	3	MEng External Departments
+x4	mxx	4	MEng External Departments
+x5	pxx	5	M.Sc External Departments
+x6	rxx	6	PhD External Departments
+y5	pci	5	M.Sc Computing for Industry
+(68 rows)
