@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe Requirement do
   describe "validations" do
+    it { should validate_presence_of(:degree_class) }
+    it { should validate_presence_of(:lecture_course) }
     it { should validate_presence_of(:required) }
   end
 

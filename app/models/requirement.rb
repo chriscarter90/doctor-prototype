@@ -1,9 +1,9 @@
 class Requirement < ActiveRecord::Base
 
-  attr_accessible :degree_class_id, :lecture_course_id, :required
+  attr_accessible :degree_class, :lecture_course, :required
 
   # = Validations =
-  validates_presence_of :degree_class_id, :lecture_course_id, :required
+  validates_presence_of :degree_class, :lecture_course, :required
 
   # = Relationships =
   belongs_to :degree_class
