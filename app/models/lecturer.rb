@@ -1,9 +1,9 @@
 class Lecturer < ActiveRecord::Base
 
-  attr_accessible :staff_member_id, :lecture_course_id, :role, :staffhours, :term
+  attr_accessible :staff_member, :lecture_course, :role, :staffhours, :term
 
   # = Validations =
-  validates_presence_of :staff_member_id, :lecture_course_id, :role, :staffhours, :term
+  validates_presence_of :staff_member, :lecture_course, :role, :staffhours, :term
 
   # = Relationships =
   belongs_to :staff_member
