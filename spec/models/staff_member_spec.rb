@@ -16,4 +16,11 @@ describe StaffMember do
     it { should have_many(:lecturers) }
     it { should have_many(:lecture_courses).through(:lecturers) }
   end
+
+  describe "factory" do
+    it "should return a valid object" do
+      obj = FactoryGirl.build(:staff_member)
+      obj.should be_valid
+    end
+  end
 end

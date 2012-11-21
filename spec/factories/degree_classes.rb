@@ -2,5 +2,8 @@
 
 FactoryGirl.define do
   factory :degree_class do
+    sequence(:degreeyr)       { |n| "deg#{n}" }
+    sequence(:letteryr)       { |n| "d#{n}"   }
+    title                     Faker::Company.catch_phrase
   end
 end

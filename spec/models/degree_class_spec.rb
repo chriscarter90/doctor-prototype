@@ -14,4 +14,11 @@ describe DegreeClass do
   describe "relationships" do
     it { should have_many(:requirements) }
   end
+
+  describe "factory" do
+    it "should return a valid object" do
+      obj = FactoryGirl.build(:degree_class)
+      obj.should be_valid
+    end
+  end
 end

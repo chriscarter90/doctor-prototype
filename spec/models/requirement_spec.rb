@@ -11,4 +11,11 @@ describe Requirement do
     it { should belong_to(:degree_class) }
     it { should belong_to(:lecture_course) }
   end
+
+  describe "factory" do
+    it "should return a valid object" do
+      obj = FactoryGirl.build(:requirement)
+      obj.should be_valid
+    end
+  end
 end

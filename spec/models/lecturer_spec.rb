@@ -13,4 +13,11 @@ describe Lecturer do
     it { should belong_to(:staff_member) }
     it { should belong_to(:lecture_course) }
   end
+
+  describe "factory" do
+    it "should return a valid object" do
+      obj = FactoryGirl.build(:lecturer)
+      obj.should be_valid
+    end
+  end
 end

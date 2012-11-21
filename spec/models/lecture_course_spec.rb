@@ -17,4 +17,11 @@ describe LectureCourse do
     it { should have_many(:staff_members).through(:lecturers) }
     it { should have_many(:degree_classes).through(:requirements) }
   end
+
+  describe "factory" do
+    it "should return a valid object" do
+      obj = FactoryGirl.build(:lecture_course)
+      obj.should be_valid
+    end
+  end
 end
