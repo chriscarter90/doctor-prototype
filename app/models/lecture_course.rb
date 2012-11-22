@@ -12,6 +12,9 @@ class LectureCourse < ActiveRecord::Base
   has_many :staff_members, :through => :lecturers
   has_many :degree_classes, :through => :requirements
 
+  # = Scopes =
+  scope :by_code, order('code')
+
   def to_param
     code
   end

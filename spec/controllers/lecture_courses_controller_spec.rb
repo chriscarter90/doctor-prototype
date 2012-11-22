@@ -3,16 +3,16 @@ require 'spec_helper'
 describe LectureCoursesController do
   describe "GET / index" do
     before :each do
-      @c1 = FactoryGirl.create(:lecture_course)
-      @c2 = FactoryGirl.create(:lecture_course)
-      @c3 = FactoryGirl.create(:lecture_course)
+      @c1 = FactoryGirl.create(:lecture_course, :code => "789")
+      @c2 = FactoryGirl.create(:lecture_course, :code => "M640")
+      @c3 = FactoryGirl.create(:lecture_course, :code => "123")
     end
 
-    it "should assign @courses with all the courses" do
+    it "should assign @courses with all the courses, sorted by course code" do
       get :index
 
       assigns(:courses).size.should == 3
-      assigns(:courses).should include(@c1, @c2, @c3)
+      assigns(:courses).should == [@c3, @c1, @c2]
     end
   end
 

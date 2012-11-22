@@ -18,6 +18,18 @@ describe LectureCourse do
     it { should have_many(:degree_classes).through(:requirements) }
   end
 
+  describe "scopes" do
+    describe "by_code" do
+      it "should return the courses in code order" do
+        c1 = FactoryGirl.create(:lecture_course, :code => "789")
+        c2 = FactoryGirl.create(:lecture_course, :code => "M640")
+        c3 = FactoryGirl.create(:lecture_course, :code => "123")
+
+        LectureCourse.by_code.should == [c3, c1, c2]
+      end
+    end
+  end
+
   describe "factory" do
     it "should return a valid object" do
       obj = FactoryGirl.build(:lecture_course)
