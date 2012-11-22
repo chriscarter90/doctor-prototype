@@ -24,4 +24,12 @@ describe LectureCourse do
       obj.should be_valid
     end
   end
+
+  describe "to_param" do
+    it "should return the course code and not its id" do
+      obj = FactoryGirl.build(:lecture_course, :id => 123, :code => "234")
+      obj.to_param.should == "234"
+      obj.to_param.should_not == 123
+    end
+  end
 end

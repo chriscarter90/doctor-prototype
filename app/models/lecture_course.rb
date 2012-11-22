@@ -11,4 +11,8 @@ class LectureCourse < ActiveRecord::Base
   has_many :lecturers
   has_many :staff_members, :through => :lecturers
   has_many :degree_classes, :through => :requirements
+
+  def to_param
+    code
+  end
 end

@@ -4,6 +4,6 @@ class LectureCoursesController < ApplicationController
   end
 
   def show
-    @course = LectureCourse.find(params[:id])
+    @course = LectureCourse.find_by_code(params[:id])
   end
 end
