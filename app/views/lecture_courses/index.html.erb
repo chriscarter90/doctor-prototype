@@ -1,7 +1,11 @@
 <h1>Lecture Courses</h1>
 
-<% @courses.each do |c| %>
-  <%= link_to c do %>
-    <h3><%= c.code %> - <%= c.title %></h3>
+<ul>
+  <% @courses.each do |c| %>
+    <li>
+      <h4>
+        <%= link_to "#{c.code} - #{c.title}", c %>
+      </h4>
+    </li>
   <% end %>
-<% end %>
+</ul>
