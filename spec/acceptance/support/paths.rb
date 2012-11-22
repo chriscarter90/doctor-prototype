@@ -4,6 +4,10 @@ module NavigationHelpers
   def lecture_courses_page
     lecture_courses_path
   end
+
+  def lecture_course_page(course)
+    lecture_course_path(course)
+  end
 end
 
 RSpec.configuration.include NavigationHelpers

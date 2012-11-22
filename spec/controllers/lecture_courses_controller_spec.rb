@@ -15,4 +15,16 @@ describe LectureCoursesController do
       assigns(:courses).should include(@c1, @c2, @c3)
     end
   end
+
+  describe "GET / show" do
+    before :each do
+      @c = FactoryGirl.create(:lecture_course)
+    end
+
+    it "should assign @course with the correct course" do
+      get :show, :id => @c
+
+      assigns(:course).should == @c
+    end
+  end
 end
