@@ -28,5 +28,11 @@ feature "Degree Classes", %q{
     current_path.should == degree_class_page(@degree1)
     page.should have_content("dn11 - Degree Number 1")
     page.should have_content("Test Course Number 1 (Selective2)")
+
+    visit degree_classes_page
+    click_link("dn21 - Degree Number 2")
+    current_path.should == degree_class_page(@degree2)
+    page.should have_content("dn21 - Degree Number 2")
+    page.should have_content("There are no requirements for this degree.")
   end
 end

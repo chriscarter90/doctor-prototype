@@ -1,6 +1,10 @@
 <h1><%= @degree.degreeyr %> - <%= @degree.title %></h1>
 
-Options:
-<% @degree.requirements.each do |r| %>
-  <h3><%= r.lecture_course.code %> - <%= r.lecture_course.title %> (<%= r.required %>)</h3>
+<% if @requirements.empty? %>
+  There are no requirements for this degree.
+<% else %>
+  Options:
+  <% @requirements.each do |r| %>
+    <h3><%= r.lecture_course.code %> - <%= r.lecture_course.title %> (<%= r.required %>)</h3>
+  <% end %>
 <% end %>

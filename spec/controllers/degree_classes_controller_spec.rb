@@ -19,12 +19,22 @@ describe DegreeClassesController do
   describe "GET / show" do
     before :each do
       @d = FactoryGirl.create(:degree_class)
+
+      @r1 = FactoryGirl.create(:requirement, :degree_class => @d)
+      @r2 = FactoryGirl.create(:requirement, :degree_class => @d)
     end
 
-    it "should assign @course with the correct course" do
+    it "should assign @degree with the correct degree" do
       get :show, :id => @d
 
       assigns(:degree).should == @d
+    end
+
+    it "should assign @requirements with the requirements for the degree" do
+      get :show, :id => @d
+
+      assigns(:requirements).size.should == 2
+      assigns(:requirements).should include(@r1, @r2)
     end
   end
 end
