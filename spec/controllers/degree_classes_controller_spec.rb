@@ -8,7 +8,7 @@ describe DegreeClassesController do
       @d3 = FactoryGirl.create(:degree_class)
     end
 
-    it "should assign @courses with all the courses" do
+    it "should assign @courses with all the degrees" do
       get :index
 
       assigns(:degrees).size.should == 3
