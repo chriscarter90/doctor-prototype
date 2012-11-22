@@ -7,7 +7,6 @@ gem 'rails', '3.2.8'
 
 gem 'pg'
 
-gem 'less-rails-bootstrap'
 gem 'annotate', ">=2.5.0"
 gem 'faker'
 
@@ -16,6 +15,8 @@ gem 'faker'
 group :assets do
   gem 'uglifier'
   gem 'therubyracer', :platform => :ruby
+  gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+  gem "twitter-bootstrap-rails"
 end
 
 gem 'jquery-rails'
