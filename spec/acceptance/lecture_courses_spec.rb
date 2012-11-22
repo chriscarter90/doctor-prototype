@@ -28,5 +28,11 @@ feature "Lecture Courses", %q{
     current_path.should == lecture_course_page(@course1)
     page.should have_content("123 - Test Course Number 1")
     page.should have_content("Degree Number 1 (Selective2)")
+
+    visit lecture_courses_page
+    click_link("456 - Test Course Number 2")
+    current_path.should == lecture_course_page(@course2)
+    page.should have_content("456 - Test Course Number 2")
+    page.should have_content("There are no requirements for this course.")
   end
 end

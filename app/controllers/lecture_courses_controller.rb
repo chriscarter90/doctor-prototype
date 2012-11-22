@@ -5,5 +5,6 @@ class LectureCoursesController < ApplicationController
 
   def show
     @course = LectureCourse.find_by_code(params[:id])
+    @requirements = @course.requirements
   end
 end
