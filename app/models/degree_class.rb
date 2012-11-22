@@ -8,4 +8,8 @@ class DegreeClass < ActiveRecord::Base
 
   # = Relationships =
   has_many :requirements
+
+  def to_param
+    degreeyr
+  end
 end

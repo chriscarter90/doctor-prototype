@@ -1,0 +1,7 @@
+<h1>Degree Classes</h1>
+
+<% @degrees.each do |d| %>
+  <%= link_to d do %>
+    <h3><%= d.degreeyr %> - <%= d.title %></h3>
+  <% end %>
+<% end %>

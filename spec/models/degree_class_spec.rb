@@ -21,4 +21,12 @@ describe DegreeClass do
       obj.should be_valid
     end
   end
+
+   describe "to_param" do
+     it "should return the degreeyr of the object not the id" do
+       obj = FactoryGirl.build(:degree_class, :degreeyr => "abc2", :id => 123)
+       obj.to_param.should == "abc2"
+       obj.to_param.should_not == 123
+     end
+   end
 end
