@@ -1,6 +1,6 @@
 class DegreeClassesController < ApplicationController
   def index
-    @degrees = DegreeClass.all
+    @degrees = DegreeClass.by_degreeyr
   end
 
   def show

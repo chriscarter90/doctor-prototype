@@ -9,6 +9,9 @@ class DegreeClass < ActiveRecord::Base
   # = Relationships =
   has_many :requirements
 
+  # = Scopes =
+  scope :by_degreeyr, order('degreeyr')
+
   def to_param
     degreeyr
   end

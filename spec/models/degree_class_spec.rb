@@ -15,6 +15,18 @@ describe DegreeClass do
     it { should have_many(:requirements) }
   end
 
+  describe "scopes" do
+    describe "by_degreeyr" do
+      it "should return the degrees in degreeyr order" do
+        d1 = FactoryGirl.create(:degree_class, :degreeyr => "c1")
+        d2 = FactoryGirl.create(:degree_class, :degreeyr => "z4")
+        d3 = FactoryGirl.create(:degree_class, :degreeyr => "c3")
+
+        DegreeClass.by_degreeyr.should == [d1, d3, d2]
+      end
+    end
+  end
+
   describe "factory" do
     it "should return a valid object" do
       obj = FactoryGirl.build(:degree_class)
