@@ -8,3 +8,12 @@
     <h3><%= r.degree_class.degreeyr %> - <%= link_to r.degree_class.title, r.degree_class %> (<%= r.required %>)</h3>
   <% end %>
 <% end %>
+
+<% if @lecturers.empty? %>
+  There are no staff members for this course.
+<% else %>
+  Taught by:
+  <% @lecturers.each do |l| %>
+    <h3><%= l.staff_member.login %> - <%= link_to l.staff_member.full_name, l.staff_member %> (<%= l.role %>)</h3>
+  <% end %>
+<% end %>

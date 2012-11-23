@@ -22,6 +22,9 @@ describe LectureCoursesController do
 
       @r1 = FactoryGirl.create(:requirement, :lecture_course => @c)
       @r2 = FactoryGirl.create(:requirement, :lecture_course => @c)
+
+      @l1 = FactoryGirl.create(:lecturer, :lecture_course => @c)
+      @l2 = FactoryGirl.create(:lecturer, :lecture_course => @c)
     end
 
     it "should assign @course with the correct course" do
@@ -35,6 +38,13 @@ describe LectureCoursesController do
 
       assigns(:requirements).size.should == 2
       assigns(:requirements).should include(@r1, @r2)
+    end
+
+    it "should assign @lecturers with the staff for the course" do
+      get :show, :id => @c
+
+      assigns(:lecturers).size.should == 2
+      assigns(:lecturers).should include(@l1, @l2)
     end
   end
 end
