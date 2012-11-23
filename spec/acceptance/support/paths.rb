@@ -1,6 +1,10 @@
 module NavigationHelpers
   # Put helper methods related to the paths in your application here.
 
+  def home_page
+    '/'
+  end
+
   def lecture_courses_page
     lecture_courses_path
   end
