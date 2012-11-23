@@ -5,6 +5,6 @@
 <% else %>
   Option for:
   <% @requirements.each do |r| %>
-    <h3><%= r.degree_class.degreeyr %> - <%= r.degree_class.title %> (<%= r.required %>)</h3>
+    <h3><%= r.degree_class.degreeyr %> - <%= link_to r.degree_class.title, r.degree_class %> (<%= r.required %>)</h3>
   <% end %>
 <% end %>

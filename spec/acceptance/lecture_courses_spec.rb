@@ -23,12 +23,19 @@ feature "Lecture Courses", %q{
   end
 
   scenario "Can view the details of a particular course" do
+    # Visiting a course with requirements
     visit lecture_courses_page
     click_link("123 - Test Course Number 1")
     current_path.should == lecture_course_page(@course1)
     page.should have_content("123 - Test Course Number 1")
     page.should have_content("Degree Number 1 (Selective2)")
 
+    # Visiting the degree associated with the requirement
+    page.should have_link("Degree Number 1")
+    click_link("Degree Number 1")
+    current_path.should == degree_class_page(@degree1)
+
+    # Visiting a course with no requirements
     visit lecture_courses_page
     click_link("456 - Test Course Number 2")
     current_path.should == lecture_course_page(@course2)
