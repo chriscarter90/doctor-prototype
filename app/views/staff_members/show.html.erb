@@ -8,11 +8,16 @@
   </h3>
 <% else %>
   <h3>
-    Lectures:
+    Courses:
   </h3>
-  <% @lecturers.each do |l| %>
+  <% @lecturers.group_by(&:role).each do |role, staff| %>
     <h4>
-      <%= l.lecture_course.code %> - <%= link_to l.lecture_course.title, l.lecture_course %> (<%= l.role %>)
+      <%= role %>
     </h4>
+    <% staff.each do |s| %>
+      <h5>
+        <%= s.lecture_course.code %> - <%= link_to s.lecture_course.title, s.lecture_course %>
+      </h5>
+    <% end %>
   <% end %>
 <% end %>

@@ -12,10 +12,15 @@
       <h3>
         Option for:
       </h3>
-      <% @requirements.each do |r| %>
+      <% @requirements.group_by(&:required).each do |required, classes| %>
         <h4>
-          <%= r.degree_class.degreeyr %> - <%= link_to r.degree_class.title, r.degree_class %> (<%= r.required %>)
+          <%= required %>
         </h4>
+        <% classes.each do |c| %>
+          <h5>
+            <%= c.degree_class.degreeyr %> - <%= link_to c.degree_class.title, c.degree_class %>
+          </h5>
+        <% end %>
       <% end %>
     <% end %>
   </div>
@@ -29,10 +34,15 @@
       <h3>
         Taught by:
       </h3>
-      <% @lecturers.each do |l| %>
+      <% @lecturers.group_by(&:role).each do |role, staff| %>
         <h4>
-          <%= l.staff_member.login %> - <%= link_to l.staff_member.full_name, l.staff_member %> (<%= l.role %>)
+          <%= role %>
         </h4>
+        <% staff.each do |s| %>
+          <h5>
+            <%= s.staff_member.login %> - <%= link_to s.staff_member.full_name, s.staff_member %>
+          </h5>
+        <% end %>
       <% end %>
     <% end %>
   </div>

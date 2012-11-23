@@ -30,8 +30,10 @@ feature "Lecture Courses", %q{
     click_link("123 - Test Course Number 1")
     current_path.should == lecture_course_page(@course1)
     page.should have_content("123 - Test Course Number 1")
-    page.should have_content("Degree Number 1 (Selective2)")
-    page.should have_content("Dr Frank EnStein (Lecturer)")
+    page.should have_content("Degree Number 1")
+    page.should have_content("Selective2")
+    page.should have_content("Dr Frank EnStein")
+    page.should have_content("Lecturer")
 
     # Visiting the degree associated with the requirement
     page.should have_link("Degree Number 1")

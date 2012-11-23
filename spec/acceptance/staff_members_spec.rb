@@ -27,7 +27,8 @@ feature "Staff Members", %q{
     click_link("abc123 - Mr Testy McTest")
     current_path.should == staff_member_page(@staff_member1)
     page.should have_content("abc123 - Mr Testy McTest")
-    page.should have_content("Test Course Number 1 (Lecturer)")
+    page.should have_content("Test Course Number 1")
+    page.should have_content("Lecturer")
 
     # Visiting the course associated with the requirement
     page.should have_link("Test Course Number 1")

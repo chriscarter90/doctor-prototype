@@ -10,9 +10,14 @@
   <h3>
     Options:
   </h3>
-  <% @requirements.each do |r| %>
+  <% @requirements.group_by(&:required).each do |required, classes| %>
     <h4>
-      <%= r.lecture_course.code %> - <%= link_to r.lecture_course.title, r.lecture_course %> (<%= r.required %>)
+      <%= required %>
     </h4>
+    <% classes.each do |c| %>
+      <h5>
+        <%= c.lecture_course.code %> - <%= link_to c.lecture_course.title, c.lecture_course %>
+      </h5>
+    <% end %>
   <% end %>
 <% end %>
