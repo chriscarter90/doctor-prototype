@@ -1,0 +1,11 @@
+<h1>Staff Members</h1>
+
+<ul>
+  <% @staff.each do |s| %>
+    <li>
+      <h4>
+        <%= link_to "#{s.login} - #{s.full_name}", s %>
+      </h4>
+    </li>
+  <% end %>
+</ul>

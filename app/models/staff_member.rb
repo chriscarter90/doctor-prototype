@@ -9,4 +9,15 @@ class StaffMember < ActiveRecord::Base
   # = Relationships =
   has_many :lecturers
   has_many :lecture_courses, :through => :lecturers
+
+  # = Scopes =
+  scope :by_login, order('login')
+
+  def to_param
+    login
+  end
+
+  def full_name
+    "#{salutation} #{firstname} #{lastname}"
+  end
 end

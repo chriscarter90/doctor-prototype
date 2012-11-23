@@ -1,0 +1,10 @@
+<h1><%= @staff_member.login %> - <%= @staff_member.full_name %></h1>
+
+<% if @lecturers.empty? %>
+  There are no courses for this staff member.
+<% else %>
+  Lectures:
+  <% @lecturers.each do |l| %>
+    <h3><%= l.lecture_course.code %> - <%= link_to l.lecture_course.title, l.lecture_course %> (<%= l.role %>)</h3>
+  <% end %>
+<% end %>

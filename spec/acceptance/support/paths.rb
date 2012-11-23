@@ -20,6 +20,14 @@ module NavigationHelpers
   def degree_class_page(degree)
     degree_class_path(degree)
   end
+
+  def staff_members_page
+    staff_members_path
+  end
+
+  def staff_member_page(staff_member)
+    staff_member_path(staff_member)
+  end
 end
 
 RSpec.configuration.include NavigationHelpers
