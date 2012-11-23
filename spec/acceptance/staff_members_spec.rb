@@ -11,7 +11,6 @@ feature "Staff Members", %q{
     @staff_member2 = FactoryGirl.create(:staff_member, :login => "xyz789", :salutation => "Dr", :firstname => "Frank", :lastname => "EnStein")
 
     @course1 = FactoryGirl.create(:lecture_course, :code => "123", :title => "Test Course Number 1")
-    @course2 = FactoryGirl.create(:lecture_course, :code => "456", :title => "Test Course Number 2")
 
     FactoryGirl.create(:lecturer, :staff_member => @staff_member1, :lecture_course => @course1, :role => "Lecturer")
   end

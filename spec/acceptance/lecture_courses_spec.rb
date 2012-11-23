@@ -11,7 +11,6 @@ feature "Lecture Courses", %q{
     @course2 = FactoryGirl.create(:lecture_course, :code => "456", :title => "Test Course Number 2")
 
     @degree1 = FactoryGirl.create(:degree_class, :title => "Degree Number 1", :degreeyr => "dn11")
-    @degree2 = FactoryGirl.create(:degree_class, :title => "Degree Number 2", :degreeyr => "dn21")
 
     FactoryGirl.create(:requirement, :degree_class => @degree1, :lecture_course => @course1, :required => "Selective2")
   end
