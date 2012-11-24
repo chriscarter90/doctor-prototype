@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121119194806) do
+ActiveRecord::Schema.define(:version => 20121124182840) do
 
   create_table "degree_classes", :force => true do |t|
     t.string   "degreeyr"
@@ -57,6 +57,13 @@ ActiveRecord::Schema.define(:version => 20121119194806) do
   end
 
   add_index "requirements", ["lecture_course_id", "degree_class_id"], :name => "index_requirements_on_lecture_course_id_and_degree_class_id", :unique => true
+
+  create_table "rooms", :force => true do |t|
+    t.integer  "no"
+    t.integer  "capacity"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "staff_members", :force => true do |t|
     t.string   "login"

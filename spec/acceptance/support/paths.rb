@@ -28,6 +28,10 @@ module NavigationHelpers
   def staff_member_page(staff_member)
     staff_member_path(staff_member)
   end
+
+  def rooms_page
+    rooms_path
+  end
 end
 
 RSpec.configuration.include NavigationHelpers

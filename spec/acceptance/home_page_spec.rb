@@ -26,4 +26,11 @@ feature "Home Page", %q{
     click_link("Staff Members")
     current_path.should == staff_members_page
   end
+
+  scenario "I can access the rooms page" do
+    visit home_page
+    page.should have_link("Rooms")
+    click_link("Rooms")
+    current_path.should == rooms_page
+  end
 end

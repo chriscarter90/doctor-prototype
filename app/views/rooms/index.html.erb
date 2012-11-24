@@ -1,0 +1,27 @@
+<h1>Rooms</h1>
+
+<% if @rooms.empty? %>
+  <h4>No rooms to show.</h4>
+<% else %>
+  <table>
+    <tr>
+      <th>
+        Room
+      </th>
+      <th>
+        Capacity
+      </th>
+    </tr>
+
+    <% @rooms.each do |r| %>
+      <tr>
+        <td>
+          <%= r.no %>
+        </td>
+        <td>
+          <%= r.capacity %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>
