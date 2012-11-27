@@ -3,6 +3,20 @@ class RoomsController < ApplicationController
     @rooms = Room.by_no
   end
 
+  def new
+    @room = Room.new
+  end
+
+  def create
+    @room = Room.new(params[:room])
+    if @room.save
+      redirect_to rooms_path, :notice => "Room was created successfully."
+    else
+      flash[:warning] = "Room could not be created."
+      render :new
+    end
+  end
+
   def edit
     @room = Room.find_by_no(params[:id])
   end

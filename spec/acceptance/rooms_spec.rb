@@ -19,6 +19,28 @@ feature "Rooms", %q{
     page.should have_content("180")
   end
 
+  scenario "Can create a new room" do
+    visit rooms_page
+    page.should have_link("Create Room")
+    click_link("Create Room")
+
+    current_path.should == new_room_page
+
+    click_button("Create")
+
+    page.should have_content("Room could not be created.")
+
+    fill_in("No", :with => 145)
+    fill_in("Capacity", :with => 150)
+
+    click_button("Create")
+
+    current_path.should == rooms_page
+    page.should have_content("Room was created successfully.")
+    page.should have_content("145")
+    page.should have_content("150")
+  end
+
   scenario "Can edit one of the rooms" do
     visit rooms_page
     page.should have_link("Edit")

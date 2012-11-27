@@ -33,6 +33,10 @@ module NavigationHelpers
     rooms_path
   end
 
+  def new_room_page
+    new_room_path
+  end
+
   def edit_room_page(room)
     edit_room_path(room)
   end

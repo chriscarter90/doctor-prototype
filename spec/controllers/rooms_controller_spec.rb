@@ -16,6 +16,14 @@ describe RoomsController do
     end
   end
 
+  describe "GET / new" do
+    it "should assign @room with a new room" do
+      get :new
+
+      assigns(:room).should be_a_new(Room)
+    end
+  end
+
   describe "GET / edit" do
     before :each do
       @r = FactoryGirl.create(:room, :no => 308, :capacity => 200)
@@ -25,6 +33,48 @@ describe RoomsController do
       get :edit, :id => @r
 
       assigns(:room).should == @r
+    end
+  end
+
+  describe "POST / create" do
+    def create_room(options = {})
+      post :create, :room => { :no => 123, :capacity => 100 }.merge!(options)
+    end
+
+    it "should create a new room when successful" do
+      create_room
+
+      Room.count.should == 1
+    end
+
+    it "should not create a new room when unsuccessful" do
+      create_room(:no => "")
+
+      Room.count.should == 0
+    end
+
+    it "should render a flash notice when successful" do
+      create_room
+
+      flash[:notice].should == "Room was created successfully."
+    end
+
+    it "should render a flash warning when unsuccessful" do
+      create_room(:no => "")
+
+      flash[:warning].should == "Room could not be created."
+    end
+
+    it "should redirect to the rooms page when successful" do
+      create_room
+
+      response.should redirect_to(rooms_path)
+    end
+
+    it "should render the new template when unsuccessful" do
+      create_room(:no => "")
+
+      response.should render_template(:new)
     end
   end
 
