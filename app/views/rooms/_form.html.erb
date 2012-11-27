@@ -1,13 +1,22 @@
-<%= form_for(@room) do |f| %>
+<%= form_for @room, :html => { :class => 'form-horizontal' } do |f| %>
   <%= render 'shared/error_messages', :target => @room %>
-  <p>
-    <%= f.label :no %>
-    <%= f.text_field :no, :disabled => params[:action] == 'edit' %>
-  </p>
-  <p>
-    <%= f.label :capacity %>
-    <%= f.text_field :capacity %>
-  </p>
+    <div class="control-group">
+      <%= f.label :no, :class => "control-label" %>
+      <div class="controls">
+        <%= f.text_field :no, :disabled => params[:action] == 'edit' %>
+      </div>
+    </div>
 
-  <%= f.submit %>
+    <div class="control-group">
+      <%= f.label :capacity, :class => "control-label" %>
+      <div class="controls">
+        <%= f.text_field :capacity %>
+      </div>
+    </div>
+
+  <div class="control-group">
+    <div class="controls">
+      <%= f.submit :class => "btn btn-primary" %>
+    </div>
+  </div>
 <% end %>

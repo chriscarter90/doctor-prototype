@@ -3,7 +3,7 @@
 <% if @rooms.empty? %>
   <h4>No rooms to show.</h4>
 <% else %>
-  <table>
+  <table class="table table-striped">
     <tr>
       <th>
         Room
@@ -11,6 +11,7 @@
       <th>
         Capacity
       </th>
+      <th> </th>
     </tr>
 
     <% @rooms.each do |r| %>
@@ -23,8 +24,6 @@
         </td>
         <td>
           <%= link_to "Edit", edit_room_path(r), :class => "btn btn-primary" %>
-        </td>
-        <td>
           <%= link_to "Delete", room_path(r), :method => :delete, :data => { :confirm => "Are you sure you wish to delete this room?" }, :class => "btn btn-danger" %>
         </td>
       </tr>
