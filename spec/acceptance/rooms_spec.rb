@@ -15,7 +15,7 @@ feature "Rooms", %q{
     visit rooms_page
     page.should have_content("308")
     page.should have_content("200")
-    page.should have_content("308")
+    page.should have_content("311")
     page.should have_content("180")
   end
 
