@@ -1,0 +1,13 @@
+<%= form_for(@room) do |f| %>
+  <%= render 'shared/error_messages', :target => @room %>
+  <p>
+    <%= f.label :no %>
+    <%= f.text_field :no, :disabled => true %>
+  </p>
+  <p>
+    <%= f.label :capacity %>
+    <%= f.text_field :capacity %>
+  </p>
+
+  <%= f.submit %>
+<% end %>

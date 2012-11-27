@@ -32,6 +32,10 @@ module NavigationHelpers
   def rooms_page
     rooms_path
   end
+
+  def edit_room_page(room)
+    edit_room_path(room)
+  end
 end
 
 RSpec.configuration.include NavigationHelpers

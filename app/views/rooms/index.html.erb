@@ -21,6 +21,9 @@
         <td>
           <%= r.capacity %>
         </td>
+        <td>
+          <%= link_to "Edit", edit_room_path(r), :class => "btn btn-primary" %>
+        </td>
       </tr>
     <% end %>
   </table>
