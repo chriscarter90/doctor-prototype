@@ -124,4 +124,24 @@ describe RoomsController do
       response.should render_template(:edit)
     end
   end
+
+  describe "DELETE / destroy" do
+    before :each do
+      @r = FactoryGirl.create(:room)
+
+      delete :destroy, :id => @r
+    end
+
+    it "should delete the room" do
+      Room.find_by_id(@r.id).should be_nil
+    end
+
+    it "should redirect to the rooms page" do
+      response.should redirect_to(rooms_path)
+    end
+
+    it "should render a flash notice" do
+      flash[:notice].should == "Room was deleted successfully."
+    end
+  end
 end

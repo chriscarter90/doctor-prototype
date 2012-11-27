@@ -30,4 +30,10 @@ class RoomsController < ApplicationController
       render :edit
     end
   end
+
+  def destroy
+    @room = Room.find_by_no(params[:id])
+    @room.destroy
+    redirect_to rooms_path, :notice => "Room was deleted successfully."
+  end
 end

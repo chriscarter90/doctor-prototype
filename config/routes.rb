@@ -5,6 +5,6 @@ DoctorPrototype::Application.routes.draw do
   resources :lecture_courses, :only => [:index, :show], :constraints => { :id => /[^\/]+(?=\.html\z|\.json\z)|[^\/]+/ }
   resources :degree_classes, :only => [:index, :show]
   resources :staff_members, :only => [:index, :show]
-  resources :rooms, :only => [:index, :new, :create, :edit, :update]
+  resources :rooms, :except => [:show]
 
 end

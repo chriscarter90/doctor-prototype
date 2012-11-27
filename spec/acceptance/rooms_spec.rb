@@ -63,4 +63,25 @@ feature "Rooms", %q{
 
     page.should have_content("Room could not be updated.")
   end
+
+  scenario "Can delete a room" do
+    visit rooms_page
+    page.should have_link("Delete")
+    click_link("Delete")
+
+    current_path.should == rooms_page
+
+    page.should_not have_content("308")
+    page.should_not have_content("200")
+
+
+    click_link("Delete")
+
+    current_path.should == rooms_page
+
+    page.should_not have_content("311")
+    page.should_not have_content("180")
+
+    page.should have_content("No rooms to show.")
+  end
 end
