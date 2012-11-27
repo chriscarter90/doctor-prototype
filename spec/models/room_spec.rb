@@ -28,4 +28,12 @@ describe Room do
       obj.should be_valid
     end
   end
+
+  describe "to_param" do
+    it "should return the room no and not its id" do
+      obj = FactoryGirl.build(:room, :id => 1, :no => 308)
+      obj.to_param.should == 308
+      obj.to_param.should_not == 1
+    end
+  end
 end

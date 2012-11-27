@@ -9,4 +9,7 @@ class Room < ActiveRecord::Base
   # = Scopes =
   scope :by_no, order('no')
 
+  def to_param
+    no
+  end
 end
