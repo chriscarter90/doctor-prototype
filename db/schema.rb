@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121124182840) do
+ActiveRecord::Schema.define(:version => 20121208144641) do
+
+  create_table "days", :force => true do |t|
+    t.integer  "no"
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "degree_classes", :force => true do |t|
     t.string   "degreeyr"
