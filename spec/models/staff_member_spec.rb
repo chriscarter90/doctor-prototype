@@ -15,6 +15,7 @@ describe StaffMember do
   describe "relationships" do
     it { should have_many(:lecturers) }
     it { should have_many(:lecture_courses).through(:lecturers) }
+    it { should have_many(:course_weeks) }
   end
 
   describe "scopes" do

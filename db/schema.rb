@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121209195655) do
+ActiveRecord::Schema.define(:version => 20121209201036) do
+
+  create_table "course_weeks", :force => true do |t|
+    t.integer  "week_id"
+    t.integer  "lecture_course_id"
+    t.integer  "staff_member_id"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  add_index "course_weeks", ["week_id", "lecture_course_id", "staff_member_id"], :name => "as_week_lecture_course_staff_member", :unique => true
 
   create_table "days", :force => true do |t|
     t.integer  "no"
