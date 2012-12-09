@@ -13,7 +13,7 @@ describe Term do
 
   describe "factory" do
     it "should return a valid object" do
-      obj = FactoryGirl.create(:term)
+      obj = FactoryGirl.build(:term)
       obj.should be_valid
     end
   end

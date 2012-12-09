@@ -12,7 +12,7 @@ describe TimeSlot do
 
   describe "factory" do
     it "should return a valid object" do
-      obj = FactoryGirl.create(:time_slot)
+      obj = FactoryGirl.build(:time_slot)
       obj.should be_valid
     end
   end
