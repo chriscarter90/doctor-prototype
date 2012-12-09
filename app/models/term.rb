@@ -7,4 +7,5 @@ class Term < ActiveRecord::Base
 
   # = Relationships =
   belongs_to :year
+  has_many :weeks
 end
