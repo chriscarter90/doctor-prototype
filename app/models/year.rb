@@ -4,4 +4,7 @@ class Year < ActiveRecord::Base
 
   # = Validations =
   validates :no, :presence => true, :uniqueness => true
+
+  # = Relationships =
+  has_many :terms
 end

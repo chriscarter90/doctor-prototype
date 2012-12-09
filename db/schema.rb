@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121209182556) do
+ActiveRecord::Schema.define(:version => 20121209191445) do
 
   create_table "days", :force => true do |t|
     t.integer  "no"
@@ -80,6 +80,15 @@ ActiveRecord::Schema.define(:version => 20121209182556) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "terms", :force => true do |t|
+    t.integer  "year_id"
+    t.integer  "no"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "terms", ["year_id", "no"], :name => "index_terms_on_year_id_and_no", :unique => true
 
   create_table "time_slots", :force => true do |t|
     t.integer  "day_id"
