@@ -16,7 +16,7 @@ describe Day do
 
   describe "scopes" do
     describe "in_order" do
-      it "should retunr the days in order" do
+      it "should return the days in order" do
         d1 = FactoryGirl.create(:day, :name => "Thursday", :no => 4)
         d2 = FactoryGirl.create(:day, :name => "Monday", :no => 1)
         d3 = FactoryGirl.create(:day, :name => "Saturday", :no => 6)
