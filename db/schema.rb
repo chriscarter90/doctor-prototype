@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121208144641) do
+ActiveRecord::Schema.define(:version => 20121208155711) do
 
   create_table "days", :force => true do |t|
     t.integer  "no"
@@ -80,5 +80,14 @@ ActiveRecord::Schema.define(:version => 20121208144641) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "time_slots", :force => true do |t|
+    t.integer  "day_id"
+    t.integer  "start_hour"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "time_slots", ["day_id", "start_hour"], :name => "index_time_slots_on_day_id_and_start_hour", :unique => true
 
 end

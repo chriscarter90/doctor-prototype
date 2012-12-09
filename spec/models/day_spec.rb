@@ -10,6 +10,10 @@ describe Day do
     it { should validate_presence_of(:name) }
   end
 
+  describe "relationships" do
+    it { should have_many(:time_slots) }
+  end
+
   describe "scopes" do
     describe "in_order" do
       it "should retunr the days in order" do
