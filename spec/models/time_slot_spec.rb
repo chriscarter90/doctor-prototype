@@ -8,6 +8,7 @@ describe TimeSlot do
 
   describe "relationships" do
     it { should belong_to(:day) }
+    it { should have_many(:timetable_slots) }
   end
 
   describe "factory" do

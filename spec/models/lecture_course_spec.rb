@@ -17,6 +17,7 @@ describe LectureCourse do
     it { should have_many(:staff_members).through(:lecturers) }
     it { should have_many(:degree_classes).through(:requirements) }
     it { should have_many(:course_weeks) }
+    it { should have_many(:timetable_slots) }
   end
 
   describe "scopes" do

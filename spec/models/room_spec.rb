@@ -10,6 +10,10 @@ describe Room do
     it { should validate_presence_of(:capacity) }
   end
 
+  describe "relationships" do
+    it { should have_many(:timetable_slots) }
+  end
+
   describe "scopes" do
     describe "by_no" do
       it "should return the rooms in no order" do

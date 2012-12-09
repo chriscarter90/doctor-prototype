@@ -6,6 +6,9 @@ class Room < ActiveRecord::Base
   validates_presence_of :no, :capacity
   validates_uniqueness_of :no
 
+  # = Relationships =
+  has_many :timetable_slots
+
   # = Scopes =
   scope :by_no, order('no')
 

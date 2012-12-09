@@ -8,4 +8,5 @@ class Week < ActiveRecord::Base
   # = Relationships =
   belongs_to :term
   has_many :course_weeks
+  has_many :timetable_slots
 end

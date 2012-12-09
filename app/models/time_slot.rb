@@ -7,4 +7,5 @@ class TimeSlot < ActiveRecord::Base
 
   # = Relationships =
   belongs_to :day
+  has_many :timetable_slots
 end

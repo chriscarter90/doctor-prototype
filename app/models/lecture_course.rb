@@ -12,6 +12,7 @@ class LectureCourse < ActiveRecord::Base
   has_many :staff_members, :through => :lecturers
   has_many :degree_classes, :through => :requirements
   has_many :course_weeks
+  has_many :timetable_slots
 
   # = Scopes =
   scope :by_code, order('code')

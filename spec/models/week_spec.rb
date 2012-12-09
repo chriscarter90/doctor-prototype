@@ -9,6 +9,7 @@ describe Week do
   describe "relationships" do
     it { should belong_to(:term) }
     it { should have_many(:course_weeks) }
+    it { should have_many(:timetable_slots) }
   end
 
   describe "factory" do
