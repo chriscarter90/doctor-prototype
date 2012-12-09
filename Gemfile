@@ -22,6 +22,7 @@ end
 gem 'jquery-rails'
 
 gem 'rspec-rails', :group => [:test, :development]
+gem 'railroady', :group => [:test, :development]
 
 group :development do
   gem 'guard'
