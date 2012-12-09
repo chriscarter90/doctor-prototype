@@ -26,4 +26,11 @@ describe Day do
       end
     end
   end
+
+  describe "factory" do
+    it "should return a valid object" do
+      obj = FactoryGirl.create(:day)
+      obj.should be_valid
+    end
+  end
 end

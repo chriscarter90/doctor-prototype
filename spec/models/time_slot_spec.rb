@@ -9,4 +9,11 @@ describe TimeSlot do
   describe "relationships" do
     it { should belong_to(:day) }
   end
+
+  describe "factory" do
+    it "should return a valid object" do
+      obj = FactoryGirl.create(:time_slot)
+      obj.should be_valid
+    end
+  end
 end
