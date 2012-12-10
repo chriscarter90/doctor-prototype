@@ -3,7 +3,7 @@
 FactoryGirl.define do
   factory :term do
     year
-    no        { 1 + rand(3) }
+    sequence(:no)        { |n| n }
 
     after(:build) do |term|
       term.weeks.push(FactoryGirl.create(:week, :term => term))
