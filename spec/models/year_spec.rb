@@ -9,6 +9,7 @@ describe Year do
 
   describe "relationships" do
     it { should have_many(:terms) }
+    it { should accept_nested_attributes_for(:terms) }
   end
 
   describe "scopes" do

@@ -1,0 +1,27 @@
+<%= form_for @year, :html => { :class => 'form-horizontal' } do |f| %>
+  <%= render 'shared/error_messages', :target => @year %>
+  <div class="control-group">
+    <%= f.label :no, :class => "control-label" %>
+    <div class="controls">
+      <%= f.text_field :no %>
+    </div>
+  </div>
+
+  <% @year.terms.each_with_index do |term, i| %>
+    <%= f.fields_for :terms, term do |tf| %>
+      <%= tf.hidden_field :no, :value => i + 1 %>
+      <div class="control-group">
+        <%= tf.label :no_weeks, :class => "control-label" %>
+        <div class="controls">
+          <%= tf.text_field :no_weeks %>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+
+  <div class="control-group">
+    <div class="controls">
+      <%= f.submit :class => "btn btn-primary" %>
+    </div>
+  </div>
+<% end %>
