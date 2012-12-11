@@ -3,6 +3,7 @@
 FactoryGirl.define do
   factory :term do
     year
-    sequence(:no)        { |n| n }
+    sequence(:no)       { |n| n }
+    no_weeks            1
   end
 end
