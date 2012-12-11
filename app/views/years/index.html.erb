@@ -1,0 +1,15 @@
+<h1>Years</h1>
+
+<% if @years.empty? %>
+  <h4>No years to show.</h4>
+<% else %>
+  <ul>
+    <% @years.each do |y| %>
+      <li>
+        <h4>
+          <%= y.no %>
+        </h4>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

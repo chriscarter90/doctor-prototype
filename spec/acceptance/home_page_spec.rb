@@ -33,4 +33,11 @@ feature "Home Page", %q{
     click_link("Rooms")
     current_path.should == rooms_page
   end
+
+  scenario "I can access the years page" do
+    visit home_page
+    page.should have_link("Years")
+    click_link("Years")
+    current_path.should == years_page
+  end
 end

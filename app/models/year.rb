@@ -12,4 +12,7 @@ class Year < ActiveRecord::Base
 
   # = Relationships =
   has_many :terms
+
+  # = Scopes =
+  scope :in_order, order("no ASC")
 end
