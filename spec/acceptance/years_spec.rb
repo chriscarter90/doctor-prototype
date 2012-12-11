@@ -11,7 +11,7 @@ feature "Years", %q{
     @year2 = FactoryGirl.create(:year, :no => 2012)
   end
 
-  scenario "Can see the rooms on the page" do
+  scenario "Can see the years on the page" do
     visit years_page
     page.should have_content("2011")
     page.should have_content("2012")
