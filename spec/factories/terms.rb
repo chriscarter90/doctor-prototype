@@ -6,7 +6,9 @@ FactoryGirl.define do
     sequence(:no)        { |n| n }
 
     after(:build) do |term|
-      term.weeks.push(FactoryGirl.create(:week, :term => term))
+      if term.weeks.empty?
+        term.weeks << FactoryGirl.create(:week, :term => term)
+      end
     end
   end
 end

@@ -5,7 +5,9 @@ FactoryGirl.define do
     sequence(:no)    { |n| 2000 + n }
 
     after(:build) do |year|
-      year.terms.push(FactoryGirl.create(:term, :year => year))
+      if year.terms.empty?
+        year.terms << FactoryGirl.create(:term, :year => year)
+      end
     end
   end
 end
