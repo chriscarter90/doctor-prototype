@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121209225331) do
+ActiveRecord::Schema.define(:version => 20121212112054) do
 
   create_table "course_weeks", :force => true do |t|
     t.integer  "week_id"
@@ -96,6 +96,7 @@ ActiveRecord::Schema.define(:version => 20121209225331) do
     t.integer  "no"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.date     "start_date"
   end
 
   add_index "terms", ["year_id", "no"], :name => "index_terms_on_year_id_and_no", :unique => true

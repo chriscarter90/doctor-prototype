@@ -5,5 +5,6 @@ FactoryGirl.define do
     year
     sequence(:no)       { |n| n }
     no_weeks            1
+    start_date          Date.parse("01/01/2013")
   end
 end

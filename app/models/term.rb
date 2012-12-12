@@ -1,12 +1,12 @@
 class Term < ActiveRecord::Base
 
-  attr_accessible :no, :year
+  attr_accessible :no, :year, :start_date
   attr_accessor :no_weeks
 
   before_save :create_weeks
 
   # = Validations =
-  validates_presence_of :no, :year
+  validates_presence_of :no, :year, :start_date
   validate :must_have_weeks
 
   # = Relationships =

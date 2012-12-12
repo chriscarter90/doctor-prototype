@@ -8,15 +8,25 @@
   </div>
 
   <% @year.terms.each_with_index do |term, i| %>
-    <%= f.fields_for :terms, term do |tf| %>
-      <%= tf.hidden_field :no, :value => i + 1 %>
-      <div class="control-group">
-        <%= tf.label :no_weeks, :class => "control-label" %>
-        <div class="controls">
-          <%= tf.text_field :no_weeks %>
+    <div class="term">
+      <h4>Term <%= i+1 %></h4>
+      <%= f.fields_for :terms, term do |tf| %>
+        <%= tf.hidden_field :no, :value => i + 1 %>
+        <div class="control-group">
+          <%= tf.label :no_weeks, :class => "control-label" %>
+          <div class="controls">
+            <%= tf.text_field :no_weeks %>
+          </div>
         </div>
-      </div>
-    <% end %>
+
+        <div class="control-group">
+          <%= tf.label :start_date, :class => "control-label" %>
+          <div class="controls">
+            <%= tf.text_field :start_date %>
+          </div>
+        </div>
+      <% end %>
+    </div>
   <% end %>
 
   <div class="control-group">

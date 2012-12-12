@@ -26,8 +26,11 @@ feature "Years", %q{
 
     fill_in("No", :with => "2013")
     fill_in("year_terms_attributes_0_no_weeks", :with => "3")
+    fill_in("year_terms_attributes_0_start_date", :with => "01/10/2013")
     fill_in("year_terms_attributes_1_no_weeks", :with => "5")
+    fill_in("year_terms_attributes_1_start_date", :with => "05/01/2014")
     fill_in("year_terms_attributes_2_no_weeks", :with => "6")
+    fill_in("year_terms_attributes_2_start_date", :with => "25/04/2014")
 
     click_button("Create Year")
 

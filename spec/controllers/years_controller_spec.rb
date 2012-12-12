@@ -34,7 +34,7 @@ describe YearsController do
 
   describe "POST / create" do
     def create_year(options = {})
-      post :create, :year => { :no => 2013, :terms_attributes => { "0" => { :no => 1, :no_weeks => 3 }, "1" => { :no => 2, :no_weeks => 4 }, "2" => { :no => 3, :no_weeks => 6 }}}.merge(options)
+      post :create, :year => { :no => 2013, :terms_attributes => { "0" => { :no => 1, :no_weeks => 3, :start_date => Date.parse("01/10/2013") }, "1" => { :no => 2, :no_weeks => 4, :start_date => Date.parse("04/01/2014") }, "2" => { :no => 3, :no_weeks => 6, :start_date => Date.parse("25/04/2014") }}}.merge(options)
     end
 
     it "should create a new year when successful" do

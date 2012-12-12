@@ -4,6 +4,7 @@ describe Term do
   describe "validations" do
     it { should validate_presence_of(:no) }
     it { should validate_presence_of(:year) }
+    it { should validate_presence_of(:start_date) }
 
     it "should have at least one week" do
       t = FactoryGirl.build(:term, :no_weeks => 0)
