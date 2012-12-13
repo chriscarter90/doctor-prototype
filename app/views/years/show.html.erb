@@ -1,7 +1,11 @@
 <h3><%= @year.no %></h3>
 
+<ul>
 <% @terms.each do |t| %>
-  <%= "Term #{t.no}: #{t.weeks.size} weeks starting #{start_date(t)}" %>
+  <li>
+    <%= "Term #{t.no}: #{t.weeks.size} weeks starting #{start_date(t)}" %>
+  </li>
 <% end %>
+</ul>
 
 <%= link_to "Edit", edit_year_path(@year), :class => "btn btn-primary" %>
