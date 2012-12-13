@@ -34,4 +34,7 @@ guard 'rspec' do
 
   # Routes
   watch('config/routes.rb')                           { "spec" }
+
+  # Acceptance support
+  watch(%r{^spec/acceptance/support/(.+)\.rb$})       { "spec" }
 end
