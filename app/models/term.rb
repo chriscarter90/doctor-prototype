@@ -13,6 +13,9 @@ class Term < ActiveRecord::Base
   belongs_to :year
   has_many :weeks
 
+  # = Scopes =
+  scope :in_order, order("no ASC")
+
   private
   def must_have_weeks
     if self.no_weeks.nil? || self.no_weeks < 1

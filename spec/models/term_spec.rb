@@ -20,6 +20,18 @@ describe Term do
     it { should have_many(:weeks) }
   end
 
+  describe "scopes" do
+    describe "in_order" do
+      it "should return the terms in chronological order" do
+        t1 = FactoryGirl.create(:term, :no => 2)
+        t2 = FactoryGirl.create(:term, :no => 3)
+        t3 = FactoryGirl.create(:term, :no => 1)
+
+        Term.in_order.should == [t3, t1, t2]
+      end
+    end
+  end
+
   describe "factory" do
     it "should return a valid object" do
       obj = FactoryGirl.build(:term)

@@ -39,6 +39,6 @@ feature "Years", %q{
     page.should have_content("Year was created successfully.")
     page.should have_content("2013")
 
-    Year.last.terms.map(&:weeks).map(&:size).should == [3, 5, 6]
+    Year.last.terms.in_order.map(&:weeks).map(&:size).should == [3, 5, 6]
   end
 end
