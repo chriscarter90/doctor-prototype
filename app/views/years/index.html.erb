@@ -7,7 +7,7 @@
     <% @years.each do |y| %>
       <li>
         <h4>
-          <%= y.no %>
+          <%= link_to y.no, y %>
         </h4>
       </li>
     <% end %>

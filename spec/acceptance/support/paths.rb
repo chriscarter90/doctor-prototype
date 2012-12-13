@@ -48,6 +48,10 @@ module NavigationHelpers
   def new_year_page
     new_year_path
   end
+
+  def year_page(year)
+    year_path(year)
+  end
 end
 
 RSpec.configuration.include NavigationHelpers

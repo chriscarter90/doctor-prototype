@@ -6,6 +6,6 @@ DoctorPrototype::Application.routes.draw do
   resources :degree_classes, :only => [:index, :show]
   resources :staff_members, :only => [:index, :show]
   resources :rooms, :except => [:show]
-  resources :years, :only => [:index, :new, :create]
+  resources :years, :except => [:destroy]
 
 end
