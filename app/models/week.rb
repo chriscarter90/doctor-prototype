@@ -7,6 +7,7 @@ class Week < ActiveRecord::Base
 
   # = Relationships =
   belongs_to :term
-  has_many :course_weeks
-  has_many :timetable_slots
+  has_many :course_weeks, :dependent => :destroy
+  has_many :timetable_slots, :dependent => :destroy
+
 end

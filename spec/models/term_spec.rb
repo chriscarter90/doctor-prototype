@@ -17,7 +17,7 @@ describe Term do
 
   describe "relationships" do
     it { should belong_to(:year) }
-    it { should have_many(:weeks) }
+    it { should have_many(:weeks).dependent(:destroy) }
   end
 
   describe "scopes" do

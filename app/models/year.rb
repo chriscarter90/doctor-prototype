@@ -6,7 +6,7 @@ class Year < ActiveRecord::Base
   validates :no, :presence => true, :uniqueness => true
 
   # = Relationships =
-  has_many :terms
+  has_many :terms, :dependent => :destroy
   accepts_nested_attributes_for :terms
 
   # = Scopes =

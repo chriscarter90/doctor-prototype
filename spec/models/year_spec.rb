@@ -8,7 +8,7 @@ describe Year do
   end
 
   describe "relationships" do
-    it { should have_many(:terms) }
+    it { should have_many(:terms).dependent(:destroy) }
     it { should accept_nested_attributes_for(:terms) }
   end
 

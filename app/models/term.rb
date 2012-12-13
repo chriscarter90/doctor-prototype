@@ -11,7 +11,7 @@ class Term < ActiveRecord::Base
 
   # = Relationships =
   belongs_to :year
-  has_many :weeks
+  has_many :weeks, :dependent => :destroy
 
   # = Scopes =
   scope :in_order, order("no ASC")

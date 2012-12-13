@@ -8,8 +8,8 @@ describe Week do
 
   describe "relationships" do
     it { should belong_to(:term) }
-    it { should have_many(:course_weeks) }
-    it { should have_many(:timetable_slots) }
+    it { should have_many(:course_weeks).dependent(:destroy) }
+    it { should have_many(:timetable_slots).dependent(:destroy) }
   end
 
   describe "factory" do
