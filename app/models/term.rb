@@ -24,9 +24,17 @@ class Term < ActiveRecord::Base
   end
 
   def create_weeks
-    self.weeks = []
-    self.no_weeks.times do |w|
-      self.weeks.build(:no => w)
+    weeks_exist = self.weeks.size
+    if no_weeks < weeks_exist
+      self.weeks = []
+      no_weeks.times do |w|
+        self.weeks.build(:no => w)
+      end
+    elsif no_weeks > weeks_exist
+      weeks_to_build = no_weeks - weeks_exist
+      weeks_to_build.times do |w|
+        self.weeks.build(:no => weeks_exist + w)
+      end
     end
   end
 end

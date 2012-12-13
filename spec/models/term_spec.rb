@@ -45,5 +45,25 @@ describe Term do
       t.save!
       t.weeks.size.should == 4
     end
+
+    it "should not create new weeks if the number of weeks remains the same when updated" do
+      t = FactoryGirl.create(:term, :no_weeks => 4)
+      t.weeks.size.should == 4
+      week_ids = t.weeks.map(&:id)
+
+      t.no_weeks = 4
+      t.save!
+      t.weeks.map(&:id).should == week_ids
+    end
+
+    it "should add additional weeks if updating to have more" do
+      t = FactoryGirl.create(:term, :no_weeks => 4)
+      t.weeks.size.should == 4
+      week_ids = t.weeks.map(&:id)
+
+      t.no_weeks = 6
+      t.save!
+      t.weeks.map(&:id)[0..3].should == week_ids
+    end
   end
 end
