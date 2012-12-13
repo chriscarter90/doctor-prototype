@@ -4,7 +4,7 @@ class YearsController < ApplicationController
   end
 
   def show
-    @year = Year.find(params[:id])
+    @year = Year.find_by_no(params[:id])
     @terms = @year.terms.in_order
   end
 
@@ -32,12 +32,12 @@ class YearsController < ApplicationController
   end
 
   def edit
-    @year = Year.find(params[:id])
+    @year = Year.find_by_no(params[:id])
   end
 
   def update
     terms = params[:year].delete(:terms_attributes)
-    @year = Year.find(params[:id])
+    @year = Year.find_by_no(params[:id])
     terms.each do |k, v|
       term_no = v.delete("no")
       term = @year.terms.find_by_no(term_no)

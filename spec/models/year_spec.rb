@@ -30,4 +30,12 @@ describe Year do
       obj.should be_valid
     end
   end
+
+  describe "to_param" do
+    it "should return the year no and not its id" do
+      obj = FactoryGirl.build(:year, :id => 123, :no => 2012)
+      obj.to_param.should == 2012
+      obj.to_param.should_not == 123
+    end
+  end
 end

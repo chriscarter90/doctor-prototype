@@ -11,4 +11,8 @@ class Year < ActiveRecord::Base
 
   # = Scopes =
   scope :in_order, order("no ASC")
+
+  def to_param
+    no
+  end
 end
