@@ -1,9 +1,9 @@
 class Week < ActiveRecord::Base
 
-  attr_accessible :no, :term
+  attr_accessible :no, :term, :date
 
   # = Validations =
-  validates_presence_of :no, :term
+  validates_presence_of :no, :term, :date
 
   # = Relationships =
   belongs_to :term

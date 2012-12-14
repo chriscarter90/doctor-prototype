@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121212112054) do
+ActiveRecord::Schema.define(:version => 20121214133419) do
 
   create_table "course_weeks", :force => true do |t|
     t.integer  "week_id"
@@ -126,6 +126,7 @@ ActiveRecord::Schema.define(:version => 20121212112054) do
     t.integer  "no"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.date     "date"
   end
 
   create_table "years", :force => true do |t|

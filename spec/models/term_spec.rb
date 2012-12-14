@@ -65,5 +65,18 @@ describe Term do
       t.save!
       t.weeks.map(&:id)[0..3].should == week_ids
     end
+
+    it "should have the first week on the same day as the start date if it's a Monday" do
+      monday = Date.parse("02/01/2012")
+      t = FactoryGirl.create(:term, :no_weeks => 4, :start_date => monday)
+      t.weeks.first.date.should == monday
+    end
+
+    it "should have the first week on the next Monday from the start date if it's not a Monday" do
+      wednesday = Date.parse("04/01/2012")
+      next_monday = (wednesday + 1.weeks).beginning_of_week
+      t = FactoryGirl.create(:term, :no_weeks => 4, :start_date => wednesday)
+      t.weeks.first.date.should == next_monday
+    end
   end
 end

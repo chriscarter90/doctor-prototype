@@ -27,13 +27,14 @@ class Term < ActiveRecord::Base
     weeks_exist = self.weeks.size
     if no_weeks < weeks_exist
       self.weeks = []
-      no_weeks.times do |w|
-        self.weeks.build(:no => w)
+      week_1_date = start_date.monday? ? start_date : (start_date + 1.week).beginning_of_week
+      1.upto(no_weeks) do |w|
+        self.weeks.build(:no => w, :date => week_1_date + (w - 1).weeks)
       end
     elsif no_weeks > weeks_exist
-      weeks_to_build = no_weeks - weeks_exist
-      weeks_to_build.times do |w|
-        self.weeks.build(:no => weeks_exist + w)
+      week_1_date = start_date.monday? ? start_date : (start_date + 1.week).beginning_of_week
+      (weeks_exist + 1).upto(no_weeks) do |w|
+        self.weeks.build(:no => w, :date => week_1_date + (w - 1).weeks)
       end
     end
   end
