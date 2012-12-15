@@ -20,4 +20,12 @@ class LectureCourse < ActiveRecord::Base
   def to_param
     code
   end
+
+  def terms_taught
+    term.split(",").map(&:to_i)
+  end
+
+  def taught_in_term?(term)
+    terms_taught.include?(term.no)
+  end
 end

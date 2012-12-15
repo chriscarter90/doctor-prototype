@@ -46,4 +46,31 @@ describe LectureCourse do
       obj.to_param.should_not == 123
     end
   end
+
+  describe "terms_taught" do
+    it "should return the terms in which the course is taught" do
+      c1 = FactoryGirl.create(:lecture_course, :term => "1, 2")
+
+      c1.terms_taught.should include(1, 2)
+      c1.terms_taught.should_not include(3)
+
+      c2 = FactoryGirl.create(:lecture_course, :term => "2")
+
+      c2.terms_taught.should include(2)
+      c2.terms_taught.should_not include(1, 3)
+    end
+  end
+
+  describe "taught_in_term?" do
+    it "should whether the course is taught in the given term" do
+      c1 = FactoryGirl.create(:lecture_course, :term => "1, 2")
+
+      term = FactoryGirl.create(:term, :no => 2)
+      c1.taught_in_term?(term).should be_true
+
+      c2 = FactoryGirl.create(:lecture_course, :term => "1")
+
+      c2.taught_in_term?(term).should be_false
+    end
+  end
 end
