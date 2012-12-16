@@ -9,4 +9,9 @@ class CourseWeek < ActiveRecord::Base
   belongs_to :lecture_course
   belongs_to :staff_member
   belongs_to :week
+
+  # = Scopes =
+  scope :for_year, ->(year) do
+    joins(:week => :term).where("terms.year_id = ?", year.id)
+  end
 end
