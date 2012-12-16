@@ -10,6 +10,7 @@ describe Year do
   describe "relationships" do
     it { should have_many(:terms).dependent(:destroy) }
     it { should accept_nested_attributes_for(:terms) }
+    it { should have_many(:course_weeks).through(:terms) }
   end
 
   describe "scopes" do
