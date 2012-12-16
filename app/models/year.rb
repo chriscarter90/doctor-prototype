@@ -8,6 +8,7 @@ class Year < ActiveRecord::Base
   # = Relationships =
   has_many :terms, :dependent => :destroy
   has_many :course_weeks, :through => :terms
+  has_many :weeks, :through => :terms
   accepts_nested_attributes_for :terms
 
   # = Scopes =
