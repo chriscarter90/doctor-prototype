@@ -2,7 +2,7 @@
 
 <%= form_tag update_course_weeks_path(@year), :method => :put do %>
   <table class='table'>
-    <tr>
+    <tr class='header'>
       <th rowspan="2">
         Course
       </th>
@@ -12,7 +12,7 @@
         </th>
       <% end %>
     </tr>
-    <tr>
+    <tr class='header'>
       <% @terms.each do |t| %>
         <% t.weeks.each do |w| %>
           <th>
@@ -33,6 +33,10 @@
               <td>
                 <%= check_box_tag "course_weeks[#{c.code}][#{t.no}][]", w.no, CourseWeek.exists?(:lecture_course_id => c, :week_id => w), :id => "#{c.code.parameterize}-#{t.no}-#{w.no}" %>
               </td>
+            <% end %>
+          <% else %>
+            <% t.weeks.each do |w| %>
+              <td></td>
             <% end %>
           <% end %>
         <% end %>
