@@ -43,6 +43,15 @@ describe CourseWeeksController do
 
       @c1 = FactoryGirl.create(:lecture_course, :code => "123B", :term => "1")
       @c2 = FactoryGirl.create(:lecture_course, :code => "101", :term => "2")
+
+      @staff1 = FactoryGirl.create(:staff_member, :login => "abc123", :salutation => "Dr", :firstname => "Testy", :lastname => "McTest")
+      @staff2 = FactoryGirl.create(:staff_member, :login => "zyx987", :salutation => "Dr", :firstname => "Frank", :lastname => "EnStein")
+      @staff3 = FactoryGirl.create(:staff_member, :login => "jkl456", :salutation => "Prof", :firstname => "Doc", :lastname => "Tor")
+
+      FactoryGirl.create(:lecturer, :staff_member => @staff1, :lecture_course => @c1, :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :staff_member => @staff2, :lecture_course => @c1, :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :staff_member => @staff3, :lecture_course => @c1, :role => "Organiser")
+      FactoryGirl.create(:lecturer, :staff_member => @staff2, :lecture_course => @c2, :role => "Lecturer")
     end
 
     it "should assign @year with the correct year" do
@@ -57,30 +66,42 @@ describe CourseWeeksController do
       @year.course_weeks.should be_empty
       @c1.course_weeks.for_year(@year).should be_empty
       @c2.course_weeks.should be_empty
+      @staff1.course_weeks.should be_empty
+      @staff2.course_weeks.should be_empty
+      @staff3.course_weeks.should be_empty
     end
 
     it "should create allocations based on the params if everything is valid" do
-      get :update, :year_id => @year, :course_weeks => { "123B" => { "1" => ["1", "2"] }, "101" => { "2" => [ "2", "3", "4" ] } }
+      get :update, :year_id => @year, :course_weeks => { "123B" => { "abc123" => { "1" => ["1", "2"] }, "zyx987" => { "1" => ["3", "4"] } }, "101" => { "jkl456" => { "2" => [ "2", "3", "4" ] } } }
 
-      @year.course_weeks.for_year(@year).size.should == 5
-      @c1.course_weeks.size.should == 2
+      @year.course_weeks.for_year(@year).size.should == 7
+      @c1.course_weeks.size.should == 4
       @c2.course_weeks.size.should == 3
+      @staff1.course_weeks.size.should == 2
+      @staff2.course_weeks.size.should == 2
+      @staff3.course_weeks.size.should == 3
     end
 
     it "should not create an allocation for a week which doesn't exist within the term" do
-      get :update, :year_id => @year, :course_weeks => { "123B" => { "1" => ["1", "5"] }, "101" => { "2" => [ "2", "6" ] } }
+      get :update, :year_id => @year, :course_weeks => { "123B" => { "abc123" => { "1" => ["1", "5"] } }, "101" => { "jkl456" => { "2" => [ "2", "6" ] } } }
 
       @year.course_weeks.for_year(@year).size.should == 2
       @c1.course_weeks.size.should == 1
       @c2.course_weeks.size.should == 1
+      @staff1.course_weeks.size.should == 1
+      @staff2.course_weeks.size.should == 0
+      @staff3.course_weeks.size.should == 1
     end
 
     it "should not create an allocation for a term in which the course is not meant to be taught" do
-      get :update, :year_id => @year, :course_weeks => { "123B" => { "1" => [ "1", "2", "3" ], "2" => [ "1", "2", "3" ] } }
+      get :update, :year_id => @year, :course_weeks => { "123B" => { "abc123" => { "1" => [ "1", "2", "3" ], "2" => [ "1", "2", "3" ] } } }
 
       @year.course_weeks.for_year(@year).size.should == 3
       @c1.course_weeks.size.should == 3
       @c2.course_weeks.size.should == 0
+      @staff1.course_weeks.size.should == 3
+      @staff2.course_weeks.size.should == 0
+      @staff3.course_weeks.size.should == 0
     end
   end
 end

@@ -6,6 +6,9 @@
       <th rowspan="2">
         Course
       </th>
+      <th rowspan="2">
+        Lecturer
+      </th>
       <% @terms.each do |t| %>
         <th colspan="<%= t.weeks.size %>">
           <%= "Term #{t.no}" %>
@@ -23,22 +26,30 @@
     </tr>
 
     <% @courses.each do |c| %>
-      <tr>
-        <td>
-          <%= "#{c.code} - #{c.title}" %>
-        </td>
-        <% @terms.each do |t| %>
-          <% if c.taught_in_term?(t) %>
-            <% t.weeks.each do |w| %>
-              <td>
-                <%= check_box_tag "course_weeks[#{c.code}][#{t.no}][]", w.no, CourseWeek.exists?(:lecture_course_id => c, :week_id => w), :id => "#{c.code.parameterize}-#{t.no}-#{w.no}" %>
+        <% c.lecturers.only_lecturers.each_with_index do |l, i| %>
+          <tr>
+            <% if i == 0 %>
+              <td rowspan="<%= c.lecturers.size %>">
+                <%= "#{c.code} - #{c.title}" %>
               </td>
             <% end %>
-          <% else %>
-            <% t.weeks.each do |w| %>
-              <td></td>
+            <td>
+              <%= "#{l.staff_member.full_name} (#{l.staff_member.login})" %>
+            </td>
+            <% @terms.each do |t| %>
+              <% if c.taught_in_term?(t) %>
+                <% t.weeks.each do |w| %>
+                  <td>
+                    <%= check_box_tag "course_weeks[#{c.code}][#{l.staff_member.login}][#{t.no}][]", w.no, CourseWeek.exists?(:lecture_course_id => c, :week_id => w, :staff_member_id => l.staff_member.id), :id => "#{c.code.parameterize}-#{l.staff_member.login}-#{t.no}-#{w.no}" %>
+                  </td>
+                <% end %>
+              <% else %>
+                <% t.weeks.each do |w| %>
+                  <td></td>
+                <% end %>
+              <% end %>
             <% end %>
-          <% end %>
+          </tr>
         <% end %>
       </tr>
     <% end %>

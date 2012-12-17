@@ -17,14 +17,16 @@ class CourseWeeksController < ApplicationController
         c.course_weeks.for_year(@year).destroy_all
         allocations = course_weeks.delete(c.code)
         if allocations
-          allocations.each do |term_no, week_allocations|
-            term = @year.terms.find_by_no(term_no)
-            if c.taught_in_term?(term)
-              week_allocations.each do |week_no|
-                week = term.weeks.find_by_no(week_no)
-                if week
-                  #TODO: Fix StaffMembers
-                  CourseWeek.create!(:lecture_course => c, :week => week, :staff_member => (c.staff_members.first || StaffMember.new(:login => "#{c.code}test", :salutation => "Dr", :firstname => "Testy", :lastname => "McTest")))
+          allocations.each do |login, term_allocations|
+            staff = StaffMember.find_by_login(login)
+            term_allocations.each do |term_no, week_allocations|
+              term = @year.terms.find_by_no(term_no)
+              if c.taught_in_term?(term)
+                week_allocations.each do |week_no|
+                  week = term.weeks.find_by_no(week_no)
+                  if week
+                    CourseWeek.create!(:lecture_course => c, :week => week, :staff_member => staff)
+                  end
                 end
               end
             end
