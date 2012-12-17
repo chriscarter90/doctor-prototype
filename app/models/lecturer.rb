@@ -8,4 +8,7 @@ class Lecturer < ActiveRecord::Base
   # = Relationships =
   belongs_to :staff_member
   belongs_to :lecture_course
+
+  # = Scopes =
+  scope :only_lecturers, where("role = ?", "Lecturer")
 end
