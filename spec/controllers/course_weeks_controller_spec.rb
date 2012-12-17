@@ -31,7 +31,7 @@ describe CourseWeeksController do
     end
   end
 
-  describe "udpate" do
+  describe "update" do
     before :each do
       @year = FactoryGirl.build(:year)
       @year.terms = [
