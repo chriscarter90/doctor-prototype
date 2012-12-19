@@ -21,4 +21,8 @@ class StaffMember < ActiveRecord::Base
   def full_name
     "#{salutation} #{firstname} #{lastname}"
   end
+
+  def display
+    "#{full_name} (#{login})"
+  end
 end

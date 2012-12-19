@@ -52,4 +52,12 @@ describe StaffMember do
       s.full_name.should == "Dr Frank EnStein"
     end
   end
+
+  describe "display" do
+    it "should return the salutation, first name, last and and login" do
+      s = FactoryGirl.create(:staff_member, :salutation => "Dr", :firstname => "Frank", :lastname => "EnStein", :login => "fs100")
+
+      s.display.should == "Dr Frank EnStein (fs100)"
+    end
+  end
 end
