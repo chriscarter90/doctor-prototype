@@ -29,7 +29,7 @@
         <% c.lecturers.only_lecturers.each_with_index do |l, i| %>
           <tr>
             <% if i == 0 %>
-              <td rowspan="<%= c.lecturers.size %>">
+              <td rowspan="<%= c.lecturers.only_lecturers.size %>">
                 <%= "#{c.code} - #{c.title}" %>
               </td>
             <% end %>
