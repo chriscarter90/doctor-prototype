@@ -1,3 +1,4 @@
+require 'database_cleaner'
 require 'rspec/autorun'
 require 'rubygems'
 require 'spork'
@@ -26,12 +27,26 @@ Spork.prefork do
     # If you're not using ActiveRecord, or you'd prefer not to run each of your
     # examples within a transaction, remove the following line or assign false
     # instead of true.
-    config.use_transactional_fixtures = true
 
     # If true, the base class of anonymous controllers will be inferred
     # automatically. This will be the default behavior in future versions of
     # rspec-rails.
     config.infer_base_class_for_anonymous_controllers = false
+
+    config.use_transactional_fixtures = false
+
+    config.before :each do
+      if Capybara.current_driver == :rack_test
+        DatabaseCleaner.strategy = :transaction
+      else
+        DatabaseCleaner.strategy = :truncation
+      end
+      DatabaseCleaner.start
+    end
+
+    config.after do
+      DatabaseCleaner.clean
+    end
   end
 end
 
