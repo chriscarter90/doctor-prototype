@@ -10,7 +10,7 @@
         Lecturer
       </th>
       <% @terms.each do |t| %>
-        <th colspan="<%= t.weeks.size %>">
+        <th colspan="<%= t.weeks.size + 1 %>">
           <%= "Term #{t.no}" %>
         </th>
       <% end %>
@@ -22,6 +22,7 @@
             <%= w.no %>
           </th>
         <% end %>
+        <th></th>
       <% end %>
     </tr>
 

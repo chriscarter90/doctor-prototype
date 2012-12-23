@@ -1,0 +1,10 @@
+$(document).ready(function() {
+  $('.defaults').click(function(event) {
+    var thisID = $(this).attr('id').replace("default", "")
+    var checkboxes = $("[id^=" + thisID + "]");
+    for (var i=0; i < checkboxes.length; i++) {
+      checkboxes[i].checked = ((i+1) >= 2 && (i+1) <= 10);
+    }
+    event.preventDefault();
+  });
+});

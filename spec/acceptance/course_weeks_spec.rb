@@ -45,6 +45,10 @@ feature "CourseWeeks", %q{
     page.should have_field('123-a-zyx987-2-6')
     page.should have_field('220-jkl456-2-4')
 
+    page.should have_link('123-a-abc123-1-default')
+    page.should have_link('123-a-zyx987-2-default')
+    page.should have_link('220-jkl456-2-default')
+
     # The page shouldn't have fields for:
     # - Weeks out of term bounds
     page.should_not have_field('123-a-abc123-1-6')
@@ -52,6 +56,7 @@ feature "CourseWeeks", %q{
 
     # - Terms that it's not taught
     page.should_not have_field('220-jkl456-1-3')
+    page.should_not have_field('123-a-abc123-2-default')
 
     # - Staff who aren't lecturers
     page.should_not have_field('123-a-jkl456-1-1')
@@ -65,7 +70,7 @@ feature "CourseWeeks", %q{
     page.should have_button("Submit")
   end
 
-  scenario "Can update the weeks for courses" do
+  scenario "Can update the weeks for courses", :js => true do
     visit years_page
     click_link("2011")
     click_link("Select Course Weeks")
@@ -78,10 +83,7 @@ feature "CourseWeeks", %q{
     check('123-a-zyx987-2-3')
     check('123-a-zyx987-2-4')
 
-    check('220-jkl456-2-2')
-    check('220-jkl456-2-3')
-    check('220-jkl456-2-4')
-    check('220-jkl456-2-5')
+    click_link('220-jkl456-2-default')
 
     click_button('Submit')
 
@@ -89,7 +91,7 @@ feature "CourseWeeks", %q{
     page.should have_content("Selections were updated successfully.")
 
     @course1.course_weeks.size.should == 6
-    @course2.course_weeks.size.should == 4
+    @course2.course_weeks.size.should == 5
 
     click_link("Select Course Weeks")
 
@@ -105,6 +107,7 @@ feature "CourseWeeks", %q{
     page.should have_checked_field('220-jkl456-2-3')
     page.should have_checked_field('220-jkl456-2-4')
     page.should have_checked_field('220-jkl456-2-5')
+    page.should have_checked_field('220-jkl456-2-6')
 
     page.should have_unchecked_field('123-a-abc123-2-1')
     page.should have_unchecked_field('123-a-zyx987-2-1')

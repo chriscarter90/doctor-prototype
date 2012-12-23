@@ -15,10 +15,14 @@
             <%= check_box_tag "course_weeks[#{course.code}][#{l.staff_member.login}][#{t.no}][]", w.no, CourseWeek.exists?(:lecture_course_id => course, :week_id => w, :staff_member_id => l.staff_member.id), :id => "#{course.code.parameterize}-#{l.staff_member.login}-#{t.no}-#{w.no}" %>
           </td>
         <% end %>
+        <td>
+          <%= link_to "Select Defaults", "#", :id => "#{course.code.parameterize}-#{l.staff_member.login}-#{t.no}-default", :class => "btn btn-mini defaults" %>
+        </td>
       <% else %>
         <% t.weeks.each do |w| %>
           <td></td>
         <% end %>
+        <td></td>
       <% end %>
     <% end %>
   </tr>
