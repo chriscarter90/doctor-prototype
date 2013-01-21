@@ -21,6 +21,14 @@ class LectureCourse < ActiveRecord::Base
     code
   end
 
+  def total_hours
+    lectures = lecturehours || 0
+    tutorials = tutorialhours || 0
+    labs = labhours || 0
+
+    lectures + tutorials + labs
+  end
+
   def terms_taught
     term.split(",").map(&:to_i)
   end

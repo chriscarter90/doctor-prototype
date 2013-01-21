@@ -47,6 +47,16 @@ describe LectureCourse do
     end
   end
 
+  describe "total_hours" do
+    it "shold return the total number of teaching hours, including lectures, tutorials and labs" do
+      c1 = FactoryGirl.create(:lecture_course, :lecturehours => 28, :tutorialhours => 20, :labhours => 4)
+      c1.total_hours.should == 52
+
+      c2 = FactoryGirl.create(:lecture_course, :lecturehours => 40, :tutorialhours => nil, :labhours => nil)
+      c2.total_hours.should == 40
+    end
+  end
+
   describe "terms_taught" do
     it "should return the terms in which the course is taught" do
       c1 = FactoryGirl.create(:lecture_course, :term => "1, 2")
