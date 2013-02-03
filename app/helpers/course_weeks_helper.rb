@@ -6,4 +6,8 @@ module CourseWeeksHelper
       0
     end
   end
+
+  def investigation_class(course)
+    course.total_hours == 27 ? "standard" : "investigation"
+  end
 end

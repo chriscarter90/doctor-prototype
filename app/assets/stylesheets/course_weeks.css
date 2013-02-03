@@ -14,6 +14,14 @@ input.tiny {
   margin: 10px 0;
 }
 
+.investigation {
+  background-color: #FFF68F;
+}
+
+.standard {
+  background-color: #98FB98;
+}
+
 .default-header {
   width: 100px;
 }

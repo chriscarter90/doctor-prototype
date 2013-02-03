@@ -1,5 +1,5 @@
 <div class="accordion" id="course-accordion-container">
-  <div class="course accordion-group" id="<%= course.code.parameterize %>">
+  <div class="course accordion-group <%= investigation_class(course) %>" id="<%= course.code.parameterize %>">
     <a class="accordion-toggle" data-toggle="collapse" data-parent="#course-accordion-container" href="#collapse-<%= course.code.parameterize %>">
       <h4>
         <%= "#{course.code} - #{course.title}" %>

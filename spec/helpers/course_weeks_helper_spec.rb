@@ -33,4 +33,20 @@ describe CourseWeeksHelper do
       helper.find_existing_hours(@c1, @week, @staff1, "Tutorial").should == 0
     end
   end
+
+  describe "investigation_class" do
+    it "should return 'standard' for a course which has 27 hours total" do
+      c = FactoryGirl.create(:lecture_course, :lecturehours => 27, :tutorialhours => 0, :labhours => 0)
+      c2 = FactoryGirl.create(:lecture_course, :lecturehours => 18, :tutorialhours => 9, :labhours => 0)
+      helper.investigation_class(c).should == "standard"
+      helper.investigation_class(c2).should == "standard"
+    end
+
+    it "should return 'investigation' for a course which does not have 27 hours total" do
+      c = FactoryGirl.create(:lecture_course, :lecturehours => 30, :tutorialhours => 0, :labhours => 0)
+      c2 = FactoryGirl.create(:lecture_course, :lecturehours => 20, :tutorialhours => 10, :labhours => 0)
+      helper.investigation_class(c).should == "investigation"
+      helper.investigation_class(c2).should == "investigation"
+    end
+  end
 end
