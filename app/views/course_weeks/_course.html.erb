@@ -1,23 +1,31 @@
-<div class="course" id="<%= course.code.parameterize %>">
-  <h4>
-    <%= "#{course.code} - #{course.title}" %>
-  </h4>
+<div class="accordion" id="course-accordion-container">
+  <div class="course accordion-group" id="<%= course.code.parameterize %>">
+    <a class="accordion-toggle" data-toggle="collapse" data-parent="#course-accordion-container" href="#collapse-<%= course.code.parameterize %>">
+      <h4>
+        <%= "#{course.code} - #{course.title}" %>
+      </h4>
+    </a>
 
-  <% if course.has_multiple_lecturers? %>
-    <label class="checkbox">
-      <%= check_box_tag "course_weeks[#{course.code}][merged_lecturers]", true, course.merged_lecturers, :class => "merged-lecturers", :id => "merge" %>
-      Schedule lecturers concurrently?
-    </label>
-  <% end %>
+    <div id="collapse-<%= course.code.parameterize %>" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <% if course.has_multiple_lecturers? %>
+          <label class="checkbox">
+            <%= check_box_tag "course_weeks[#{course.code}][merged_lecturers]", true, course.merged_lecturers, :class => "merged-lecturers", :id => "merge" %>
+            Schedule lecturers concurrently?
+          </label>
+        <% end %>
 
-  <table>
-    <%= render :partial => 'course_header' , :locals => { :course => course } %>
-    <%= render :partial => 'course_single' , :locals => { :course => course } %>
-    <% if course.has_multiple_lecturers? %>
-      <%= render :partial => 'course_merged' , :locals => { :course => course } %>
-    <% end %>
-    <%= render :partial => 'tutorial_hours', :locals => { :course => course } %>
-    <%= render :partial => 'lab_hours'     , :locals => { :course => course } %>
-    <%= render :partial => 'course_summary', :locals => { :course => course } %>
-  </table>
+        <table>
+          <%= render :partial => 'course_header' , :locals => { :course => course } %>
+          <%= render :partial => 'course_single' , :locals => { :course => course } %>
+          <% if course.has_multiple_lecturers? %>
+            <%= render :partial => 'course_merged' , :locals => { :course => course } %>
+          <% end %>
+          <%= render :partial => 'tutorial_hours', :locals => { :course => course } %>
+          <%= render :partial => 'lab_hours'     , :locals => { :course => course } %>
+          <%= render :partial => 'course_summary', :locals => { :course => course } %>
+        </table>
+      </div>
+    </div>
+  </div>
 </div>
