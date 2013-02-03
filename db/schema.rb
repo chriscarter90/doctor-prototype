@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121214133419) do
+ActiveRecord::Schema.define(:version => 20130202174439) do
 
   create_table "course_weeks", :force => true do |t|
     t.integer  "week_id"
@@ -19,9 +19,11 @@ ActiveRecord::Schema.define(:version => 20121214133419) do
     t.integer  "staff_member_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.integer  "hours"
+    t.string   "session_type"
   end
 
-  add_index "course_weeks", ["week_id", "lecture_course_id", "staff_member_id"], :name => "as_week_lecture_course_staff_member", :unique => true
+  add_index "course_weeks", ["week_id", "lecture_course_id", "staff_member_id", "session_type"], :name => "as_week_course_staff_type", :unique => true
 
   create_table "days", :force => true do |t|
     t.integer  "no"
@@ -49,8 +51,9 @@ ActiveRecord::Schema.define(:version => 20121214133419) do
     t.integer  "weeklyhours"
     t.integer  "popestimate"
     t.integer  "popregistered"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.boolean  "merged_lecturers", :default => false, :null => false
   end
 
   create_table "lecturers", :force => true do |t|

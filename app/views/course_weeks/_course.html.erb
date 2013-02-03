@@ -1,29 +1,23 @@
-<% course.lecturers.only_lecturers.each_with_index do |l, i| %>
-  <tr>
-    <% if i == 0 %>
-      <td rowspan="<%= course.lecturers.only_lecturers.size %>">
-        <%= "#{course.code} - #{course.title}" %>
-      </td>
+<div class="course" id="<%= course.code.parameterize %>">
+  <h4>
+    <%= "#{course.code} - #{course.title}" %>
+  </h4>
+
+  <% if course.has_multiple_lecturers? %>
+    <label class="checkbox">
+      <%= check_box_tag "course_weeks[#{course.code}][merged_lecturers]", true, course.merged_lecturers, :class => "merged-lecturers", :id => "merge" %>
+      Schedule lecturers concurrently?
+    </label>
+  <% end %>
+
+  <table>
+    <%= render :partial => 'course_header' , :locals => { :course => course } %>
+    <%= render :partial => 'course_single' , :locals => { :course => course } %>
+    <% if course.has_multiple_lecturers? %>
+      <%= render :partial => 'course_merged' , :locals => { :course => course } %>
     <% end %>
-    <td>
-      <%= "#{l.staff_member.full_name} (#{l.staff_member.login})" %>
-    </td>
-    <% @terms.each do |t| %>
-      <% if course.taught_in_term?(t) %>
-        <% t.weeks.each do |w| %>
-          <td>
-            <%= check_box_tag "course_weeks[#{course.code}][#{l.staff_member.login}][#{t.no}][]", w.no, CourseWeek.exists?(:lecture_course_id => course, :week_id => w, :staff_member_id => l.staff_member.id), :id => "#{course.code.parameterize}-#{l.staff_member.login}-#{t.no}-#{w.no}" %>
-          </td>
-        <% end %>
-        <td>
-          <%= link_to "Select Defaults", "#", :id => "#{course.code.parameterize}-#{l.staff_member.login}-#{t.no}-default", :class => "btn btn-mini defaults" %>
-        </td>
-      <% else %>
-        <% t.weeks.each do |w| %>
-          <td></td>
-        <% end %>
-        <td></td>
-      <% end %>
-    <% end %>
-  </tr>
-<% end %>
+    <%= render :partial => 'tutorial_hours', :locals => { :course => course } %>
+    <%= render :partial => 'lab_hours'     , :locals => { :course => course } %>
+    <%= render :partial => 'course_summary', :locals => { :course => course } %>
+  </table>
+</div>

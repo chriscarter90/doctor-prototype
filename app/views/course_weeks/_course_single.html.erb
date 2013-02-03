@@ -1,0 +1,23 @@
+<% course.lecturers.only_lecturers.each_with_index do |l, i| %>
+  <tr class="single-row <%= course.merged_lecturers ? 'hidden' : '' %>">
+    <td>
+      <%= "#{l.staff_member.full_name} (#{l.staff_member.login})" %>
+    </td>
+    <% @terms.each do |t| %>
+      <% if course.taught_in_term?(t) %>
+        <% t.weeks.each do |w| %>
+          <td>
+            <%= text_field_tag "course_weeks[#{course.code}][lectures][#{l.staff_member.login}][#{t.no}][#{w.no}]", find_existing_hours(course, w, l.staff_member, "Lecture"), :class => "tiny term-#{t.no} single", :id => "#{t.no}-#{w.no}-#{l.staff_member.login}" %>
+          </td>
+        <% end %>
+        <td>
+          <div class="control-group">
+            <div class="controls">
+              <%= link_to "Select Defaults", "#", :class => "btn btn-mini defaults term-#{t.no}", :id => "#{t.no}-#{l.staff_member.login}-defaults" %>
+            </div>
+          </div>
+        </td>
+      <% end %>
+    <% end %>
+  </tr>
+<% end %>

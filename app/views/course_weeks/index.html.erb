@@ -1,33 +1,7 @@
 <h3>Course-week Selection</h3>
 
 <%= form_tag update_course_weeks_path(@year), :method => :put do %>
-  <table class='table'>
-    <tr class='header'>
-      <th rowspan="2">
-        Course
-      </th>
-      <th rowspan="2">
-        Lecturer
-      </th>
-      <% @terms.each do |t| %>
-        <th colspan="<%= t.weeks.size + 1 %>">
-          <%= "Term #{t.no}" %>
-        </th>
-      <% end %>
-    </tr>
-    <tr class='header'>
-      <% @terms.each do |t| %>
-        <% t.weeks.each do |w| %>
-          <th>
-            <%= w.no %>
-          </th>
-        <% end %>
-        <th></th>
-      <% end %>
-    </tr>
+  <%= render :partial => 'course', :collection => @courses.has_lecturers, :as => :course %>
 
-    <%= render :partial => 'course', :collection => @courses %>
-  </table>
-
-  <%= submit_tag "Submit", :class => "btn btn-primary" %>
+  <%= submit_tag "Submit", :class => "btn btn-primary", "data-loading-text" => "Submitting..." %>
 <% end %>

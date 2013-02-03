@@ -60,7 +60,7 @@ describe CourseWeeksController do
       assigns(:year).should == @year
     end
 
-    it "should clear out all week allocations for blank params" do
+    it "should clear out all week allocations for that year with blank params" do
       get :update, :year_id => @year
 
       @year.course_weeks.should be_empty
@@ -72,35 +72,268 @@ describe CourseWeeksController do
     end
 
     it "should create allocations based on the params if everything is valid" do
-      get :update, :year_id => @year, :course_weeks => { "123B" => { "abc123" => { "1" => ["1", "2"] }, "zyx987" => { "1" => ["3", "4"] } }, "101" => { "jkl456" => { "2" => [ "2", "3", "4" ] } } }
+      get :update, :year_id => @year, :course_weeks => {
+        "123B" => {
+          "lectures" => {
+            "abc123" => {
+              "1" => {
+                "1" => "2",
+                "2" => "3",
+                "3" => "3",
+                "4" => "2",
+              }
+            },
+            "zyx987" => {
+              "1" => {
+                "1" => "3",
+                "2" => "2",
+                "3" => "2",
+                "4" => "3",
+              }
+            }
+          },
+          "tutorials" => {
+            "1" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          },
+          "labs" => {
+            "1" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          }
+        }
+      }
 
-      @year.course_weeks.for_year(@year).size.should == 7
-      @c1.course_weeks.size.should == 4
-      @c2.course_weeks.size.should == 3
-      @staff1.course_weeks.size.should == 2
-      @staff2.course_weeks.size.should == 2
-      @staff3.course_weeks.size.should == 3
+
+      @year.course_weeks.for_year(@year).size.should == 16
+      @c1.course_weeks.size.should == 16
+      @c2.course_weeks.size.should == 0
+      @staff1.course_weeks.size.should == 4
+      @staff2.course_weeks.size.should == 4
+      @staff3.course_weeks.size.should == 0
     end
 
     it "should not create an allocation for a week which doesn't exist within the term" do
-      get :update, :year_id => @year, :course_weeks => { "123B" => { "abc123" => { "1" => ["1", "5"] } }, "101" => { "jkl456" => { "2" => [ "2", "6" ] } } }
+      get :update, :year_id => @year, :course_weeks => {
+        "123B" => {
+          "lectures" => {
+            "abc123" => {
+              "1" => {
+                "5" => "2"
+              }
+            },
+            "zyx987" => {
+              "1" => {
+                "5" => "2"
+              }
+            }
+          },
+          "tutorials" => {
+            "1" => {
+              "5" => "2"
+            }
+          },
+          "labs" => {
+            "1" => {
+              "5" => "2"
+            }
+          }
+        }
+      }
 
-      @year.course_weeks.for_year(@year).size.should == 2
-      @c1.course_weeks.size.should == 1
-      @c2.course_weeks.size.should == 1
-      @staff1.course_weeks.size.should == 1
+      @year.course_weeks.for_year(@year).size.should == 0
+      @c1.course_weeks.size.should == 0
+      @c2.course_weeks.size.should == 0
+      @staff1.course_weeks.size.should == 0
       @staff2.course_weeks.size.should == 0
-      @staff3.course_weeks.size.should == 1
+      @staff3.course_weeks.size.should == 0
     end
 
     it "should not create an allocation for a term in which the course is not meant to be taught" do
-      get :update, :year_id => @year, :course_weeks => { "123B" => { "abc123" => { "1" => [ "1", "2", "3" ], "2" => [ "1", "2", "3" ] } } }
+      get :update, :year_id => @year, :course_weeks => {
+        "123B" => {
+          "lectures" => {
+            "abc123" => {
+              "2" => {
+                "1" => "2",
+                "2" => "3",
+                "3" => "3",
+                "4" => "2",
+              }
+            },
+            "zyx987" => {
+              "2" => {
+                "1" => "3",
+                "2" => "2",
+                "3" => "2",
+                "4" => "3",
+              }
+            }
+          },
+          "tutorials" => {
+            "2" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          },
+          "labs" => {
+            "2" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          }
+        }
+      }
 
-      @year.course_weeks.for_year(@year).size.should == 3
-      @c1.course_weeks.size.should == 3
+      @year.course_weeks.for_year(@year).size.should == 0
+      @c1.course_weeks.size.should == 0
       @c2.course_weeks.size.should == 0
-      @staff1.course_weeks.size.should == 3
+      @staff1.course_weeks.size.should == 0
       @staff2.course_weeks.size.should == 0
+      @staff3.course_weeks.size.should == 0
+    end
+
+    it "should update the merged_lecturers attribute on the course when provided" do
+      @c1.merged_lecturers.should be_false
+
+      get :update, :year_id => @year, :course_weeks => {
+        "123B" => {
+          "merged_lecturers" => "true"
+        }
+      }
+
+      @c1.reload
+      @c1.merged_lecturers.should be_true
+
+      get :update, :year_id => @year, :course_weeks => {
+        "123B" => { }
+      }
+
+      @c1.reload
+      @c1.merged_lecturers.should be_false
+    end
+
+    it "should ignore the lecture parameters for individual lecturers if they should be merged" do
+      get :update, :year_id => @year, :course_weeks => {
+        "123B" => {
+          "merged_lecturers" => "true",
+          "lectures" => {
+            "abc123" => {
+              "1" => {
+                "1" => "2",
+                "2" => "3",
+                "3" => "3",
+                "4" => "2",
+              }
+            },
+            "zyx987" => {
+              "1" => {
+                "1" => "3",
+                "2" => "2",
+                "3" => "2",
+                "4" => "3",
+              }
+            },
+            "all" => {
+              "1" => {
+                "1" => "3",
+                "2" => "2",
+                "3" => "2",
+                "4" => "3",
+              }
+            }
+          },
+          "tutorials" => {
+            "1" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          },
+          "labs" => {
+            "1" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          }
+        }
+      }
+
+      @year.course_weeks.for_year(@year).size.should == 12
+      @c1.course_weeks.size.should == 12
+      @c2.course_weeks.size.should == 0
+      @staff1.course_weeks.size.should == 0
+      @staff2.course_weeks.size.should == 0
+      @staff3.course_weeks.size.should == 0
+    end
+
+    it "should ignore the lecture parameters for merged lecturers if they should not be merged" do
+      get :update, :year_id => @year, :course_weeks => {
+        "123B" => {
+          "lectures" => {
+            "abc123" => {
+              "1" => {
+                "1" => "2",
+                "2" => "3",
+                "3" => "3",
+                "4" => "2",
+              }
+            },
+            "zyx987" => {
+              "1" => {
+                "1" => "3",
+                "2" => "2",
+                "3" => "2",
+                "4" => "3",
+              }
+            },
+            "all" => {
+              "1" => {
+                "1" => "3",
+                "2" => "2",
+                "3" => "2",
+                "4" => "3",
+              }
+            }
+          },
+          "tutorials" => {
+            "1" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          },
+          "labs" => {
+            "1" => {
+              "1" => "1",
+              "2" => "1",
+              "3" => "1",
+              "4" => "1",
+            }
+          }
+        }
+      }
+
+      @year.course_weeks.for_year(@year).size.should == 16
+      @c1.course_weeks.size.should == 16
+      @c2.course_weeks.size.should == 0
+      @staff1.course_weeks.size.should == 4
+      @staff2.course_weeks.size.should == 4
       @staff3.course_weeks.size.should == 0
     end
   end

@@ -1,3 +1,38 @@
 .header th {
   text-align: center;
 }
+
+input.tiny {
+  width: 8px;
+}
+
+.hidden tr {
+  display: none;
+}
+
+.course {
+  margin: 30px 0;
+}
+
+.default-header {
+  width: 100px;
+}
+
+.lecturer-header {
+  width: 300px;
+}
+
+.summary .type {
+  width: 100px;
+}
+
+.summary .hours {
+  width: 50px;
+}
+
+.summary .lecture-count,
+.summary .tutorial-count,
+.summary .lab-count,
+.summary .total {
+  text-align: center;
+}

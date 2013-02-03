@@ -1,0 +1,27 @@
+<tr class='header'>
+  <th rowspan="2" class="lecturer-header">
+    Lecturer
+  </th>
+
+  <% @year.terms.each do |t| %>
+    <% if course.taught_in_term?(t) %>
+      <th colspan="<%= t.weeks.count + 1 %>">
+        <%= "Term #{t.no}" %>
+      </th>
+    <% end %>
+  <% end %>
+  <th></th>
+</tr>
+
+<tr class='header'>
+  <% @year.terms.each do |t| %>
+    <% if course.taught_in_term?(t) %>
+      <% t.weeks.each do |w| %>
+        <th class="week-header">
+          <%= w.no %>
+        </th>
+      <% end %>
+      <th class="default-header"></th>
+    <% end %>
+  <% end %>
+</tr>

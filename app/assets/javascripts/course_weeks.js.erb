@@ -1,10 +1,113 @@
 $(document).ready(function() {
   $('.defaults').click(function(event) {
-    var thisID = $(this).attr('id').replace("default", "")
-    var checkboxes = $("[id^=" + thisID + "]");
-    for (var i=0; i < checkboxes.length; i++) {
-      checkboxes[i].checked = ((i+1) >= 2 && (i+1) <= 10);
-    }
+    var row = $(this).parents('tr');
+    var term = $(this).attr('class').match(/(term-\d+)/)[0];
+    $(row).find($('input.' + term)).each(function(index) {
+      if (index >= 1 && index <= 9) {
+        $(this).attr("value", 2);
+      } else {
+        $(this).attr("value", 0);
+      }
+    });
+
+    var container = $(this).parents('.course');
+    $(container).find('input.tutorial.' + term).each(function(index) {
+      if (index >= 1 && index <= 9) {
+        $(this).attr("value", 1);
+      } else {
+        $(this).attr("value", 0);
+      }
+    });
     event.preventDefault();
+    updateLectureCount($(this).parents('.course'));
+    updateTutorialCount($(this).parents('.course'));
+  });
+
+  function showHide(elem) {
+    var container = $(elem).parents('.course');
+    $(container).find('.single-row').toggleClass('hidden');
+    $(container).find('.merged-row').toggleClass('hidden');
+    updateLectureCount(container);
+  };
+
+  $('.merged-lecturers').change(function() {
+    showHide(this);
+  });
+
+  function updateLectureCount(elem) {
+    var checkbox = ($(elem).find('input.merged-lecturers'));
+    var class_to_sum;
+    if ($(checkbox).length && $(checkbox).is(':checked')) {
+      class_to_sum = 'merged';
+    } else {
+      class_to_sum = 'single';
+    }
+
+    var sum = 0;
+    $(elem).find("input." + class_to_sum).each(function() {
+      if (!isNaN(this.value) && this.value != 0) {
+        sum += parseInt(this.value);
+      }
+    });
+    $(elem).find('.lecture-count').text(sum);
+    updateTotal($(elem));
+  };
+
+  function updateTutorialCount(elem) {
+    var sum = 0;
+    $(elem).find("input.tutorial").each(function() {
+      if (!isNaN(this.value) && this.value != 0) {
+        sum += parseInt(this.value);
+      }
+    });
+    $(elem).find('.tutorial-count').text(sum);
+    updateTotal($(elem));
+  };
+
+  function updateLabCount(elem) {
+    var sum = 0;
+    $(elem).find("input.lab").each(function() {
+      if (!isNaN(this.value) && this.value != 0) {
+        sum += parseInt(this.value);
+      }
+    });
+    $(elem).find('.lab-count').text(sum);
+    updateTotal($(elem));
+  };
+
+  function updateTotal(elem) {
+    var sum = 0;
+    $(elem).find("[class$='count']").each(function() {
+      sum += parseInt($(this).text());
+    });
+    $(elem).find('.total').text(sum);
+  };
+
+
+  $('div.course').each(function() {
+    updateLectureCount(this);
+    updateTutorialCount(this);
+    updateLabCount(this);
+    updateTotal(this);
+  });
+
+  $('input.single').keyup(function() {
+    updateLectureCount($(this).parents('.course'));
+    updateTotal($(this).parents('.course'));
+  });
+
+  $('input.merged').keyup(function() {
+    updateLectureCount($(this).parents('.course'));
+    updateTotal($(this).parents('.course'));
+  });
+
+  $('input.tutorial').keyup(function() {
+    updateTutorialCount($(this).parents('.course'));
+    updateTotal($(this).parents('.course'));
+  });
+
+  $('input.lab').keyup(function() {
+    updateLabCount($(this).parents('.course'));
+    updateTotal($(this).parents('.course'));
   });
 });

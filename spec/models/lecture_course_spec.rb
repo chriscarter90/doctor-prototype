@@ -30,6 +30,20 @@ describe LectureCourse do
         LectureCourse.by_code.should == [c3, c1, c2]
       end
     end
+
+    describe "has_lecturers" do
+      it "should return the courses who have lecturers" do
+        c1 = FactoryGirl.create(:lecture_course, :code => "789")
+        c2 = FactoryGirl.create(:lecture_course, :code => "M640")
+        c3 = FactoryGirl.create(:lecture_course, :code => "123")
+
+        FactoryGirl.create(:lecturer, :lecture_course => c1, :role => "Lecturer")
+        FactoryGirl.create(:lecturer, :lecture_course => c1, :role => "Lecturer")
+        FactoryGirl.create(:lecturer, :lecture_course => c2, :role => "Organiser")
+
+        LectureCourse.has_lecturers.should == [c1]
+      end
+    end
   end
 
   describe "factory" do
@@ -72,7 +86,7 @@ describe LectureCourse do
   end
 
   describe "taught_in_term?" do
-    it "should whether the course is taught in the given term" do
+    it "should return whether the course is taught in the given term" do
       c1 = FactoryGirl.create(:lecture_course, :term => "1, 2")
 
       term = FactoryGirl.create(:term, :no => 2)
@@ -81,6 +95,20 @@ describe LectureCourse do
       c2 = FactoryGirl.create(:lecture_course, :term => "1")
 
       c2.taught_in_term?(term).should be_false
+    end
+  end
+
+  describe "has_multiple_lecturers?" do
+    it "should return whether the course has many lecturers" do
+      c1 = FactoryGirl.create(:lecture_course)
+
+      FactoryGirl.create(:lecturer, :lecture_course => c1, :role => "Lecturer")
+
+      c1.has_multiple_lecturers?.should be_false
+
+      FactoryGirl.create(:lecturer, :lecture_course => c1, :role => "Lecturer")
+
+      c1.has_multiple_lecturers?.should be_true
     end
   end
 end

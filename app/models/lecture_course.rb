@@ -16,6 +16,7 @@ class LectureCourse < ActiveRecord::Base
 
   # = Scopes =
   scope :by_code, order('code')
+  scope :has_lecturers, select('DISTINCT lecture_courses.*').joins(:lecturers).where('lecturers.role = ?', "Lecturer")
 
   def to_param
     code
@@ -35,5 +36,9 @@ class LectureCourse < ActiveRecord::Base
 
   def taught_in_term?(term)
     terms_taught.include?(term.no)
+  end
+
+  def has_multiple_lecturers?
+    return lecturers.only_lecturers.count > 1
   end
 end

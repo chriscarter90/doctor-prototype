@@ -28,7 +28,7 @@ feature "CourseWeeks", %q{
     @year.save!
   end
 
-  scenario "Can access the course weeks selection page" do
+  scenario "Can access the course weeks selection page", :js => true do
     visit years_page
     page.should have_content("2011")
     click_link("2011")
@@ -39,33 +39,86 @@ feature "CourseWeeks", %q{
     click_link("Select Course Weeks")
 
     # checkboxes have IDs in the form 'coursecode-login-term-week'
-    page.should have_field('123-a-abc123-1-1')
-    page.should have_field('123-a-zyx987-1-4')
-    page.should have_field('123-a-abc123-2-3')
-    page.should have_field('123-a-zyx987-2-6')
-    page.should have_field('220-jkl456-2-4')
+    within(:css, "div#123-a") do
+      page.should have_field("merge")
+      page.should have_field("1-1-abc123")
+      page.should have_field("1-2-abc123")
+      page.should have_field("1-3-abc123")
+      page.should have_field("1-4-abc123")
 
-    page.should have_link('123-a-abc123-1-default')
-    page.should have_link('123-a-zyx987-2-default')
-    page.should have_link('220-jkl456-2-default')
+      page.should have_field("2-1-abc123")
+      page.should have_field("2-2-abc123")
+      page.should have_field("2-3-abc123")
+      page.should have_field("2-4-abc123")
+      page.should have_field("2-5-abc123")
+      page.should have_field("2-6-abc123")
 
-    # The page shouldn't have fields for:
-    # - Weeks out of term bounds
-    page.should_not have_field('123-a-abc123-1-6')
-    page.should_not have_field('123-a-zyx987-2-7')
+      page.should have_field("1-1-zyx987")
+      page.should have_field("1-2-zyx987")
+      page.should have_field("1-3-zyx987")
+      page.should have_field("1-4-zyx987")
 
-    # - Terms that it's not taught
-    page.should_not have_field('220-jkl456-1-3')
-    page.should_not have_field('123-a-abc123-2-default')
+      page.should have_field("2-1-zyx987")
+      page.should have_field("2-2-zyx987")
+      page.should have_field("2-3-zyx987")
+      page.should have_field("2-4-zyx987")
+      page.should have_field("2-5-zyx987")
+      page.should have_field("2-6-zyx987")
 
-    # - Staff who aren't lecturers
-    page.should_not have_field('123-a-jkl456-1-1')
+      page.should have_field("1-1-all")
+      page.should have_field("1-2-all")
+      page.should have_field("1-3-all")
+      page.should have_field("1-4-all")
 
-    # - Lecturers who don't teach it
-    page.should_not have_field('220-abc123-2-4')
+      page.should have_field("2-1-all")
+      page.should have_field("2-2-all")
+      page.should have_field("2-3-all")
+      page.should have_field("2-4-all")
+      page.should have_field("2-5-all")
+      page.should have_field("2-6-all")
 
-    # - Non-existant courses
-    page.should_not have_field('330-abc123-3-3')
+      page.should have_field("1-1-tutorial")
+      page.should have_field("1-2-tutorial")
+      page.should have_field("1-3-tutorial")
+      page.should have_field("1-4-tutorial")
+
+      page.should have_field("2-1-tutorial")
+      page.should have_field("2-2-tutorial")
+      page.should have_field("2-3-tutorial")
+      page.should have_field("2-4-tutorial")
+      page.should have_field("2-5-tutorial")
+      page.should have_field("2-6-tutorial")
+
+      page.should have_field("1-1-lab")
+      page.should have_field("1-2-lab")
+      page.should have_field("1-3-lab")
+      page.should have_field("1-4-lab")
+
+      page.should have_field("2-1-lab")
+      page.should have_field("2-2-lab")
+      page.should have_field("2-3-lab")
+      page.should have_field("2-4-lab")
+      page.should have_field("2-5-lab")
+      page.should have_field("2-6-lab")
+
+      page.should_not have_field("3-1-abc123")
+      page.should_not have_field("3-2-zyx987")
+      page.should_not have_field("1-5-abc123")
+      page.should_not have_field("2-7-abc123")
+      page.should_not have_field("2-7-all")
+      page.should_not have_field("3-2-tutorial")
+      page.should_not have_field("3-4-lab")
+      page.should_not have_field("1-5-jkl456")
+
+      page.should have_link("1-abc123-defaults")
+      page.should have_link("1-zyx987-defaults")
+      page.should have_link("2-abc123-defaults")
+      page.should have_link("2-zyx987-defaults")
+      page.should_not have_link("3-abc123-defaults")
+      page.should_not have_link("3-zyx987-defaults")
+      page.should have_link("1-all-defaults")
+      page.should have_link("2-all-defaults")
+    end
 
     page.should have_button("Submit")
   end
@@ -75,42 +128,108 @@ feature "CourseWeeks", %q{
     click_link("2011")
     click_link("Select Course Weeks")
 
-    check('123-a-abc123-1-2')
-    check('123-a-abc123-1-3')
-    check('123-a-abc123-1-4')
+    within(:css, "div#123-a") do
+      fill_in('1-1-abc123', :with => "2")
+      fill_in('1-2-abc123', :with => "2")
+      fill_in('1-3-abc123', :with => "2")
+      fill_in('1-4-abc123', :with => "2")
 
-    check('123-a-zyx987-2-2')
-    check('123-a-zyx987-2-3')
-    check('123-a-zyx987-2-4')
+      click_link("1-zyx987-defaults")
 
-    click_link('220-jkl456-2-default')
+      fill_in('1-1-tutorial', :with => "1")
+      fill_in('1-2-tutorial', :with => "1")
+      fill_in('1-3-tutorial', :with => "1")
+      fill_in('1-4-tutorial', :with => "1")
+    end
 
     click_button('Submit')
 
     page.current_path.should == year_page(@year)
     page.should have_content("Selections were updated successfully.")
 
-    @course1.course_weeks.size.should == 6
-    @course2.course_weeks.size.should == 5
+    @course1.course_weeks.size.should == 40 # rows with 0s are stored, TODO: change this
+    @course2.course_weeks.size.should == 18
 
     click_link("Select Course Weeks")
 
-    page.should have_checked_field('123-a-abc123-1-2')
-    page.should have_checked_field('123-a-abc123-1-3')
-    page.should have_checked_field('123-a-abc123-1-4')
+    within(:css, "div#123-a") do
+      page.should have_unchecked_field("merge")
 
-    page.should have_checked_field('123-a-zyx987-2-2')
-    page.should have_checked_field('123-a-zyx987-2-3')
-    page.should have_checked_field('123-a-zyx987-2-4')
+      page.should have_field('1-1-abc123', :text => "2")
+      page.should have_field('1-2-abc123', :text => "2")
+      page.should have_field('1-3-abc123', :text => "2")
+      page.should have_field('1-4-abc123', :text => "2")
 
-    page.should have_checked_field('220-jkl456-2-2')
-    page.should have_checked_field('220-jkl456-2-3')
-    page.should have_checked_field('220-jkl456-2-4')
-    page.should have_checked_field('220-jkl456-2-5')
-    page.should have_checked_field('220-jkl456-2-6')
+      page.should have_field('2-1-abc123', :text => "0")
+      page.should have_field('2-2-abc123', :text => "0")
+      page.should have_field('2-3-abc123', :text => "0")
+      page.should have_field('2-4-abc123', :text => "0")
+      page.should have_field('2-5-abc123', :text => "0")
+      page.should have_field('2-6-abc123', :text => "0")
 
-    page.should have_unchecked_field('123-a-abc123-2-1')
-    page.should have_unchecked_field('123-a-zyx987-2-1')
-    page.should have_unchecked_field('220-jkl456-2-1')
+      page.should have_field('1-1-tutorial', :text => "1")
+      page.should have_field('1-2-tutorial', :text => "1")
+      page.should have_field('1-3-tutorial', :text => "1")
+      page.should have_field('1-4-tutorial', :text => "1")
+    end
+  end
+
+  scenario "Page interaction works correctly", :js => true do
+    visit years_page
+    click_link("2011")
+    click_link("Select Course Weeks")
+
+    within(:css, "div#123-a") do
+      # Ensure that single rows are hidden when asked to merge
+      check('merge')
+      find('.single-row.hidden')
+      find('.merged-row')
+
+      # Ensure that merged rows are hidden when asked not to merge
+      uncheck('merge')
+      find('.single-row')
+      find('.merged-row.hidden')
+
+      fill_in('1-1-abc123', :with => "2")
+      find('.lecture-count', :text => "2")
+      fill_in('1-2-abc123', :with => "2")
+      find('.lecture-count', :text => "4")
+      fill_in('1-3-abc123', :with => "2")
+      find('.lecture-count', :text => "6")
+      fill_in('1-4-abc123', :with => "2")
+      find('.lecture-count', :text => "8")
+
+      click_link("1-zyx987-defaults")
+      find('.lecture-count', :text => "14")
+      find('.tutorial-count', :text => "3")
+      find('.total', :text => "17")
+
+      check('merge')
+      find('.lecture-count', :text => "0")
+      find('.total', :text => "3")
+      uncheck('merge')
+      find('.lecture-count', :text => "14")
+      find('.total', :text => "17")
+
+      fill_in('2-1-tutorial', :with => "1")
+      find('.tutorial-count', :text => "4")
+      fill_in('2-2-tutorial', :with => "1")
+      find('.tutorial-count', :text => "5")
+      fill_in('2-3-tutorial', :with => "1")
+      find('.tutorial-count', :text => "6")
+      fill_in('2-4-tutorial', :with => "1")
+      find('.tutorial-count', :text => "7")
+
+      fill_in('2-1-lab', :with => "1")
+      find('.lab-count', :text => "1")
+      fill_in('2-2-lab', :with => "1")
+      find('.lab-count', :text => "2")
+      fill_in('2-3-lab', :with => "1")
+      find('.lab-count', :text => "3")
+      fill_in('2-4-lab', :with => "1")
+      find('.lab-count', :text => "4")
+
+      find('.total', :text => "25")
+    end
   end
 end

@@ -1,9 +1,9 @@
 class CourseWeek < ActiveRecord::Base
 
-  attr_accessible :lecture_course, :staff_member, :week
+  attr_accessible :lecture_course, :staff_member, :week, :hours, :session_type
 
   # = Validations =
-  validates_presence_of :lecture_course, :staff_member, :week
+  validates_presence_of :lecture_course, :week, :hours, :session_type
 
   # = Relationships =
   belongs_to :lecture_course
