@@ -12,6 +12,7 @@ describe Year do
     it { should accept_nested_attributes_for(:terms) }
     it { should have_many(:weeks).through(:terms) }
     it { should have_many(:course_weeks).through(:terms) }
+    it { should have_many(:clashes) }
   end
 
   describe "scopes" do

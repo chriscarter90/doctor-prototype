@@ -11,7 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130202174439) do
+ActiveRecord::Schema.define(:version => 20130205122713) do
+
+  create_table "clashes", :force => true do |t|
+    t.integer  "a_course_id"
+    t.integer  "b_course_id"
+    t.integer  "year_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "clashes", ["a_course_id", "b_course_id", "year_id"], :name => "index_clashes_on_a_course_id_and_b_course_id_and_year_id", :unique => true
 
   create_table "course_weeks", :force => true do |t|
     t.integer  "week_id"

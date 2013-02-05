@@ -10,6 +10,7 @@ class Year < ActiveRecord::Base
   has_many :course_weeks, :through => :terms
   has_many :weeks, :through => :terms
   accepts_nested_attributes_for :terms
+  has_many :clashes
 
   # = Scopes =
   scope :in_order, order("no ASC")
