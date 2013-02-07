@@ -18,7 +18,7 @@ describe LectureCourse do
     it { should have_many(:degree_classes).through(:requirements) }
     it { should have_many(:course_weeks) }
     it { should have_many(:timetable_slots) }
-    it { should have_many(:clashes) }
+    it { should have_and_belong_to_many(:clashes) }
   end
 
   describe "scopes" do

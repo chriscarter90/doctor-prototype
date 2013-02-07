@@ -1,13 +1,12 @@
 class Clash < ActiveRecord::Base
 
-  attr_accessible :a_course, :b_course, :year
+  attr_accessible :year
 
   # = Validations =
-  validates_presence_of :a_course, :b_course, :year
+  validates_presence_of :year
 
   # = Relationships =
-  belongs_to :a_course, :class_name => "LectureCourse", :foreign_key => "a_course_id"
-  belongs_to :b_course, :class_name => "LectureCourse", :foreign_key => "b_course_id"
+  has_and_belongs_to_many :lecture_courses
   belongs_to :year
 
 end
