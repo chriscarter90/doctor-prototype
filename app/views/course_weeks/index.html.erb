@@ -3,5 +3,5 @@
 <%= form_tag update_course_weeks_path(@year), :method => :put do %>
   <%= render :partial => 'course', :collection => @courses.has_lecturers, :as => :course %>
 
-  <%= submit_tag "Submit", :class => "btn btn-primary", "data-loading-text" => "Submitting..." %>
+  <%= submit_tag "Submit", :class => "btn btn-primary" %>
 <% end %>
