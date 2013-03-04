@@ -1,7 +1,5 @@
 #!/usr/bin/ruby
 
-require 'tinytable'
-
 allocations = `clingo timetable.lp`
 
 lines = allocations.split("\n")
