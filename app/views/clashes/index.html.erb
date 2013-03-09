@@ -1,6 +1,42 @@
 <h3>Clash Selection</h3>
 
+<div class='btn-group'>
+  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+    Hide Courses
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu">
+    <% @courses.in_term(1).each do |c| %>
+      <li>
+        <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
+      </li>
+    <% end %>
+
+    <li class="divider"></li>
+
+    <% @courses.in_term(2).each do |c| %>
+      <li>
+        <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
 <%= form_tag update_clashes_path(@year), :method => :put do %>
 
-  <%= submit_tag "Submit", :class => "btn btn-primary", "data-loading-text" => "Submitting..." %>
+  <%= hidden_field_tag 'year_id', @year.no %>
+
+  <div class='term-clashes'>
+    <h4>Term 1</h4>
+    <%= render :partial => 'term_clashes', :locals => { :courses => @courses.in_term(1) } %>
+  </div>
+
+  <div class='term-clashes'>
+    <h4>Term 2</h4>
+    <%= render :partial => 'term_clashes', :locals => { :courses => @courses.in_term(2) } %>
+  </div>
+
+  <div class="form-actions">
+    <%= submit_tag "Submit", :class => "btn btn-primary" %>
+  </div>
 <% end %>

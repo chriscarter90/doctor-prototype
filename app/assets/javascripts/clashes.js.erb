@@ -1,0 +1,155 @@
+// When the DOM loads
+$(document).ready(function() {
+
+  $(".clash-select").each(function(){
+    // Set the 'selected' data field for each select box
+    var str = getSelectedText(this);
+    $(this).data('selected', str);
+  // When changing a select box
+  }).change(function () {
+    var str = getSelectedText(this);
+    var selectedBefore = $(this).data('selected');
+    $(this).data('selected', str);
+    updateSelected(this, str, selectedBefore);
+  });
+
+  initialisePage();
+
+  $(".clash-table-entry").click(function() {
+    var cellID = $(this).attr('id');
+    var course1 = cellID.match(/\d+/g)[0];
+    var course2 = cellID.match(/\d+/g)[1];
+
+    var year = $('#year_id').val();
+
+    if (!$(this).hasClass('custom-clash')) {
+      if ($(this).hasClass('can-clash')) {
+        $.post('/years/' + year + '/unclashables?course1=' + course1 + '&course2=' + course2);
+
+        $('#' + course1 + '-' + course2 + '.clash-table-entry').addClass('unclashable');
+        $('#' + course2 + '-' + course1 + '.clash-table-entry').addClass('unclashable');
+
+        $('#' + course1 + '-' + course2 + '.clash-table-entry').removeClass('can-clash');
+        $('#' + course2 + '-' + course1 + '.clash-table-entry').removeClass('can-clash');
+
+        $('#' + course1 + '.clash-row').find('option[value="' + course2 + '"]').attr('disabled', true);
+        $('#' + course2 + '.clash-row').find('option[value="' + course1 + '"]').attr('disabled', true);
+      } else {
+        $.ajax({
+          url: '/years/' + year + '/unclashables?course1=' + course1 + '&course2=' + course2,
+          type: 'DELETE'
+        });
+
+        $('#' + course1 + '-' + course2 + '.clash-table-entry').addClass('can-clash');
+        $('#' + course2 + '-' + course1 + '.clash-table-entry').addClass('can-clash');
+
+        $('#' + course1 + '-' + course2 + '.clash-table-entry').removeClass('unclashable');
+        $('#' + course2 + '-' + course1 + '.clash-table-entry').removeClass('unclashable');
+
+        $('#' + course1 + '.clash-row').find('option[value="' + course2 + '"]').attr('disabled', false);
+        $('#' + course2 + '.clash-row').find('option[value="' + course1 + '"]').attr('disabled', false);
+      }
+    }
+  });
+
+  $('.hide-course').click(function(event) {
+    var course = $(this).attr('id').match(/\d+/);
+    $('#' + course + '.clash-row').hide();
+    $('#' + course + '.course').hide();
+
+    event.preventDefault();
+  });
+});
+
+function getSelectedText(obj) {
+  var str = "";
+  $(obj).closest('select').find("option:selected").each(function () {
+    str += $(this).text().match(/\S*/);
+  });
+  return str;
+}
+
+function updateSelected(elem, now, before) {
+  var row = $(elem).parents('.clash-row').attr('id');
+
+  var clash_courses = [row];
+
+  $.map($(elem).parents('tr').find('option:selected'), function(selection) {
+    var selection_value = $(selection).val();
+    if (selection_value != "") {
+      clash_courses.push(selection_value);
+    }
+  });
+
+  if (clash_courses.length > 1) {
+    $('option[value="' + row + '"]').attr('disabled', true);
+  } else {
+    var options = $('option[value="' + row + '"]');
+    $.each(options, function(index, elem) {
+      var elem_row = $(elem).parents('tr').attr('id');
+      $(elem).attr('disabled', $('#' + row + '-' + elem_row + '.clash-table-entry').hasClass('unclashable'));
+    });
+  }
+
+  if (now != "") {
+    $('option[value="' + now + '"]').not(":selected").attr('disabled', true);
+    $('#' + now + '.clash-row').hide();
+
+    $.each(clash_courses, function(index, value) {
+      $('#' + value + '-' + now + '.clash-table-entry').addClass('custom-clash');
+      $('#' + now + '-' + value + '.clash-table-entry').addClass('custom-clash');
+    });
+  }
+
+  if (before != "") {
+    $.each($('option[value="' + before + '"]'), function(index, elem) {
+      var containing_row = $(this).parents('.clash-row').attr('id');
+      if ($('#' + before + '-' + containing_row + '.clash-table-entry').hasClass('can-clash')) {
+        $(this).attr('disabled', false);
+      }
+    });
+
+    $('#' + before + '.clash-row').show();
+
+    $.each(clash_courses, function(index, value) {
+      $('#' + value + '-' + before + '.clash-table-entry').removeClass('custom-clash');
+      $('#' + before + '-' + value + '.clash-table-entry').removeClass('custom-clash');
+    });
+  }
+}
+
+// Add custom-clash classes to those existing clashes, and disable unclashables
+function initialisePage() {
+  $('.clash-row').each(function() {
+    var row_id = $(this).attr('id');
+    var clash_courses = [row_id];
+
+    $(this).find('option[value!=""]:selected').map(function() {
+      $('option[value="' + $(this).val() + '"]').not(":selected").attr('disabled', true);
+      clash_courses.push($(this).val());
+      $('#' + $(this).val() + '.clash-row').hide();
+    });
+
+    if (clash_courses.length > 1) {
+      $('option[value="' + row_id + '"]').attr('disabled', true);
+
+      for (var i = 0; i < clash_courses.length; ++i) {
+        for (var j = i + 1; j < clash_courses.length; ++j) {
+          $('td#' + clash_courses[i] + '-' + clash_courses[j]).addClass('custom-clash');
+          $('td#' + clash_courses[j] + '-' + clash_courses[i]).addClass('custom-clash');
+        }
+      }
+    }
+  });
+
+  var unclashable_options = $('.clash-table-entry.unclashable');
+
+  $.each(unclashable_options, function(index, option) {
+    var cellID = $(this).attr('id');
+    var course1 = cellID.match(/\d+/g)[0];
+    var course2 = cellID.match(/\d+/g)[1];
+
+    $('#' + course1 + '.clash-row').find('option[value="' + course2 + '"]').attr('disabled', true);
+    $('#' + course2 + '.clash-row').find('option[value="' + course1 + '"]').attr('disabled', true);
+  });
+}

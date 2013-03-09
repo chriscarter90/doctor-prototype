@@ -112,4 +112,14 @@ describe LectureCourse do
       c1.has_multiple_lecturers?.should be_true
     end
   end
+
+  describe "display_name" do
+    it "should return the course code and the title" do
+      c1 = FactoryGirl.create(:lecture_course, :code => "112", :title => "Hardware")
+      c2 = FactoryGirl.create(:lecture_course, :code => "234", :title => "Example Course")
+
+      c1.display_name.should == "112 - Hardware"
+      c2.display_name.should == "234 - Example Course"
+    end
+  end
 end

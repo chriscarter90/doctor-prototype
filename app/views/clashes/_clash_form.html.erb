@@ -1,0 +1,45 @@
+<table>
+  <tr>
+    <th class="clash-course-header">
+      Course to clash
+    </th>
+    <th>
+      2nd Year
+    </th>
+    <th colspan="2">
+      3rd Year
+    </th>
+    <th colspan="2">
+      4th Year
+    </th>
+    <th>
+      5th Year
+    </th>
+  </tr>
+
+  <% courses.each do |c| %>
+    <tr id="<%= c.code %>" class="clash-row">
+      <td>
+        <%= c.display_name %>
+      </td>
+      <td>
+        <%= select_tag "clashes[#{c.code.parameterize}][]", clashable_options_for_year(courses, c, 2, clash_selected_value(c, @year, 2, 0)), :include_blank => true, :class => "input-medium, clash-select" %>
+      </td>
+      <td>
+        <%= select_tag "clashes[#{c.code.parameterize}][]", clashable_options_for_year(courses, c, 3, clash_selected_value(c, @year, 3, 0)), :include_blank => true, :class => "input-medium, clash-select" %>
+      </td>
+      <td>
+        <%= select_tag "clashes[#{c.code.parameterize}][]", clashable_options_for_year(courses, c, 3, clash_selected_value(c, @year, 3, 1)), :include_blank => true, :class => "input-medium, clash-select" %>
+      </td>
+      <td>
+        <%= select_tag "clashes[#{c.code.parameterize}][]", clashable_options_for_year(courses, c, 4, clash_selected_value(c, @year, 4, 0)), :include_blank => true, :class => "input-medium, clash-select" %>
+      </td>
+      <td>
+        <%= select_tag "clashes[#{c.code.parameterize}][]", clashable_options_for_year(courses, c, 4, clash_selected_value(c, @year, 4, 1)), :include_blank => true, :class => "input-medium, clash-select" %>
+      </td>
+      <td>
+        <%= select_tag "clashes[#{c.code.parameterize}][]", clashable_options_for_year(courses, c, 5, clash_selected_value(c, @year, 5, 0)), :include_blank => true, :class => "input-medium, clash-select" %>
+      </td>
+    </tr>
+  <% end %>
+</table>

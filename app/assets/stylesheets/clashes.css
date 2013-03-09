@@ -1,0 +1,56 @@
+.clash-table table,
+.clash-table th,
+.clash-table td {
+  border-collapse: collapse;
+  border: 1px black solid;
+}
+
+.course-header th {
+  text-align: center;
+  width: 20px;
+  border: 3px black solid;
+}
+
+td.course-header {
+  font-weight: bold;
+  height: 20px;
+  border: 3px black solid;
+}
+
+td.can-clash {
+  background-color: #C1FFC1;
+}
+
+td.unclashable {
+  background-color: #FFC1C1;
+}
+
+td.custom-clash {
+  background-color: #63B8FF;
+}
+
+td.self {
+  background-color: #CDC9C9;
+}
+
+.clash {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px black solid;
+}
+
+div.clashes {
+  margin: 10px 0;
+}
+
+div.term-clashes {
+  margin: 20px 0;
+}
+
+tr.clash-row {
+  height: 60px;
+}
+
+th.clash-course-header {
+  width: 100px;
+}

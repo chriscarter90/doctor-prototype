@@ -14,10 +14,20 @@ class LectureCourse < ActiveRecord::Base
   has_many :course_weeks
   has_many :timetable_slots
   has_and_belongs_to_many :clashes
+  has_and_belongs_to_many :unclashables
 
   # = Scopes =
   scope :by_code, order('code')
   scope :has_lecturers, select('DISTINCT lecture_courses.*').joins(:lecturers).where('lecturers.role = ?', "Lecturer")
+  scope :clashable, joins(:requirements => :degree_class).where("degree_classes.letteryr LIKE '%3' OR degree_classes.letteryr LIKE '%4' OR degree_classes.letteryr LIKE '%5'")
+
+  scope :for_year, ->(year_no) do
+    where("lecture_courses.code LIKE '#{year_no}%'")
+  end
+
+  scope :in_term, ->(term_no) do
+    where("lecture_courses.term LIKE '%#{term_no}%'")
+  end
 
   def to_param
     code
@@ -41,5 +51,9 @@ class LectureCourse < ActiveRecord::Base
 
   def has_multiple_lecturers?
     return lecturers.only_lecturers.count > 1
+  end
+
+  def display_name
+    "#{code} - #{title}"
   end
 end

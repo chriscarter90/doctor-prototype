@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130206152657) do
+ActiveRecord::Schema.define(:version => 20130224171855) do
 
   create_table "clashes", :force => true do |t|
     t.integer  "year_id"
@@ -65,6 +65,11 @@ ActiveRecord::Schema.define(:version => 20130206152657) do
     t.datetime "created_at",                          :null => false
     t.datetime "updated_at",                          :null => false
     t.boolean  "merged_lecturers", :default => false, :null => false
+  end
+
+  create_table "lecture_courses_unclashables", :force => true do |t|
+    t.integer "unclashable_id"
+    t.integer "lecture_course_id"
   end
 
   create_table "lecturers", :force => true do |t|
@@ -134,6 +139,12 @@ ActiveRecord::Schema.define(:version => 20130206152657) do
   end
 
   add_index "timetable_slots", ["room_id", "time_slot_id", "week_id"], :name => "index_timetable_slots_on_room_id_and_time_slot_id_and_week_id", :unique => true
+
+  create_table "unclashables", :force => true do |t|
+    t.integer  "year_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "weeks", :force => true do |t|
     t.integer  "term_id"

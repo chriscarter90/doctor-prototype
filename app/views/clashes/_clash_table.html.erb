@@ -1,0 +1,37 @@
+<table class="clash-table">
+  <tr class="course-header">
+    <th></th>
+    <% courses.each do |c| %>
+      <th>
+        <%= c.code %>
+      </th>
+    <% end %>
+    <th></th>
+  </tr>
+
+  <% courses.each do |c1| %>
+    <tr class="course" id="<%= c1.code.parameterize %>">
+      <td class="course-header">
+        <%= c1.code %>
+      </td>
+
+      <% courses.each do |c2| %>
+        <td id="<%= "#{c1.code.parameterize}-#{c2.code.parameterize}" %>" class="<%= clash_status(c1, c2, @year) %> clash-table-entry"></td>
+      <% end %>
+
+      <td class="course-header">
+        <%= c1.code %>
+      </td>
+    </tr>
+  <% end %>
+
+  <tr class="course-header">
+    <th></th>
+    <% courses.each do |c| %>
+      <th>
+        <%= c.code %>
+      </th>
+    <% end %>
+    <th></th>
+  </tr>
+</table>

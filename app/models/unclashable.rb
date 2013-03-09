@@ -1,5 +1,4 @@
-class Clash < ActiveRecord::Base
-
+class Unclashable < ActiveRecord::Base
   attr_accessible :year
 
   # = Validations =
@@ -12,6 +11,6 @@ class Clash < ActiveRecord::Base
   # = Scopes =
 
   scope :for_year, ->(year) do
-    where("clashes.year_id = ?", year.id)
+    where("unclashables.year_id = ?", year.id)
   end
 end
