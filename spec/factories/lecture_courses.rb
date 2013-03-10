@@ -10,5 +10,6 @@ FactoryGirl.define do
     labhours              { 3 * (1 + rand(1)) }
     weeklyhours           "3"
     merged_lecturers      false
+    year
   end
 end

@@ -3,24 +3,27 @@ require 'spec_helper'
 describe ClashesController do
   describe "GET / index" do
     before :each do
-      @y = FactoryGirl.create(:year, :no => 2011)
+      @y = FactoryGirl.create(:year, :no => 2012)
 
-      @course1 = FactoryGirl.create(:lecture_course, :code => "234")
-      @course2 = FactoryGirl.create(:lecture_course, :code => "345")
-      @course3 = FactoryGirl.create(:lecture_course, :code => "123")
+      @course1 = FactoryGirl.create(:lecture_course, :code => "234", :year => @y)
+      @course2 = FactoryGirl.create(:lecture_course, :code => "345", :year => @y)
+      @course3 = FactoryGirl.create(:lecture_course, :code => "123", :year => @y)
 
       @c1 = FactoryGirl.create(:clash, :year => @y, :lecture_courses => [@course1, @course2])
       @c2 = FactoryGirl.create(:clash, :lecture_courses => [])
       @c3 = FactoryGirl.create(:clash, :year => @y, :lecture_courses => [@course3])
 
-      FactoryGirl.create(:lecturer, :lecture_course => @course1, :role => "Lecturer")
-      FactoryGirl.create(:lecturer, :lecture_course => @course2, :role => "Lecturer")
-      FactoryGirl.create(:lecturer, :lecture_course => @course3, :role => "Lecturer")
-      FactoryGirl.create(:lecturer, :lecture_course => @course1, :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :lecture_course => @course1, :staff_member => FactoryGirl.create(:staff_member, :year => @y), :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :lecture_course => @course2, :staff_member => FactoryGirl.create(:staff_member, :year => @y), :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :lecture_course => @course3, :staff_member => FactoryGirl.create(:staff_member, :year => @y), :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :lecture_course => @course1, :staff_member => FactoryGirl.create(:staff_member, :year => @y), :role => "Lecturer")
 
-      @degree1 = FactoryGirl.create(:degree_class, :letteryr => "c3")
-      @degree2 = FactoryGirl.create(:degree_class, :letteryr => "c2")
-      @degree3 = FactoryGirl.create(:degree_class, :letteryr => "c4")
+      ###
+      # Unnecessary for the tests below
+      ###
+      @degree1 = FactoryGirl.create(:degree_class, :letteryr => "c3", :year => @y)
+      @degree2 = FactoryGirl.create(:degree_class, :letteryr => "c2", :year => @y)
+      @degree3 = FactoryGirl.create(:degree_class, :letteryr => "c4", :year => @y)
 
       FactoryGirl.create(:requirement, :degree_class => @degree1, :lecture_course => @course1)
       FactoryGirl.create(:requirement, :degree_class => @degree2, :lecture_course => @course2)

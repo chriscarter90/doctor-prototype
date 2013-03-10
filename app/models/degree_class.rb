@@ -8,6 +8,7 @@ class DegreeClass < ActiveRecord::Base
 
   # = Relationships =
   has_many :requirements
+  belongs_to :year
 
   # = Scopes =
   scope :by_degreeyr, order('degreeyr')

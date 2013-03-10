@@ -7,19 +7,20 @@ feature "CourseWeeks", %q{
 } do
 
   before :each do
-    @course1 = FactoryGirl.create(:lecture_course, :code => "123.A", :term => "1, 2")
-    @course2 = FactoryGirl.create(:lecture_course, :code => "220",   :term => "2")
+    @year = FactoryGirl.create(:year, :no => 2011)
 
-    @staff1 = FactoryGirl.create(:staff_member, :login => "abc123", :salutation => "Dr", :firstname => "Testy", :lastname => "McTest")
-    @staff2 = FactoryGirl.create(:staff_member, :login => "zyx987", :salutation => "Dr", :firstname => "Frank", :lastname => "EnStein")
-    @staff3 = FactoryGirl.create(:staff_member, :login => "jkl456", :salutation => "Prof", :firstname => "Doc", :lastname => "Tor")
+    @course1 = FactoryGirl.create(:lecture_course, :code => "123.A", :term => "1, 2", :year => @year)
+    @course2 = FactoryGirl.create(:lecture_course, :code => "220",   :term => "2", :year => @year)
+
+    @staff1 = FactoryGirl.create(:staff_member, :login => "abc123", :salutation => "Dr", :firstname => "Testy", :lastname => "McTest", :year => @year)
+    @staff2 = FactoryGirl.create(:staff_member, :login => "zyx987", :salutation => "Dr", :firstname => "Frank", :lastname => "EnStein", :year => @year)
+    @staff3 = FactoryGirl.create(:staff_member, :login => "jkl456", :salutation => "Prof", :firstname => "Doc", :lastname => "Tor", :year => @year)
 
     FactoryGirl.create(:lecturer, :staff_member => @staff1, :lecture_course => @course1, :role => "Lecturer")
     FactoryGirl.create(:lecturer, :staff_member => @staff2, :lecture_course => @course1, :role => "Lecturer")
     FactoryGirl.create(:lecturer, :staff_member => @staff3, :lecture_course => @course1, :role => "Organiser")
     FactoryGirl.create(:lecturer, :staff_member => @staff3, :lecture_course => @course2, :role => "Lecturer")
 
-    @year = FactoryGirl.build(:year, :no => 2011)
     @year.terms = [
       FactoryGirl.create(:term, :no => 1, :no_weeks => 4, :start_date => Date.parse("01/10/2011"), :year => @year),
       FactoryGirl.create(:term, :no => 2, :no_weeks => 6, :start_date => Date.parse("05/01/2012"), :year => @year),

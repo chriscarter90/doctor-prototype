@@ -6,5 +6,6 @@ FactoryGirl.define do
     salutation        Faker::Name.prefix
     firstname         Faker::Name.first_name
     lastname          Faker::Name.last_name
+    year
   end
 end

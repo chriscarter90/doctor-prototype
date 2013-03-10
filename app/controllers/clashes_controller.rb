@@ -26,9 +26,9 @@ class ClashesController < ApplicationController
       clash_courses = process_clashes(clash_courses)
       if clash_courses.present?
         clash_object = Clash.create!(:year => @year)
-        clash_object.lecture_courses << LectureCourse.find_by_code(course)
+        clash_object.lecture_courses << @year.lecture_courses.find_by_code(course)
         clash_courses.each do |c|
-          course_object = LectureCourse.find_by_code(c)
+          course_object = @year.lecture_courses.find_by_code(c)
           if !clash_object.lecture_courses.include?(course_object)
             clash_object.lecture_courses << course_object
           end

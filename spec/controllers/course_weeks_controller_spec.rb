@@ -11,8 +11,8 @@ describe CourseWeeksController do
                     ]
       @year.save!
 
-      @c1 = FactoryGirl.create(:lecture_course, :code => "123B")
-      @c2 = FactoryGirl.create(:lecture_course, :code => "101")
+      @c1 = FactoryGirl.create(:lecture_course, :code => "123B", :year => @year)
+      @c2 = FactoryGirl.create(:lecture_course, :code => "101", :year => @year)
 
       get :index, :year_id => @year
     end
@@ -41,12 +41,12 @@ describe CourseWeeksController do
                     ]
       @year.save!
 
-      @c1 = FactoryGirl.create(:lecture_course, :code => "123B", :term => "1")
-      @c2 = FactoryGirl.create(:lecture_course, :code => "101", :term => "2")
+      @c1 = FactoryGirl.create(:lecture_course, :code => "123B", :term => "1", :year => @year)
+      @c2 = FactoryGirl.create(:lecture_course, :code => "101", :term => "2", :year => @year)
 
-      @staff1 = FactoryGirl.create(:staff_member, :login => "abc123", :salutation => "Dr", :firstname => "Testy", :lastname => "McTest")
-      @staff2 = FactoryGirl.create(:staff_member, :login => "zyx987", :salutation => "Dr", :firstname => "Frank", :lastname => "EnStein")
-      @staff3 = FactoryGirl.create(:staff_member, :login => "jkl456", :salutation => "Prof", :firstname => "Doc", :lastname => "Tor")
+      @staff1 = FactoryGirl.create(:staff_member, :login => "abc123", :salutation => "Dr", :firstname => "Testy", :lastname => "McTest", :year => @year)
+      @staff2 = FactoryGirl.create(:staff_member, :login => "zyx987", :salutation => "Dr", :firstname => "Frank", :lastname => "EnStein", :year => @year)
+      @staff3 = FactoryGirl.create(:staff_member, :login => "jkl456", :salutation => "Prof", :firstname => "Doc", :lastname => "Tor", :year => @year)
 
       FactoryGirl.create(:lecturer, :staff_member => @staff1, :lecture_course => @c1, :role => "Lecturer")
       FactoryGirl.create(:lecturer, :staff_member => @staff2, :lecture_course => @c1, :role => "Lecturer")

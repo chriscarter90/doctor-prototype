@@ -4,7 +4,7 @@
   <% @degrees.each do |d| %>
     <li>
       <h4>
-        <%= link_to "#{d.degreeyr} - #{d.title}", d %>
+        <%= link_to "#{d.degreeyr} - #{d.title}", year_degree_class_path(@year, d) %>
       </h4>
     </li>
   <% end %>

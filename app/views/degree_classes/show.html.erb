@@ -16,7 +16,7 @@
     </h4>
     <% classes.each do |c| %>
       <h5>
-        <%= c.lecture_course.code %> - <%= link_to c.lecture_course.title, c.lecture_course %>
+        <%= c.lecture_course.code %> - <%= link_to c.lecture_course.title, year_lecture_course_path(@year, c.lecture_course) %>
       </h5>
     <% end %>
   <% end %>

@@ -1,4 +1,8 @@
-<h3><%= @year.no %></h3>
+<h2><%= @year.no %></h2>
+
+<h3><%= link_to "Lecture Courses", year_lecture_courses_path(@year) %></h3>
+<h3><%= link_to "Degree Classes", year_degree_classes_path(@year) %></h3>
+<h3><%= link_to "Staff Members", year_staff_members_path(@year) %></h3>
 
 <ul>
 <% @terms.each do |t| %>

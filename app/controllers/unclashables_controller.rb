@@ -1,8 +1,8 @@
 class UnclashablesController < ApplicationController
   def create
     @year = Year.find_by_no(params[:year_id])
-    @course1 = LectureCourse.find_by_code(params[:course1])
-    @course2 = LectureCourse.find_by_code(params[:course2])
+    @course1 = @year.lecture_courses.find_by_code(params[:course1])
+    @course2 = @year.lecture_courses.find_by_code(params[:course2])
 
     u = Unclashable.create!(:year => @year)
     u.lecture_courses << @course1
@@ -13,8 +13,8 @@ class UnclashablesController < ApplicationController
 
   def remove
     @year = Year.find_by_no(params[:year_id])
-    @course1 = LectureCourse.find_by_code(params[:course1])
-    @course2 = LectureCourse.find_by_code(params[:course2])
+    @course1 = @year.lecture_courses.find_by_code(params[:course1])
+    @course2 = @year.lecture_courses.find_by_code(params[:course2])
 
     unclashables = @course1.unclashables.for_year(@year)
 

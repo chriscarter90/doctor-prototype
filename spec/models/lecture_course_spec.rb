@@ -9,6 +9,7 @@ describe LectureCourse do
     # Other fields
     it { should validate_presence_of(:title) }
     it { should validate_presence_of(:term) }
+    it { should validate_presence_of(:year) }
   end
 
   describe "relationships" do
@@ -19,6 +20,7 @@ describe LectureCourse do
     it { should have_many(:course_weeks) }
     it { should have_many(:timetable_slots) }
     it { should have_and_belong_to_many(:clashes) }
+    it { should belong_to(:year) }
   end
 
   describe "scopes" do
@@ -63,7 +65,7 @@ describe LectureCourse do
   end
 
   describe "total_hours" do
-    it "shold return the total number of teaching hours, including lectures, tutorials and labs" do
+    it "should return the total number of teaching hours, including lectures, tutorials and labs" do
       c1 = FactoryGirl.create(:lecture_course, :lecturehours => 28, :tutorialhours => 20, :labhours => 4)
       c1.total_hours.should == 52
 

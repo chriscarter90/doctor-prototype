@@ -4,7 +4,7 @@
   <% @courses.each do |c| %>
     <li>
       <h4>
-        <%= link_to "#{c.code} - #{c.title}", c %>
+        <%= link_to "#{c.code} - #{c.title}", year_lecture_course_path(@year, c) %>
       </h4>
     </li>
   <% end %>

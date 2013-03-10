@@ -18,7 +18,7 @@
         </h4>
         <% classes.each do |c| %>
           <h5>
-            <%= c.degree_class.degreeyr %> - <%= link_to c.degree_class.title, c.degree_class %>
+            <%= c.degree_class.degreeyr %> - <%= link_to c.degree_class.title, year_degree_class_path(@year, c.degree_class) %>
           </h5>
         <% end %>
       <% end %>
@@ -40,7 +40,7 @@
         </h4>
         <% staff.each do |s| %>
           <h5>
-            <%= s.staff_member.login %> - <%= link_to s.staff_member.full_name, s.staff_member %>
+            <%= s.staff_member.login %> - <%= link_to s.staff_member.full_name, year_staff_member_path(@year, s.staff_member) %>
           </h5>
         <% end %>
       <% end %>

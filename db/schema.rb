@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130224171855) do
+ActiveRecord::Schema.define(:version => 20130310161214) do
 
   create_table "clashes", :force => true do |t|
     t.integer  "year_id"
@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(:version => 20130224171855) do
     t.string   "title"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "year_id"
   end
 
   create_table "lecture_courses", :force => true do |t|
@@ -65,6 +66,7 @@ ActiveRecord::Schema.define(:version => 20130224171855) do
     t.datetime "created_at",                          :null => false
     t.datetime "updated_at",                          :null => false
     t.boolean  "merged_lecturers", :default => false, :null => false
+    t.integer  "year_id"
   end
 
   create_table "lecture_courses_unclashables", :force => true do |t|
@@ -108,6 +110,7 @@ ActiveRecord::Schema.define(:version => 20130224171855) do
     t.string   "lastname"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "year_id"
   end
 
   create_table "terms", :force => true do |t|

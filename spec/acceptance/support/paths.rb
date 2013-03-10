@@ -5,28 +5,28 @@ module NavigationHelpers
     '/'
   end
 
-  def lecture_courses_page
-    lecture_courses_path
+  def lecture_courses_page(year)
+    year_lecture_courses_path(year)
   end
 
-  def lecture_course_page(course)
-    lecture_course_path(course)
+  def lecture_course_page(year, course)
+    year_lecture_course_path(year, course)
   end
 
-  def degree_classes_page
-    degree_classes_path
+  def degree_classes_page(year)
+    year_degree_classes_path(year)
   end
 
-  def degree_class_page(degree)
-    degree_class_path(degree)
+  def degree_class_page(year, degree)
+    year_degree_class_path(year, degree)
   end
 
-  def staff_members_page
-    staff_members_path
+  def staff_members_page(year)
+    year_staff_members_path(year)
   end
 
-  def staff_member_page(staff_member)
-    staff_member_path(staff_member)
+  def staff_member_page(year, staff_member)
+    year_staff_member_path(year, staff_member)
   end
 
   def rooms_page

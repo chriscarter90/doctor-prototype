@@ -2,7 +2,7 @@ class CourseWeeksController < ApplicationController
   def index
     @year = Year.find_by_no(params[:year_id])
     @terms = @year.terms.in_order
-    @courses = LectureCourse.by_code
+    @courses = @year.lecture_courses.by_code
   end
 
   def update
@@ -11,7 +11,7 @@ class CourseWeeksController < ApplicationController
     course_weeks = params[:course_weeks]
 
     if course_weeks
-      courses = LectureCourse.by_code
+      courses = @year.lecture_courses.by_code
 
       courses.each do |c|
         c.course_weeks.for_year(@year).destroy_all
@@ -48,7 +48,7 @@ class CourseWeeksController < ApplicationController
             else
               lecture_allocations.reject! { |k, _| k == "all" }
               lecture_allocations.each do |login, term_allocations|
-                staff = StaffMember.find_by_login(login)
+                staff = @year.staff_members.find_by_login(login)
                 term_allocations.each do |term_no, week_allocations|
                   term = @year.terms.find_by_no(term_no)
                   if c.taught_in_term?(term)

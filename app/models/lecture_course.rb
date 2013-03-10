@@ -1,10 +1,10 @@
 class LectureCourse < ActiveRecord::Base
 
-  attr_accessible :code, :title, :term, :classes, :lecturehours, :tutorialhours, :labhours, :weeklyhours, :popestimate, :popregistered
+  attr_accessible :code, :title, :term, :classes, :lecturehours, :tutorialhours, :labhours, :weeklyhours, :popestimate, :popregistered, :year
 
   # = Validations =
   validates_uniqueness_of :code
-  validates_presence_of :code, :title, :term
+  validates_presence_of :code, :title, :term, :year
 
   # = Relationships =
   has_many :requirements
@@ -15,6 +15,7 @@ class LectureCourse < ActiveRecord::Base
   has_many :timetable_slots
   has_and_belongs_to_many :clashes
   has_and_belongs_to_many :unclashables
+  belongs_to :year
 
   # = Scopes =
   scope :by_code, order('code')

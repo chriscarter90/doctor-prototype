@@ -10,6 +10,7 @@ class StaffMember < ActiveRecord::Base
   has_many :lecturers
   has_many :lecture_courses, :through => :lecturers
   has_many :course_weeks
+  belongs_to :year
 
   # = Scopes =
   scope :by_login, order('login')
