@@ -21,7 +21,7 @@ def format_allocations(allocations)
   allocs
 end
 
-allocations = `clingo timetable.lp`
+allocations = `clingo *.lp`
 
 lines = allocations.split("\n")
 if lines.first.match(/UNSATISFIABLE/)
