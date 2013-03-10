@@ -14,7 +14,17 @@ describe ClashesController do
       @c3 = FactoryGirl.create(:clash, :year => @y, :lecture_courses => [@course3])
 
       FactoryGirl.create(:lecturer, :lecture_course => @course1, :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :lecture_course => @course2, :role => "Lecturer")
       FactoryGirl.create(:lecturer, :lecture_course => @course3, :role => "Lecturer")
+      FactoryGirl.create(:lecturer, :lecture_course => @course1, :role => "Lecturer")
+
+      @degree1 = FactoryGirl.create(:degree_class, :letteryr => "c3")
+      @degree2 = FactoryGirl.create(:degree_class, :letteryr => "c2")
+      @degree3 = FactoryGirl.create(:degree_class, :letteryr => "c4")
+
+      FactoryGirl.create(:requirement, :degree_class => @degree1, :lecture_course => @course1)
+      FactoryGirl.create(:requirement, :degree_class => @degree2, :lecture_course => @course2)
+      FactoryGirl.create(:requirement, :degree_class => @degree3, :lecture_course => @course3)
     end
 
     it "should assign @year with the correct year" do

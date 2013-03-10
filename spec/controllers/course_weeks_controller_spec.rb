@@ -27,7 +27,6 @@ describe CourseWeeksController do
     end
 
     it "should assign @courses with all of the courses (in order)" do
-      debugger
       assigns(:courses).should == [@c2, @c1]
     end
   end
