@@ -1,0 +1,16 @@
+#year-header {
+  height: 60px;
+}
+
+.sub-header {
+  height: 100%;
+}
+
+.actions {
+  height: 44px;
+  text-align: right;
+  position: relative;
+  top: 50%;
+  margin-top: -22px;
+}
+
