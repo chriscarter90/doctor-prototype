@@ -12,9 +12,9 @@ class Year < ActiveRecord::Base
   accepts_nested_attributes_for :terms
   has_many :clashes
   has_many :unclashables
-  has_many :lecture_courses
-  has_many :staff_members
-  has_many :degree_classes
+  has_many :lecture_courses, :dependent => :destroy
+  has_many :staff_members, :dependent => :destroy
+  has_many :degree_classes, :dependent => :destroy
 
   # = Scopes =
   scope :in_order, order("no ASC")

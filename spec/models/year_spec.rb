@@ -13,6 +13,9 @@ describe Year do
     it { should have_many(:weeks).through(:terms) }
     it { should have_many(:course_weeks).through(:terms) }
     it { should have_many(:clashes) }
+    it { should have_many(:lecture_courses).dependent(:destroy) }
+    it { should have_many(:staff_members).dependent(:destroy) }
+    it { should have_many(:degree_classes).dependent(:destroy) }
   end
 
   describe "scopes" do
