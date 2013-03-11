@@ -1,6 +1,6 @@
 DoctorPrototype::Application.routes.draw do
 
-  root :to => 'home#index'
+  root :to => 'years#index'
 
   put 'years/:year_id/course_weeks',
     :to => 'course_weeks#update',
