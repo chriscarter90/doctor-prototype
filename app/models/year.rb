@@ -15,6 +15,7 @@ class Year < ActiveRecord::Base
   has_many :lecture_courses, :dependent => :destroy
   has_many :staff_members, :dependent => :destroy
   has_many :degree_classes, :dependent => :destroy
+  has_many :rooms, :dependent => :destroy
 
   # = Scopes =
   scope :in_order, order("no ASC")

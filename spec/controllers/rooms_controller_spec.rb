@@ -3,13 +3,14 @@ require 'spec_helper'
 describe RoomsController do
   describe "GET / index" do
     before :each do
-      @r1 = FactoryGirl.create(:room, :no => 308)
-      @r2 = FactoryGirl.create(:room, :no => 201)
-      @r3 = FactoryGirl.create(:room, :no => 301)
+      @y = FactoryGirl.create(:year, :no => 2011)
+      @r1 = FactoryGirl.create(:room, :no => 308, :year => @y)
+      @r2 = FactoryGirl.create(:room, :no => 201, :year => @y)
+      @r3 = FactoryGirl.create(:room, :no => 301, :year => @y)
     end
 
     it "should assign @rooms with all the rooms, ordered by no" do
-      get :index
+      get :index, :year_id => @y.to_param
 
       assigns(:rooms).size.should == 3
       assigns(:rooms).should == [@r2, @r3, @r1]
@@ -18,7 +19,9 @@ describe RoomsController do
 
   describe "GET / new" do
     it "should assign @room with a new room" do
-      get :new
+      @y = FactoryGirl.create(:year, :no => 2011)
+
+      get :new, :year_id => @y.to_param
 
       assigns(:room).should be_a_new(Room)
     end
@@ -26,11 +29,13 @@ describe RoomsController do
 
   describe "GET / edit" do
     before :each do
-      @r = FactoryGirl.create(:room, :no => 308, :capacity => 200)
+      @y = FactoryGirl.create(:year, :no => 2011)
+
+      @r = FactoryGirl.create(:room, :no => 308, :capacity => 200, :year => @y)
     end
 
     it "should assign @room with the right room" do
-      get :edit, :id => @r
+      get :edit, :id => @r, :year_id => @y.to_param
 
       assigns(:room).should == @r
     end
@@ -38,19 +43,21 @@ describe RoomsController do
 
   describe "POST / create" do
     def create_room(options = {})
-      post :create, :room => { :no => 123, :capacity => 100 }.merge!(options)
+      @y = FactoryGirl.create(:year, :no => 2011)
+
+      post :create, :year_id => @y.to_param, :room => { :no => 123, :capacity => 100 }.merge!(options)
     end
 
     it "should create a new room when successful" do
       create_room
 
-      Room.count.should == 1
+      @y.rooms.count.should == 1
     end
 
     it "should not create a new room when unsuccessful" do
       create_room(:no => "")
 
-      Room.count.should == 0
+      @y.rooms.count.should == 0
     end
 
     it "should render a flash notice when successful" do
@@ -68,7 +75,7 @@ describe RoomsController do
     it "should redirect to the rooms page when successful" do
       create_room
 
-      response.should redirect_to(rooms_path)
+      response.should redirect_to(year_rooms_path(@y))
     end
 
     it "should render the new template when unsuccessful" do
@@ -80,11 +87,13 @@ describe RoomsController do
 
   describe "PUT / update" do
     before :each do
-      @r = FactoryGirl.create(:room, :no => 308, :capacity => 200)
+      @y = FactoryGirl.create(:year, :no => 2011)
+
+      @r = FactoryGirl.create(:room, :no => 308, :capacity => 200, :year => @y)
     end
 
     def do_update(options = {})
-      put :update, :id => @r, :room => { :capacity => 100 }.merge!(options)
+      put :update, :year_id => @y.to_param, :id => @r, :room => { :capacity => 100 }.merge!(options)
     end
 
     it "should update the room when successful" do
@@ -115,7 +124,7 @@ describe RoomsController do
     it "should redirect to the rooms index when successful" do
       do_update
 
-      response.should redirect_to(rooms_path)
+      response.should redirect_to(year_rooms_path(@y))
     end
 
     it "should render the edit template when unsuccessful" do
@@ -127,17 +136,19 @@ describe RoomsController do
 
   describe "DELETE / destroy" do
     before :each do
-      @r = FactoryGirl.create(:room)
+      @y = FactoryGirl.create(:year, :no => 2011)
 
-      delete :destroy, :id => @r
+      @r = FactoryGirl.create(:room, :year => @y)
+
+      delete :destroy, :year_id => @y.to_param, :id => @r
     end
 
     it "should delete the room" do
-      Room.find_by_id(@r.id).should be_nil
+      @y.rooms.find_by_id(@r.id).should be_nil
     end
 
     it "should redirect to the rooms page" do
-      response.should redirect_to(rooms_path)
+      response.should redirect_to(year_rooms_path(@y))
     end
 
     it "should render a flash notice" do

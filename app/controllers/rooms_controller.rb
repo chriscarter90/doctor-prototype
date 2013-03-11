@@ -1,16 +1,19 @@
 class RoomsController < ApplicationController
   def index
-    @rooms = Room.by_no
+    @year = Year.find_by_no(params[:year_id])
+    @rooms = @year.rooms.by_no
   end
 
   def new
-    @room = Room.new
+    @year = Year.find_by_no(params[:year_id])
+    @room = @year.rooms.build
   end
 
   def create
-    @room = Room.new(params[:room])
+    @year = Year.find_by_no(params[:year_id])
+    @room = @year.rooms.build(params[:room])
     if @room.save
-      redirect_to rooms_path, :notice => "Room was created successfully."
+      redirect_to year_rooms_path(@year), :notice => "Room was created successfully."
     else
       flash[:warning] = "Room could not be created."
       render :new
@@ -18,13 +21,15 @@ class RoomsController < ApplicationController
   end
 
   def edit
-    @room = Room.find_by_no(params[:id])
+    @year = Year.find_by_no(params[:year_id])
+    @room = @year.rooms.find_by_no(params[:id])
   end
 
   def update
-    @room = Room.find_by_no(params[:id])
+    @year = Year.find_by_no(params[:year_id])
+    @room = @year.rooms.find_by_no(params[:id])
     if @room.update_attributes(params[:room])
-      redirect_to rooms_path, :notice => "Room was successfully updated."
+      redirect_to year_rooms_path(@year), :notice => "Room was successfully updated."
     else
       flash[:warning] = "Room could not be updated."
       render :edit
@@ -32,8 +37,9 @@ class RoomsController < ApplicationController
   end
 
   def destroy
-    @room = Room.find_by_no(params[:id])
+    @year = Year.find_by_no(params[:year_id])
+    @room = @year.rooms.find_by_no(params[:id])
     @room.destroy
-    redirect_to rooms_path, :notice => "Room was deleted successfully."
+    redirect_to year_rooms_path(@year), :notice => "Room was deleted successfully."
   end
 end

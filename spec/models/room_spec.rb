@@ -8,20 +8,24 @@ describe Room do
 
     # Other fields
     it { should validate_presence_of(:capacity) }
+    it { should validate_presence_of(:year) }
   end
 
   describe "relationships" do
     it { should have_many(:timetable_slots) }
+    it { should belong_to(:year) }
   end
 
   describe "scopes" do
     describe "by_no" do
       it "should return the rooms in no order" do
-        r1 = FactoryGirl.create(:room, :no => 308)
-        r2 = FactoryGirl.create(:room, :no => 201)
-        r3 = FactoryGirl.create(:room, :no => 301)
+        year = FactoryGirl.create(:year, :no => 2011)
 
-        Room.by_no.should == [r2, r3, r1]
+        r1 = FactoryGirl.create(:room, :no => 308, :year => year)
+        r2 = FactoryGirl.create(:room, :no => 201, :year => year)
+        r3 = FactoryGirl.create(:room, :no => 301, :year => year)
+
+        year.rooms.by_no.should == [r2, r3, r1]
       end
     end
   end
@@ -35,7 +39,9 @@ describe Room do
 
   describe "to_param" do
     it "should return the room no and not its id" do
-      obj = FactoryGirl.build(:room, :id => 1, :no => 308)
+      year = FactoryGirl.create(:year, :no => 2011)
+
+      obj = FactoryGirl.build(:room, :id => 1, :no => 308, :year => year)
       obj.to_param.should == 308
       obj.to_param.should_not == 1
     end

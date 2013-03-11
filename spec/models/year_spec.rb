@@ -16,6 +16,7 @@ describe Year do
     it { should have_many(:lecture_courses).dependent(:destroy) }
     it { should have_many(:staff_members).dependent(:destroy) }
     it { should have_many(:degree_classes).dependent(:destroy) }
+    it { should have_many(:rooms).dependent(:destroy) }
   end
 
   describe "scopes" do

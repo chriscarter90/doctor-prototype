@@ -23,12 +23,12 @@
           <%= r.capacity %>
         </td>
         <td>
-          <%= link_to "Edit", edit_room_path(r), :class => "btn btn-primary" %>
-          <%= link_to "Delete", room_path(r), :method => :delete, :data => { :confirm => "Are you sure you wish to delete this room?" }, :class => "btn btn-danger" %>
+          <%= link_to "Edit", edit_year_room_path(@year, r), :class => "btn btn-primary" %>
+          <%= link_to "Delete", year_room_path(@year, r), :method => :delete, :data => { :confirm => "Are you sure you wish to delete this room?" }, :class => "btn btn-danger" %>
         </td>
       </tr>
     <% end %>
   </table>
 <% end %>
 
-<%= link_to "Create Room", new_room_path, :class => "btn btn-primary" %>
+<%= link_to "Create Room", new_year_room_path(@year), :class => "btn btn-primary" %>

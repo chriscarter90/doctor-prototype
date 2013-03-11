@@ -4,5 +4,6 @@ FactoryGirl.define do
   factory :room do
     sequence(:no)     { |n| 300 + n }
     capacity          { 1 + rand(200) }
+    year
   end
 end

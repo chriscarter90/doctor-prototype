@@ -7,24 +7,33 @@ feature "Rooms", %q{
 } do
 
   before :each do
-    @room1 = FactoryGirl.create(:room, :no => 308, :capacity => 200)
-    @room2 = FactoryGirl.create(:room, :no => 311, :capacity => 180)
+    @year = FactoryGirl.create(:year, :no => 2011)
+
+    @room1 = FactoryGirl.create(:room, :no => 308, :capacity => 200, :year => @year)
+    @room2 = FactoryGirl.create(:room, :no => 311, :capacity => 180, :year => @year)
   end
 
   scenario "Can see the rooms on the page" do
-    visit rooms_page
+    visit rooms_page(@year)
     page.should have_content("308")
     page.should have_content("200")
     page.should have_content("311")
     page.should have_content("180")
   end
 
+  scenario "I can access the rooms page" do
+    visit year_page(@year)
+    page.should have_link("Rooms")
+    click_link("Rooms")
+    current_path.should == rooms_page(@year)
+  end
+
   scenario "Can create a new room" do
-    visit rooms_page
+    visit rooms_page(@year)
     page.should have_link("Create Room")
     click_link("Create Room")
 
-    current_path.should == new_room_page
+    current_path.should == new_room_page(@year)
 
     click_button("Create")
 
@@ -35,23 +44,23 @@ feature "Rooms", %q{
 
     click_button("Create")
 
-    current_path.should == rooms_page
+    current_path.should == rooms_page(@year)
     page.should have_content("Room was created successfully.")
     page.should have_content("145")
     page.should have_content("150")
   end
 
   scenario "Can edit one of the rooms" do
-    visit rooms_page
+    visit rooms_page(@year)
     page.should have_link("Edit")
     click_link("Edit")
 
-    current_path.should == edit_room_page(@room1)
+    current_path.should == edit_room_page(@year, @room1)
 
     fill_in("Capacity", :with => 150)
     click_button("Update")
 
-    current_path.should == rooms_page
+    current_path.should == rooms_page(@year)
     page.should have_content("Room was successfully updated.")
     page.should have_content("150")
     page.should_not have_content("200")
@@ -65,11 +74,11 @@ feature "Rooms", %q{
   end
 
   scenario "Can delete a room" do
-    visit rooms_page
+    visit rooms_page(@year)
     page.should have_link("Delete")
     click_link("Delete")
 
-    current_path.should == rooms_page
+    current_path.should == rooms_page(@year)
 
     page.should_not have_content("308")
     page.should_not have_content("200")
@@ -77,7 +86,7 @@ feature "Rooms", %q{
 
     click_link("Delete")
 
-    current_path.should == rooms_page
+    current_path.should == rooms_page(@year)
 
     page.should_not have_content("311")
     page.should_not have_content("180")

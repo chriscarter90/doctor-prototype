@@ -29,16 +29,16 @@ module NavigationHelpers
     year_staff_member_path(year, staff_member)
   end
 
-  def rooms_page
-    rooms_path
+  def rooms_page(year)
+    year_rooms_path(year)
   end
 
-  def new_room_page
-    new_room_path
+  def new_room_page(year)
+    new_year_room_path(year)
   end
 
-  def edit_room_page(room)
-    edit_room_path(room)
+  def edit_room_page(year, room)
+    edit_year_room_path(year, room)
   end
 
   def years_page
