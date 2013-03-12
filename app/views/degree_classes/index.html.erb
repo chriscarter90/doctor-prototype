@@ -1,11 +1,15 @@
 <h1>Degree Classes</h1>
 
-<ul>
-  <% @degrees.each do |d| %>
-    <li>
-      <h4>
+<% if @degrees.empty? %>
+  <div class="alert alert-block">
+    No degrees to show.
+  </div>
+<% else %>
+  <ul class='nav nav-pills nav-stacked'>
+    <% @degrees.each do |d| %>
+      <li>
         <%= link_to "#{d.degreeyr} - #{d.title}", year_degree_class_path(@year, d) %>
-      </h4>
-    </li>
-  <% end %>
-</ul>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

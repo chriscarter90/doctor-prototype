@@ -14,10 +14,12 @@
     <h4>
       <%= required %>
     </h4>
-    <% classes.each do |c| %>
-      <h5>
-        <%= c.lecture_course.code %> - <%= link_to c.lecture_course.title, year_lecture_course_path(@year, c.lecture_course) %>
-      </h5>
-    <% end %>
+    <ul class='nav nav-pills nav-stacked'>
+      <% classes.each do |c| %>
+        <li>
+          <%= link_to "#{c.lecture_course.code} - #{c.lecture_course.title}", year_lecture_course_path(@year, c.lecture_course) %>
+        </li>
+      <% end %>
+    </ul>
   <% end %>
 <% end %>

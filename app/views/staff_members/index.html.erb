@@ -1,11 +1,15 @@
 <h1>Staff Members</h1>
 
-<ul>
-  <% @staff.each do |s| %>
-    <li>
-      <h4>
+<% if @staff.empty? %>
+  <div class="alert alert-block">
+    No staff to show.
+  </div>
+<% else %>
+  <ul class='nav nav-pills nav-stacked'>
+    <% @staff.each do |s| %>
+      <li>
         <%= link_to "#{s.login} - #{s.full_name}", year_staff_member_path(@year, s) %>
-      </h4>
-    </li>
-  <% end %>
-</ul>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

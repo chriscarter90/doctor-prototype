@@ -14,3 +14,20 @@
   margin-top: -22px;
 }
 
+.year {
+  height: 40px;
+}
+
+.inner-container {
+  margin-top: 10px;
+  display: table;
+}
+
+.sub-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.models li a {
+  font-size: 16px;
+}

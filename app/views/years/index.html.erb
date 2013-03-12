@@ -1,8 +1,8 @@
 <div class="row" id="year-header">
-  <div class='span9 sub-header'>
+  <div class='span6 sub-header'>
     <h1>Years</h1>
   </div>
-  <div class='span3 sub-header'>
+  <div class='span6 sub-header'>
     <div class="actions">
       <%= link_to "Create Year", new_year_path, :class => "btn btn-large btn-primary", :id => "create-year" %>
     </div>
@@ -15,9 +15,11 @@
   <h4>No years to show.</h4>
 <% else %>
   <% @years.each do |y| %>
-    <h3>
-      <%= link_to y.no, y %>
-    </h3>
+    <div class='year'>
+      <h3>
+        <%= link_to y.no, y %>
+      </h3>
+    </div>
     <hr>
   <% end %>
 <% end %>

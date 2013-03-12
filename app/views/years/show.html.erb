@@ -1,18 +1,42 @@
-<h2><%= @year.no %></h2>
+<div class="row" id="year-header">
+  <div class='span6 sub-header'>
+    <h2><%= @year.no %></h2>
+  </div>
+  <div class='span6 sub-header'>
+    <div class="actions">
+      <%= link_to "Edit", edit_year_path(@year), :class => "btn btn-primary btn-large" %>
+      <%= link_to "Select Course Weeks", year_course_weeks_path(@year), :class => "btn btn-primary btn-large" %>
+      <%= link_to "Select Clashes", year_clashes_path(@year), :class => "btn btn-primary btn-large" %>
+    </div>
+  </div>
+</div>
 
-<h3><%= link_to "Lecture Courses", year_lecture_courses_path(@year) %></h3>
-<h3><%= link_to "Degree Classes", year_degree_classes_path(@year) %></h3>
-<h3><%= link_to "Staff Members", year_staff_members_path(@year) %></h3>
-<h3><%= link_to "Rooms", year_rooms_path(@year) %></h3>
+<div class='row inner-container'>
+  <div class="span6 sub-container">
+    <ul class='nav nav-pills nav-stacked models'>
+      <li>
+        <%= link_to "Lecture Courses", year_lecture_courses_path(@year) %>
+      </li>
+      <li>
+        <%= link_to "Degree Classes", year_degree_classes_path(@year) %>
+      </li>
+      <li>
+        <%= link_to "Staff Members", year_staff_members_path(@year) %>
+      </li>
+      <li>
+        <%= link_to "Rooms", year_rooms_path(@year) %>
+      </li>
+    </ul>
+  </div>
 
-<ul>
-<% @terms.each do |t| %>
-  <li>
-    <%= "Term #{t.no}: #{t.weeks.size} weeks starting #{start_date(t)}" %>
-  </li>
-<% end %>
-</ul>
-
-<%= link_to "Edit", edit_year_path(@year), :class => "btn btn-primary" %>
-<%= link_to "Select Course Weeks", year_course_weeks_path(@year), :class => "btn btn-primary" %>
-<%= link_to "Select Clashes", year_clashes_path(@year), :class => "btn btn-primary" %>
+  <div class="span6 sub-container">
+    <h4>Term Dates</h4>
+    <ul>
+      <% @terms.each do |t| %>
+        <li>
+          <%= "Term #{t.no}: #{t.weeks.size} weeks starting #{start_date(t)}" %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

@@ -14,10 +14,12 @@
     <h4>
       <%= role %>
     </h4>
-    <% staff.each do |s| %>
-      <h5>
-        <%= s.lecture_course.code %> - <%= link_to s.lecture_course.title, year_lecture_course_path(@year, s.lecture_course) %>
-      </h5>
-    <% end %>
+    <ul class='nav nav-pills nav-stacked'>
+      <% staff.each do |s| %>
+        <li>
+          <%= link_to "#{s.lecture_course.code} - #{s.lecture_course.title}", year_lecture_course_path(@year, s.lecture_course) %>
+        </li>
+      <% end %>
+    </ul>
   <% end %>
 <% end %>

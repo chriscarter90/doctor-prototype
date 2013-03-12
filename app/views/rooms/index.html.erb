@@ -1,7 +1,9 @@
 <h1>Rooms</h1>
 
 <% if @rooms.empty? %>
-  <h4>No rooms to show.</h4>
+  <div class="alert alert-block">
+    No rooms to show.
+  </div>
 <% else %>
   <table class="table table-striped">
     <tr>

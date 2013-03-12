@@ -1,11 +1,15 @@
 <h1>Lecture Courses</h1>
 
-<ul>
-  <% @courses.each do |c| %>
-    <li>
-      <h4>
+<% if @courses.empty? %>
+  <div class="alert alert-block">
+    No courses to show.
+  </div>
+<% else %>
+  <ul class='nav nav-pills nav-stacked'>
+    <% @courses.each do |c| %>
+      <li>
         <%= link_to "#{c.code} - #{c.title}", year_lecture_course_path(@year, c) %>
-      </h4>
-    </li>
-  <% end %>
-</ul>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

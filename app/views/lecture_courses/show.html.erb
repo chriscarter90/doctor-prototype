@@ -16,11 +16,13 @@
         <h4>
           <%= required %>
         </h4>
-        <% classes.each do |c| %>
-          <h5>
-            <%= c.degree_class.degreeyr %> - <%= link_to c.degree_class.title, year_degree_class_path(@year, c.degree_class) %>
-          </h5>
-        <% end %>
+        <ul class='nav nav-pills nav-stacked'>
+          <% classes.each do |c| %>
+            <li>
+              <%= link_to "#{c.degree_class.degreeyr} - #{c.degree_class.title}", year_degree_class_path(@year, c.degree_class) %>
+            </li>
+          <% end %>
+        </ul>
       <% end %>
     <% end %>
   </div>
@@ -38,11 +40,13 @@
         <h4>
           <%= role %>
         </h4>
-        <% staff.each do |s| %>
-          <h5>
-            <%= s.staff_member.login %> - <%= link_to s.staff_member.full_name, year_staff_member_path(@year, s.staff_member) %>
-          </h5>
-        <% end %>
+        <ul class='nav nav-pills nav-stacked'>
+          <% staff.each do |s| %>
+            <li>
+              <%= link_to "#{s.staff_member.login} - #{s.staff_member.full_name}", year_staff_member_path(@year, s.staff_member) %>
+            </li>
+          <% end %>
+        </ul>
       <% end %>
     <% end %>
   </div>
