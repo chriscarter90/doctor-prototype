@@ -1,6 +1,19 @@
-<h1>
-  <%= @course.code %> - <%= @course.title %>
-</h1>
+<div class="row" id='courses-header'>
+  <div class='span6 sub-header'>
+    <h2>
+      <%= @course.code %> - <%= @course.title %>
+    </h2>
+  </div>
+  <div class='span6 sub-header'>
+    <div class='actions'>
+      <%= link_to year_path(@year), :class => "btn btn-danger" do %>
+        <I class='icon-chevron-left'></i> Back to <%= @year.no %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<hr>
 
 <div class="row">
   <div class="span6">

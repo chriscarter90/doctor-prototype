@@ -4,12 +4,17 @@
   </div>
   <div class='span6 sub-header'>
     <div class="actions">
-      <%= link_to "Edit", edit_year_path(@year), :class => "btn btn-primary btn-large" %>
-      <%= link_to "Select Course Weeks", year_course_weeks_path(@year), :class => "btn btn-primary btn-large" %>
-      <%= link_to "Select Clashes", year_clashes_path(@year), :class => "btn btn-primary btn-large" %>
+      <%= link_to "Edit Year", edit_year_path(@year), :class => "btn btn-primary" %>
+      <%= link_to "Select Course Weeks", year_course_weeks_path(@year), :class => "btn btn-primary" %>
+      <%= link_to "Select Clashes", year_clashes_path(@year), :class => "btn btn-primary" %>
+      <%= link_to years_path, :class => "btn btn-danger" do %>
+        <i class='icon-chevron-left'></i> Back to years
+      <% end %>
     </div>
   </div>
 </div>
+
+<hr>
 
 <div class='row inner-container'>
   <div class="span6 sub-container">

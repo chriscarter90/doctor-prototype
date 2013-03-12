@@ -1,4 +1,19 @@
-<h1>Degree Classes</h1>
+<div class="row" id='degree-header'>
+  <div class='span6 sub-header'>
+    <h2>
+      Degree Classes
+    </h2>
+  </div>
+  <div class='span6 sub-header'>
+    <div class='actions'>
+      <%= link_to year_path(@year), :class => "btn btn-danger" do %>
+        <I class='icon-chevron-left'></i> Back to <%= @year.no %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<hr>
 
 <% if @degrees.empty? %>
   <div class="alert alert-block">
