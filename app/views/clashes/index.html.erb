@@ -1,3 +1,27 @@
+<% content_for :right_nav do %>
+  <li class='dropdown'>
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+      Hide Courses
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu hide-course-menu">
+      <% @courses.in_term(1).each do |c| %>
+        <li>
+          <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
+        </li>
+      <% end %>
+
+      <li class="divider"></li>
+
+      <% @courses.in_term(2).each do |c| %>
+        <li>
+          <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
+        </li>
+      <% end %>
+    </ul>
+  </li>
+<% end %>
+
 <div class="row" id="inner-header">
   <div class='span6 sub-header'>
     <h2>
@@ -6,28 +30,6 @@
   </div>
   <div class='span6 sub-header'>
     <div class='header-actions'>
-      <div class='btn-group'>
-        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-          Hide Courses
-          <span class="caret"></span>
-        </a>
-        <ul class="dropdown-menu">
-          <% @courses.in_term(1).each do |c| %>
-            <li>
-              <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
-            </li>
-          <% end %>
-
-          <li class="divider"></li>
-
-          <% @courses.in_term(2).each do |c| %>
-            <li>
-              <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
-            </li>
-          <% end %>
-        </ul>
-      </div>
-
       <%= link_to year_path(@year), :class => "btn btn-danger" do %>
         <i class='icon-chevron-left'></i> Back to <%= @year.no %>
       <% end %>
