@@ -1,26 +1,4 @@
-<% content_for :right_nav do %>
-  <li class='dropdown'>
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-      Hide Courses
-      <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu hide-course-menu">
-      <% @courses.in_term(1).each do |c| %>
-        <li>
-          <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
-        </li>
-      <% end %>
-
-      <li class="divider"></li>
-
-      <% @courses.in_term(2).each do |c| %>
-        <li>
-          <%= link_to c.display_name, "#", :id => "hide-#{c.code.parameterize}", :class => 'hide-course' %>
-        </li>
-      <% end %>
-    </ul>
-  </li>
-<% end %>
+<%= render :partial => 'hide_menu' %>
 
 <div class="row" id="inner-header">
   <div class='span6 sub-header'>
