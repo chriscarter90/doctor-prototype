@@ -6,9 +6,7 @@
   </div>
   <div class='span6 sub-header'>
     <div class='header-actions'>
-      <%= link_to year_rooms_path(@year), :class => "btn btn-danger" do %>
-        <I class='icon-chevron-left'></i> Back to rooms
-      <% end %>
+      <%= back_button("rooms", year_rooms_path(@year)) %>
     </div>
   </div>
 </div>

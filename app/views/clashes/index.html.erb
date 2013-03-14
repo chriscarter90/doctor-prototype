@@ -30,9 +30,7 @@
   </div>
   <div class='span6 sub-header'>
     <div class='header-actions'>
-      <%= link_to year_path(@year), :class => "btn btn-danger" do %>
-        <i class='icon-chevron-left'></i> Back to <%= @year.no %>
-      <% end %>
+      <%= back_button(@year.no, year_path(@year)) %>
     </div>
   </div>
 </div>
