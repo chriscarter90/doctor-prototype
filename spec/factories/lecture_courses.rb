@@ -11,5 +11,6 @@ FactoryGirl.define do
     weeklyhours           "3"
     merged_lecturers      false
     year
+    clashes_hidden        false
   end
 end

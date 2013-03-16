@@ -54,3 +54,7 @@ tr.clash-row {
 th.clash-course-header {
   width: 100px;
 }
+
+.clash-hidden {
+  background-color: #FFC1C1;
+}

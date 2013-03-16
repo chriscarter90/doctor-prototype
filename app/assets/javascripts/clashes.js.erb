@@ -53,9 +53,31 @@ $(document).ready(function() {
   });
 
   $('.hide-course').click(function(event) {
+    var year = $('#year_id').val();
     var course = $(this).attr('id').match(/\d+/);
-    $('#' + course + '.clash-row').hide();
-    $('#' + course + '.course').hide();
+
+    if (!$(this).hasClass('clash-hidden')) {
+      $.ajax({
+        url: '/years/' + year + '/lecture_courses/' + course + '/hide_clashes',
+        type: 'DELETE'
+      });
+
+      $('#' + course + '.clash-row').hide();
+      $('#' + course + '.course').hide();
+
+      $('.clash-table-entry[id$="' + course + '"]').hide();
+      $('.course-header').find('th:contains("' + course + '")').hide();
+    } else {
+      $.post('/years/' + year + '/lecture_courses/' + course + '/show_clashes')
+
+      $('#' + course + '.clash-row').show();
+      $('#' + course + '.course').show();
+
+      $('.clash-table-entry[id$="' + course + '"]').show();
+      $('.course-header').find('th:contains("' + course + '")').show();
+    }
+
+    $(this).toggleClass('clash-hidden');
 
     event.preventDefault();
   });
@@ -151,5 +173,15 @@ function initialisePage() {
 
     $('#' + course1 + '.clash-row').find('option[value="' + course2 + '"]').attr('disabled', true);
     $('#' + course2 + '.clash-row').find('option[value="' + course1 + '"]').attr('disabled', true);
+  });
+
+  $('.clash-hidden').each(function() {
+    var course = $(this).attr('id').match(/\d+/)[0]
+
+    $('#' + course + '.clash-row').hide();
+    $('#' + course + '.course').hide();
+
+    $('.clash-table-entry[id$="' + course + '"]').hide();
+    $('.course-header').find('th:contains("' + course + '")').hide();
   });
 }

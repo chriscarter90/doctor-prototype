@@ -18,7 +18,12 @@ DoctorPrototype::Application.routes.draw do
     resources :rooms, :except => [:show]
     resources :degree_classes, :only => [:index, :show]
     resources :staff_members, :only => [:index, :show]
-    resources :lecture_courses, :only => [:index, :show], :constraints => { :id => /[^\/]+(?=\.html\z|\.json\z)|[^\/]+/ }
+    resources :lecture_courses, :only => [:index, :show], :constraints => { :id => /[^\/]+(?=\.html\z|\.json\z)|[^\/]+/ } do
+      member do
+        post 'show_clashes'
+        delete 'hide_clashes'
+      end
+    end
     resources :course_weeks, :only => [:index]
     resources :clashes, :only => [:index, :new]
     resources :unclashables, :only => [:create]

@@ -1,6 +1,6 @@
 class LectureCourse < ActiveRecord::Base
 
-  attr_accessible :code, :title, :term, :classes, :lecturehours, :tutorialhours, :labhours, :weeklyhours, :popestimate, :popregistered, :year
+  attr_accessible :code, :title, :term, :classes, :lecturehours, :tutorialhours, :labhours, :weeklyhours, :popestimate, :popregistered, :year, :clashes_hidden
 
   # = Validations =
   validates_uniqueness_of :code

@@ -51,4 +51,8 @@ module ClashesHelper
       end
     end
   end
+
+  def hidden_course_status(course)
+    course.clashes_hidden? ? "clash-hidden" : ""
+  end
 end
