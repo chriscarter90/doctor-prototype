@@ -3,6 +3,7 @@ class CourseWeeksController < ApplicationController
     @year = Year.find_by_no(params[:year_id])
     @terms = @year.terms.in_order
     @courses = @year.lecture_courses.by_code
+    @course_weeks = @year.course_weeks
   end
 
   def update
