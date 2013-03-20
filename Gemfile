@@ -10,6 +10,8 @@ gem 'pg'
 gem 'annotate', ">=2.5.0"
 gem 'faker'
 
+gem 'resque', :require => 'resque/server'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
