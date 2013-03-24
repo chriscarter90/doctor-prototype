@@ -32,6 +32,6 @@ class LectureCoursesController < ApplicationController
     tempfile = params[:file]
     FileUtils::cp(tempfile.tempfile.path, Rails.root.join("tmp", tempfile.original_filename))
     Resque.enqueue(LectureCourseImporterWorker, @year.no, tempfile.original_filename)
-    redirect_to year_path(@year), :notice => "Uploading stuff"
+    redirect_to year_path(@year), :notice => "Importing lecture courses."
   end
 end
