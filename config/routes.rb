@@ -15,6 +15,16 @@ DoctorPrototype::Application.routes.draw do
     :as => :remove_unclashable
 
   resources :years, :except => [:destroy] do
+    resources :requirements, :only => [] do
+      collection do
+        post 'import'
+      end
+    end
+    resources :lecturers, :only => [] do
+      collection do
+        post 'import'
+      end
+    end
     resources :rooms, :except => [:show]
     resources :degree_classes, :only => [:index, :show] do
       collection do
