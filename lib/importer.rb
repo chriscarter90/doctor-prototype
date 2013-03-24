@@ -24,30 +24,6 @@ class Importer
     end
   end
 
-  def self.import_courses
-    file = File.open('db/seeds/courses12-13.tsv')
-
-    headers = []
-
-    file.each_with_index do |line, index|
-      if line =~ /\(\d+ rows?\)/
-        break
-      end
-
-      line.gsub!(/\r\n/, '')
-      fields = line.split("\t")
-      if index == 0
-        headers = fields
-      else
-        lecture_course = LectureCourse.find_by_code(fields[0]) || LectureCourse.new
-        fields.each_with_index do |f, i|
-          lecture_course.send("#{headers[i]}=", f)
-        end
-        lecture_course.save!
-      end
-    end
-  end
-
   def self.import_staff
     file = File.open('db/seeds/teaching-staff1213.tsv')
 

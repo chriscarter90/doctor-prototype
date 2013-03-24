@@ -6,23 +6,18 @@ namespace :import do
     Importer.import_classes
   end
 
-  desc "Import lecture courses"
-  task :courses => :environment do
-    Importer.import_courses
-  end
-
   desc "Import staff members"
   task :staff => :environment do
     Importer.import_staff
   end
 
   desc "Import requirements"
-  task :requirements => [:environment, :classes, :courses] do
+  task :requirements => [:environment, :classes] do
     Importer.import_requirements
   end
 
   desc "Import lecturers"
-  task :lecturers => [:environment, :courses, :staff] do
+  task :lecturers => [:environment, :staff] do
     Importer.import_lecturers
   end
 

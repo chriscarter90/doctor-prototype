@@ -23,6 +23,9 @@ DoctorPrototype::Application.routes.draw do
         post 'show_clashes'
         delete 'hide_clashes'
       end
+      collection do
+        post 'import'
+      end
     end
     resources :course_weeks, :only => [:index]
     resources :clashes, :only => [:index, :new]
