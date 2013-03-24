@@ -1,29 +1,4 @@
 class Importer
-  def self.import_classes
-    file = File.open('db/seeds/class1213.tsv')
-
-    headers = []
-
-    file.each_with_index do |line, index|
-      if line =~ /\(\d+ rows?\)/
-        break
-      end
-
-      line.gsub!(/\r\n/, '')
-      fields = line.split("\t")
-      fields[1] += fields.delete_at(2)
-      if index == 0
-        headers = fields
-      else
-        degree_class = DegreeClass.find_by_degreeyr(fields[1]) || DegreeClass.new
-        fields.each_with_index do |f, i|
-          degree_class.send("#{headers[i]}=", f)
-        end
-        degree_class.save!
-      end
-    end
-  end
-
   def self.import_staff
     file = File.open('db/seeds/teaching-staff1213.tsv')
 

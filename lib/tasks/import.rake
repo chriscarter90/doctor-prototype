@@ -1,11 +1,6 @@
 require 'importer'
 
 namespace :import do
-  desc "Import degree classes"
-  task :classes => :environment do
-    Importer.import_classes
-  end
-
   desc "Import staff members"
   task :staff => :environment do
     Importer.import_staff

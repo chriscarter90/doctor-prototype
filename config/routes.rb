@@ -16,7 +16,11 @@ DoctorPrototype::Application.routes.draw do
 
   resources :years, :except => [:destroy] do
     resources :rooms, :except => [:show]
-    resources :degree_classes, :only => [:index, :show]
+    resources :degree_classes, :only => [:index, :show] do
+      collection do
+        post 'import'
+      end
+    end
     resources :staff_members, :only => [:index, :show]
     resources :lecture_courses, :only => [:index, :show], :constraints => { :id => /[^\/]+(?=\.html\z|\.json\z)|[^\/]+/ } do
       member do
