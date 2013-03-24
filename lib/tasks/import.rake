@@ -1,11 +1,6 @@
 require 'importer'
 
 namespace :import do
-  desc "Import staff members"
-  task :staff => :environment do
-    Importer.import_staff
-  end
-
   desc "Import requirements"
   task :requirements => [:environment, :classes] do
     Importer.import_requirements

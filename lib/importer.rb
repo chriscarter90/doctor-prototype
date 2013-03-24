@@ -1,28 +1,4 @@
 class Importer
-  def self.import_staff
-    file = File.open('db/seeds/teaching-staff1213.tsv')
-
-    headers = []
-
-    file.each_with_index do |line, index|
-      if line =~ /\(\d+ rows?\)/
-        break
-      end
-
-      line.gsub!(/\r\n/, '')
-      fields = line.split("\t")
-      if index == 0
-        headers = fields
-      else
-        staff_member = StaffMember.find_by_login(fields[0]) || StaffMember.new
-        fields.each_with_index do |f, i|
-          staff_member.send("#{headers[i]}=", f)
-        end
-        staff_member.save!
-      end
-    end
-  end
-
   def self.import_requirements
     file = File.open('db/seeds/xcourseclass1213.tsv')
 

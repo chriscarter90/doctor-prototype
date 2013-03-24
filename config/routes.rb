@@ -21,7 +21,11 @@ DoctorPrototype::Application.routes.draw do
         post 'import'
       end
     end
-    resources :staff_members, :only => [:index, :show]
+    resources :staff_members, :only => [:index, :show] do
+      collection do
+        post 'import'
+      end
+    end
     resources :lecture_courses, :only => [:index, :show], :constraints => { :id => /[^\/]+(?=\.html\z|\.json\z)|[^\/]+/ } do
       member do
         post 'show_clashes'
