@@ -1,4 +1,4 @@
-class ImporterWorker
+class LectureCourseImporterWorker
   @queue = :importer_queue
 
   def self.perform(year_no, filename)
@@ -22,7 +22,6 @@ class ImporterWorker
         if index == 0
           headers = fields
         else
-          puts "Importing #{fields[0]}..."
           lecture_course = year.lecture_courses.find_by_code(fields[0]) || year.lecture_courses.build
           fields.each_with_index do |f, i|
             lecture_course.send("#{headers[i]}=", f)
