@@ -4,7 +4,6 @@ class Room < ActiveRecord::Base
 
   # = Validations =
   validates_presence_of :no, :capacity, :year
-  validates_uniqueness_of :no
 
   # = Relationships =
   has_many :timetable_slots

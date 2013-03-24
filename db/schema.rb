@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130314202742) do
+ActiveRecord::Schema.define(:version => 20130324163324) do
 
   create_table "clashes", :force => true do |t|
     t.integer  "year_id"
@@ -52,6 +52,8 @@ ActiveRecord::Schema.define(:version => 20130314202742) do
     t.integer  "year_id"
   end
 
+  add_index "degree_classes", ["degreeyr", "year_id"], :name => "index_degree_classes_on_degreeyr_and_year_id", :unique => true
+
   create_table "lecture_courses", :force => true do |t|
     t.string   "code"
     t.string   "title"
@@ -69,6 +71,8 @@ ActiveRecord::Schema.define(:version => 20130314202742) do
     t.integer  "year_id"
     t.boolean  "clashes_hidden"
   end
+
+  add_index "lecture_courses", ["code", "year_id"], :name => "index_lecture_courses_on_code_and_year_id", :unique => true
 
   create_table "lecture_courses_unclashables", :force => true do |t|
     t.integer "unclashable_id"
@@ -105,6 +109,8 @@ ActiveRecord::Schema.define(:version => 20130314202742) do
     t.integer  "year_id"
   end
 
+  add_index "rooms", ["no", "year_id"], :name => "index_rooms_on_no_and_year_id", :unique => true
+
   create_table "staff_members", :force => true do |t|
     t.string   "login"
     t.string   "salutation"
@@ -114,6 +120,8 @@ ActiveRecord::Schema.define(:version => 20130314202742) do
     t.datetime "updated_at", :null => false
     t.integer  "year_id"
   end
+
+  add_index "staff_members", ["login", "year_id"], :name => "index_staff_members_on_login_and_year_id", :unique => true
 
   create_table "terms", :force => true do |t|
     t.integer  "year_id"

@@ -4,12 +4,21 @@ describe StaffMember do
   describe "validations" do
     # Primary key
     it { should validate_presence_of(:login) }
-    it { should validate_uniqueness_of(:login) }
 
     # Other fields
     it { should validate_presence_of(:salutation) }
     it { should validate_presence_of(:firstname) }
     it { should validate_presence_of(:lastname) }
+
+    it "should validate uniqueness in each year" do
+      @year = FactoryGirl.create(:year)
+
+      FactoryGirl.create(:staff_member, :year => @year, :login => "abc123")
+
+      lambda { FactoryGirl.create(:staff_member, :year => @year, :login => "abc123") }.should raise_error(ActiveRecord::RecordNotUnique)
+
+      lambda { FactoryGirl.create(:staff_member, :login => "abc123") }.should_not raise_error(ActiveRecord::RecordNotUnique)
+    end
   end
 
   describe "relationships" do

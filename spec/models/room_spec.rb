@@ -4,11 +4,20 @@ describe Room do
   describe "validations" do
     # Primary key
     it { should validate_presence_of(:no) }
-    it { should validate_uniqueness_of(:no) }
 
     # Other fields
     it { should validate_presence_of(:capacity) }
     it { should validate_presence_of(:year) }
+
+    it "should validate uniqueness in each year" do
+      @year = FactoryGirl.create(:year)
+
+      FactoryGirl.create(:room, :year => @year, :no => "311")
+
+      lambda { FactoryGirl.create(:room, :year => @year, :no => "311") }.should raise_error(ActiveRecord::RecordNotUnique)
+
+      lambda { FactoryGirl.create(:room, :code => "311") }.should_not raise_error(ActiveRecord::RecordNotUnique)
+    end
   end
 
   describe "relationships" do

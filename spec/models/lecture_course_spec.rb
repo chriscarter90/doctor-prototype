@@ -4,12 +4,21 @@ describe LectureCourse do
   describe "validations" do
     # Primary key
     it { should validate_presence_of(:code) }
-    it { should validate_uniqueness_of(:code) }
 
     # Other fields
     it { should validate_presence_of(:title) }
     it { should validate_presence_of(:term) }
     it { should validate_presence_of(:year) }
+
+    it "should validate uniqueness in each year" do
+      @year = FactoryGirl.create(:year)
+
+      FactoryGirl.create(:lecture_course, :year => @year, :code => "123")
+
+      lambda { FactoryGirl.create(:lecture_course, :year => @year, :code => "123") }.should raise_error(ActiveRecord::RecordNotUnique)
+
+      lambda { FactoryGirl.create(:lecture_course, :code => "123") }.should_not raise_error(ActiveRecord::RecordNotUnique)
+    end
   end
 
   describe "relationships" do

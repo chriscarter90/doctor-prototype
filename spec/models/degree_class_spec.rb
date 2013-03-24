@@ -4,11 +4,20 @@ describe DegreeClass do
   describe "validations" do
     # Primary key
     it { should validate_presence_of(:degreeyr) }
-    it { should validate_uniqueness_of(:degreeyr) }
 
     # Other fields
     it { should validate_presence_of(:letteryr) }
     it { should validate_presence_of(:title) }
+
+    it "should validate uniqueness in each year" do
+      @year = FactoryGirl.create(:year)
+
+      FactoryGirl.create(:degree_class, :year => @year, :degreeyr => "c1")
+
+      lambda { FactoryGirl.create(:degree_class, :year => @year, :degreeyr => "c1") }.should raise_error(ActiveRecord::RecordNotUnique)
+
+      lambda { FactoryGirl.create(:degree_class, :code => "c1") }.should_not raise_error(ActiveRecord::RecordNotUnique)
+    end
   end
 
   describe "relationships" do
