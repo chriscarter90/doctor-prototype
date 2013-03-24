@@ -1,6 +1,6 @@
 module CourseWeeksHelper
-  def find_existing_hours(course, week, lecturer, type)
-    if @course_weeks.exists?(:lecture_course_id => course, :week_id => week, :staff_member_id => lecturer, :session_type => type)
+  def find_existing_hours(course_weeks, course, week, lecturer, type)
+    if course_weeks.exists?(:lecture_course_id => course, :week_id => week, :staff_member_id => lecturer, :session_type => type)
       course.course_weeks.where(:week_id => week).where(:staff_member_id => lecturer).where(:session_type => type).first.hours
     else
       0

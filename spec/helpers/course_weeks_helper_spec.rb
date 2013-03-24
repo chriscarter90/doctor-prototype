@@ -27,10 +27,12 @@ describe CourseWeeksHelper do
 
       FactoryGirl.create(:course_week, :staff_member => @staff1, :lecture_course => @c1, :week => @week, :hours => 3, :session_type => "Lecture")
 
-      helper.find_existing_hours(@c1, @week, @staff1, "Lecture").should == 3
-      helper.find_existing_hours(@c1, @year.terms.first.weeks.last, @staff1, "Lecture").should == 0
-      helper.find_existing_hours(@c1, @week, @staff2, "Lecture").should == 0
-      helper.find_existing_hours(@c1, @week, @staff1, "Tutorial").should == 0
+      course_weeks = @year.course_weeks
+
+      helper.find_existing_hours(course_weeks, @c1, @week, @staff1, "Lecture").should == 3
+      helper.find_existing_hours(course_weeks, @c1, @year.terms.first.weeks.last, @staff1, "Lecture").should == 0
+      helper.find_existing_hours(course_weeks, @c1, @week, @staff2, "Lecture").should == 0
+      helper.find_existing_hours(course_weeks, @c1, @week, @staff1, "Tutorial").should == 0
     end
   end
 
