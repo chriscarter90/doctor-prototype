@@ -25,6 +25,8 @@ opposite_times(T1, T2) :- morning(T2), afternoon(T1), T1 != T2 + 1.
 % Only have enough allocations for each subject.
 N { allocated(C, session(D, T), R) : ses(D, T) : room(R) : T != 4 : T != 5 } N :- per_week(C, N).
 
+unclashable(C1, C2) :- unclashable(C2, C1).
+
 % Ensure that the types hold.
 :- holds(C,a), not course_type(C, a).
 :- not holds(C, a), course_type(C, a).
