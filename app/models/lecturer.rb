@@ -11,4 +11,8 @@ class Lecturer < ActiveRecord::Base
 
   # = Scopes =
   scope :only_lecturers, where("role = ?", "Lecturer")
+
+  def to_ASP
+    "teaches(\"#{lecture_course.code}\", \"#{staff_member.login}\")."
+  end
 end
