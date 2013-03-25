@@ -33,5 +33,13 @@ class StaffMemberImporterWorker
     end
 
     File.delete(full_filepath)
+
+    models = StaffMember.where(:year_id => year.id)
+
+    File.open(Rails.root.join("ASP", year_no.to_s, "staff_members.lp"), "w") do |f|
+      models.each do |m|
+        f.write("#{m.to_ASP}\n")
+      end
+    end
   end
 end

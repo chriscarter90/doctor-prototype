@@ -25,4 +25,8 @@ class StaffMember < ActiveRecord::Base
   def display
     "#{full_name} (#{login})"
   end
+
+  def to_ASP
+    "lecturer(\"#{login}\")."
+  end
 end
