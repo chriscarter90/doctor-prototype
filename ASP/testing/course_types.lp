@@ -13,3 +13,5 @@
 %course_type("108", c).
 %course_type("109", b).
 %course_type("110", a).
+
+course_type("499", a).

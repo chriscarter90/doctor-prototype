@@ -28,13 +28,13 @@ N { allocated(C, session(D, T, E), R) : ses(D, T, E) : room(R) : T != 4 : T != 5
 unclashable(C1, C2) :- unclashable(C2, C1).
 
 % Ensure that the types hold.
-%:- holds(C,a), not course_type(C, a).
+:- holds(C,a), course_type(C, T), T != a.
 :- not holds(C, a), course_type(C, a).
 
-%:- holds(C,b), not course_type(C, b).
+:- holds(C,b), course_type(C, T), T != b.
 :- not holds(C, b), course_type(C, b).
 
-%:- holds(C,c), not course_type(C, c).
+:- holds(C,c), course_type(C, T), T != c.
 :- not holds(C, c), course_type(C, c).
 
 % A course can't have two rooms concurrently (subject to change).
@@ -44,11 +44,17 @@ unclashable(C1, C2) :- unclashable(C2, C1).
 % Two courses which can't be clashed can't be scheduled concurrently.
 :- allocated(C1, session(D, T, E), _), allocated(C2, session(D, T, E), _), unclashable(C1, C2).
 
-preference_time_met(C, T) :- allocated(C, session(_, T, _), _), prefer_time(C, T).
-preference_day_met(C, D) :- allocated(C, session(D, _, _), _), prefer_day(C, D).
-
 #maximize { preference_time_met(_, _) }.
 #maximize { preference_day_met(_, _) }.
+#minimize { prefer_not_time_violated(_, _) }.
+#minimize { prefer_not_day_violated(_, _) }.
+#minimize { prefer_not_before_violated(_, _) }.
+#minimize { prefer_not_after_violated(_, _) }.
+
+:- strictly_not_before_violated(C, T).
+:- strictly_not_after_violated(C, T).
+:- strictly_not_before_time_day_violated(C, T, D).
+:- strictly_not_after_time_day_violated(C, T, D).
 
 % Only output allocated clauses.
 #hide.
