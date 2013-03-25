@@ -43,3 +43,8 @@ prefer_not_before_violated(C, T) :- allocated(C, session(_, T1, _), _), prefer_n
 prefer_not_after("484", 8).
 
 prefer_not_after_violated(C, T) :- allocated(C, session(_, T1, _), _), prefer_not_after(C, T), T1 > T.
+
+% Precisely...
+precisely("493", mon, 1).
+
+precisely_violated(C, D, T) :- precisely(C, D, T), not alloc_gen(C, D, T).

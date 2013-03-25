@@ -44,6 +44,8 @@ unclashable(C1, C2) :- unclashable(C2, C1).
 % Two courses which can't be clashed can't be scheduled concurrently.
 :- allocated(C1, session(D, T, E), _), allocated(C2, session(D, T, E), _), unclashable(C1, C2).
 
+alloc_gen(C, D, T) :- allocated(C, session(D, T, _), _).
+
 #maximize { preference_time_met(_, _) }.
 #maximize { preference_day_met(_, _) }.
 #minimize { prefer_not_time_violated(_, _) }.
@@ -55,6 +57,8 @@ unclashable(C1, C2) :- unclashable(C2, C1).
 :- strictly_not_after_violated(C, T).
 :- strictly_not_before_time_day_violated(C, T, D).
 :- strictly_not_after_time_day_violated(C, T, D).
+
+:- precisely_violated(C, T, D).
 
 % Only output allocated clauses.
 #hide.
