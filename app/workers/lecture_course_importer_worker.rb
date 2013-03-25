@@ -33,11 +33,21 @@ class LectureCourseImporterWorker
 
     File.delete(full_filepath)
 
-    models = LectureCourse.where(:year_id => year.id)
+    models = year.lecture_courses.by_code
 
     File.open(Rails.root.join("ASP", year_no.to_s, "lecture_courses.lp"), "w") do |f|
       models.each do |m|
         f.write("#{m.to_ASP}\n")
+      end
+    end
+
+    File.open(Rails.root.join("ASP", year_no.to_s, "course_weeks.lp"), "w") do |f|
+      models.each do |m|
+        year.terms.each do |t|
+          if m.taught_in_term?(t)
+            f.write("per_week(\"#{m.code}\", 3, #{t.no}).\n")
+          end
+        end
       end
     end
   end
