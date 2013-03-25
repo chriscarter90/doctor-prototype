@@ -21,7 +21,7 @@ describe DegreeClass do
   end
 
   describe "relationships" do
-    it { should have_many(:requirements) }
+    it { should have_many(:requirements).dependent(:destroy) }
   end
 
   describe "scopes" do

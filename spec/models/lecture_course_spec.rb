@@ -22,12 +22,12 @@ describe LectureCourse do
   end
 
   describe "relationships" do
-    it { should have_many(:requirements) }
-    it { should have_many(:lecturers) }
+    it { should have_many(:requirements).dependent(:destroy) }
+    it { should have_many(:lecturers).dependent(:destroy) }
     it { should have_many(:staff_members).through(:lecturers) }
     it { should have_many(:degree_classes).through(:requirements) }
-    it { should have_many(:course_weeks) }
-    it { should have_many(:timetable_slots) }
+    it { should have_many(:course_weeks).dependent(:destroy) }
+    it { should have_many(:timetable_slots).dependent(:destroy) }
     it { should have_and_belong_to_many(:clashes) }
     it { should belong_to(:year) }
   end

@@ -22,9 +22,9 @@ describe StaffMember do
   end
 
   describe "relationships" do
-    it { should have_many(:lecturers) }
+    it { should have_many(:lecturers).dependent(:destroy) }
     it { should have_many(:lecture_courses).through(:lecturers) }
-    it { should have_many(:course_weeks) }
+    it { should have_many(:course_weeks).dependent(:destroy) }
   end
 
   describe "scopes" do

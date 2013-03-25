@@ -6,12 +6,12 @@ class LectureCourse < ActiveRecord::Base
   validates_presence_of :code, :title, :term, :year
 
   # = Relationships =
-  has_many :requirements
-  has_many :lecturers
+  has_many :requirements, :dependent => :destroy
+  has_many :lecturers, :dependent => :destroy
   has_many :staff_members, :through => :lecturers
   has_many :degree_classes, :through => :requirements
-  has_many :course_weeks
-  has_many :timetable_slots
+  has_many :course_weeks, :dependent => :destroy
+  has_many :timetable_slots, :dependent => :destroy
   has_and_belongs_to_many :clashes
   has_and_belongs_to_many :unclashables
   belongs_to :year

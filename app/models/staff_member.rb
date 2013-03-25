@@ -6,9 +6,9 @@ class StaffMember < ActiveRecord::Base
   validates_presence_of :login, :salutation, :firstname, :lastname
 
   # = Relationships =
-  has_many :lecturers
+  has_many :lecturers, :dependent => :destroy
   has_many :lecture_courses, :through => :lecturers
-  has_many :course_weeks
+  has_many :course_weeks, :dependent => :destroy
   belongs_to :year
 
   # = Scopes =

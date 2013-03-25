@@ -6,7 +6,7 @@ class DegreeClass < ActiveRecord::Base
   validates_presence_of :degreeyr, :letteryr, :title
 
   # = Relationships =
-  has_many :requirements
+  has_many :requirements, :dependent => :destroy
   belongs_to :year
 
   # = Scopes =
