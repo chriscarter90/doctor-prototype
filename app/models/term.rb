@@ -17,6 +17,10 @@ class Term < ActiveRecord::Base
   # = Scopes =
   scope :in_order, order("no ASC")
 
+  def to_ASP
+    "term(#{no})."
+  end
+
   private
   def must_have_weeks
     if self.no_weeks.nil? || self.no_weeks < 1

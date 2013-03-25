@@ -10,4 +10,8 @@ class Week < ActiveRecord::Base
   has_many :course_weeks, :dependent => :destroy
   has_many :timetable_slots, :dependent => :destroy
 
+  def to_ASP
+    "week_term(#{no}, #{term.no})."
+  end
+
 end

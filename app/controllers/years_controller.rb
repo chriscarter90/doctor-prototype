@@ -25,6 +25,7 @@ class YearsController < ApplicationController
     end
     if @year.save
       @year.create_directory
+      Resque.enqueue(YearWriterWorker, @year.no)
       redirect_to years_path, :notice => "Year was created successfully."
     else
       flash[:warning] = "Year could not be created."
@@ -47,6 +48,7 @@ class YearsController < ApplicationController
       term.save
     end
     if @year.update_attributes(params[:year])
+      Resque.enqueue(YearWriterWorker, @year.no)
       redirect_to year_path(@year), :notice => "Year was updated successfully."
     else
       flash[:warning] = "Year could not be updated."
