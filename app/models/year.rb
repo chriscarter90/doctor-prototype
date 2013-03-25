@@ -23,4 +23,8 @@ class Year < ActiveRecord::Base
   def to_param
     no
   end
+
+  def create_directory
+    FileUtils::mkdir_p(Rails.root.join('ASP', no.to_s))
+  end
 end

@@ -56,4 +56,8 @@ class LectureCourse < ActiveRecord::Base
   def display_name
     "#{code} - #{title}"
   end
+
+  def to_ASP
+    "course(\"#{code}\")."
+  end
 end

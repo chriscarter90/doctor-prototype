@@ -24,6 +24,7 @@ class YearsController < ApplicationController
       t.no_weeks = no_weeks.to_i
     end
     if @year.save
+      @year.create_directory
       redirect_to years_path, :notice => "Year was created successfully."
     else
       flash[:warning] = "Year could not be created."
