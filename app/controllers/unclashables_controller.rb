@@ -8,6 +8,8 @@ class UnclashablesController < ApplicationController
     u.lecture_courses << @course1
     u.lecture_courses << @course2
 
+    Resque.enqueue(UnclashableWriterWorker, @year.no)
+
     render :nothing => true
   end
 
@@ -23,6 +25,8 @@ class UnclashablesController < ApplicationController
         u.destroy
       end
     end
+
+    Resque.enqueue(UnclashableWriterWorker, @year.no)
 
     render :nothing => true
   end

@@ -13,4 +13,12 @@ class Unclashable < ActiveRecord::Base
   scope :for_year, ->(year) do
     where("unclashables.year_id = ?", year.id)
   end
+
+  def to_ASP
+    ret_val = ""
+    lecture_courses.map(&:code).combination(2) do |c|
+      ret_val << "unclashable(\"#{c[0]}\", \"#{c[1]}\").\n"
+    end
+    ret_val
+  end
 end
