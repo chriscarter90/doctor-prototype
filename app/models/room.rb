@@ -15,4 +15,8 @@ class Room < ActiveRecord::Base
   def to_param
     no
   end
+
+  def to_ASP
+    "room(\"#{no}\")."
+  end
 end
