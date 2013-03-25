@@ -6,17 +6,16 @@ require 'pp'
 def format_allocations(allocations)
   allocs = {}
   allocations.each do |a|
-    day = a.match(/session\((\w+)/)[1]
-    time = a.match(/session\([^,]+,(\d+)/)[1]
+    term   = a.match(/session\([^,]+,[^,]+,(\d+)/)[1]
+    day    = a.match(/session\((\w+)/)[1]
+    time   = a.match(/session\([^,]+,(\d+)/)[1]
     course = a.match(/allocated\("([^"]+)"/)[1]
-    room = a.match(/session\(.*\),"(\d+)"/)[1]
-    allocs[day] ||= {}
-    allocs[day][time] ||= []
-    if !allocs[day][time].empty?
-      allocs[day][time] << "#{course} (R: #{room})"
-    else
-      allocs[day][time] = ["#{course} (R: #{room})"]
-    end
+    room   = a.match(/session\(.*\),"(\d+)"/)[1]
+
+    allocs[term] ||= {}
+    allocs[term][day] ||= {}
+    allocs[term][day][time] ||= []
+    allocs[term][day][time] << "#{course} (R: #{room}))"
   end
   allocs
 end
@@ -32,22 +31,27 @@ else
 
   days = %w[mon tues wed thurs fri]
 
-  table = TinyTable::Table.new
-  table.header = [""] + days
+  allocs.each do |term|
+    puts "Term #{term[0]}"
+    term = term[1]
+    table = TinyTable::Table.new
+    table.header = [""] + days
 
-  1.upto(9) do |i|
-    line = [i]
+    "1".upto("9") do |i|
+      line = [i]
 
-    days.each do |day|
-      if allocs[day].nil? || allocs[day][i.to_s].nil?
-        line << ""
-      else
-        line << allocs[day][i.to_s].join(", ")
+      days.each do |day|
+        if term[day].nil?
+          line << ""
+        elsif term[day][i].nil?
+          line << ""
+        else
+          line << term[day][i].join(", ")
+        end
       end
+      table << line
     end
-    table << line
+
+    puts table.to_text
   end
-
-
-  puts table.to_text
 end
