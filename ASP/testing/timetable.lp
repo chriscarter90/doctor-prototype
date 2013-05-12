@@ -28,14 +28,16 @@ N { allocated(C, session(D, T, E), R) : ses(D, T, E) : room(R) : T != 4 : T != 5
 unclashable(C1, C2) :- unclashable(C2, C1).
 
 % Ensure that the types hold.
-:- holds(C,a), course_type(C, T), T != a.
-:- not holds(C, a), course_type(C, a).
+%:- holds(C,a), course_type(C, T), T != a.
+%:- not holds(C, a), course_type(C, a).
+%
+%:- holds(C,b), course_type(C, T), T != b.
+%:- not holds(C, b), course_type(C, b).
+%
+%:- holds(C,c), course_type(C, T), T != c.
+%:- not holds(C, c), course_type(C, c).
 
-:- holds(C,b), course_type(C, T), T != b.
-:- not holds(C, b), course_type(C, b).
-
-:- holds(C,c), course_type(C, T), T != c.
-:- not holds(C, c), course_type(C, c).
+:- not holds(C, T), course_type(C, T).
 
 % A course can't have two rooms concurrently (subject to change).
 :- allocated(C, session(D, T, E), R1), allocated(C, session(D, T, E), R2), R1 != R2.
@@ -57,6 +59,17 @@ alloc_gen(C, D, T) :- allocated(C, session(D, T, _), _).
 :- strictly_not_after_violated(C, T).
 :- strictly_not_before_time_day_violated(C, T, D).
 :- strictly_not_after_time_day_violated(C, T, D).
+
+:- allocated(X, session(D, T, E), _), allocated(Y, session(D, T, E), _), never_clash(X, Y).
+
+time_clash(D, T, E, C1, C2) :- clash(C1, C2), allocated(C1, session(D, T, E), _), allocated(C2, session(D, T, E), _).
+
+:- not X { time_clash(D, T, E, C1, C2) } X, clash(C1, C2), min_hours(C1, C2, E, X).
+
+min_hours(C1, C2, E, H1) :- per_week(C1, H1, E), per_week(C2, H2, E), H1 <= H2.
+min_hours(C1, C2, E, H2) :- per_week(C1, H1, E), per_week(C2, H2, E), H1 > H2.
+
+same_day_time(D, T, D, T)
 
 :- precisely_violated(C, T, D).
 
