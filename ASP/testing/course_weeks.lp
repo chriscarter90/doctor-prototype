@@ -1,261 +1,879 @@
-%per_week("112", 3, 1).
-%per_week("113", 3, 2).
-%per_week("120.1", 3, 1).
-%per_week("120.2", 3, 1).
-%per_week("120.2", 3, 2).
-%per_week("120.3", 3, 3).
-%per_week("130", 3, 2).
-%per_week("140", 3, 1).
-%per_week("141", 3, 2).
-%per_week("141J", 3, 2).
-%per_week("142", 3, 1).
-%per_week("142", 3, 2).
-%per_week("145", 3, 1).
-%per_week("161", 3, 1).
-%per_week("161", 3, 2).
-%per_week("161", 3, 3).
-%per_week("163", 3, 2).
-%per_week("164", 3, 2).
-%per_week("173", 3, 3).
-%per_week("176", 3, 1).
-%per_week("176", 3, 2).
-%per_week("176", 3, 3).
-%per_week("202", 3, 2).
-%per_week("203", 3, 3).
-%per_week("210", 3, 2).
-%per_week("211", 3, 2).
-%per_week("212", 3, 2).
-%per_week("220", 3, 1).
-%per_week("221", 3, 1).
-%per_week("223", 3, 1).
-%per_week("231", 3, 2).
-%per_week("233", 3, 2).
-%per_week("240", 3, 1).
-%per_week("245", 3, 1).
-%per_week("252", 3, 1).
-%per_week("252", 3, 2).
-%per_week("261", 3, 1).
-%per_week("261", 3, 2).
-%per_week("261J", 3, 1).
-%per_week("261J", 3, 2).
-%per_week("265", 3, 1).
-%per_week("271", 3, 3).
-%per_week("272", 3, 3).
-%per_week("275", 3, 1).
-%per_week("276", 3, 1).
-%per_week("276", 3, 2).
-%per_week("301", 3, 1).
-%per_week("301", 3, 2).
-%per_week("301", 3, 3).
-%per_week("301I", 3, 1).
-%per_week("301I", 3, 2).
-%per_week("301I", 3, 3).
-%per_week("301J", 3, 1).
-%per_week("301J", 3, 2).
-%per_week("301J", 3, 3).
-per_week("302", 3, 1).
-per_week("303", 3, 2).
-per_week("312", 3, 1).
-per_week("317", 3, 2).
-per_week("318", 3, 2).
-per_week("320", 3, 1).
-%per_week("325", 3, 1).
-%per_week("325", 3, 2).
-%per_week("325", 3, 3).
-per_week("330", 3, 1).
-per_week("332", 3, 2).
-per_week("333", 3, 2).
-per_week("335", 3, 1).
-per_week("337", 3, 1).
-per_week("338", 3, 2).
-per_week("341", 3, 2).
-per_week("343", 3, 1).
-per_week("350", 3, 2).
-%per_week("351", 3, 1).
-%per_week("351", 3, 2).
-%per_week("351J", 3, 1).
-%per_week("351J", 3, 2).
-%per_week("356", 3, 1).
-%per_week("362", 3, 1).
-per_week("382", 3, 1).
-per_week("395", 3, 1).
-%per_week("401", 3, 1).
-%per_week("401", 3, 2).
-%per_week("401", 3, 3).
-%per_week("401I", 3, 1).
-%per_week("401I", 3, 2).
-%per_week("401I", 3, 3).
-%per_week("401J", 3, 1).
-%per_week("401J", 3, 2).
-%per_week("401J", 3, 3).
-per_week("417", 3, 2).
-per_week("418", 3, 1).
-per_week("421", 3, 1).
-per_week("422", 3, 2).
-per_week("424", 3, 1).
-per_week("429", 3, 2).
-per_week("436", 3, 2).
-per_week("437", 3, 2).
-per_week("438", 3, 2).
-per_week("440", 3, 1).
-%per_week("451", 3, 1).
-%per_week("451", 3, 2).
-%per_week("451J", 3, 1).
-%per_week("451J", 3, 2).
-%per_week("452", 3, 1).
-%per_week("452", 3, 2).
-%per_week("464", 3, 1).
-per_week("470", 3, 2).
-per_week("471", 3, 1).
-per_week("474", 3, 2).
-per_week("475", 3, 1).
-per_week("477", 3, 1).
-%per_week("478", 3, 2).
-per_week("480", 3, 1).
-per_week("481", 3, 1).
-per_week("484", 3, 2).
-per_week("491", 3, 2).
-per_week("493", 3, 2).
-per_week("499", 3, 1).
-%per_week("501", 3, 1).
-%per_week("502", 3, 1).
-%per_week("512", 3, 2).
-%per_week("513", 3, 1).
-%per_week("514", 3, 2).
-%per_week("516", 3, 1).
-%per_week("517", 3, 1).
-%per_week("518", 3, 1).
-%per_week("520", 3, 2).
-%per_week("521", 3, 1).
-%per_week("522", 3, 2).
-%per_week("523", 3, 3).
-%per_week("525", 3, 2).
-%per_week("526", 3, 2).
-%per_week("527", 3, 2).
-%per_week("528", 3, 2).
-%per_week("530", 3, 2).
-%per_week("531", 3, 1).
-%per_week("531", 3, 2).
-%per_week("533", 3, 1).
-%per_week("533", 3, 2).
-%per_week("534", 3, 1).
-%per_week("541", 3, 3).
-%per_week("542", 3, 3).
-%per_week("543", 3, 3).
-%per_week("550", 3, 1).
-%per_week("550", 3, 2).
-%per_week("551", 3, 2).
-%per_week("552", 3, 2).
-%per_week("570", 3, 1).
-%per_week("570", 3, 2).
-%per_week("570", 3, 3).
-%per_week("601", 3, 1).
-%per_week("601", 3, 2).
-%per_week("601", 3, 3).
-%per_week("602", 3, 1).
-%per_week("602", 3, 2).
-%per_week("602", 3, 3).
-%per_week("610", 3, 1).
-%per_week("610", 3, 2).
-%per_week("610", 3, 3).
-%per_week("620", 3, 1).
-%per_week("620", 3, 2).
-%per_week("620", 3, 3).
-%per_week("630", 3, 1).
-%per_week("630", 3, 2).
-%per_week("630", 3, 3).
-%per_week("640", 3, 1).
-%per_week("640", 3, 2).
-%per_week("640", 3, 3).
-%per_week("M1F", 3, 1).
-%per_week("M1GLA", 3, 1).
-%per_week("M1M1", 3, 1).
-%per_week("M1M2", 3, 2).
-%per_week("M1P1", 3, 2).
-%per_week("M1P2", 3, 2).
-%per_week("M1S", 3, 1).
-%per_week("M2AA1", 3, 2).
-%per_week("M2AA2", 3, 1).
-%per_week("M2AA3", 3, 2).
-%per_week("M2GPJ", 3, 3).
-%per_week("M2PM1", 3, 1).
-%per_week("M2PM2", 3, 1).
-%per_week("M2PM3", 3, 2).
-%per_week("M2PM5", 3, 2).
-%per_week("M2S1", 3, 1).
-%per_week("M2S2", 3, 2).
-%per_week("M3IPJ", 3, 3).
-%per_week("M3N10", 3, 2).
-%per_week("M3N7", 3, 1).
-%per_week("M3P10", 3, 1).
-%per_week("M3P11", 3, 1).
-%per_week("M3P12", 3, 2).
-%per_week("M3P14", 3, 1).
-%per_week("M3P15", 3, 2).
-%per_week("M3P16", 3, 2).
-%per_week("M3P17", 3, 1).
-%per_week("M3P18", 3, 2).
-%per_week("M3P19", 3, 1).
-%per_week("M3P20", 3, 1).
-%per_week("M3P21", 3, 2).
-%per_week("M3P23", 3, 1).
-%per_week("M3P5", 3, 2).
-%per_week("M3P6", 3, 2).
-%per_week("M3P7", 3, 1).
-%per_week("M3P8", 3, 1).
-%per_week("M3S1", 3, 1).
-%per_week("M3S11", 3, 2).
-%per_week("M3S14", 3, 2).
-%per_week("M3S16", 3, 1).
-%per_week("M3S17", 3, 2).
-%per_week("M3S2", 3, 2).
-%per_week("M3S4", 3, 1).
-%per_week("M3S7", 3, 1).
-%per_week("M3S8", 3, 1).
-%per_week("M3S9", 3, 2).
-%per_week("M3T", 3, 2).
-%per_week("M3T", 3, 3).
-%per_week("M4A42", 3, 2).
-%per_week("M4IPJ", 3, 1).
-%per_week("M4IPJ", 3, 2).
-%per_week("M4IPJ", 3, 3).
-%per_week("M4N10", 3, 2).
-%per_week("M4N7", 3, 1).
-%per_week("M4P10", 3, 1).
-%per_week("M4P11", 3, 1).
-%per_week("M4P12", 3, 2).
-%per_week("M4P14", 3, 1).
-%per_week("M4P15", 3, 2).
-%per_week("M4P16", 3, 2).
-%per_week("M4P17", 3, 1).
-%per_week("M4P18", 3, 2).
-%per_week("M4P19", 3, 1).
-%per_week("M4P20", 3, 1).
-%per_week("M4P21", 3, 2).
-%per_week("M4P23", 3, 1).
-%per_week("M4P32", 3, 1).
-%per_week("M4P34", 3, 1).
-%per_week("M4P46", 3, 2).
-%per_week("M4P5", 3, 2).
-%per_week("M4P51", 3, 2).
-%per_week("M4P52", 3, 1).
-%per_week("M4P54", 3, 2).
-%per_week("M4P55", 3, 1).
-%per_week("M4P57", 3, 2).
-%per_week("M4P6", 3, 2).
-%per_week("M4P7", 3, 1).
-%per_week("M4P8", 3, 1).
-%per_week("M4S1", 3, 1).
-%per_week("M4S11", 3, 2).
-%per_week("M4S14", 3, 2).
-%per_week("M4S16", 3, 1).
-%per_week("M4S17", 3, 2).
-%per_week("M4S2", 3, 2).
-%per_week("M4S4", 3, 1).
-%per_week("M4S7", 3, 1).
-%per_week("M4S8", 3, 1).
-%per_week("M4S9", 3, 2).
-%per_week("ZZ322", 3, 1).
-%per_week("ZZ322", 3, 2).
-%per_week("ZZ322", 3, 3).
-%per_week("ZZ345", 3, 2).
+min_per_week(C, E, M) :- course(C), per_week(C, _, W, E), M = #min[ per_week(C, H, W, E) = H ].
+max_per_week(C, E, M) :- course(C), per_week(C, _, W, E), M = #max[ per_week(C, H, W, E) = H ].
+
+%% per_week(COURSE, HOURS, WEEK, TERM).
+per_week("301", 0, 1, 1).
+per_week("301", 0, 2, 1).
+per_week("301", 0, 3, 1).
+per_week("301", 0, 4, 1).
+per_week("301", 0, 5, 1).
+per_week("301", 0, 6, 1).
+per_week("301", 0, 7, 1).
+per_week("301", 0, 8, 1).
+per_week("301", 0, 9, 1).
+per_week("301", 0, 10, 1).
+per_week("301", 0, 11, 1).
+
+per_week("301", 0, 1, 2).
+per_week("301", 0, 2, 2).
+per_week("301", 0, 3, 2).
+per_week("301", 0, 4, 2).
+per_week("301", 0, 5, 2).
+per_week("301", 0, 6, 2).
+per_week("301", 0, 7, 2).
+per_week("301", 0, 8, 2).
+per_week("301", 0, 9, 2).
+per_week("301", 0, 10, 2).
+per_week("301", 0, 11, 2).
+
+per_week("301", 0, 1, 3).
+per_week("301", 0, 2, 3).
+per_week("301", 0, 3, 3).
+per_week("301", 0, 4, 3).
+per_week("301", 0, 5, 3).
+per_week("301", 0, 6, 3).
+per_week("301", 0, 7, 3).
+per_week("301", 0, 8, 3).
+per_week("301", 0, 9, 3).
+per_week("301", 0, 10, 3).
+per_week("301", 0, 11, 3).
+
+per_week("301I", 0, 1, 1).
+per_week("301I", 0, 2, 1).
+per_week("301I", 0, 3, 1).
+per_week("301I", 0, 4, 1).
+per_week("301I", 0, 5, 1).
+per_week("301I", 0, 6, 1).
+per_week("301I", 0, 7, 1).
+per_week("301I", 0, 8, 1).
+per_week("301I", 0, 9, 1).
+per_week("301I", 0, 10, 1).
+per_week("301I", 0, 11, 1).
+
+per_week("301I", 0, 1, 2).
+per_week("301I", 0, 2, 2).
+per_week("301I", 0, 3, 2).
+per_week("301I", 0, 4, 2).
+per_week("301I", 0, 5, 2).
+per_week("301I", 0, 6, 2).
+per_week("301I", 0, 7, 2).
+per_week("301I", 0, 8, 2).
+per_week("301I", 0, 9, 2).
+per_week("301I", 0, 10, 2).
+per_week("301I", 0, 11, 2).
+
+per_week("301I", 0, 1, 3).
+per_week("301I", 0, 2, 3).
+per_week("301I", 0, 3, 3).
+per_week("301I", 0, 4, 3).
+per_week("301I", 0, 5, 3).
+per_week("301I", 0, 6, 3).
+per_week("301I", 0, 7, 3).
+per_week("301I", 0, 8, 3).
+per_week("301I", 0, 9, 3).
+per_week("301I", 0, 10, 3).
+per_week("301I", 0, 11, 3).
+
+per_week("301J", 0, 1, 1).
+per_week("301J", 0, 2, 1).
+per_week("301J", 0, 3, 1).
+per_week("301J", 0, 4, 1).
+per_week("301J", 0, 5, 1).
+per_week("301J", 0, 6, 1).
+per_week("301J", 0, 7, 1).
+per_week("301J", 0, 8, 1).
+per_week("301J", 0, 9, 1).
+per_week("301J", 0, 10, 1).
+per_week("301J", 0, 11, 1).
+
+per_week("301J", 0, 1, 2).
+per_week("301J", 0, 2, 2).
+per_week("301J", 0, 3, 2).
+per_week("301J", 0, 4, 2).
+per_week("301J", 0, 5, 2).
+per_week("301J", 0, 6, 2).
+per_week("301J", 0, 7, 2).
+per_week("301J", 0, 8, 2).
+per_week("301J", 0, 9, 2).
+per_week("301J", 0, 10, 2).
+per_week("301J", 0, 11, 2).
+
+per_week("301J", 0, 1, 3).
+per_week("301J", 0, 2, 3).
+per_week("301J", 0, 3, 3).
+per_week("301J", 0, 4, 3).
+per_week("301J", 0, 5, 3).
+per_week("301J", 0, 6, 3).
+per_week("301J", 0, 7, 3).
+per_week("301J", 0, 8, 3).
+per_week("301J", 0, 9, 3).
+per_week("301J", 0, 10, 3).
+per_week("301J", 0, 11, 3).
+
+per_week("302", 3, 1, 1).
+per_week("302", 3, 2, 1).
+per_week("302", 3, 3, 1).
+per_week("302", 3, 4, 1).
+per_week("302", 3, 5, 1).
+per_week("302", 3, 6, 1).
+per_week("302", 3, 7, 1).
+per_week("302", 3, 8, 1).
+per_week("302", 3, 9, 1).
+per_week("302", 3, 10, 1).
+per_week("302", 3, 11, 1).
+
+per_week("303", 3, 1, 2).
+per_week("303", 3, 2, 2).
+per_week("303", 3, 3, 2).
+per_week("303", 3, 4, 2).
+per_week("303", 3, 5, 2).
+per_week("303", 3, 6, 2).
+per_week("303", 3, 7, 2).
+per_week("303", 3, 8, 2).
+per_week("303", 3, 9, 2).
+per_week("303", 3, 10, 2).
+per_week("303", 3, 11, 2).
+
+per_week("312", 3, 1, 1).
+per_week("312", 3, 2, 1).
+per_week("312", 3, 3, 1).
+per_week("312", 3, 4, 1).
+per_week("312", 3, 5, 1).
+per_week("312", 3, 6, 1).
+per_week("312", 3, 7, 1).
+per_week("312", 3, 8, 1).
+per_week("312", 3, 9, 1).
+per_week("312", 3, 10, 1).
+per_week("312", 3, 11, 1).
+
+per_week("317", 3, 1, 2).
+per_week("317", 3, 2, 2).
+per_week("317", 3, 3, 2).
+per_week("317", 3, 4, 2).
+per_week("317", 3, 5, 2).
+per_week("317", 3, 6, 2).
+per_week("317", 3, 7, 2).
+per_week("317", 3, 8, 2).
+per_week("317", 3, 9, 2).
+per_week("317", 3, 10, 2).
+per_week("317", 3, 11, 2).
+
+per_week("318", 3, 1, 2).
+per_week("318", 3, 2, 2).
+per_week("318", 3, 3, 2).
+per_week("318", 3, 4, 2).
+per_week("318", 3, 5, 2).
+per_week("318", 3, 6, 2).
+per_week("318", 3, 7, 2).
+per_week("318", 3, 8, 2).
+per_week("318", 3, 9, 2).
+per_week("318", 3, 10, 2).
+per_week("318", 3, 11, 2).
+
+per_week("320", 3, 1, 1).
+per_week("320", 3, 2, 1).
+per_week("320", 3, 3, 1).
+per_week("320", 3, 4, 1).
+per_week("320", 3, 5, 1).
+per_week("320", 3, 6, 1).
+per_week("320", 3, 7, 1).
+per_week("320", 3, 8, 1).
+per_week("320", 3, 9, 1).
+per_week("320", 3, 10, 1).
+per_week("320", 3, 11, 1).
+
+per_week("325", 0, 1, 1).
+per_week("325", 0, 2, 1).
+per_week("325", 0, 3, 1).
+per_week("325", 0, 4, 1).
+per_week("325", 0, 5, 1).
+per_week("325", 0, 6, 1).
+per_week("325", 0, 7, 1).
+per_week("325", 0, 8, 1).
+per_week("325", 0, 9, 1).
+per_week("325", 0, 10, 1).
+per_week("325", 0, 11, 1).
+
+per_week("325", 0, 1, 2).
+per_week("325", 0, 2, 2).
+per_week("325", 0, 3, 2).
+per_week("325", 0, 4, 2).
+per_week("325", 0, 5, 2).
+per_week("325", 0, 6, 2).
+per_week("325", 0, 7, 2).
+per_week("325", 0, 8, 2).
+per_week("325", 0, 9, 2).
+per_week("325", 0, 10, 2).
+per_week("325", 0, 11, 2).
+
+per_week("325", 0, 1, 3).
+per_week("325", 0, 2, 3).
+per_week("325", 0, 3, 3).
+per_week("325", 0, 4, 3).
+per_week("325", 0, 5, 3).
+per_week("325", 0, 6, 3).
+per_week("325", 0, 7, 3).
+per_week("325", 0, 8, 3).
+per_week("325", 0, 9, 3).
+per_week("325", 0, 10, 3).
+per_week("325", 0, 11, 3).
+
+per_week("330", 3, 1, 1).
+per_week("330", 3, 2, 1).
+per_week("330", 3, 3, 1).
+per_week("330", 3, 4, 1).
+per_week("330", 3, 5, 1).
+per_week("330", 3, 6, 1).
+per_week("330", 3, 7, 1).
+per_week("330", 3, 8, 1).
+per_week("330", 3, 9, 1).
+per_week("330", 3, 10, 1).
+per_week("330", 3, 11, 1).
+
+per_week("332", 3, 1, 2).
+per_week("332", 3, 2, 2).
+per_week("332", 3, 3, 2).
+per_week("332", 3, 4, 2).
+per_week("332", 3, 5, 2).
+per_week("332", 3, 6, 2).
+per_week("332", 3, 7, 2).
+per_week("332", 3, 8, 2).
+per_week("332", 3, 9, 2).
+per_week("332", 3, 10, 2).
+per_week("332", 3, 11, 2).
+
+per_week("333", 3, 1, 2).
+per_week("333", 3, 2, 2).
+per_week("333", 3, 3, 2).
+per_week("333", 3, 4, 2).
+per_week("333", 3, 5, 2).
+per_week("333", 3, 6, 2).
+per_week("333", 3, 7, 2).
+per_week("333", 3, 8, 2).
+per_week("333", 3, 9, 2).
+per_week("333", 3, 10, 2).
+per_week("333", 3, 11, 2).
+
+per_week("335", 3, 1, 1).
+per_week("335", 3, 2, 1).
+per_week("335", 3, 3, 1).
+per_week("335", 3, 4, 1).
+per_week("335", 3, 5, 1).
+per_week("335", 3, 6, 1).
+per_week("335", 3, 7, 1).
+per_week("335", 3, 8, 1).
+per_week("335", 3, 9, 1).
+per_week("335", 3, 10, 1).
+per_week("335", 3, 11, 1).
+
+per_week("337", 3, 1, 1).
+per_week("337", 3, 2, 1).
+per_week("337", 3, 3, 1).
+per_week("337", 3, 4, 1).
+per_week("337", 3, 5, 1).
+per_week("337", 3, 6, 1).
+per_week("337", 3, 7, 1).
+per_week("337", 3, 8, 1).
+per_week("337", 3, 9, 1).
+per_week("337", 3, 10, 1).
+per_week("337", 3, 11, 1).
+
+per_week("338", 3, 1, 2).
+per_week("338", 3, 2, 2).
+per_week("338", 3, 3, 2).
+per_week("338", 3, 4, 2).
+per_week("338", 3, 5, 2).
+per_week("338", 3, 6, 2).
+per_week("338", 3, 7, 2).
+per_week("338", 3, 8, 2).
+per_week("338", 3, 9, 2).
+per_week("338", 3, 10, 2).
+per_week("338", 3, 11, 2).
+
+per_week("341", 3, 1, 2).
+per_week("341", 3, 2, 2).
+per_week("341", 3, 3, 2).
+per_week("341", 3, 4, 2).
+per_week("341", 3, 5, 2).
+per_week("341", 3, 6, 2).
+per_week("341", 3, 7, 2).
+per_week("341", 3, 8, 2).
+per_week("341", 3, 9, 2).
+per_week("341", 3, 10, 2).
+per_week("341", 3, 11, 2).
+
+per_week("343", 3, 1, 1).
+per_week("343", 3, 2, 1).
+per_week("343", 3, 3, 1).
+per_week("343", 3, 4, 1).
+per_week("343", 3, 5, 1).
+per_week("343", 3, 6, 1).
+per_week("343", 3, 7, 1).
+per_week("343", 3, 8, 1).
+per_week("343", 3, 9, 1).
+per_week("343", 3, 10, 1).
+per_week("343", 3, 11, 1).
+
+per_week("350", 3, 1, 2).
+per_week("350", 3, 2, 2).
+per_week("350", 3, 3, 2).
+per_week("350", 3, 4, 2).
+per_week("350", 3, 5, 2).
+per_week("350", 3, 6, 2).
+per_week("350", 3, 7, 2).
+per_week("350", 3, 8, 2).
+per_week("350", 3, 9, 2).
+per_week("350", 3, 10, 2).
+per_week("350", 3, 11, 2).
+
+per_week("351", 0, 1, 1).
+per_week("351", 0, 2, 1).
+per_week("351", 0, 3, 1).
+per_week("351", 0, 4, 1).
+per_week("351", 0, 5, 1).
+per_week("351", 0, 6, 1).
+per_week("351", 0, 7, 1).
+per_week("351", 0, 8, 1).
+per_week("351", 0, 9, 1).
+per_week("351", 0, 10, 1).
+per_week("351", 0, 11, 1).
+
+per_week("351", 0, 1, 2).
+per_week("351", 0, 2, 2).
+per_week("351", 0, 3, 2).
+per_week("351", 0, 4, 2).
+per_week("351", 0, 5, 2).
+per_week("351", 0, 6, 2).
+per_week("351", 0, 7, 2).
+per_week("351", 0, 8, 2).
+per_week("351", 0, 9, 2).
+per_week("351", 0, 10, 2).
+per_week("351", 0, 11, 2).
+
+per_week("351J", 0, 1, 1).
+per_week("351J", 0, 2, 1).
+per_week("351J", 0, 3, 1).
+per_week("351J", 0, 4, 1).
+per_week("351J", 0, 5, 1).
+per_week("351J", 0, 6, 1).
+per_week("351J", 0, 7, 1).
+per_week("351J", 0, 8, 1).
+per_week("351J", 0, 9, 1).
+per_week("351J", 0, 10, 1).
+per_week("351J", 0, 11, 1).
+
+per_week("351J", 0, 1, 2).
+per_week("351J", 0, 2, 2).
+per_week("351J", 0, 3, 2).
+per_week("351J", 0, 4, 2).
+per_week("351J", 0, 5, 2).
+per_week("351J", 0, 6, 2).
+per_week("351J", 0, 7, 2).
+per_week("351J", 0, 8, 2).
+per_week("351J", 0, 9, 2).
+per_week("351J", 0, 10, 2).
+per_week("351J", 0, 11, 2).
+
+per_week("356", 0, 1, 1).
+per_week("356", 0, 2, 1).
+per_week("356", 0, 3, 1).
+per_week("356", 0, 4, 1).
+per_week("356", 0, 5, 1).
+per_week("356", 0, 6, 1).
+per_week("356", 0, 7, 1).
+per_week("356", 0, 8, 1).
+per_week("356", 0, 9, 1).
+per_week("356", 0, 10, 1).
+per_week("356", 0, 11, 1).
+
+per_week("362", 0, 1, 1).
+per_week("362", 0, 2, 1).
+per_week("362", 0, 3, 1).
+per_week("362", 0, 4, 1).
+per_week("362", 0, 5, 1).
+per_week("362", 0, 6, 1).
+per_week("362", 0, 7, 1).
+per_week("362", 0, 8, 1).
+per_week("362", 0, 9, 1).
+per_week("362", 0, 10, 1).
+per_week("362", 0, 11, 1).
+
+per_week("382", 3, 1, 1).
+per_week("382", 3, 2, 1).
+per_week("382", 3, 3, 1).
+per_week("382", 3, 4, 1).
+per_week("382", 3, 5, 1).
+per_week("382", 3, 6, 1).
+per_week("382", 3, 7, 1).
+per_week("382", 3, 8, 1).
+per_week("382", 3, 9, 1).
+per_week("382", 3, 10, 1).
+per_week("382", 3, 11, 1).
+
+per_week("395", 3, 1, 1).
+per_week("395", 3, 2, 1).
+per_week("395", 3, 3, 1).
+per_week("395", 3, 4, 1).
+per_week("395", 3, 5, 1).
+per_week("395", 3, 6, 1).
+per_week("395", 3, 7, 1).
+per_week("395", 3, 8, 1).
+per_week("395", 3, 9, 1).
+per_week("395", 3, 10, 1).
+per_week("395", 3, 11, 1).
+
+per_week("401", 0, 1, 1).
+per_week("401", 0, 2, 1).
+per_week("401", 0, 3, 1).
+per_week("401", 0, 4, 1).
+per_week("401", 0, 5, 1).
+per_week("401", 0, 6, 1).
+per_week("401", 0, 7, 1).
+per_week("401", 0, 8, 1).
+per_week("401", 0, 9, 1).
+per_week("401", 0, 10, 1).
+per_week("401", 0, 11, 1).
+
+per_week("401", 0, 1, 2).
+per_week("401", 0, 2, 2).
+per_week("401", 0, 3, 2).
+per_week("401", 0, 4, 2).
+per_week("401", 0, 5, 2).
+per_week("401", 0, 6, 2).
+per_week("401", 0, 7, 2).
+per_week("401", 0, 8, 2).
+per_week("401", 0, 9, 2).
+per_week("401", 0, 10, 2).
+per_week("401", 0, 11, 2).
+
+per_week("401", 0, 1, 3).
+per_week("401", 0, 2, 3).
+per_week("401", 0, 3, 3).
+per_week("401", 0, 4, 3).
+per_week("401", 0, 5, 3).
+per_week("401", 0, 6, 3).
+per_week("401", 0, 7, 3).
+per_week("401", 0, 8, 3).
+per_week("401", 0, 9, 3).
+per_week("401", 0, 10, 3).
+per_week("401", 0, 11, 3).
+
+per_week("401I", 0, 1, 1).
+per_week("401I", 0, 2, 1).
+per_week("401I", 0, 3, 1).
+per_week("401I", 0, 4, 1).
+per_week("401I", 0, 5, 1).
+per_week("401I", 0, 6, 1).
+per_week("401I", 0, 7, 1).
+per_week("401I", 0, 8, 1).
+per_week("401I", 0, 9, 1).
+per_week("401I", 0, 10, 1).
+per_week("401I", 0, 11, 1).
+
+per_week("401I", 0, 1, 2).
+per_week("401I", 0, 2, 2).
+per_week("401I", 0, 3, 2).
+per_week("401I", 0, 4, 2).
+per_week("401I", 0, 5, 2).
+per_week("401I", 0, 6, 2).
+per_week("401I", 0, 7, 2).
+per_week("401I", 0, 8, 2).
+per_week("401I", 0, 9, 2).
+per_week("401I", 0, 10, 2).
+per_week("401I", 0, 11, 2).
+
+per_week("401I", 0, 1, 3).
+per_week("401I", 0, 2, 3).
+per_week("401I", 0, 3, 3).
+per_week("401I", 0, 4, 3).
+per_week("401I", 0, 5, 3).
+per_week("401I", 0, 6, 3).
+per_week("401I", 0, 7, 3).
+per_week("401I", 0, 8, 3).
+per_week("401I", 0, 9, 3).
+per_week("401I", 0, 10, 3).
+per_week("401I", 0, 11, 3).
+
+per_week("401J", 0, 1, 1).
+per_week("401J", 0, 2, 1).
+per_week("401J", 0, 3, 1).
+per_week("401J", 0, 4, 1).
+per_week("401J", 0, 5, 1).
+per_week("401J", 0, 6, 1).
+per_week("401J", 0, 7, 1).
+per_week("401J", 0, 8, 1).
+per_week("401J", 0, 9, 1).
+per_week("401J", 0, 10, 1).
+per_week("401J", 0, 11, 1).
+
+per_week("401J", 0, 1, 2).
+per_week("401J", 0, 2, 2).
+per_week("401J", 0, 3, 2).
+per_week("401J", 0, 4, 2).
+per_week("401J", 0, 5, 2).
+per_week("401J", 0, 6, 2).
+per_week("401J", 0, 7, 2).
+per_week("401J", 0, 8, 2).
+per_week("401J", 0, 9, 2).
+per_week("401J", 0, 10, 2).
+per_week("401J", 0, 11, 2).
+
+per_week("401J", 0, 1, 3).
+per_week("401J", 0, 2, 3).
+per_week("401J", 0, 3, 3).
+per_week("401J", 0, 4, 3).
+per_week("401J", 0, 5, 3).
+per_week("401J", 0, 6, 3).
+per_week("401J", 0, 7, 3).
+per_week("401J", 0, 8, 3).
+per_week("401J", 0, 9, 3).
+per_week("401J", 0, 10, 3).
+per_week("401J", 0, 11, 3).
+
+per_week("417", 3, 1, 2).
+per_week("417", 3, 2, 2).
+per_week("417", 3, 3, 2).
+per_week("417", 3, 4, 2).
+per_week("417", 3, 5, 2).
+per_week("417", 3, 6, 2).
+per_week("417", 3, 7, 2).
+per_week("417", 3, 8, 2).
+per_week("417", 3, 9, 2).
+per_week("417", 3, 10, 2).
+per_week("417", 3, 11, 2).
+
+per_week("418", 3, 1, 1).
+per_week("418", 3, 2, 1).
+per_week("418", 3, 3, 1).
+per_week("418", 3, 4, 1).
+per_week("418", 3, 5, 1).
+per_week("418", 3, 6, 1).
+per_week("418", 3, 7, 1).
+per_week("418", 3, 8, 1).
+per_week("418", 3, 9, 1).
+per_week("418", 3, 10, 1).
+per_week("418", 3, 11, 1).
+
+per_week("421", 3, 1, 1).
+per_week("421", 3, 2, 1).
+per_week("421", 3, 3, 1).
+per_week("421", 3, 4, 1).
+per_week("421", 3, 5, 1).
+per_week("421", 3, 6, 1).
+per_week("421", 3, 7, 1).
+per_week("421", 3, 8, 1).
+per_week("421", 3, 9, 1).
+per_week("421", 3, 10, 1).
+per_week("421", 3, 11, 1).
+
+per_week("422", 3, 1, 2).
+per_week("422", 3, 2, 2).
+per_week("422", 3, 3, 2).
+per_week("422", 3, 4, 2).
+per_week("422", 3, 5, 2).
+per_week("422", 3, 6, 2).
+per_week("422", 3, 7, 2).
+per_week("422", 3, 8, 2).
+per_week("422", 3, 9, 2).
+per_week("422", 3, 10, 2).
+per_week("422", 3, 11, 2).
+
+per_week("424", 3, 1, 1).
+per_week("424", 3, 2, 1).
+per_week("424", 3, 3, 1).
+per_week("424", 3, 4, 1).
+per_week("424", 3, 5, 1).
+per_week("424", 3, 6, 1).
+per_week("424", 3, 7, 1).
+per_week("424", 3, 8, 1).
+per_week("424", 3, 9, 1).
+per_week("424", 3, 10, 1).
+per_week("424", 3, 11, 1).
+
+per_week("429", 3, 1, 2).
+per_week("429", 3, 2, 2).
+per_week("429", 3, 3, 2).
+per_week("429", 3, 4, 2).
+per_week("429", 3, 5, 2).
+per_week("429", 3, 6, 2).
+per_week("429", 3, 7, 2).
+per_week("429", 3, 8, 2).
+per_week("429", 3, 9, 2).
+per_week("429", 3, 10, 2).
+per_week("429", 3, 11, 2).
+
+per_week("436", 3, 1, 2).
+per_week("436", 3, 2, 2).
+per_week("436", 3, 3, 2).
+per_week("436", 3, 4, 2).
+per_week("436", 3, 5, 2).
+per_week("436", 3, 6, 2).
+per_week("436", 3, 7, 2).
+per_week("436", 3, 8, 2).
+per_week("436", 3, 9, 2).
+per_week("436", 3, 10, 2).
+per_week("436", 3, 11, 2).
+
+per_week("437", 3, 1, 2).
+per_week("437", 3, 2, 2).
+per_week("437", 3, 3, 2).
+per_week("437", 3, 4, 2).
+per_week("437", 3, 5, 2).
+per_week("437", 3, 6, 2).
+per_week("437", 3, 7, 2).
+per_week("437", 3, 8, 2).
+per_week("437", 3, 9, 2).
+per_week("437", 3, 10, 2).
+per_week("437", 3, 11, 2).
+
+per_week("438", 3, 1, 2).
+per_week("438", 3, 2, 2).
+per_week("438", 3, 3, 2).
+per_week("438", 3, 4, 2).
+per_week("438", 3, 5, 2).
+per_week("438", 3, 6, 2).
+per_week("438", 3, 7, 2).
+per_week("438", 3, 8, 2).
+per_week("438", 3, 9, 2).
+per_week("438", 3, 10, 2).
+per_week("438", 3, 11, 2).
+
+per_week("440", 3, 1, 1).
+per_week("440", 3, 2, 1).
+per_week("440", 3, 3, 1).
+per_week("440", 3, 4, 1).
+per_week("440", 3, 5, 1).
+per_week("440", 3, 6, 1).
+per_week("440", 3, 7, 1).
+per_week("440", 3, 8, 1).
+per_week("440", 3, 9, 1).
+per_week("440", 3, 10, 1).
+per_week("440", 3, 11, 1).
+
+per_week("451", 0, 1, 1).
+per_week("451", 0, 2, 1).
+per_week("451", 0, 3, 1).
+per_week("451", 0, 4, 1).
+per_week("451", 0, 5, 1).
+per_week("451", 0, 6, 1).
+per_week("451", 0, 7, 1).
+per_week("451", 0, 8, 1).
+per_week("451", 0, 9, 1).
+per_week("451", 0, 10, 1).
+per_week("451", 0, 11, 1).
+
+per_week("451", 0, 1, 2).
+per_week("451", 0, 2, 2).
+per_week("451", 0, 3, 2).
+per_week("451", 0, 4, 2).
+per_week("451", 0, 5, 2).
+per_week("451", 0, 6, 2).
+per_week("451", 0, 7, 2).
+per_week("451", 0, 8, 2).
+per_week("451", 0, 9, 2).
+per_week("451", 0, 10, 2).
+per_week("451", 0, 11, 2).
+
+per_week("451J", 0, 1, 1).
+per_week("451J", 0, 2, 1).
+per_week("451J", 0, 3, 1).
+per_week("451J", 0, 4, 1).
+per_week("451J", 0, 5, 1).
+per_week("451J", 0, 6, 1).
+per_week("451J", 0, 7, 1).
+per_week("451J", 0, 8, 1).
+per_week("451J", 0, 9, 1).
+per_week("451J", 0, 10, 1).
+per_week("451J", 0, 11, 1).
+
+per_week("451J", 0, 1, 2).
+per_week("451J", 0, 2, 2).
+per_week("451J", 0, 3, 2).
+per_week("451J", 0, 4, 2).
+per_week("451J", 0, 5, 2).
+per_week("451J", 0, 6, 2).
+per_week("451J", 0, 7, 2).
+per_week("451J", 0, 8, 2).
+per_week("451J", 0, 9, 2).
+per_week("451J", 0, 10, 2).
+per_week("451J", 0, 11, 2).
+
+per_week("452", 0, 1, 1).
+per_week("452", 0, 2, 1).
+per_week("452", 0, 3, 1).
+per_week("452", 0, 4, 1).
+per_week("452", 0, 5, 1).
+per_week("452", 0, 6, 1).
+per_week("452", 0, 7, 1).
+per_week("452", 0, 8, 1).
+per_week("452", 0, 9, 1).
+per_week("452", 0, 10, 1).
+per_week("452", 0, 11, 1).
+
+per_week("452", 0, 1, 2).
+per_week("452", 0, 2, 2).
+per_week("452", 0, 3, 2).
+per_week("452", 0, 4, 2).
+per_week("452", 0, 5, 2).
+per_week("452", 0, 6, 2).
+per_week("452", 0, 7, 2).
+per_week("452", 0, 8, 2).
+per_week("452", 0, 9, 2).
+per_week("452", 0, 10, 2).
+per_week("452", 0, 11, 2).
+
+per_week("464", 0, 1, 1).
+per_week("464", 0, 2, 1).
+per_week("464", 0, 3, 1).
+per_week("464", 0, 4, 1).
+per_week("464", 0, 5, 1).
+per_week("464", 0, 6, 1).
+per_week("464", 0, 7, 1).
+per_week("464", 0, 8, 1).
+per_week("464", 0, 9, 1).
+per_week("464", 0, 10, 1).
+per_week("464", 0, 11, 1).
+
+per_week("470", 3, 1, 2).
+per_week("470", 3, 2, 2).
+per_week("470", 3, 3, 2).
+per_week("470", 3, 4, 2).
+per_week("470", 3, 5, 2).
+per_week("470", 3, 6, 2).
+per_week("470", 3, 7, 2).
+per_week("470", 3, 8, 2).
+per_week("470", 3, 9, 2).
+per_week("470", 3, 10, 2).
+per_week("470", 3, 11, 2).
+
+per_week("471", 3, 1, 1).
+per_week("471", 3, 2, 1).
+per_week("471", 3, 3, 1).
+per_week("471", 3, 4, 1).
+per_week("471", 3, 5, 1).
+per_week("471", 3, 6, 1).
+per_week("471", 3, 7, 1).
+per_week("471", 3, 8, 1).
+per_week("471", 3, 9, 1).
+per_week("471", 3, 10, 1).
+per_week("471", 3, 11, 1).
+
+per_week("474", 3, 1, 2).
+per_week("474", 3, 2, 2).
+per_week("474", 3, 3, 2).
+per_week("474", 3, 4, 2).
+per_week("474", 3, 5, 2).
+per_week("474", 3, 6, 2).
+per_week("474", 3, 7, 2).
+per_week("474", 3, 8, 2).
+per_week("474", 3, 9, 2).
+per_week("474", 3, 10, 2).
+per_week("474", 3, 11, 2).
+
+per_week("475", 3, 1, 1).
+per_week("475", 3, 2, 1).
+per_week("475", 3, 3, 1).
+per_week("475", 3, 4, 1).
+per_week("475", 3, 5, 1).
+per_week("475", 3, 6, 1).
+per_week("475", 3, 7, 1).
+per_week("475", 3, 8, 1).
+per_week("475", 3, 9, 1).
+per_week("475", 3, 10, 1).
+per_week("475", 3, 11, 1).
+
+per_week("477", 3, 1, 1).
+per_week("477", 3, 2, 1).
+per_week("477", 3, 3, 1).
+per_week("477", 3, 4, 1).
+per_week("477", 3, 5, 1).
+per_week("477", 3, 6, 1).
+per_week("477", 3, 7, 1).
+per_week("477", 3, 8, 1).
+per_week("477", 3, 9, 1).
+per_week("477", 3, 10, 1).
+per_week("477", 3, 11, 1).
+
+per_week("478", 0, 1, 2).
+per_week("478", 0, 2, 2).
+per_week("478", 0, 3, 2).
+per_week("478", 0, 4, 2).
+per_week("478", 0, 5, 2).
+per_week("478", 0, 6, 2).
+per_week("478", 0, 7, 2).
+per_week("478", 0, 8, 2).
+per_week("478", 0, 9, 2).
+per_week("478", 0, 10, 2).
+per_week("478", 0, 11, 2).
+
+per_week("480", 3, 1, 1).
+per_week("480", 3, 2, 1).
+per_week("480", 3, 3, 1).
+per_week("480", 3, 4, 1).
+per_week("480", 3, 5, 1).
+per_week("480", 3, 6, 1).
+per_week("480", 3, 7, 1).
+per_week("480", 3, 8, 1).
+per_week("480", 3, 9, 1).
+per_week("480", 3, 10, 1).
+per_week("480", 3, 11, 1).
+
+per_week("481", 3, 1, 1).
+per_week("481", 3, 2, 1).
+per_week("481", 3, 3, 1).
+per_week("481", 3, 4, 1).
+per_week("481", 3, 5, 1).
+per_week("481", 3, 6, 1).
+per_week("481", 3, 7, 1).
+per_week("481", 3, 8, 1).
+per_week("481", 3, 9, 1).
+per_week("481", 3, 10, 1).
+per_week("481", 3, 11, 1).
+
+per_week("484", 3, 1, 2).
+per_week("484", 3, 2, 2).
+per_week("484", 3, 3, 2).
+per_week("484", 3, 4, 2).
+per_week("484", 3, 5, 2).
+per_week("484", 3, 6, 2).
+per_week("484", 3, 7, 2).
+per_week("484", 3, 8, 2).
+per_week("484", 3, 9, 2).
+per_week("484", 3, 10, 2).
+per_week("484", 3, 11, 2).
+
+per_week("491", 3, 1, 2).
+per_week("491", 3, 2, 2).
+per_week("491", 3, 3, 2).
+per_week("491", 3, 4, 2).
+per_week("491", 3, 5, 2).
+per_week("491", 3, 6, 2).
+per_week("491", 3, 7, 2).
+per_week("491", 3, 8, 2).
+per_week("491", 3, 9, 2).
+per_week("491", 3, 10, 2).
+per_week("491", 3, 11, 2).
+
+per_week("493", 3, 1, 2).
+per_week("493", 3, 2, 2).
+per_week("493", 3, 3, 2).
+per_week("493", 3, 4, 2).
+per_week("493", 3, 5, 2).
+per_week("493", 3, 6, 2).
+per_week("493", 3, 7, 2).
+per_week("493", 3, 8, 2).
+per_week("493", 3, 9, 2).
+per_week("493", 3, 10, 2).
+per_week("493", 3, 11, 2).
+
+per_week("499", 3, 1, 1).
+per_week("499", 3, 2, 1).
+per_week("499", 3, 3, 1).
+per_week("499", 3, 4, 1).
+per_week("499", 3, 5, 1).
+per_week("499", 3, 6, 1).
+per_week("499", 3, 7, 1).
+per_week("499", 3, 8, 1).
+per_week("499", 3, 9, 1).
+per_week("499", 3, 10, 1).
+per_week("499", 3, 11, 1).
