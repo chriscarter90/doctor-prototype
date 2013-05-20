@@ -33,42 +33,52 @@ def find_optimal_answer(lines)
   lines[last_line]
 end
 
-allocations = `clingo *.lp`
+answers = []
+threads = []
 
-lines = allocations.split("\n")
-if lines.first.match(/UNSATISFIABLE/)
-  puts "No solutions found."
-else
-  answers = find_optimal_answer(lines).split(/\s/)
-  allocs = format_allocations(answers)
+3.times do |i|
+  threads[i] = Thread.new {
+    allocations = `/vol/lab/CLASP/clingo --const t=#{i+1} *.lp 2> /dev/null`
 
-  days = %w[mon tues wed thurs fri]
-
-  allocs.each do |term|
-    puts "Term #{term[0]}"
-    term_data = term[1]
-    term_data.each do |week|
-      puts "Week #{week[0]}"
-      week_data = week[1]
-      table = TinyTable::Table.new
-      table.header = [""] + days
-
-      "1".upto("9") do |i|
-        line = [i]
-
-        days.each do |day|
-          if week_data[day].nil?
-            line << ""
-          elsif week_data[day][i].nil?
-            line << ""
-          else
-            line << week_data[day][i].join(", ")
-          end
-        end
-        table << line
-      end
-
-      puts table.to_text
+    lines = allocations.split("\n")
+    if lines.first.match(/UNSATISFIABLE/)
+      puts "No solutions found."
+    else
+      answers += find_optimal_answer(lines).split(/\s/)
     end
+  }
+end
+
+threads.map(&:join)
+
+allocs = format_allocations(answers)
+
+days = %w[mon tues wed thurs fri]
+
+allocs.each do |term|
+  puts "Term #{term[0]}"
+  term_data = term[1]
+  term_data.each do |week|
+    puts "Week #{week[0]}"
+    week_data = week[1]
+    table = TinyTable::Table.new
+    table.header = [""] + days
+
+    "1".upto("9") do |i|
+      line = [i]
+
+      days.each do |day|
+        if week_data[day].nil?
+          line << ""
+        elsif week_data[day][i].nil?
+          line << ""
+        else
+          line << week_data[day][i].join(", ")
+        end
+      end
+      table << line
+    end
+
+    puts table.to_text
   end
 end

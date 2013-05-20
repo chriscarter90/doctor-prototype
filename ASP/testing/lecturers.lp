@@ -1,6 +1,6 @@
 teaches("301", "axgopala").
-% teaches("301I", "axgopala").
-% teaches("301J", "axgopala").
+teaches("301I", "axgopala").
+teaches("301J", "axgopala").
 teaches("302", "rbc").
 teaches("312", "pjm").
 teaches("317", "dfg").
@@ -8,7 +8,7 @@ teaches("317", "dr").
 teaches("318", "tjt97").
 teaches("318", "wl").
 teaches("320", "ae").
-% teaches("325", "herbert").
+teaches("325", "herbert").
 teaches("330", "mrh").
 teaches("330", "ecl1").
 teaches("332", "phjk").
@@ -23,9 +23,9 @@ teaches("341", "natasha").
 teaches("341", "yg").
 teaches("343", "dkuhn").
 teaches("350", "jss").
-% teaches("351", "axgopala").
-% teaches("356", "axgopala").
-% teaches("356", "scoultre").
+teaches("351", "axgopala").
+teaches("356", "axgopala").
+teaches("356", "scoultre").
 teaches("362", "axgopala").
 teaches("382", "svb").
 teaches("395", "maja").
