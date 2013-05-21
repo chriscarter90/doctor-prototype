@@ -38,7 +38,7 @@ threads = []
 
 3.times do |i|
   threads[i] = Thread.new {
-    allocations = `/vol/lab/CLASP/clingo --const t=#{i+1} *.lp 2> /dev/null`
+    allocations = `clingo --const t=#{i+1} *.lp 2> /dev/null`
 
     lines = allocations.split("\n")
     if lines.first.match(/UNSATISFIABLE/)
