@@ -10,7 +10,7 @@ course_type("301", a).
 course_type("301I", a).
 course_type("301J", a).
 course_type("302", b).
-course_type("303", a).
+course_type("303", c).
 course_type("312", a).
 course_type("317", b).
 course_type("318", c).
