@@ -21,7 +21,6 @@ holds(C, b, W, E) :- course_type(C, b), consecutive(C, D, morning),  allocated(C
 
 holds(C, c, W, E) :- course_type(C, c), consecutive(C, D1), allocated(C, session(D2, _, W, E), _), D1 != D2.
 
-
 consecutive(C, D) :- course_type(C, c), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R).
 consecutive(C, D, morning) :- course_type(C, b), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R), morning(T).
 consecutive(C, D, afternoon) :- course_type(C, b), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R), afternoon(T).
@@ -45,14 +44,10 @@ N { allocated(C, session(D, T, W, E), R) : ses(D, T, W, E) : room(R) : T != 4 : 
 
 % ============================================= %
 
-
-
-
-
 % Two courses which can't be clashed can't be scheduled concurrently.
 % CURRENTLY USELESS
 unclashable(C1, C2) :- unclashable(C2, C1).
-%:- allocated(C1, S, R1), allocated(C2, S, R2), unclashable(C1, C2), R1 >= R2.
+:- allocated(C1, S, R1), allocated(C2, S, R2), unclashable(C1, C2), R1 >= R2.
 
 alloc_gen(C, D, T) :- allocated(C, session(D, T, _, _), _).
 alloc_gen_term(C, D, T, E) :- allocated(C, session(D, T, _, E), _).
