@@ -59,7 +59,7 @@ alloc_gen_term(C, D, T, E) :- allocated(C, session(D, T, _, E), _).
 
 % time_clash(D, T, W, E, C1, C2) :- clash(C1, C2), allocated(C1, session(D, T, W, E), _), allocated(C2, session(D, T, W, E), _).
 
-% Min { alloc_gen_term(C, D, T, E) } Max :- min_per_week(C, E, Min), max_per_week(C, E, Max).
+Min { alloc_gen_term(C, D, T, E) : day_time(D, T) : term(E) } Max :- min_per_week(C, E, Min), max_per_week(C, E, Max).
 
 % min_hours(C1, C2, W, E, H1) :- per_week(C1, H1, W, E), per_week(C2, H2, W, E), H1 <= H2.
 % min_hours(C1, C2, W, E, H2) :- per_week(C1, H1, W, E), per_week(C2, H2, W, E), H1 > H2.

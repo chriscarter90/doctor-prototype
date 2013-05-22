@@ -5,9 +5,11 @@ day(wed).
 day(thurs).
 day(fri).
 
+day_time(X, 1..9) :- day(X), X != wed.
+day_time(wed, 1..4).
+
 % Define the sessions in each day.
-ses(wed, 1..4, W, Y) :- term(Y), week_term(W, Y).
-ses(X, 1..9, W, Y) :- day(X), X != wed, term(Y), week_term(W, Y).
+ses(D, T, W, E) :- day_time(D, T), week_term(W, E).
 
 % Define when the morning and the afternoon is.
 morning(1..4).
