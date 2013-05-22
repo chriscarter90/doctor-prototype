@@ -10,18 +10,29 @@ consecutive(C, D, W, E) :- course_type(C, c), allocated(C, session(D, T, W, E), 
 consecutive(C, D, W, E, morning) :- course_type(C, b), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R), morning(T).
 consecutive(C, D, W, E, afternoon) :- course_type(C, b), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R), afternoon(T).
 
+% ============================================= %
+
 % Only have enough allocations for each subject, for each week that it's taught.
 N { allocated(C, session(D, T, W, E), R) : ses(D, T, W, E) : room(R) : T != 4 : T != 5 } N :- per_week(C, N, W, E).
 
-%%
+%% Weeks 2-10 same:
 N { allocated(C, session(D, T, 2, E), R) : ses(D, T, 2, E) : room (R) : T != 4 : T != 5 } N :- per_week_2_10(C, N, E).
 
 allocated(C, session(D, T, 3..10, E), R) :- allocated(C, session(D, T, 2, E), R), per_week_2_10(C, _, E).
 %%
 
+%% Weeks 2-9 same:
+N { allocated(C, session(D, T, 2, E), R) : ses(D, T, 2, E) : room(R) : T != 4 : T != 5 } N :- per_week_2_9(C, N, E).
+
+allocated(C, session(D, T, 3..9, E), R) :- allocated(C, session(D, T, 2, E), R), per_week_2_9(C, _, E).
+%%
+
 % Ensure that the types hold (for weeks which have 3 lectures, otherwise who cares?).
 :- not holds(C, T, W, E), course_type(C, T), per_week(C, 3, W, E).
 :- not holds(C, T, W, E), W = 2..10, course_type(C, T), per_week_2_10(C, 3, E).
+:- not holds(C, T, W, E), W = 2..9, course_type(C, T), per_week_2_9(C, 3, E).
+
+% ============================================= %
 
 % ============================================= %
 

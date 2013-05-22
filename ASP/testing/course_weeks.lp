@@ -1,11 +1,22 @@
 min_per_week(C, E, M) :- course(C), week_term_hours(C, _, _, E), M = #min[ week_term_hours(C, H, W, E) = H ].
 max_per_week(C, E, M) :- course(C), week_term_hours(C, _, _, E), M = #max[ week_term_hours(C, H, W, E) = H ].
 
-% per_week(C, H, W, t) :- week_term_hours(C, H, W, t).
+% ============================================= %
+
+%% For when weeks 2-10 are the same:
 per_week_2_10(C, H, t) :- week_term_hours(C, H, W, t) : W = 3..10, week_term_hours(C, H, 2, t).
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W < 2.
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W > 10.
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), not per_week_2_10(C, H, t).
+per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W < 2, per_week_2_10(C, _, t).
+per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W > 10, per_week_2_10(C, _, t).
+
+%% For when 2-9 are the same and 10 is different:
+per_week_2_9(C, H, t) :- week_term_hours(C, H, W, t) : W = 3..9, week_term_hours(C, H, 2, t), not per_week_2_10(C, H, t).
+per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W < 2, per_week_2_9(C, _, t).
+per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W > 9, per_week_2_9(C, _, t).
+
+%% For when neither of the above hold:
+per_week(C, H, W, t) :- week_term_hours(C, H, W, t), not per_week_2_10(C, H, t), not per_week_2_9(C, H, t).
+
+% ============================================= %
 
 %% per_week(COURSE, HOURS, WEEK, TERM).
 week_term_hours("301", 0, 1, 1).
