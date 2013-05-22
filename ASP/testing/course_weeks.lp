@@ -1,5 +1,5 @@
-min_per_week(C, E, M) :- week_term_hours(C, _, W, E), M = #min[ week_term_hours(C, H, W, E) = H ].
-max_per_week(C, E, M) :- week_term_hours(C, _, W, E), M = #max[ week_term_hours(C, H, W, E) = H ].
+min_per_week(C, E, M) :- course(C), week_term_hours(C, _, _, E), M = #min[ week_term_hours(C, H, W, E) = H ].
+max_per_week(C, E, M) :- course(C), week_term_hours(C, _, _, E), M = #max[ week_term_hours(C, H, W, E) = H ].
 
 % per_week(C, H, W, t) :- week_term_hours(C, H, W, t).
 per_week_2_10(C, H, t) :- week_term_hours(C, H, W, t) : W = 3..10, week_term_hours(C, H, 2, t).
