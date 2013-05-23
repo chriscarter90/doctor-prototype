@@ -106,6 +106,7 @@ class CourseWeeksController < ApplicationController
       CourseWeek.for_year(@year).destroy_all
     end
 
+    Resque.enqueue(CourseWeekWriterWorker, @year.no)
     redirect_to year_path(@year), :notice => "Selections were updated successfully."
   end
 end

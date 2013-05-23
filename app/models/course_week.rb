@@ -14,4 +14,8 @@ class CourseWeek < ActiveRecord::Base
   scope :for_year, ->(year) do
     joins(:week => :term).where("terms.year_id = ?", year.id)
   end
+
+  def to_ASP
+    "week_term_hours(\"#{lecture_course.code}\", #{hours}, #{week.no}, #{week.term.no}, #{session_type.downcase})."
+  end
 end
