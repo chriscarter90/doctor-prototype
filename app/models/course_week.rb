@@ -16,7 +16,10 @@ class CourseWeek < ActiveRecord::Base
   end
 
   def to_ASP
-    lecturer = staff_member.present? ? staff_member.login : "all"
-    "week_term_hours(\"#{lecture_course.code}\", #{hours}, #{week.no}, #{week.term.no}, #{lecturer}, #{session_type.downcase})."
+    if lecture_course.merged_lecturers? && staff_member.nil?
+      "week_term_hours(\"#{lecture_course.code}\", #{hours}, #{week.no}, #{week.term.no}, all, #{session_type.downcase})."
+    elsif !lecture_course.merged_lecturers? && staff_member.present?
+      "week_term_hours(\"#{lecture_course.code}\", #{hours}, #{week.no}, #{week.term.no}, #{staff_member.login}, #{session_type.downcase})."
+    end
   end
 end
