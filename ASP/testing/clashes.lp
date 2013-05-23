@@ -1,3 +1,5 @@
+never_clash(X, Y) :- b1(X), b1(Y), X != Y, not clash_exception(X, Y).
+never_clash(X, Y) :- b2(X), b2(Y), X != Y, not clash_exception(X, Y).
 never_clash(X, Y) :- b3(X), b3(Y), X != Y, not clash_exception(X, Y).
 never_clash(X, Y) :- b4(X), b4(Y), X != Y, not clash_exception(X, Y).
 
