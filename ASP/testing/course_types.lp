@@ -1,10 +1,3 @@
-% Define the type of each course:
-% a - Schedule all three lectures consecutively
-% b - Schedule lectures in 2:1 on the same day
-% c - Schedule lectures in 2:1 on different days
-
-%% Example:
-% course_type("101", a).
 course_type("112", c).
 course_type("113", b).
 course_type("120.1", a).
