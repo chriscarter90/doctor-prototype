@@ -14,4 +14,12 @@ class Clash < ActiveRecord::Base
   scope :for_year, ->(year) do
     where("clashes.year_id = ?", year.id)
   end
+
+  def to_ASP
+    asp = ""
+    lecture_courses.combination(2).to_a.each do |combination|
+      asp << "clash_wanted(\"#{combination[0].code}\", \"#{combination[1].code}\").\n"
+    end
+    asp
+  end
 end

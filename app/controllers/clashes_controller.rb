@@ -36,6 +36,8 @@ class ClashesController < ApplicationController
       end
     end
 
+    Resque.enqueue(ClashWriterWorker, @year.no)
+
     redirect_to year_path(@year), :notice => "Clashes were updated successfully."
   end
 
