@@ -1,3234 +1,3234 @@
-week_term_hours("223", 0, 1, 1, lecture).
-week_term_hours("223", 0, 1, 1, lecture).
-week_term_hours("223", 0, 1, 1, lab).
-week_term_hours("223", 0, 1, 1, tutorial).
-week_term_hours("471", 0, 1, 1, lecture).
-week_term_hours("471", 0, 1, 1, lab).
-week_term_hours("471", 0, 1, 1, tutorial).
-week_term_hours("421", 0, 1, 1, lecture).
-week_term_hours("421", 0, 1, 1, lab).
-week_term_hours("421", 0, 1, 1, tutorial).
-week_term_hours("480", 0, 1, 1, lecture).
-week_term_hours("480", 0, 1, 1, lab).
-week_term_hours("480", 0, 1, 1, tutorial).
-week_term_hours("501", 0, 1, 1, lecture).
-week_term_hours("501", 0, 1, 1, lecture).
-week_term_hours("501", 0, 1, 1, lab).
-week_term_hours("501", 0, 1, 1, tutorial).
-week_term_hours("302", 0, 1, 1, lecture).
-week_term_hours("302", 0, 1, 1, lab).
-week_term_hours("302", 0, 1, 1, tutorial).
-week_term_hours("337", 0, 1, 1, lecture).
-week_term_hours("337", 0, 1, 1, lecture).
-week_term_hours("337", 0, 1, 1, lab).
-week_term_hours("337", 0, 1, 1, tutorial).
-week_term_hours("534", 0, 1, 1, lecture).
-week_term_hours("534", 0, 1, 1, lecture).
-week_term_hours("534", 0, 1, 1, lab).
-week_term_hours("534", 0, 1, 1, tutorial).
-week_term_hours("475", 0, 1, 1, lecture).
-week_term_hours("475", 0, 1, 1, lecture).
-week_term_hours("475", 0, 1, 1, lab).
-week_term_hours("475", 0, 1, 1, tutorial).
-week_term_hours("220", 0, 1, 1, lecture).
-week_term_hours("220", 0, 1, 1, lab).
-week_term_hours("220", 0, 1, 1, tutorial).
-week_term_hours("477", 0, 1, 1, lecture).
-week_term_hours("477", 0, 1, 1, lab).
-week_term_hours("477", 0, 1, 1, tutorial).
-week_term_hours("531", 0, 1, 1, lecture).
-week_term_hours("531", 0, 1, 1, lecture).
-week_term_hours("531", 0, 1, 1, lab).
-week_term_hours("531", 0, 1, 1, tutorial).
-week_term_hours("440", 0, 1, 1, lecture).
-week_term_hours("440", 0, 1, 1, lab).
-week_term_hours("440", 0, 1, 1, tutorial).
-week_term_hours("343", 0, 1, 1, lecture).
-week_term_hours("343", 0, 1, 1, lab).
-week_term_hours("343", 0, 1, 1, tutorial).
-week_term_hours("312", 0, 1, 1, lecture).
-week_term_hours("312", 0, 1, 1, lab).
-week_term_hours("312", 0, 1, 1, tutorial).
-week_term_hours("382", 0, 1, 1, lecture).
-week_term_hours("382", 0, 1, 1, lab).
-week_term_hours("382", 0, 1, 1, tutorial).
-week_term_hours("499", 0, 1, 1, lecture).
-week_term_hours("499", 0, 1, 1, lab).
-week_term_hours("499", 0, 1, 1, tutorial).
-week_term_hours("335", 0, 1, 1, lecture).
-week_term_hours("335", 0, 1, 1, lecture).
-week_term_hours("335", 0, 1, 1, lab).
-week_term_hours("335", 0, 1, 1, tutorial).
-week_term_hours("516", 0, 1, 1, lecture).
-week_term_hours("516", 0, 1, 1, lab).
-week_term_hours("516", 0, 1, 1, tutorial).
-week_term_hours("502", 0, 1, 1, lecture).
-week_term_hours("502", 0, 1, 1, lab).
-week_term_hours("502", 0, 1, 1, tutorial).
-week_term_hours("424", 0, 1, 1, lecture).
-week_term_hours("424", 0, 1, 1, lab).
-week_term_hours("424", 0, 1, 1, tutorial).
-week_term_hours("330", 0, 1, 1, lecture).
-week_term_hours("330", 0, 1, 1, lecture).
-week_term_hours("330", 0, 1, 1, lab).
-week_term_hours("330", 0, 1, 1, tutorial).
-week_term_hours("395", 0, 1, 1, lecture).
-week_term_hours("395", 0, 1, 1, lecture).
-week_term_hours("395", 0, 1, 1, lab).
-week_term_hours("395", 0, 1, 1, tutorial).
-week_term_hours("481", 0, 1, 1, lecture).
-week_term_hours("481", 0, 1, 1, lecture).
-week_term_hours("481", 0, 1, 1, lab).
-week_term_hours("481", 0, 1, 1, tutorial).
-week_term_hours("276", 0, 1, 1, lecture).
-week_term_hours("276", 0, 1, 1, lab).
-week_term_hours("276", 0, 1, 1, tutorial).
-week_term_hours("221", 0, 1, 1, lecture).
-week_term_hours("221", 0, 1, 1, lecture).
-week_term_hours("221", 0, 1, 1, lab).
-week_term_hours("221", 0, 1, 1, tutorial).
-week_term_hours("142", 0, 1, 1, lecture).
-week_term_hours("142", 0, 1, 1, lecture).
-week_term_hours("142", 0, 1, 1, lab).
-week_term_hours("142", 0, 1, 1, tutorial).
-week_term_hours("140", 0, 1, 1, lecture).
-week_term_hours("140", 0, 1, 1, lab).
-week_term_hours("140", 0, 1, 1, tutorial).
-week_term_hours("120.2", 0, 1, 1, lecture).
-week_term_hours("120.2", 0, 1, 1, lecture).
-week_term_hours("120.2", 0, 1, 1, lecture).
-week_term_hours("120.2", 0, 1, 1, lab).
-week_term_hours("120.2", 0, 1, 1, tutorial).
-week_term_hours("112", 0, 1, 1, lecture).
-week_term_hours("112", 0, 1, 1, lab).
-week_term_hours("112", 0, 1, 1, tutorial).
-week_term_hours("356", 0, 1, 1, lecture).
-week_term_hours("356", 0, 1, 1, lab).
-week_term_hours("356", 0, 1, 1, tutorial).
-week_term_hours("518", 0, 1, 1, lecture).
-week_term_hours("518", 0, 1, 1, lab).
-week_term_hours("518", 0, 1, 1, tutorial).
-week_term_hours("245", 0, 1, 1, lecture).
-week_term_hours("245", 0, 1, 1, lab).
-week_term_hours("245", 0, 1, 1, tutorial).
-week_term_hours("517", 0, 1, 1, lecture).
-week_term_hours("517", 0, 1, 1, lab).
-week_term_hours("517", 0, 1, 1, tutorial).
-week_term_hours("265", 0, 1, 1, lecture).
-week_term_hours("265", 0, 1, 1, lab).
-week_term_hours("265", 0, 1, 1, tutorial).
-week_term_hours("120.1", 0, 1, 1, lecture).
-week_term_hours("120.1", 0, 1, 1, lab).
-week_term_hours("120.1", 0, 1, 1, tutorial).
-week_term_hours("145", 0, 1, 1, lecture).
-week_term_hours("145", 0, 1, 1, lab).
-week_term_hours("145", 0, 1, 1, tutorial).
-week_term_hours("418", 0, 1, 1, lecture).
-week_term_hours("418", 0, 1, 1, lab).
-week_term_hours("418", 0, 1, 1, tutorial).
-week_term_hours("240", 0, 1, 1, lecture).
-week_term_hours("240", 0, 1, 1, lab).
-week_term_hours("240", 0, 1, 1, tutorial).
-week_term_hours("320", 0, 1, 1, lecture).
-week_term_hours("320", 0, 1, 1, lab).
-week_term_hours("320", 0, 1, 1, tutorial).
-week_term_hours("533", 0, 1, 1, lecture).
-week_term_hours("533", 0, 1, 1, lab).
-week_term_hours("533", 0, 1, 1, tutorial).
-week_term_hours("223", 0, 2, 1, lecture).
-week_term_hours("223", 0, 2, 1, lecture).
-week_term_hours("223", 0, 2, 1, lab).
-week_term_hours("223", 0, 2, 1, tutorial).
-week_term_hours("471", 0, 2, 1, lecture).
-week_term_hours("471", 0, 2, 1, lab).
-week_term_hours("471", 0, 2, 1, tutorial).
-week_term_hours("421", 0, 2, 1, lecture).
-week_term_hours("421", 0, 2, 1, lab).
-week_term_hours("421", 0, 2, 1, tutorial).
-week_term_hours("480", 0, 2, 1, lecture).
-week_term_hours("480", 0, 2, 1, lab).
-week_term_hours("480", 0, 2, 1, tutorial).
-week_term_hours("501", 0, 2, 1, lecture).
-week_term_hours("501", 0, 2, 1, lecture).
-week_term_hours("501", 0, 2, 1, lab).
-week_term_hours("501", 0, 2, 1, tutorial).
-week_term_hours("302", 0, 2, 1, lecture).
-week_term_hours("302", 0, 2, 1, lab).
-week_term_hours("302", 0, 2, 1, tutorial).
-week_term_hours("337", 0, 2, 1, lecture).
-week_term_hours("337", 0, 2, 1, lecture).
-week_term_hours("337", 0, 2, 1, lab).
-week_term_hours("337", 0, 2, 1, tutorial).
-week_term_hours("534", 0, 2, 1, lecture).
-week_term_hours("534", 0, 2, 1, lecture).
-week_term_hours("534", 0, 2, 1, lab).
-week_term_hours("534", 0, 2, 1, tutorial).
-week_term_hours("475", 0, 2, 1, lecture).
-week_term_hours("475", 0, 2, 1, lecture).
-week_term_hours("475", 0, 2, 1, lab).
-week_term_hours("475", 0, 2, 1, tutorial).
-week_term_hours("220", 0, 2, 1, lecture).
-week_term_hours("220", 0, 2, 1, lab).
-week_term_hours("220", 0, 2, 1, tutorial).
-week_term_hours("477", 0, 2, 1, lecture).
-week_term_hours("477", 0, 2, 1, lab).
-week_term_hours("477", 0, 2, 1, tutorial).
-week_term_hours("531", 0, 2, 1, lecture).
-week_term_hours("531", 0, 2, 1, lecture).
-week_term_hours("531", 0, 2, 1, lab).
-week_term_hours("531", 0, 2, 1, tutorial).
-week_term_hours("440", 0, 2, 1, lecture).
-week_term_hours("440", 0, 2, 1, lab).
-week_term_hours("440", 0, 2, 1, tutorial).
-week_term_hours("343", 0, 2, 1, lecture).
-week_term_hours("343", 0, 2, 1, lab).
-week_term_hours("343", 0, 2, 1, tutorial).
-week_term_hours("312", 0, 2, 1, lecture).
-week_term_hours("312", 0, 2, 1, lab).
-week_term_hours("312", 0, 2, 1, tutorial).
-week_term_hours("382", 0, 2, 1, lecture).
-week_term_hours("382", 0, 2, 1, lab).
-week_term_hours("382", 0, 2, 1, tutorial).
-week_term_hours("499", 0, 2, 1, lecture).
-week_term_hours("499", 0, 2, 1, lab).
-week_term_hours("499", 0, 2, 1, tutorial).
-week_term_hours("335", 0, 2, 1, lecture).
-week_term_hours("335", 0, 2, 1, lecture).
-week_term_hours("335", 0, 2, 1, lab).
-week_term_hours("335", 0, 2, 1, tutorial).
-week_term_hours("516", 0, 2, 1, lecture).
-week_term_hours("516", 0, 2, 1, lab).
-week_term_hours("516", 0, 2, 1, tutorial).
-week_term_hours("502", 0, 2, 1, lecture).
-week_term_hours("502", 0, 2, 1, lab).
-week_term_hours("502", 0, 2, 1, tutorial).
-week_term_hours("424", 0, 2, 1, lecture).
-week_term_hours("424", 0, 2, 1, lab).
-week_term_hours("424", 0, 2, 1, tutorial).
-week_term_hours("330", 0, 2, 1, lecture).
-week_term_hours("330", 0, 2, 1, lecture).
-week_term_hours("330", 0, 2, 1, lab).
-week_term_hours("330", 0, 2, 1, tutorial).
-week_term_hours("395", 0, 2, 1, lecture).
-week_term_hours("395", 0, 2, 1, lecture).
-week_term_hours("395", 0, 2, 1, lab).
-week_term_hours("395", 0, 2, 1, tutorial).
-week_term_hours("481", 0, 2, 1, lecture).
-week_term_hours("481", 0, 2, 1, lecture).
-week_term_hours("481", 0, 2, 1, lab).
-week_term_hours("481", 0, 2, 1, tutorial).
-week_term_hours("276", 0, 2, 1, lecture).
-week_term_hours("276", 0, 2, 1, lab).
-week_term_hours("276", 0, 2, 1, tutorial).
-week_term_hours("221", 0, 2, 1, lecture).
-week_term_hours("221", 0, 2, 1, lecture).
-week_term_hours("221", 0, 2, 1, lab).
-week_term_hours("221", 0, 2, 1, tutorial).
-week_term_hours("142", 0, 2, 1, lecture).
-week_term_hours("142", 0, 2, 1, lecture).
-week_term_hours("142", 0, 2, 1, lab).
-week_term_hours("142", 0, 2, 1, tutorial).
-week_term_hours("140", 0, 2, 1, lecture).
-week_term_hours("140", 0, 2, 1, lab).
-week_term_hours("140", 0, 2, 1, tutorial).
-week_term_hours("120.2", 0, 2, 1, lecture).
-week_term_hours("120.2", 0, 2, 1, lecture).
-week_term_hours("120.2", 0, 2, 1, lecture).
-week_term_hours("120.2", 0, 2, 1, lab).
-week_term_hours("120.2", 0, 2, 1, tutorial).
-week_term_hours("112", 2, 2, 1, lecture).
-week_term_hours("112", 0, 2, 1, lab).
-week_term_hours("112", 1, 2, 1, tutorial).
-week_term_hours("356", 0, 2, 1, lecture).
-week_term_hours("356", 0, 2, 1, lab).
-week_term_hours("356", 0, 2, 1, tutorial).
-week_term_hours("518", 0, 2, 1, lecture).
-week_term_hours("518", 0, 2, 1, lab).
-week_term_hours("518", 0, 2, 1, tutorial).
-week_term_hours("245", 0, 2, 1, lecture).
-week_term_hours("245", 0, 2, 1, lab).
-week_term_hours("245", 0, 2, 1, tutorial).
-week_term_hours("517", 0, 2, 1, lecture).
-week_term_hours("517", 0, 2, 1, lab).
-week_term_hours("517", 0, 2, 1, tutorial).
-week_term_hours("265", 0, 2, 1, lecture).
-week_term_hours("265", 0, 2, 1, lab).
-week_term_hours("265", 0, 2, 1, tutorial).
-week_term_hours("120.1", 0, 2, 1, lecture).
-week_term_hours("120.1", 0, 2, 1, lab).
-week_term_hours("120.1", 0, 2, 1, tutorial).
-week_term_hours("145", 0, 2, 1, lecture).
-week_term_hours("145", 0, 2, 1, lab).
-week_term_hours("145", 0, 2, 1, tutorial).
-week_term_hours("418", 0, 2, 1, lecture).
-week_term_hours("418", 0, 2, 1, lab).
-week_term_hours("418", 0, 2, 1, tutorial).
-week_term_hours("240", 0, 2, 1, lecture).
-week_term_hours("240", 0, 2, 1, lab).
-week_term_hours("240", 0, 2, 1, tutorial).
-week_term_hours("320", 0, 2, 1, lecture).
-week_term_hours("320", 0, 2, 1, lab).
-week_term_hours("320", 0, 2, 1, tutorial).
-week_term_hours("533", 0, 2, 1, lecture).
-week_term_hours("533", 0, 2, 1, lab).
-week_term_hours("533", 0, 2, 1, tutorial).
-week_term_hours("223", 0, 3, 1, lecture).
-week_term_hours("223", 0, 3, 1, lecture).
-week_term_hours("223", 0, 3, 1, lab).
-week_term_hours("223", 0, 3, 1, tutorial).
-week_term_hours("471", 0, 3, 1, lecture).
-week_term_hours("471", 0, 3, 1, lab).
-week_term_hours("471", 0, 3, 1, tutorial).
-week_term_hours("421", 0, 3, 1, lecture).
-week_term_hours("421", 0, 3, 1, lab).
-week_term_hours("421", 0, 3, 1, tutorial).
-week_term_hours("480", 0, 3, 1, lecture).
-week_term_hours("480", 0, 3, 1, lab).
-week_term_hours("480", 0, 3, 1, tutorial).
-week_term_hours("501", 0, 3, 1, lecture).
-week_term_hours("501", 0, 3, 1, lecture).
-week_term_hours("501", 0, 3, 1, lab).
-week_term_hours("501", 0, 3, 1, tutorial).
-week_term_hours("302", 0, 3, 1, lecture).
-week_term_hours("302", 0, 3, 1, lab).
-week_term_hours("302", 0, 3, 1, tutorial).
-week_term_hours("337", 0, 3, 1, lecture).
-week_term_hours("337", 0, 3, 1, lecture).
-week_term_hours("337", 0, 3, 1, lab).
-week_term_hours("337", 0, 3, 1, tutorial).
-week_term_hours("534", 0, 3, 1, lecture).
-week_term_hours("534", 0, 3, 1, lecture).
-week_term_hours("534", 0, 3, 1, lab).
-week_term_hours("534", 0, 3, 1, tutorial).
-week_term_hours("475", 0, 3, 1, lecture).
-week_term_hours("475", 0, 3, 1, lecture).
-week_term_hours("475", 0, 3, 1, lab).
-week_term_hours("475", 0, 3, 1, tutorial).
-week_term_hours("220", 0, 3, 1, lecture).
-week_term_hours("220", 0, 3, 1, lab).
-week_term_hours("220", 0, 3, 1, tutorial).
-week_term_hours("477", 0, 3, 1, lecture).
-week_term_hours("477", 0, 3, 1, lab).
-week_term_hours("477", 0, 3, 1, tutorial).
-week_term_hours("531", 0, 3, 1, lecture).
-week_term_hours("531", 0, 3, 1, lecture).
-week_term_hours("531", 0, 3, 1, lab).
-week_term_hours("531", 0, 3, 1, tutorial).
-week_term_hours("440", 0, 3, 1, lecture).
-week_term_hours("440", 0, 3, 1, lab).
-week_term_hours("440", 0, 3, 1, tutorial).
-week_term_hours("343", 0, 3, 1, lecture).
-week_term_hours("343", 0, 3, 1, lab).
-week_term_hours("343", 0, 3, 1, tutorial).
-week_term_hours("312", 0, 3, 1, lecture).
-week_term_hours("312", 0, 3, 1, lab).
-week_term_hours("312", 0, 3, 1, tutorial).
-week_term_hours("382", 0, 3, 1, lecture).
-week_term_hours("382", 0, 3, 1, lab).
-week_term_hours("382", 0, 3, 1, tutorial).
-week_term_hours("499", 0, 3, 1, lecture).
-week_term_hours("499", 0, 3, 1, lab).
-week_term_hours("499", 0, 3, 1, tutorial).
-week_term_hours("335", 0, 3, 1, lecture).
-week_term_hours("335", 0, 3, 1, lecture).
-week_term_hours("335", 0, 3, 1, lab).
-week_term_hours("335", 0, 3, 1, tutorial).
-week_term_hours("516", 0, 3, 1, lecture).
-week_term_hours("516", 0, 3, 1, lab).
-week_term_hours("516", 0, 3, 1, tutorial).
-week_term_hours("502", 0, 3, 1, lecture).
-week_term_hours("502", 0, 3, 1, lab).
-week_term_hours("502", 0, 3, 1, tutorial).
-week_term_hours("424", 0, 3, 1, lecture).
-week_term_hours("424", 0, 3, 1, lab).
-week_term_hours("424", 0, 3, 1, tutorial).
-week_term_hours("330", 0, 3, 1, lecture).
-week_term_hours("330", 0, 3, 1, lecture).
-week_term_hours("330", 0, 3, 1, lab).
-week_term_hours("330", 0, 3, 1, tutorial).
-week_term_hours("395", 0, 3, 1, lecture).
-week_term_hours("395", 0, 3, 1, lecture).
-week_term_hours("395", 0, 3, 1, lab).
-week_term_hours("395", 0, 3, 1, tutorial).
-week_term_hours("481", 0, 3, 1, lecture).
-week_term_hours("481", 0, 3, 1, lecture).
-week_term_hours("481", 0, 3, 1, lab).
-week_term_hours("481", 0, 3, 1, tutorial).
-week_term_hours("276", 0, 3, 1, lecture).
-week_term_hours("276", 0, 3, 1, lab).
-week_term_hours("276", 0, 3, 1, tutorial).
-week_term_hours("221", 0, 3, 1, lecture).
-week_term_hours("221", 0, 3, 1, lecture).
-week_term_hours("221", 0, 3, 1, lab).
-week_term_hours("221", 0, 3, 1, tutorial).
-week_term_hours("142", 0, 3, 1, lecture).
-week_term_hours("142", 0, 3, 1, lecture).
-week_term_hours("142", 0, 3, 1, lab).
-week_term_hours("142", 0, 3, 1, tutorial).
-week_term_hours("140", 0, 3, 1, lecture).
-week_term_hours("140", 0, 3, 1, lab).
-week_term_hours("140", 0, 3, 1, tutorial).
-week_term_hours("120.2", 0, 3, 1, lecture).
-week_term_hours("120.2", 0, 3, 1, lecture).
-week_term_hours("120.2", 0, 3, 1, lecture).
-week_term_hours("120.2", 0, 3, 1, lab).
-week_term_hours("120.2", 0, 3, 1, tutorial).
-week_term_hours("112", 2, 3, 1, lecture).
-week_term_hours("112", 0, 3, 1, lab).
-week_term_hours("112", 1, 3, 1, tutorial).
-week_term_hours("356", 0, 3, 1, lecture).
-week_term_hours("356", 0, 3, 1, lab).
-week_term_hours("356", 0, 3, 1, tutorial).
-week_term_hours("518", 0, 3, 1, lecture).
-week_term_hours("518", 0, 3, 1, lab).
-week_term_hours("518", 0, 3, 1, tutorial).
-week_term_hours("245", 0, 3, 1, lecture).
-week_term_hours("245", 0, 3, 1, lab).
-week_term_hours("245", 0, 3, 1, tutorial).
-week_term_hours("517", 0, 3, 1, lecture).
-week_term_hours("517", 0, 3, 1, lab).
-week_term_hours("517", 0, 3, 1, tutorial).
-week_term_hours("265", 0, 3, 1, lecture).
-week_term_hours("265", 0, 3, 1, lab).
-week_term_hours("265", 0, 3, 1, tutorial).
-week_term_hours("120.1", 0, 3, 1, lecture).
-week_term_hours("120.1", 0, 3, 1, lab).
-week_term_hours("120.1", 0, 3, 1, tutorial).
-week_term_hours("145", 0, 3, 1, lecture).
-week_term_hours("145", 0, 3, 1, lab).
-week_term_hours("145", 0, 3, 1, tutorial).
-week_term_hours("418", 0, 3, 1, lecture).
-week_term_hours("418", 0, 3, 1, lab).
-week_term_hours("418", 0, 3, 1, tutorial).
-week_term_hours("240", 0, 3, 1, lecture).
-week_term_hours("240", 0, 3, 1, lab).
-week_term_hours("240", 0, 3, 1, tutorial).
-week_term_hours("320", 0, 3, 1, lecture).
-week_term_hours("320", 0, 3, 1, lab).
-week_term_hours("320", 0, 3, 1, tutorial).
-week_term_hours("533", 0, 3, 1, lecture).
-week_term_hours("533", 0, 3, 1, lab).
-week_term_hours("533", 0, 3, 1, tutorial).
-week_term_hours("223", 0, 4, 1, lecture).
-week_term_hours("223", 0, 4, 1, lecture).
-week_term_hours("223", 0, 4, 1, lab).
-week_term_hours("223", 0, 4, 1, tutorial).
-week_term_hours("471", 0, 4, 1, lecture).
-week_term_hours("471", 0, 4, 1, lab).
-week_term_hours("471", 0, 4, 1, tutorial).
-week_term_hours("421", 0, 4, 1, lecture).
-week_term_hours("421", 0, 4, 1, lab).
-week_term_hours("421", 0, 4, 1, tutorial).
-week_term_hours("480", 0, 4, 1, lecture).
-week_term_hours("480", 0, 4, 1, lab).
-week_term_hours("480", 0, 4, 1, tutorial).
-week_term_hours("501", 0, 4, 1, lecture).
-week_term_hours("501", 0, 4, 1, lecture).
-week_term_hours("501", 0, 4, 1, lab).
-week_term_hours("501", 0, 4, 1, tutorial).
-week_term_hours("302", 0, 4, 1, lecture).
-week_term_hours("302", 0, 4, 1, lab).
-week_term_hours("302", 0, 4, 1, tutorial).
-week_term_hours("337", 0, 4, 1, lecture).
-week_term_hours("337", 0, 4, 1, lecture).
-week_term_hours("337", 0, 4, 1, lab).
-week_term_hours("337", 0, 4, 1, tutorial).
-week_term_hours("534", 0, 4, 1, lecture).
-week_term_hours("534", 0, 4, 1, lecture).
-week_term_hours("534", 0, 4, 1, lab).
-week_term_hours("534", 0, 4, 1, tutorial).
-week_term_hours("475", 0, 4, 1, lecture).
-week_term_hours("475", 0, 4, 1, lecture).
-week_term_hours("475", 0, 4, 1, lab).
-week_term_hours("475", 0, 4, 1, tutorial).
-week_term_hours("220", 0, 4, 1, lecture).
-week_term_hours("220", 0, 4, 1, lab).
-week_term_hours("220", 0, 4, 1, tutorial).
-week_term_hours("477", 0, 4, 1, lecture).
-week_term_hours("477", 0, 4, 1, lab).
-week_term_hours("477", 0, 4, 1, tutorial).
-week_term_hours("531", 0, 4, 1, lecture).
-week_term_hours("531", 0, 4, 1, lecture).
-week_term_hours("531", 0, 4, 1, lab).
-week_term_hours("531", 0, 4, 1, tutorial).
-week_term_hours("440", 0, 4, 1, lecture).
-week_term_hours("440", 0, 4, 1, lab).
-week_term_hours("440", 0, 4, 1, tutorial).
-week_term_hours("343", 0, 4, 1, lecture).
-week_term_hours("343", 0, 4, 1, lab).
-week_term_hours("343", 0, 4, 1, tutorial).
-week_term_hours("312", 0, 4, 1, lecture).
-week_term_hours("312", 0, 4, 1, lab).
-week_term_hours("312", 0, 4, 1, tutorial).
-week_term_hours("382", 0, 4, 1, lecture).
-week_term_hours("382", 0, 4, 1, lab).
-week_term_hours("382", 0, 4, 1, tutorial).
-week_term_hours("499", 0, 4, 1, lecture).
-week_term_hours("499", 0, 4, 1, lab).
-week_term_hours("499", 0, 4, 1, tutorial).
-week_term_hours("335", 0, 4, 1, lecture).
-week_term_hours("335", 0, 4, 1, lecture).
-week_term_hours("335", 0, 4, 1, lab).
-week_term_hours("335", 0, 4, 1, tutorial).
-week_term_hours("516", 0, 4, 1, lecture).
-week_term_hours("516", 0, 4, 1, lab).
-week_term_hours("516", 0, 4, 1, tutorial).
-week_term_hours("502", 0, 4, 1, lecture).
-week_term_hours("502", 0, 4, 1, lab).
-week_term_hours("502", 0, 4, 1, tutorial).
-week_term_hours("424", 0, 4, 1, lecture).
-week_term_hours("424", 0, 4, 1, lab).
-week_term_hours("424", 0, 4, 1, tutorial).
-week_term_hours("330", 0, 4, 1, lecture).
-week_term_hours("330", 0, 4, 1, lecture).
-week_term_hours("330", 0, 4, 1, lab).
-week_term_hours("330", 0, 4, 1, tutorial).
-week_term_hours("395", 0, 4, 1, lecture).
-week_term_hours("395", 0, 4, 1, lecture).
-week_term_hours("395", 0, 4, 1, lab).
-week_term_hours("395", 0, 4, 1, tutorial).
-week_term_hours("481", 0, 4, 1, lecture).
-week_term_hours("481", 0, 4, 1, lecture).
-week_term_hours("481", 0, 4, 1, lab).
-week_term_hours("481", 0, 4, 1, tutorial).
-week_term_hours("276", 0, 4, 1, lecture).
-week_term_hours("276", 0, 4, 1, lab).
-week_term_hours("276", 0, 4, 1, tutorial).
-week_term_hours("221", 0, 4, 1, lecture).
-week_term_hours("221", 0, 4, 1, lecture).
-week_term_hours("221", 0, 4, 1, lab).
-week_term_hours("221", 0, 4, 1, tutorial).
-week_term_hours("142", 0, 4, 1, lecture).
-week_term_hours("142", 0, 4, 1, lecture).
-week_term_hours("142", 0, 4, 1, lab).
-week_term_hours("142", 0, 4, 1, tutorial).
-week_term_hours("140", 0, 4, 1, lecture).
-week_term_hours("140", 0, 4, 1, lab).
-week_term_hours("140", 0, 4, 1, tutorial).
-week_term_hours("120.2", 0, 4, 1, lecture).
-week_term_hours("120.2", 0, 4, 1, lecture).
-week_term_hours("120.2", 0, 4, 1, lecture).
-week_term_hours("120.2", 0, 4, 1, lab).
-week_term_hours("120.2", 0, 4, 1, tutorial).
-week_term_hours("112", 2, 4, 1, lecture).
-week_term_hours("112", 0, 4, 1, lab).
-week_term_hours("112", 1, 4, 1, tutorial).
-week_term_hours("356", 0, 4, 1, lecture).
-week_term_hours("356", 0, 4, 1, lab).
-week_term_hours("356", 0, 4, 1, tutorial).
-week_term_hours("518", 0, 4, 1, lecture).
-week_term_hours("518", 0, 4, 1, lab).
-week_term_hours("518", 0, 4, 1, tutorial).
-week_term_hours("245", 0, 4, 1, lecture).
-week_term_hours("245", 0, 4, 1, lab).
-week_term_hours("245", 0, 4, 1, tutorial).
-week_term_hours("517", 0, 4, 1, lecture).
-week_term_hours("517", 0, 4, 1, lab).
-week_term_hours("517", 0, 4, 1, tutorial).
-week_term_hours("265", 0, 4, 1, lecture).
-week_term_hours("265", 0, 4, 1, lab).
-week_term_hours("265", 0, 4, 1, tutorial).
-week_term_hours("120.1", 0, 4, 1, lecture).
-week_term_hours("120.1", 0, 4, 1, lab).
-week_term_hours("120.1", 0, 4, 1, tutorial).
-week_term_hours("145", 0, 4, 1, lecture).
-week_term_hours("145", 0, 4, 1, lab).
-week_term_hours("145", 0, 4, 1, tutorial).
-week_term_hours("418", 0, 4, 1, lecture).
-week_term_hours("418", 0, 4, 1, lab).
-week_term_hours("418", 0, 4, 1, tutorial).
-week_term_hours("240", 0, 4, 1, lecture).
-week_term_hours("240", 0, 4, 1, lab).
-week_term_hours("240", 0, 4, 1, tutorial).
-week_term_hours("320", 0, 4, 1, lecture).
-week_term_hours("320", 0, 4, 1, lab).
-week_term_hours("320", 0, 4, 1, tutorial).
-week_term_hours("533", 0, 4, 1, lecture).
-week_term_hours("533", 0, 4, 1, lab).
-week_term_hours("533", 0, 4, 1, tutorial).
-week_term_hours("223", 0, 5, 1, lecture).
-week_term_hours("223", 0, 5, 1, lecture).
-week_term_hours("223", 0, 5, 1, lab).
-week_term_hours("223", 0, 5, 1, tutorial).
-week_term_hours("471", 0, 5, 1, lecture).
-week_term_hours("471", 0, 5, 1, lab).
-week_term_hours("471", 0, 5, 1, tutorial).
-week_term_hours("421", 0, 5, 1, lecture).
-week_term_hours("421", 0, 5, 1, lab).
-week_term_hours("421", 0, 5, 1, tutorial).
-week_term_hours("480", 0, 5, 1, lecture).
-week_term_hours("480", 0, 5, 1, lab).
-week_term_hours("480", 0, 5, 1, tutorial).
-week_term_hours("501", 0, 5, 1, lecture).
-week_term_hours("501", 0, 5, 1, lecture).
-week_term_hours("501", 0, 5, 1, lab).
-week_term_hours("501", 0, 5, 1, tutorial).
-week_term_hours("302", 0, 5, 1, lecture).
-week_term_hours("302", 0, 5, 1, lab).
-week_term_hours("302", 0, 5, 1, tutorial).
-week_term_hours("337", 0, 5, 1, lecture).
-week_term_hours("337", 0, 5, 1, lecture).
-week_term_hours("337", 0, 5, 1, lab).
-week_term_hours("337", 0, 5, 1, tutorial).
-week_term_hours("534", 0, 5, 1, lecture).
-week_term_hours("534", 0, 5, 1, lecture).
-week_term_hours("534", 0, 5, 1, lab).
-week_term_hours("534", 0, 5, 1, tutorial).
-week_term_hours("475", 0, 5, 1, lecture).
-week_term_hours("475", 0, 5, 1, lecture).
-week_term_hours("475", 0, 5, 1, lab).
-week_term_hours("475", 0, 5, 1, tutorial).
-week_term_hours("220", 0, 5, 1, lecture).
-week_term_hours("220", 0, 5, 1, lab).
-week_term_hours("220", 0, 5, 1, tutorial).
-week_term_hours("477", 0, 5, 1, lecture).
-week_term_hours("477", 0, 5, 1, lab).
-week_term_hours("477", 0, 5, 1, tutorial).
-week_term_hours("531", 0, 5, 1, lecture).
-week_term_hours("531", 0, 5, 1, lecture).
-week_term_hours("531", 0, 5, 1, lab).
-week_term_hours("531", 0, 5, 1, tutorial).
-week_term_hours("440", 0, 5, 1, lecture).
-week_term_hours("440", 0, 5, 1, lab).
-week_term_hours("440", 0, 5, 1, tutorial).
-week_term_hours("343", 0, 5, 1, lecture).
-week_term_hours("343", 0, 5, 1, lab).
-week_term_hours("343", 0, 5, 1, tutorial).
-week_term_hours("312", 0, 5, 1, lecture).
-week_term_hours("312", 0, 5, 1, lab).
-week_term_hours("312", 0, 5, 1, tutorial).
-week_term_hours("382", 0, 5, 1, lecture).
-week_term_hours("382", 0, 5, 1, lab).
-week_term_hours("382", 0, 5, 1, tutorial).
-week_term_hours("499", 0, 5, 1, lecture).
-week_term_hours("499", 0, 5, 1, lab).
-week_term_hours("499", 0, 5, 1, tutorial).
-week_term_hours("335", 0, 5, 1, lecture).
-week_term_hours("335", 0, 5, 1, lecture).
-week_term_hours("335", 0, 5, 1, lab).
-week_term_hours("335", 0, 5, 1, tutorial).
-week_term_hours("516", 0, 5, 1, lecture).
-week_term_hours("516", 0, 5, 1, lab).
-week_term_hours("516", 0, 5, 1, tutorial).
-week_term_hours("502", 0, 5, 1, lecture).
-week_term_hours("502", 0, 5, 1, lab).
-week_term_hours("502", 0, 5, 1, tutorial).
-week_term_hours("424", 0, 5, 1, lecture).
-week_term_hours("424", 0, 5, 1, lab).
-week_term_hours("424", 0, 5, 1, tutorial).
-week_term_hours("330", 0, 5, 1, lecture).
-week_term_hours("330", 0, 5, 1, lecture).
-week_term_hours("330", 0, 5, 1, lab).
-week_term_hours("330", 0, 5, 1, tutorial).
-week_term_hours("395", 0, 5, 1, lecture).
-week_term_hours("395", 0, 5, 1, lecture).
-week_term_hours("395", 0, 5, 1, lab).
-week_term_hours("395", 0, 5, 1, tutorial).
-week_term_hours("481", 0, 5, 1, lecture).
-week_term_hours("481", 0, 5, 1, lecture).
-week_term_hours("481", 0, 5, 1, lab).
-week_term_hours("481", 0, 5, 1, tutorial).
-week_term_hours("276", 0, 5, 1, lecture).
-week_term_hours("276", 0, 5, 1, lab).
-week_term_hours("276", 0, 5, 1, tutorial).
-week_term_hours("221", 0, 5, 1, lecture).
-week_term_hours("221", 0, 5, 1, lecture).
-week_term_hours("221", 0, 5, 1, lab).
-week_term_hours("221", 0, 5, 1, tutorial).
-week_term_hours("142", 0, 5, 1, lecture).
-week_term_hours("142", 0, 5, 1, lecture).
-week_term_hours("142", 0, 5, 1, lab).
-week_term_hours("142", 0, 5, 1, tutorial).
-week_term_hours("140", 0, 5, 1, lecture).
-week_term_hours("140", 0, 5, 1, lab).
-week_term_hours("140", 0, 5, 1, tutorial).
-week_term_hours("120.2", 0, 5, 1, lecture).
-week_term_hours("120.2", 0, 5, 1, lecture).
-week_term_hours("120.2", 0, 5, 1, lecture).
-week_term_hours("120.2", 0, 5, 1, lab).
-week_term_hours("120.2", 0, 5, 1, tutorial).
-week_term_hours("112", 2, 5, 1, lecture).
-week_term_hours("112", 0, 5, 1, lab).
-week_term_hours("112", 1, 5, 1, tutorial).
-week_term_hours("356", 0, 5, 1, lecture).
-week_term_hours("356", 0, 5, 1, lab).
-week_term_hours("356", 0, 5, 1, tutorial).
-week_term_hours("518", 0, 5, 1, lecture).
-week_term_hours("518", 0, 5, 1, lab).
-week_term_hours("518", 0, 5, 1, tutorial).
-week_term_hours("245", 0, 5, 1, lecture).
-week_term_hours("245", 0, 5, 1, lab).
-week_term_hours("245", 0, 5, 1, tutorial).
-week_term_hours("517", 0, 5, 1, lecture).
-week_term_hours("517", 0, 5, 1, lab).
-week_term_hours("517", 0, 5, 1, tutorial).
-week_term_hours("265", 0, 5, 1, lecture).
-week_term_hours("265", 0, 5, 1, lab).
-week_term_hours("265", 0, 5, 1, tutorial).
-week_term_hours("120.1", 0, 5, 1, lecture).
-week_term_hours("120.1", 0, 5, 1, lab).
-week_term_hours("120.1", 0, 5, 1, tutorial).
-week_term_hours("145", 0, 5, 1, lecture).
-week_term_hours("145", 0, 5, 1, lab).
-week_term_hours("145", 0, 5, 1, tutorial).
-week_term_hours("418", 0, 5, 1, lecture).
-week_term_hours("418", 0, 5, 1, lab).
-week_term_hours("418", 0, 5, 1, tutorial).
-week_term_hours("240", 0, 5, 1, lecture).
-week_term_hours("240", 0, 5, 1, lab).
-week_term_hours("240", 0, 5, 1, tutorial).
-week_term_hours("320", 0, 5, 1, lecture).
-week_term_hours("320", 0, 5, 1, lab).
-week_term_hours("320", 0, 5, 1, tutorial).
-week_term_hours("533", 0, 5, 1, lecture).
-week_term_hours("533", 0, 5, 1, lab).
-week_term_hours("533", 0, 5, 1, tutorial).
-week_term_hours("223", 0, 6, 1, lecture).
-week_term_hours("223", 0, 6, 1, lecture).
-week_term_hours("223", 0, 6, 1, lab).
-week_term_hours("223", 0, 6, 1, tutorial).
-week_term_hours("471", 0, 6, 1, lecture).
-week_term_hours("471", 0, 6, 1, lab).
-week_term_hours("471", 0, 6, 1, tutorial).
-week_term_hours("421", 0, 6, 1, lecture).
-week_term_hours("421", 0, 6, 1, lab).
-week_term_hours("421", 0, 6, 1, tutorial).
-week_term_hours("480", 0, 6, 1, lecture).
-week_term_hours("480", 0, 6, 1, lab).
-week_term_hours("480", 0, 6, 1, tutorial).
-week_term_hours("501", 0, 6, 1, lecture).
-week_term_hours("501", 0, 6, 1, lecture).
-week_term_hours("501", 0, 6, 1, lab).
-week_term_hours("501", 0, 6, 1, tutorial).
-week_term_hours("302", 0, 6, 1, lecture).
-week_term_hours("302", 0, 6, 1, lab).
-week_term_hours("302", 0, 6, 1, tutorial).
-week_term_hours("337", 0, 6, 1, lecture).
-week_term_hours("337", 0, 6, 1, lecture).
-week_term_hours("337", 0, 6, 1, lab).
-week_term_hours("337", 0, 6, 1, tutorial).
-week_term_hours("534", 0, 6, 1, lecture).
-week_term_hours("534", 0, 6, 1, lecture).
-week_term_hours("534", 0, 6, 1, lab).
-week_term_hours("534", 0, 6, 1, tutorial).
-week_term_hours("475", 0, 6, 1, lecture).
-week_term_hours("475", 0, 6, 1, lecture).
-week_term_hours("475", 0, 6, 1, lab).
-week_term_hours("475", 0, 6, 1, tutorial).
-week_term_hours("220", 0, 6, 1, lecture).
-week_term_hours("220", 0, 6, 1, lab).
-week_term_hours("220", 0, 6, 1, tutorial).
-week_term_hours("477", 0, 6, 1, lecture).
-week_term_hours("477", 0, 6, 1, lab).
-week_term_hours("477", 0, 6, 1, tutorial).
-week_term_hours("531", 0, 6, 1, lecture).
-week_term_hours("531", 0, 6, 1, lecture).
-week_term_hours("531", 0, 6, 1, lab).
-week_term_hours("531", 0, 6, 1, tutorial).
-week_term_hours("440", 0, 6, 1, lecture).
-week_term_hours("440", 0, 6, 1, lab).
-week_term_hours("440", 0, 6, 1, tutorial).
-week_term_hours("343", 0, 6, 1, lecture).
-week_term_hours("343", 0, 6, 1, lab).
-week_term_hours("343", 0, 6, 1, tutorial).
-week_term_hours("312", 0, 6, 1, lecture).
-week_term_hours("312", 0, 6, 1, lab).
-week_term_hours("312", 0, 6, 1, tutorial).
-week_term_hours("382", 0, 6, 1, lecture).
-week_term_hours("382", 0, 6, 1, lab).
-week_term_hours("382", 0, 6, 1, tutorial).
-week_term_hours("499", 0, 6, 1, lecture).
-week_term_hours("499", 0, 6, 1, lab).
-week_term_hours("499", 0, 6, 1, tutorial).
-week_term_hours("335", 0, 6, 1, lecture).
-week_term_hours("335", 0, 6, 1, lecture).
-week_term_hours("335", 0, 6, 1, lab).
-week_term_hours("335", 0, 6, 1, tutorial).
-week_term_hours("516", 0, 6, 1, lecture).
-week_term_hours("516", 0, 6, 1, lab).
-week_term_hours("516", 0, 6, 1, tutorial).
-week_term_hours("502", 0, 6, 1, lecture).
-week_term_hours("502", 0, 6, 1, lab).
-week_term_hours("502", 0, 6, 1, tutorial).
-week_term_hours("424", 0, 6, 1, lecture).
-week_term_hours("424", 0, 6, 1, lab).
-week_term_hours("424", 0, 6, 1, tutorial).
-week_term_hours("330", 0, 6, 1, lecture).
-week_term_hours("330", 0, 6, 1, lecture).
-week_term_hours("330", 0, 6, 1, lab).
-week_term_hours("330", 0, 6, 1, tutorial).
-week_term_hours("395", 0, 6, 1, lecture).
-week_term_hours("395", 0, 6, 1, lecture).
-week_term_hours("395", 0, 6, 1, lab).
-week_term_hours("395", 0, 6, 1, tutorial).
-week_term_hours("481", 0, 6, 1, lecture).
-week_term_hours("481", 0, 6, 1, lecture).
-week_term_hours("481", 0, 6, 1, lab).
-week_term_hours("481", 0, 6, 1, tutorial).
-week_term_hours("276", 0, 6, 1, lecture).
-week_term_hours("276", 0, 6, 1, lab).
-week_term_hours("276", 0, 6, 1, tutorial).
-week_term_hours("221", 0, 6, 1, lecture).
-week_term_hours("221", 0, 6, 1, lecture).
-week_term_hours("221", 0, 6, 1, lab).
-week_term_hours("221", 0, 6, 1, tutorial).
-week_term_hours("142", 0, 6, 1, lecture).
-week_term_hours("142", 0, 6, 1, lecture).
-week_term_hours("142", 0, 6, 1, lab).
-week_term_hours("142", 0, 6, 1, tutorial).
-week_term_hours("140", 0, 6, 1, lecture).
-week_term_hours("140", 0, 6, 1, lab).
-week_term_hours("140", 0, 6, 1, tutorial).
-week_term_hours("120.2", 0, 6, 1, lecture).
-week_term_hours("120.2", 0, 6, 1, lecture).
-week_term_hours("120.2", 0, 6, 1, lecture).
-week_term_hours("120.2", 0, 6, 1, lab).
-week_term_hours("120.2", 0, 6, 1, tutorial).
-week_term_hours("112", 2, 6, 1, lecture).
-week_term_hours("112", 0, 6, 1, lab).
-week_term_hours("112", 1, 6, 1, tutorial).
-week_term_hours("356", 0, 6, 1, lecture).
-week_term_hours("356", 0, 6, 1, lab).
-week_term_hours("356", 0, 6, 1, tutorial).
-week_term_hours("518", 0, 6, 1, lecture).
-week_term_hours("518", 0, 6, 1, lab).
-week_term_hours("518", 0, 6, 1, tutorial).
-week_term_hours("245", 0, 6, 1, lecture).
-week_term_hours("245", 0, 6, 1, lab).
-week_term_hours("245", 0, 6, 1, tutorial).
-week_term_hours("517", 0, 6, 1, lecture).
-week_term_hours("517", 0, 6, 1, lab).
-week_term_hours("517", 0, 6, 1, tutorial).
-week_term_hours("265", 0, 6, 1, lecture).
-week_term_hours("265", 0, 6, 1, lab).
-week_term_hours("265", 0, 6, 1, tutorial).
-week_term_hours("120.1", 0, 6, 1, lecture).
-week_term_hours("120.1", 0, 6, 1, lab).
-week_term_hours("120.1", 0, 6, 1, tutorial).
-week_term_hours("145", 0, 6, 1, lecture).
-week_term_hours("145", 0, 6, 1, lab).
-week_term_hours("145", 0, 6, 1, tutorial).
-week_term_hours("418", 0, 6, 1, lecture).
-week_term_hours("418", 0, 6, 1, lab).
-week_term_hours("418", 0, 6, 1, tutorial).
-week_term_hours("240", 0, 6, 1, lecture).
-week_term_hours("240", 0, 6, 1, lab).
-week_term_hours("240", 0, 6, 1, tutorial).
-week_term_hours("320", 0, 6, 1, lecture).
-week_term_hours("320", 0, 6, 1, lab).
-week_term_hours("320", 0, 6, 1, tutorial).
-week_term_hours("533", 0, 6, 1, lecture).
-week_term_hours("533", 0, 6, 1, lab).
-week_term_hours("533", 0, 6, 1, tutorial).
-week_term_hours("223", 0, 7, 1, lecture).
-week_term_hours("223", 0, 7, 1, lecture).
-week_term_hours("223", 0, 7, 1, lab).
-week_term_hours("223", 0, 7, 1, tutorial).
-week_term_hours("471", 0, 7, 1, lecture).
-week_term_hours("471", 0, 7, 1, lab).
-week_term_hours("471", 0, 7, 1, tutorial).
-week_term_hours("421", 0, 7, 1, lecture).
-week_term_hours("421", 0, 7, 1, lab).
-week_term_hours("421", 0, 7, 1, tutorial).
-week_term_hours("480", 0, 7, 1, lecture).
-week_term_hours("480", 0, 7, 1, lab).
-week_term_hours("480", 0, 7, 1, tutorial).
-week_term_hours("501", 0, 7, 1, lecture).
-week_term_hours("501", 0, 7, 1, lecture).
-week_term_hours("501", 0, 7, 1, lab).
-week_term_hours("501", 0, 7, 1, tutorial).
-week_term_hours("302", 0, 7, 1, lecture).
-week_term_hours("302", 0, 7, 1, lab).
-week_term_hours("302", 0, 7, 1, tutorial).
-week_term_hours("337", 0, 7, 1, lecture).
-week_term_hours("337", 0, 7, 1, lecture).
-week_term_hours("337", 0, 7, 1, lab).
-week_term_hours("337", 0, 7, 1, tutorial).
-week_term_hours("534", 0, 7, 1, lecture).
-week_term_hours("534", 0, 7, 1, lecture).
-week_term_hours("534", 0, 7, 1, lab).
-week_term_hours("534", 0, 7, 1, tutorial).
-week_term_hours("475", 0, 7, 1, lecture).
-week_term_hours("475", 0, 7, 1, lecture).
-week_term_hours("475", 0, 7, 1, lab).
-week_term_hours("475", 0, 7, 1, tutorial).
-week_term_hours("220", 0, 7, 1, lecture).
-week_term_hours("220", 0, 7, 1, lab).
-week_term_hours("220", 0, 7, 1, tutorial).
-week_term_hours("477", 0, 7, 1, lecture).
-week_term_hours("477", 0, 7, 1, lab).
-week_term_hours("477", 0, 7, 1, tutorial).
-week_term_hours("531", 0, 7, 1, lecture).
-week_term_hours("531", 0, 7, 1, lecture).
-week_term_hours("531", 0, 7, 1, lab).
-week_term_hours("531", 0, 7, 1, tutorial).
-week_term_hours("440", 0, 7, 1, lecture).
-week_term_hours("440", 0, 7, 1, lab).
-week_term_hours("440", 0, 7, 1, tutorial).
-week_term_hours("343", 0, 7, 1, lecture).
-week_term_hours("343", 0, 7, 1, lab).
-week_term_hours("343", 0, 7, 1, tutorial).
-week_term_hours("312", 0, 7, 1, lecture).
-week_term_hours("312", 0, 7, 1, lab).
-week_term_hours("312", 0, 7, 1, tutorial).
-week_term_hours("382", 0, 7, 1, lecture).
-week_term_hours("382", 0, 7, 1, lab).
-week_term_hours("382", 0, 7, 1, tutorial).
-week_term_hours("499", 0, 7, 1, lecture).
-week_term_hours("499", 0, 7, 1, lab).
-week_term_hours("499", 0, 7, 1, tutorial).
-week_term_hours("335", 0, 7, 1, lecture).
-week_term_hours("335", 0, 7, 1, lecture).
-week_term_hours("335", 0, 7, 1, lab).
-week_term_hours("335", 0, 7, 1, tutorial).
-week_term_hours("516", 0, 7, 1, lecture).
-week_term_hours("516", 0, 7, 1, lab).
-week_term_hours("516", 0, 7, 1, tutorial).
-week_term_hours("502", 0, 7, 1, lecture).
-week_term_hours("502", 0, 7, 1, lab).
-week_term_hours("502", 0, 7, 1, tutorial).
-week_term_hours("424", 0, 7, 1, lecture).
-week_term_hours("424", 0, 7, 1, lab).
-week_term_hours("424", 0, 7, 1, tutorial).
-week_term_hours("330", 0, 7, 1, lecture).
-week_term_hours("330", 0, 7, 1, lecture).
-week_term_hours("330", 0, 7, 1, lab).
-week_term_hours("330", 0, 7, 1, tutorial).
-week_term_hours("395", 0, 7, 1, lecture).
-week_term_hours("395", 0, 7, 1, lecture).
-week_term_hours("395", 0, 7, 1, lab).
-week_term_hours("395", 0, 7, 1, tutorial).
-week_term_hours("481", 0, 7, 1, lecture).
-week_term_hours("481", 0, 7, 1, lecture).
-week_term_hours("481", 0, 7, 1, lab).
-week_term_hours("481", 0, 7, 1, tutorial).
-week_term_hours("276", 0, 7, 1, lecture).
-week_term_hours("276", 0, 7, 1, lab).
-week_term_hours("276", 0, 7, 1, tutorial).
-week_term_hours("221", 0, 7, 1, lecture).
-week_term_hours("221", 0, 7, 1, lecture).
-week_term_hours("221", 0, 7, 1, lab).
-week_term_hours("221", 0, 7, 1, tutorial).
-week_term_hours("142", 0, 7, 1, lecture).
-week_term_hours("142", 0, 7, 1, lecture).
-week_term_hours("142", 0, 7, 1, lab).
-week_term_hours("142", 0, 7, 1, tutorial).
-week_term_hours("140", 0, 7, 1, lecture).
-week_term_hours("140", 0, 7, 1, lab).
-week_term_hours("140", 0, 7, 1, tutorial).
-week_term_hours("120.2", 0, 7, 1, lecture).
-week_term_hours("120.2", 0, 7, 1, lecture).
-week_term_hours("120.2", 0, 7, 1, lecture).
-week_term_hours("120.2", 0, 7, 1, lab).
-week_term_hours("120.2", 0, 7, 1, tutorial).
-week_term_hours("112", 2, 7, 1, lecture).
-week_term_hours("112", 0, 7, 1, lab).
-week_term_hours("112", 1, 7, 1, tutorial).
-week_term_hours("356", 0, 7, 1, lecture).
-week_term_hours("356", 0, 7, 1, lab).
-week_term_hours("356", 0, 7, 1, tutorial).
-week_term_hours("518", 0, 7, 1, lecture).
-week_term_hours("518", 0, 7, 1, lab).
-week_term_hours("518", 0, 7, 1, tutorial).
-week_term_hours("245", 0, 7, 1, lecture).
-week_term_hours("245", 0, 7, 1, lab).
-week_term_hours("245", 0, 7, 1, tutorial).
-week_term_hours("517", 0, 7, 1, lecture).
-week_term_hours("517", 0, 7, 1, lab).
-week_term_hours("517", 0, 7, 1, tutorial).
-week_term_hours("265", 0, 7, 1, lecture).
-week_term_hours("265", 0, 7, 1, lab).
-week_term_hours("265", 0, 7, 1, tutorial).
-week_term_hours("120.1", 0, 7, 1, lecture).
-week_term_hours("120.1", 0, 7, 1, lab).
-week_term_hours("120.1", 0, 7, 1, tutorial).
-week_term_hours("145", 0, 7, 1, lecture).
-week_term_hours("145", 0, 7, 1, lab).
-week_term_hours("145", 0, 7, 1, tutorial).
-week_term_hours("418", 0, 7, 1, lecture).
-week_term_hours("418", 0, 7, 1, lab).
-week_term_hours("418", 0, 7, 1, tutorial).
-week_term_hours("240", 0, 7, 1, lecture).
-week_term_hours("240", 0, 7, 1, lab).
-week_term_hours("240", 0, 7, 1, tutorial).
-week_term_hours("320", 0, 7, 1, lecture).
-week_term_hours("320", 0, 7, 1, lab).
-week_term_hours("320", 0, 7, 1, tutorial).
-week_term_hours("533", 0, 7, 1, lecture).
-week_term_hours("533", 0, 7, 1, lab).
-week_term_hours("533", 0, 7, 1, tutorial).
-week_term_hours("223", 0, 8, 1, lecture).
-week_term_hours("223", 0, 8, 1, lecture).
-week_term_hours("223", 0, 8, 1, lab).
-week_term_hours("223", 0, 8, 1, tutorial).
-week_term_hours("471", 0, 8, 1, lecture).
-week_term_hours("471", 0, 8, 1, lab).
-week_term_hours("471", 0, 8, 1, tutorial).
-week_term_hours("421", 0, 8, 1, lecture).
-week_term_hours("421", 0, 8, 1, lab).
-week_term_hours("421", 0, 8, 1, tutorial).
-week_term_hours("480", 0, 8, 1, lecture).
-week_term_hours("480", 0, 8, 1, lab).
-week_term_hours("480", 0, 8, 1, tutorial).
-week_term_hours("501", 0, 8, 1, lecture).
-week_term_hours("501", 0, 8, 1, lecture).
-week_term_hours("501", 0, 8, 1, lab).
-week_term_hours("501", 0, 8, 1, tutorial).
-week_term_hours("302", 0, 8, 1, lecture).
-week_term_hours("302", 0, 8, 1, lab).
-week_term_hours("302", 0, 8, 1, tutorial).
-week_term_hours("337", 0, 8, 1, lecture).
-week_term_hours("337", 0, 8, 1, lecture).
-week_term_hours("337", 0, 8, 1, lab).
-week_term_hours("337", 0, 8, 1, tutorial).
-week_term_hours("534", 0, 8, 1, lecture).
-week_term_hours("534", 0, 8, 1, lecture).
-week_term_hours("534", 0, 8, 1, lab).
-week_term_hours("534", 0, 8, 1, tutorial).
-week_term_hours("475", 0, 8, 1, lecture).
-week_term_hours("475", 0, 8, 1, lecture).
-week_term_hours("475", 0, 8, 1, lab).
-week_term_hours("475", 0, 8, 1, tutorial).
-week_term_hours("220", 0, 8, 1, lecture).
-week_term_hours("220", 0, 8, 1, lab).
-week_term_hours("220", 0, 8, 1, tutorial).
-week_term_hours("477", 0, 8, 1, lecture).
-week_term_hours("477", 0, 8, 1, lab).
-week_term_hours("477", 0, 8, 1, tutorial).
-week_term_hours("531", 0, 8, 1, lecture).
-week_term_hours("531", 0, 8, 1, lecture).
-week_term_hours("531", 0, 8, 1, lab).
-week_term_hours("531", 0, 8, 1, tutorial).
-week_term_hours("440", 0, 8, 1, lecture).
-week_term_hours("440", 0, 8, 1, lab).
-week_term_hours("440", 0, 8, 1, tutorial).
-week_term_hours("343", 0, 8, 1, lecture).
-week_term_hours("343", 0, 8, 1, lab).
-week_term_hours("343", 0, 8, 1, tutorial).
-week_term_hours("312", 0, 8, 1, lecture).
-week_term_hours("312", 0, 8, 1, lab).
-week_term_hours("312", 0, 8, 1, tutorial).
-week_term_hours("382", 0, 8, 1, lecture).
-week_term_hours("382", 0, 8, 1, lab).
-week_term_hours("382", 0, 8, 1, tutorial).
-week_term_hours("499", 0, 8, 1, lecture).
-week_term_hours("499", 0, 8, 1, lab).
-week_term_hours("499", 0, 8, 1, tutorial).
-week_term_hours("335", 0, 8, 1, lecture).
-week_term_hours("335", 0, 8, 1, lecture).
-week_term_hours("335", 0, 8, 1, lab).
-week_term_hours("335", 0, 8, 1, tutorial).
-week_term_hours("516", 0, 8, 1, lecture).
-week_term_hours("516", 0, 8, 1, lab).
-week_term_hours("516", 0, 8, 1, tutorial).
-week_term_hours("502", 0, 8, 1, lecture).
-week_term_hours("502", 0, 8, 1, lab).
-week_term_hours("502", 0, 8, 1, tutorial).
-week_term_hours("424", 0, 8, 1, lecture).
-week_term_hours("424", 0, 8, 1, lab).
-week_term_hours("424", 0, 8, 1, tutorial).
-week_term_hours("330", 0, 8, 1, lecture).
-week_term_hours("330", 0, 8, 1, lecture).
-week_term_hours("330", 0, 8, 1, lab).
-week_term_hours("330", 0, 8, 1, tutorial).
-week_term_hours("395", 0, 8, 1, lecture).
-week_term_hours("395", 0, 8, 1, lecture).
-week_term_hours("395", 0, 8, 1, lab).
-week_term_hours("395", 0, 8, 1, tutorial).
-week_term_hours("481", 0, 8, 1, lecture).
-week_term_hours("481", 0, 8, 1, lecture).
-week_term_hours("481", 0, 8, 1, lab).
-week_term_hours("481", 0, 8, 1, tutorial).
-week_term_hours("276", 0, 8, 1, lecture).
-week_term_hours("276", 0, 8, 1, lab).
-week_term_hours("276", 0, 8, 1, tutorial).
-week_term_hours("221", 0, 8, 1, lecture).
-week_term_hours("221", 0, 8, 1, lecture).
-week_term_hours("221", 0, 8, 1, lab).
-week_term_hours("221", 0, 8, 1, tutorial).
-week_term_hours("142", 0, 8, 1, lecture).
-week_term_hours("142", 0, 8, 1, lecture).
-week_term_hours("142", 0, 8, 1, lab).
-week_term_hours("142", 0, 8, 1, tutorial).
-week_term_hours("140", 0, 8, 1, lecture).
-week_term_hours("140", 0, 8, 1, lab).
-week_term_hours("140", 0, 8, 1, tutorial).
-week_term_hours("120.2", 0, 8, 1, lecture).
-week_term_hours("120.2", 0, 8, 1, lecture).
-week_term_hours("120.2", 0, 8, 1, lecture).
-week_term_hours("120.2", 0, 8, 1, lab).
-week_term_hours("120.2", 0, 8, 1, tutorial).
-week_term_hours("112", 2, 8, 1, lecture).
-week_term_hours("112", 0, 8, 1, lab).
-week_term_hours("112", 1, 8, 1, tutorial).
-week_term_hours("356", 0, 8, 1, lecture).
-week_term_hours("356", 0, 8, 1, lab).
-week_term_hours("356", 0, 8, 1, tutorial).
-week_term_hours("518", 0, 8, 1, lecture).
-week_term_hours("518", 0, 8, 1, lab).
-week_term_hours("518", 0, 8, 1, tutorial).
-week_term_hours("245", 0, 8, 1, lecture).
-week_term_hours("245", 0, 8, 1, lab).
-week_term_hours("245", 0, 8, 1, tutorial).
-week_term_hours("517", 0, 8, 1, lecture).
-week_term_hours("517", 0, 8, 1, lab).
-week_term_hours("517", 0, 8, 1, tutorial).
-week_term_hours("265", 0, 8, 1, lecture).
-week_term_hours("265", 0, 8, 1, lab).
-week_term_hours("265", 0, 8, 1, tutorial).
-week_term_hours("120.1", 0, 8, 1, lecture).
-week_term_hours("120.1", 0, 8, 1, lab).
-week_term_hours("120.1", 0, 8, 1, tutorial).
-week_term_hours("145", 0, 8, 1, lecture).
-week_term_hours("145", 0, 8, 1, lab).
-week_term_hours("145", 0, 8, 1, tutorial).
-week_term_hours("418", 0, 8, 1, lecture).
-week_term_hours("418", 0, 8, 1, lab).
-week_term_hours("418", 0, 8, 1, tutorial).
-week_term_hours("240", 0, 8, 1, lecture).
-week_term_hours("240", 0, 8, 1, lab).
-week_term_hours("240", 0, 8, 1, tutorial).
-week_term_hours("320", 0, 8, 1, lecture).
-week_term_hours("320", 0, 8, 1, lab).
-week_term_hours("320", 0, 8, 1, tutorial).
-week_term_hours("533", 0, 8, 1, lecture).
-week_term_hours("533", 0, 8, 1, lab).
-week_term_hours("533", 0, 8, 1, tutorial).
-week_term_hours("223", 0, 9, 1, lecture).
-week_term_hours("223", 0, 9, 1, lecture).
-week_term_hours("223", 0, 9, 1, lab).
-week_term_hours("223", 0, 9, 1, tutorial).
-week_term_hours("471", 0, 9, 1, lecture).
-week_term_hours("471", 0, 9, 1, lab).
-week_term_hours("471", 0, 9, 1, tutorial).
-week_term_hours("421", 0, 9, 1, lecture).
-week_term_hours("421", 0, 9, 1, lab).
-week_term_hours("421", 0, 9, 1, tutorial).
-week_term_hours("480", 0, 9, 1, lecture).
-week_term_hours("480", 0, 9, 1, lab).
-week_term_hours("480", 0, 9, 1, tutorial).
-week_term_hours("501", 0, 9, 1, lecture).
-week_term_hours("501", 0, 9, 1, lecture).
-week_term_hours("501", 0, 9, 1, lab).
-week_term_hours("501", 0, 9, 1, tutorial).
-week_term_hours("302", 0, 9, 1, lecture).
-week_term_hours("302", 0, 9, 1, lab).
-week_term_hours("302", 0, 9, 1, tutorial).
-week_term_hours("337", 0, 9, 1, lecture).
-week_term_hours("337", 0, 9, 1, lecture).
-week_term_hours("337", 0, 9, 1, lab).
-week_term_hours("337", 0, 9, 1, tutorial).
-week_term_hours("534", 0, 9, 1, lecture).
-week_term_hours("534", 0, 9, 1, lecture).
-week_term_hours("534", 0, 9, 1, lab).
-week_term_hours("534", 0, 9, 1, tutorial).
-week_term_hours("475", 0, 9, 1, lecture).
-week_term_hours("475", 0, 9, 1, lecture).
-week_term_hours("475", 0, 9, 1, lab).
-week_term_hours("475", 0, 9, 1, tutorial).
-week_term_hours("220", 0, 9, 1, lecture).
-week_term_hours("220", 0, 9, 1, lab).
-week_term_hours("220", 0, 9, 1, tutorial).
-week_term_hours("477", 0, 9, 1, lecture).
-week_term_hours("477", 0, 9, 1, lab).
-week_term_hours("477", 0, 9, 1, tutorial).
-week_term_hours("531", 0, 9, 1, lecture).
-week_term_hours("531", 0, 9, 1, lecture).
-week_term_hours("531", 0, 9, 1, lab).
-week_term_hours("531", 0, 9, 1, tutorial).
-week_term_hours("440", 0, 9, 1, lecture).
-week_term_hours("440", 0, 9, 1, lab).
-week_term_hours("440", 0, 9, 1, tutorial).
-week_term_hours("343", 0, 9, 1, lecture).
-week_term_hours("343", 0, 9, 1, lab).
-week_term_hours("343", 0, 9, 1, tutorial).
-week_term_hours("312", 0, 9, 1, lecture).
-week_term_hours("312", 0, 9, 1, lab).
-week_term_hours("312", 0, 9, 1, tutorial).
-week_term_hours("382", 0, 9, 1, lecture).
-week_term_hours("382", 0, 9, 1, lab).
-week_term_hours("382", 0, 9, 1, tutorial).
-week_term_hours("499", 0, 9, 1, lecture).
-week_term_hours("499", 0, 9, 1, lab).
-week_term_hours("499", 0, 9, 1, tutorial).
-week_term_hours("335", 0, 9, 1, lecture).
-week_term_hours("335", 0, 9, 1, lecture).
-week_term_hours("335", 0, 9, 1, lab).
-week_term_hours("335", 0, 9, 1, tutorial).
-week_term_hours("516", 0, 9, 1, lecture).
-week_term_hours("516", 0, 9, 1, lab).
-week_term_hours("516", 0, 9, 1, tutorial).
-week_term_hours("502", 0, 9, 1, lecture).
-week_term_hours("502", 0, 9, 1, lab).
-week_term_hours("502", 0, 9, 1, tutorial).
-week_term_hours("424", 0, 9, 1, lecture).
-week_term_hours("424", 0, 9, 1, lab).
-week_term_hours("424", 0, 9, 1, tutorial).
-week_term_hours("330", 0, 9, 1, lecture).
-week_term_hours("330", 0, 9, 1, lecture).
-week_term_hours("330", 0, 9, 1, lab).
-week_term_hours("330", 0, 9, 1, tutorial).
-week_term_hours("395", 0, 9, 1, lecture).
-week_term_hours("395", 0, 9, 1, lecture).
-week_term_hours("395", 0, 9, 1, lab).
-week_term_hours("395", 0, 9, 1, tutorial).
-week_term_hours("481", 0, 9, 1, lecture).
-week_term_hours("481", 0, 9, 1, lecture).
-week_term_hours("481", 0, 9, 1, lab).
-week_term_hours("481", 0, 9, 1, tutorial).
-week_term_hours("276", 0, 9, 1, lecture).
-week_term_hours("276", 0, 9, 1, lab).
-week_term_hours("276", 0, 9, 1, tutorial).
-week_term_hours("221", 0, 9, 1, lecture).
-week_term_hours("221", 0, 9, 1, lecture).
-week_term_hours("221", 0, 9, 1, lab).
-week_term_hours("221", 0, 9, 1, tutorial).
-week_term_hours("142", 0, 9, 1, lecture).
-week_term_hours("142", 0, 9, 1, lecture).
-week_term_hours("142", 0, 9, 1, lab).
-week_term_hours("142", 0, 9, 1, tutorial).
-week_term_hours("140", 0, 9, 1, lecture).
-week_term_hours("140", 0, 9, 1, lab).
-week_term_hours("140", 0, 9, 1, tutorial).
-week_term_hours("120.2", 0, 9, 1, lecture).
-week_term_hours("120.2", 0, 9, 1, lecture).
-week_term_hours("120.2", 0, 9, 1, lecture).
-week_term_hours("120.2", 0, 9, 1, lab).
-week_term_hours("120.2", 0, 9, 1, tutorial).
-week_term_hours("112", 2, 9, 1, lecture).
-week_term_hours("112", 0, 9, 1, lab).
-week_term_hours("112", 1, 9, 1, tutorial).
-week_term_hours("356", 0, 9, 1, lecture).
-week_term_hours("356", 0, 9, 1, lab).
-week_term_hours("356", 0, 9, 1, tutorial).
-week_term_hours("518", 0, 9, 1, lecture).
-week_term_hours("518", 0, 9, 1, lab).
-week_term_hours("518", 0, 9, 1, tutorial).
-week_term_hours("245", 0, 9, 1, lecture).
-week_term_hours("245", 0, 9, 1, lab).
-week_term_hours("245", 0, 9, 1, tutorial).
-week_term_hours("517", 0, 9, 1, lecture).
-week_term_hours("517", 0, 9, 1, lab).
-week_term_hours("517", 0, 9, 1, tutorial).
-week_term_hours("265", 0, 9, 1, lecture).
-week_term_hours("265", 0, 9, 1, lab).
-week_term_hours("265", 0, 9, 1, tutorial).
-week_term_hours("120.1", 0, 9, 1, lecture).
-week_term_hours("120.1", 0, 9, 1, lab).
-week_term_hours("120.1", 0, 9, 1, tutorial).
-week_term_hours("145", 0, 9, 1, lecture).
-week_term_hours("145", 0, 9, 1, lab).
-week_term_hours("145", 0, 9, 1, tutorial).
-week_term_hours("418", 0, 9, 1, lecture).
-week_term_hours("418", 0, 9, 1, lab).
-week_term_hours("418", 0, 9, 1, tutorial).
-week_term_hours("240", 0, 9, 1, lecture).
-week_term_hours("240", 0, 9, 1, lab).
-week_term_hours("240", 0, 9, 1, tutorial).
-week_term_hours("320", 0, 9, 1, lecture).
-week_term_hours("320", 0, 9, 1, lab).
-week_term_hours("320", 0, 9, 1, tutorial).
-week_term_hours("533", 0, 9, 1, lecture).
-week_term_hours("533", 0, 9, 1, lab).
-week_term_hours("533", 0, 9, 1, tutorial).
-week_term_hours("223", 0, 10, 1, lecture).
-week_term_hours("223", 0, 10, 1, lecture).
-week_term_hours("223", 0, 10, 1, lab).
-week_term_hours("223", 0, 10, 1, tutorial).
-week_term_hours("471", 0, 10, 1, lecture).
-week_term_hours("471", 0, 10, 1, lab).
-week_term_hours("471", 0, 10, 1, tutorial).
-week_term_hours("421", 0, 10, 1, lecture).
-week_term_hours("421", 0, 10, 1, lab).
-week_term_hours("421", 0, 10, 1, tutorial).
-week_term_hours("480", 0, 10, 1, lecture).
-week_term_hours("480", 0, 10, 1, lab).
-week_term_hours("480", 0, 10, 1, tutorial).
-week_term_hours("501", 0, 10, 1, lecture).
-week_term_hours("501", 0, 10, 1, lecture).
-week_term_hours("501", 0, 10, 1, lab).
-week_term_hours("501", 0, 10, 1, tutorial).
-week_term_hours("302", 0, 10, 1, lecture).
-week_term_hours("302", 0, 10, 1, lab).
-week_term_hours("302", 0, 10, 1, tutorial).
-week_term_hours("337", 0, 10, 1, lecture).
-week_term_hours("337", 0, 10, 1, lecture).
-week_term_hours("337", 0, 10, 1, lab).
-week_term_hours("337", 0, 10, 1, tutorial).
-week_term_hours("534", 0, 10, 1, lecture).
-week_term_hours("534", 0, 10, 1, lecture).
-week_term_hours("534", 0, 10, 1, lab).
-week_term_hours("534", 0, 10, 1, tutorial).
-week_term_hours("475", 0, 10, 1, lecture).
-week_term_hours("475", 0, 10, 1, lecture).
-week_term_hours("475", 0, 10, 1, lab).
-week_term_hours("475", 0, 10, 1, tutorial).
-week_term_hours("220", 0, 10, 1, lecture).
-week_term_hours("220", 0, 10, 1, lab).
-week_term_hours("220", 0, 10, 1, tutorial).
-week_term_hours("477", 0, 10, 1, lecture).
-week_term_hours("477", 0, 10, 1, lab).
-week_term_hours("477", 0, 10, 1, tutorial).
-week_term_hours("531", 0, 10, 1, lecture).
-week_term_hours("531", 0, 10, 1, lecture).
-week_term_hours("531", 0, 10, 1, lab).
-week_term_hours("531", 0, 10, 1, tutorial).
-week_term_hours("440", 0, 10, 1, lecture).
-week_term_hours("440", 0, 10, 1, lab).
-week_term_hours("440", 0, 10, 1, tutorial).
-week_term_hours("343", 0, 10, 1, lecture).
-week_term_hours("343", 0, 10, 1, lab).
-week_term_hours("343", 0, 10, 1, tutorial).
-week_term_hours("312", 0, 10, 1, lecture).
-week_term_hours("312", 0, 10, 1, lab).
-week_term_hours("312", 0, 10, 1, tutorial).
-week_term_hours("382", 0, 10, 1, lecture).
-week_term_hours("382", 0, 10, 1, lab).
-week_term_hours("382", 0, 10, 1, tutorial).
-week_term_hours("499", 0, 10, 1, lecture).
-week_term_hours("499", 0, 10, 1, lab).
-week_term_hours("499", 0, 10, 1, tutorial).
-week_term_hours("335", 0, 10, 1, lecture).
-week_term_hours("335", 0, 10, 1, lecture).
-week_term_hours("335", 0, 10, 1, lab).
-week_term_hours("335", 0, 10, 1, tutorial).
-week_term_hours("516", 0, 10, 1, lecture).
-week_term_hours("516", 0, 10, 1, lab).
-week_term_hours("516", 0, 10, 1, tutorial).
-week_term_hours("502", 0, 10, 1, lecture).
-week_term_hours("502", 0, 10, 1, lab).
-week_term_hours("502", 0, 10, 1, tutorial).
-week_term_hours("424", 0, 10, 1, lecture).
-week_term_hours("424", 0, 10, 1, lab).
-week_term_hours("424", 0, 10, 1, tutorial).
-week_term_hours("330", 0, 10, 1, lecture).
-week_term_hours("330", 0, 10, 1, lecture).
-week_term_hours("330", 0, 10, 1, lab).
-week_term_hours("330", 0, 10, 1, tutorial).
-week_term_hours("395", 0, 10, 1, lecture).
-week_term_hours("395", 0, 10, 1, lecture).
-week_term_hours("395", 0, 10, 1, lab).
-week_term_hours("395", 0, 10, 1, tutorial).
-week_term_hours("481", 0, 10, 1, lecture).
-week_term_hours("481", 0, 10, 1, lecture).
-week_term_hours("481", 0, 10, 1, lab).
-week_term_hours("481", 0, 10, 1, tutorial).
-week_term_hours("276", 0, 10, 1, lecture).
-week_term_hours("276", 0, 10, 1, lab).
-week_term_hours("276", 0, 10, 1, tutorial).
-week_term_hours("221", 0, 10, 1, lecture).
-week_term_hours("221", 0, 10, 1, lecture).
-week_term_hours("221", 0, 10, 1, lab).
-week_term_hours("221", 0, 10, 1, tutorial).
-week_term_hours("142", 0, 10, 1, lecture).
-week_term_hours("142", 0, 10, 1, lecture).
-week_term_hours("142", 0, 10, 1, lab).
-week_term_hours("142", 0, 10, 1, tutorial).
-week_term_hours("140", 0, 10, 1, lecture).
-week_term_hours("140", 0, 10, 1, lab).
-week_term_hours("140", 0, 10, 1, tutorial).
-week_term_hours("120.2", 0, 10, 1, lecture).
-week_term_hours("120.2", 0, 10, 1, lecture).
-week_term_hours("120.2", 0, 10, 1, lecture).
-week_term_hours("120.2", 0, 10, 1, lab).
-week_term_hours("120.2", 0, 10, 1, tutorial).
-week_term_hours("112", 2, 10, 1, lecture).
-week_term_hours("112", 0, 10, 1, lab).
-week_term_hours("112", 1, 10, 1, tutorial).
-week_term_hours("356", 0, 10, 1, lecture).
-week_term_hours("356", 0, 10, 1, lab).
-week_term_hours("356", 0, 10, 1, tutorial).
-week_term_hours("518", 0, 10, 1, lecture).
-week_term_hours("518", 0, 10, 1, lab).
-week_term_hours("518", 0, 10, 1, tutorial).
-week_term_hours("245", 0, 10, 1, lecture).
-week_term_hours("245", 0, 10, 1, lab).
-week_term_hours("245", 0, 10, 1, tutorial).
-week_term_hours("517", 0, 10, 1, lecture).
-week_term_hours("517", 0, 10, 1, lab).
-week_term_hours("517", 0, 10, 1, tutorial).
-week_term_hours("265", 0, 10, 1, lecture).
-week_term_hours("265", 0, 10, 1, lab).
-week_term_hours("265", 0, 10, 1, tutorial).
-week_term_hours("120.1", 0, 10, 1, lecture).
-week_term_hours("120.1", 0, 10, 1, lab).
-week_term_hours("120.1", 0, 10, 1, tutorial).
-week_term_hours("145", 0, 10, 1, lecture).
-week_term_hours("145", 0, 10, 1, lab).
-week_term_hours("145", 0, 10, 1, tutorial).
-week_term_hours("418", 0, 10, 1, lecture).
-week_term_hours("418", 0, 10, 1, lab).
-week_term_hours("418", 0, 10, 1, tutorial).
-week_term_hours("240", 0, 10, 1, lecture).
-week_term_hours("240", 0, 10, 1, lab).
-week_term_hours("240", 0, 10, 1, tutorial).
-week_term_hours("320", 0, 10, 1, lecture).
-week_term_hours("320", 0, 10, 1, lab).
-week_term_hours("320", 0, 10, 1, tutorial).
-week_term_hours("533", 0, 10, 1, lecture).
-week_term_hours("533", 0, 10, 1, lab).
-week_term_hours("533", 0, 10, 1, tutorial).
-week_term_hours("223", 0, 11, 1, lecture).
-week_term_hours("223", 0, 11, 1, lecture).
-week_term_hours("223", 0, 11, 1, lab).
-week_term_hours("223", 0, 11, 1, tutorial).
-week_term_hours("471", 0, 11, 1, lecture).
-week_term_hours("471", 0, 11, 1, lab).
-week_term_hours("471", 0, 11, 1, tutorial).
-week_term_hours("421", 0, 11, 1, lecture).
-week_term_hours("421", 0, 11, 1, lab).
-week_term_hours("421", 0, 11, 1, tutorial).
-week_term_hours("480", 0, 11, 1, lecture).
-week_term_hours("480", 0, 11, 1, lab).
-week_term_hours("480", 0, 11, 1, tutorial).
-week_term_hours("501", 0, 11, 1, lecture).
-week_term_hours("501", 0, 11, 1, lecture).
-week_term_hours("501", 0, 11, 1, lab).
-week_term_hours("501", 0, 11, 1, tutorial).
-week_term_hours("302", 0, 11, 1, lecture).
-week_term_hours("302", 0, 11, 1, lab).
-week_term_hours("302", 0, 11, 1, tutorial).
-week_term_hours("337", 0, 11, 1, lecture).
-week_term_hours("337", 0, 11, 1, lecture).
-week_term_hours("337", 0, 11, 1, lab).
-week_term_hours("337", 0, 11, 1, tutorial).
-week_term_hours("534", 0, 11, 1, lecture).
-week_term_hours("534", 0, 11, 1, lecture).
-week_term_hours("534", 0, 11, 1, lab).
-week_term_hours("534", 0, 11, 1, tutorial).
-week_term_hours("475", 0, 11, 1, lecture).
-week_term_hours("475", 0, 11, 1, lecture).
-week_term_hours("475", 0, 11, 1, lab).
-week_term_hours("475", 0, 11, 1, tutorial).
-week_term_hours("220", 0, 11, 1, lecture).
-week_term_hours("220", 0, 11, 1, lab).
-week_term_hours("220", 0, 11, 1, tutorial).
-week_term_hours("477", 0, 11, 1, lecture).
-week_term_hours("477", 0, 11, 1, lab).
-week_term_hours("477", 0, 11, 1, tutorial).
-week_term_hours("531", 0, 11, 1, lecture).
-week_term_hours("531", 0, 11, 1, lecture).
-week_term_hours("531", 0, 11, 1, lab).
-week_term_hours("531", 0, 11, 1, tutorial).
-week_term_hours("440", 0, 11, 1, lecture).
-week_term_hours("440", 0, 11, 1, lab).
-week_term_hours("440", 0, 11, 1, tutorial).
-week_term_hours("343", 0, 11, 1, lecture).
-week_term_hours("343", 0, 11, 1, lab).
-week_term_hours("343", 0, 11, 1, tutorial).
-week_term_hours("312", 0, 11, 1, lecture).
-week_term_hours("312", 0, 11, 1, lab).
-week_term_hours("312", 0, 11, 1, tutorial).
-week_term_hours("382", 0, 11, 1, lecture).
-week_term_hours("382", 0, 11, 1, lab).
-week_term_hours("382", 0, 11, 1, tutorial).
-week_term_hours("499", 0, 11, 1, lecture).
-week_term_hours("499", 0, 11, 1, lab).
-week_term_hours("499", 0, 11, 1, tutorial).
-week_term_hours("335", 0, 11, 1, lecture).
-week_term_hours("335", 0, 11, 1, lecture).
-week_term_hours("335", 0, 11, 1, lab).
-week_term_hours("335", 0, 11, 1, tutorial).
-week_term_hours("516", 0, 11, 1, lecture).
-week_term_hours("516", 0, 11, 1, lab).
-week_term_hours("516", 0, 11, 1, tutorial).
-week_term_hours("502", 0, 11, 1, lecture).
-week_term_hours("502", 0, 11, 1, lab).
-week_term_hours("502", 0, 11, 1, tutorial).
-week_term_hours("424", 0, 11, 1, lecture).
-week_term_hours("424", 0, 11, 1, lab).
-week_term_hours("424", 0, 11, 1, tutorial).
-week_term_hours("330", 0, 11, 1, lecture).
-week_term_hours("330", 0, 11, 1, lecture).
-week_term_hours("330", 0, 11, 1, lab).
-week_term_hours("330", 0, 11, 1, tutorial).
-week_term_hours("395", 0, 11, 1, lecture).
-week_term_hours("395", 0, 11, 1, lecture).
-week_term_hours("395", 0, 11, 1, lab).
-week_term_hours("395", 0, 11, 1, tutorial).
-week_term_hours("481", 0, 11, 1, lecture).
-week_term_hours("481", 0, 11, 1, lecture).
-week_term_hours("481", 0, 11, 1, lab).
-week_term_hours("481", 0, 11, 1, tutorial).
-week_term_hours("276", 0, 11, 1, lecture).
-week_term_hours("276", 0, 11, 1, lab).
-week_term_hours("276", 0, 11, 1, tutorial).
-week_term_hours("221", 0, 11, 1, lecture).
-week_term_hours("221", 0, 11, 1, lecture).
-week_term_hours("221", 0, 11, 1, lab).
-week_term_hours("221", 0, 11, 1, tutorial).
-week_term_hours("142", 0, 11, 1, lecture).
-week_term_hours("142", 0, 11, 1, lecture).
-week_term_hours("142", 0, 11, 1, lab).
-week_term_hours("142", 0, 11, 1, tutorial).
-week_term_hours("140", 0, 11, 1, lecture).
-week_term_hours("140", 0, 11, 1, lab).
-week_term_hours("140", 0, 11, 1, tutorial).
-week_term_hours("120.2", 0, 11, 1, lecture).
-week_term_hours("120.2", 0, 11, 1, lecture).
-week_term_hours("120.2", 0, 11, 1, lecture).
-week_term_hours("120.2", 0, 11, 1, lab).
-week_term_hours("120.2", 0, 11, 1, tutorial).
-week_term_hours("112", 0, 11, 1, lecture).
-week_term_hours("112", 0, 11, 1, lab).
-week_term_hours("112", 0, 11, 1, tutorial).
-week_term_hours("356", 0, 11, 1, lecture).
-week_term_hours("356", 0, 11, 1, lab).
-week_term_hours("356", 0, 11, 1, tutorial).
-week_term_hours("518", 0, 11, 1, lecture).
-week_term_hours("518", 0, 11, 1, lab).
-week_term_hours("518", 0, 11, 1, tutorial).
-week_term_hours("245", 0, 11, 1, lecture).
-week_term_hours("245", 0, 11, 1, lab).
-week_term_hours("245", 0, 11, 1, tutorial).
-week_term_hours("517", 0, 11, 1, lecture).
-week_term_hours("517", 0, 11, 1, lab).
-week_term_hours("517", 0, 11, 1, tutorial).
-week_term_hours("265", 0, 11, 1, lecture).
-week_term_hours("265", 0, 11, 1, lab).
-week_term_hours("265", 0, 11, 1, tutorial).
-week_term_hours("120.1", 0, 11, 1, lecture).
-week_term_hours("120.1", 0, 11, 1, lab).
-week_term_hours("120.1", 0, 11, 1, tutorial).
-week_term_hours("145", 0, 11, 1, lecture).
-week_term_hours("145", 0, 11, 1, lab).
-week_term_hours("145", 0, 11, 1, tutorial).
-week_term_hours("418", 0, 11, 1, lecture).
-week_term_hours("418", 0, 11, 1, lab).
-week_term_hours("418", 0, 11, 1, tutorial).
-week_term_hours("240", 0, 11, 1, lecture).
-week_term_hours("240", 0, 11, 1, lab).
-week_term_hours("240", 0, 11, 1, tutorial).
-week_term_hours("320", 0, 11, 1, lecture).
-week_term_hours("320", 0, 11, 1, lab).
-week_term_hours("320", 0, 11, 1, tutorial).
-week_term_hours("533", 0, 11, 1, lecture).
-week_term_hours("533", 0, 11, 1, lab).
-week_term_hours("533", 0, 11, 1, tutorial).
-week_term_hours("493", 0, 1, 2, lecture).
-week_term_hours("493", 0, 1, 2, lab).
-week_term_hours("493", 0, 1, 2, tutorial).
-week_term_hours("317", 0, 1, 2, lecture).
-week_term_hours("317", 0, 1, 2, lecture).
-week_term_hours("317", 0, 1, 2, lab).
-week_term_hours("317", 0, 1, 2, tutorial).
-week_term_hours("437", 0, 1, 2, lecture).
-week_term_hours("437", 0, 1, 2, lab).
-week_term_hours("437", 0, 1, 2, tutorial).
-week_term_hours("531", 0, 1, 2, lecture).
-week_term_hours("531", 0, 1, 2, lecture).
-week_term_hours("531", 0, 1, 2, lab).
-week_term_hours("531", 0, 1, 2, tutorial).
-week_term_hours("552", 0, 1, 2, lecture).
-week_term_hours("552", 0, 1, 2, lab).
-week_term_hours("552", 0, 1, 2, tutorial).
-week_term_hours("332", 0, 1, 2, lecture).
-week_term_hours("332", 0, 1, 2, lab).
-week_term_hours("332", 0, 1, 2, tutorial).
-week_term_hours("474", 0, 1, 2, lecture).
-week_term_hours("474", 0, 1, 2, lab).
-week_term_hours("474", 0, 1, 2, tutorial).
-week_term_hours("436", 0, 1, 2, lecture).
-week_term_hours("436", 0, 1, 2, lecture).
-week_term_hours("436", 0, 1, 2, lab).
-week_term_hours("436", 0, 1, 2, tutorial).
-week_term_hours("333", 0, 1, 2, lecture).
-week_term_hours("333", 0, 1, 2, lab).
-week_term_hours("333", 0, 1, 2, tutorial).
-week_term_hours("417", 0, 1, 2, lecture).
-week_term_hours("417", 0, 1, 2, lecture).
-week_term_hours("417", 0, 1, 2, lab).
-week_term_hours("417", 0, 1, 2, tutorial).
-week_term_hours("212", 0, 1, 2, lecture).
-week_term_hours("212", 0, 1, 2, lecture).
-week_term_hours("212", 0, 1, 2, lab).
-week_term_hours("212", 0, 1, 2, tutorial).
-week_term_hours("438", 0, 1, 2, lecture).
-week_term_hours("438", 0, 1, 2, lab).
-week_term_hours("438", 0, 1, 2, tutorial).
-week_term_hours("484", 0, 1, 2, lecture).
-week_term_hours("484", 0, 1, 2, lab).
-week_term_hours("484", 0, 1, 2, tutorial).
-week_term_hours("422", 0, 1, 2, lecture).
-week_term_hours("422", 0, 1, 2, lab).
-week_term_hours("422", 0, 1, 2, tutorial).
-week_term_hours("470", 0, 1, 2, lecture).
-week_term_hours("470", 0, 1, 2, lecture).
-week_term_hours("470", 0, 1, 2, lab).
-week_term_hours("470", 0, 1, 2, tutorial).
-week_term_hours("341", 0, 1, 2, lecture).
-week_term_hours("341", 0, 1, 2, lecture).
-week_term_hours("341", 0, 1, 2, lab).
-week_term_hours("341", 0, 1, 2, tutorial).
-week_term_hours("210", 0, 1, 2, lecture).
-week_term_hours("210", 0, 1, 2, lecture).
-week_term_hours("210", 0, 1, 2, lab).
-week_term_hours("210", 0, 1, 2, tutorial).
-week_term_hours("526", 0, 1, 2, lecture).
-week_term_hours("526", 0, 1, 2, lab).
-week_term_hours("526", 0, 1, 2, tutorial).
-week_term_hours("202", 0, 1, 2, lecture).
-week_term_hours("202", 0, 1, 2, lecture).
-week_term_hours("202", 0, 1, 2, lab).
-week_term_hours("202", 0, 1, 2, tutorial).
-week_term_hours("211", 0, 1, 2, lecture).
-week_term_hours("211", 0, 1, 2, lecture).
-week_term_hours("211", 0, 1, 2, lab).
-week_term_hours("211", 0, 1, 2, tutorial).
-week_term_hours("350", 0, 1, 2, lecture).
-week_term_hours("350", 0, 1, 2, lab).
-week_term_hours("350", 0, 1, 2, tutorial).
-week_term_hours("318", 0, 1, 2, lecture).
-week_term_hours("318", 0, 1, 2, lecture).
-week_term_hours("318", 0, 1, 2, lab).
-week_term_hours("318", 0, 1, 2, tutorial).
-week_term_hours("338", 0, 1, 2, lecture).
-week_term_hours("338", 0, 1, 2, lecture).
-week_term_hours("338", 0, 1, 2, lab).
-week_term_hours("338", 0, 1, 2, tutorial).
-week_term_hours("276", 0, 1, 2, lecture).
-week_term_hours("276", 0, 1, 2, lab).
-week_term_hours("276", 0, 1, 2, tutorial).
-week_term_hours("164", 0, 1, 2, lecture).
-week_term_hours("164", 0, 1, 2, lab).
-week_term_hours("164", 0, 1, 2, tutorial).
-week_term_hours("142", 0, 1, 2, lecture).
-week_term_hours("142", 0, 1, 2, lecture).
-week_term_hours("142", 0, 1, 2, lab).
-week_term_hours("142", 0, 1, 2, tutorial).
-week_term_hours("141", 0, 1, 2, lecture).
-week_term_hours("141", 0, 1, 2, lecture).
-week_term_hours("141", 0, 1, 2, lab).
-week_term_hours("141", 0, 1, 2, tutorial).
-week_term_hours("130", 0, 1, 2, lecture).
-week_term_hours("130", 0, 1, 2, lab).
-week_term_hours("130", 0, 1, 2, tutorial).
-week_term_hours("113", 0, 1, 2, lecture).
-week_term_hours("113", 0, 1, 2, lecture).
-week_term_hours("113", 0, 1, 2, lab).
-week_term_hours("113", 0, 1, 2, tutorial).
-week_term_hours("120.2", 0, 1, 2, lecture).
-week_term_hours("120.2", 0, 1, 2, lecture).
-week_term_hours("120.2", 0, 1, 2, lecture).
-week_term_hours("120.2", 0, 1, 2, lab).
-week_term_hours("120.2", 0, 1, 2, tutorial).
-week_term_hours("527", 0, 1, 2, lecture).
-week_term_hours("527", 0, 1, 2, lab).
-week_term_hours("527", 0, 1, 2, tutorial).
-week_term_hours("491", 0, 1, 2, lecture).
-week_term_hours("491", 0, 1, 2, lab).
-week_term_hours("491", 0, 1, 2, tutorial).
-week_term_hours("231", 0, 1, 2, lecture).
-week_term_hours("231", 0, 1, 2, lecture).
-week_term_hours("231", 0, 1, 2, lab).
-week_term_hours("231", 0, 1, 2, tutorial).
-week_term_hours("429", 0, 1, 2, lecture).
-week_term_hours("429", 0, 1, 2, lecture).
-week_term_hours("429", 0, 1, 2, lab).
-week_term_hours("429", 0, 1, 2, tutorial).
-week_term_hours("233", 0, 1, 2, lecture).
-week_term_hours("233", 0, 1, 2, lecture).
-week_term_hours("233", 0, 1, 2, lab).
-week_term_hours("233", 0, 1, 2, tutorial).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lecture).
-week_term_hours("163", 0, 1, 2, lab).
-week_term_hours("163", 0, 1, 2, tutorial).
-week_term_hours("141J", 0, 1, 2, lecture).
-week_term_hours("141J", 0, 1, 2, lab).
-week_term_hours("141J", 0, 1, 2, tutorial).
-week_term_hours("522", 0, 1, 2, lecture).
-week_term_hours("522", 0, 1, 2, lecture).
-week_term_hours("522", 0, 1, 2, lab).
-week_term_hours("522", 0, 1, 2, tutorial).
-week_term_hours("528", 0, 1, 2, lecture).
-week_term_hours("528", 0, 1, 2, lab).
-week_term_hours("528", 0, 1, 2, tutorial).
-week_term_hours("530", 0, 1, 2, lecture).
-week_term_hours("530", 0, 1, 2, lab).
-week_term_hours("530", 0, 1, 2, tutorial).
-week_term_hours("525", 0, 1, 2, lecture).
-week_term_hours("525", 0, 1, 2, lab).
-week_term_hours("525", 0, 1, 2, tutorial).
-week_term_hours("533", 0, 1, 2, lecture).
-week_term_hours("533", 0, 1, 2, lab).
-week_term_hours("533", 0, 1, 2, tutorial).
-week_term_hours("493", 0, 2, 2, lecture).
-week_term_hours("493", 0, 2, 2, lab).
-week_term_hours("493", 0, 2, 2, tutorial).
-week_term_hours("317", 0, 2, 2, lecture).
-week_term_hours("317", 0, 2, 2, lecture).
-week_term_hours("317", 0, 2, 2, lab).
-week_term_hours("317", 0, 2, 2, tutorial).
-week_term_hours("437", 0, 2, 2, lecture).
-week_term_hours("437", 0, 2, 2, lab).
-week_term_hours("437", 0, 2, 2, tutorial).
-week_term_hours("531", 0, 2, 2, lecture).
-week_term_hours("531", 0, 2, 2, lecture).
-week_term_hours("531", 0, 2, 2, lab).
-week_term_hours("531", 0, 2, 2, tutorial).
-week_term_hours("552", 0, 2, 2, lecture).
-week_term_hours("552", 0, 2, 2, lab).
-week_term_hours("552", 0, 2, 2, tutorial).
-week_term_hours("332", 0, 2, 2, lecture).
-week_term_hours("332", 0, 2, 2, lab).
-week_term_hours("332", 0, 2, 2, tutorial).
-week_term_hours("474", 0, 2, 2, lecture).
-week_term_hours("474", 0, 2, 2, lab).
-week_term_hours("474", 0, 2, 2, tutorial).
-week_term_hours("436", 0, 2, 2, lecture).
-week_term_hours("436", 0, 2, 2, lecture).
-week_term_hours("436", 0, 2, 2, lab).
-week_term_hours("436", 0, 2, 2, tutorial).
-week_term_hours("333", 0, 2, 2, lecture).
-week_term_hours("333", 0, 2, 2, lab).
-week_term_hours("333", 0, 2, 2, tutorial).
-week_term_hours("417", 0, 2, 2, lecture).
-week_term_hours("417", 0, 2, 2, lecture).
-week_term_hours("417", 0, 2, 2, lab).
-week_term_hours("417", 0, 2, 2, tutorial).
-week_term_hours("212", 0, 2, 2, lecture).
-week_term_hours("212", 0, 2, 2, lecture).
-week_term_hours("212", 0, 2, 2, lab).
-week_term_hours("212", 0, 2, 2, tutorial).
-week_term_hours("438", 0, 2, 2, lecture).
-week_term_hours("438", 0, 2, 2, lab).
-week_term_hours("438", 0, 2, 2, tutorial).
-week_term_hours("484", 0, 2, 2, lecture).
-week_term_hours("484", 0, 2, 2, lab).
-week_term_hours("484", 0, 2, 2, tutorial).
-week_term_hours("422", 0, 2, 2, lecture).
-week_term_hours("422", 0, 2, 2, lab).
-week_term_hours("422", 0, 2, 2, tutorial).
-week_term_hours("470", 0, 2, 2, lecture).
-week_term_hours("470", 0, 2, 2, lecture).
-week_term_hours("470", 0, 2, 2, lab).
-week_term_hours("470", 0, 2, 2, tutorial).
-week_term_hours("341", 0, 2, 2, lecture).
-week_term_hours("341", 0, 2, 2, lecture).
-week_term_hours("341", 0, 2, 2, lab).
-week_term_hours("341", 0, 2, 2, tutorial).
-week_term_hours("210", 0, 2, 2, lecture).
-week_term_hours("210", 0, 2, 2, lecture).
-week_term_hours("210", 0, 2, 2, lab).
-week_term_hours("210", 0, 2, 2, tutorial).
-week_term_hours("526", 0, 2, 2, lecture).
-week_term_hours("526", 0, 2, 2, lab).
-week_term_hours("526", 0, 2, 2, tutorial).
-week_term_hours("202", 0, 2, 2, lecture).
-week_term_hours("202", 0, 2, 2, lecture).
-week_term_hours("202", 0, 2, 2, lab).
-week_term_hours("202", 0, 2, 2, tutorial).
-week_term_hours("211", 0, 2, 2, lecture).
-week_term_hours("211", 0, 2, 2, lecture).
-week_term_hours("211", 0, 2, 2, lab).
-week_term_hours("211", 0, 2, 2, tutorial).
-week_term_hours("350", 0, 2, 2, lecture).
-week_term_hours("350", 0, 2, 2, lab).
-week_term_hours("350", 0, 2, 2, tutorial).
-week_term_hours("318", 0, 2, 2, lecture).
-week_term_hours("318", 0, 2, 2, lecture).
-week_term_hours("318", 0, 2, 2, lab).
-week_term_hours("318", 0, 2, 2, tutorial).
-week_term_hours("338", 0, 2, 2, lecture).
-week_term_hours("338", 0, 2, 2, lecture).
-week_term_hours("338", 0, 2, 2, lab).
-week_term_hours("338", 0, 2, 2, tutorial).
-week_term_hours("276", 0, 2, 2, lecture).
-week_term_hours("276", 0, 2, 2, lab).
-week_term_hours("276", 0, 2, 2, tutorial).
-week_term_hours("164", 0, 2, 2, lecture).
-week_term_hours("164", 0, 2, 2, lab).
-week_term_hours("164", 0, 2, 2, tutorial).
-week_term_hours("142", 0, 2, 2, lecture).
-week_term_hours("142", 0, 2, 2, lecture).
-week_term_hours("142", 0, 2, 2, lab).
-week_term_hours("142", 0, 2, 2, tutorial).
-week_term_hours("141", 0, 2, 2, lecture).
-week_term_hours("141", 0, 2, 2, lecture).
-week_term_hours("141", 0, 2, 2, lab).
-week_term_hours("141", 0, 2, 2, tutorial).
-week_term_hours("130", 0, 2, 2, lecture).
-week_term_hours("130", 0, 2, 2, lab).
-week_term_hours("130", 0, 2, 2, tutorial).
-week_term_hours("113", 2, 2, 2, lecture).
-week_term_hours("113", 0, 2, 2, lecture).
-week_term_hours("113", 0, 2, 2, lab).
-week_term_hours("113", 1, 2, 2, tutorial).
-week_term_hours("120.2", 0, 2, 2, lecture).
-week_term_hours("120.2", 0, 2, 2, lecture).
-week_term_hours("120.2", 0, 2, 2, lecture).
-week_term_hours("120.2", 0, 2, 2, lab).
-week_term_hours("120.2", 0, 2, 2, tutorial).
-week_term_hours("527", 0, 2, 2, lecture).
-week_term_hours("527", 0, 2, 2, lab).
-week_term_hours("527", 0, 2, 2, tutorial).
-week_term_hours("491", 0, 2, 2, lecture).
-week_term_hours("491", 0, 2, 2, lab).
-week_term_hours("491", 0, 2, 2, tutorial).
-week_term_hours("231", 0, 2, 2, lecture).
-week_term_hours("231", 0, 2, 2, lecture).
-week_term_hours("231", 0, 2, 2, lab).
-week_term_hours("231", 0, 2, 2, tutorial).
-week_term_hours("429", 0, 2, 2, lecture).
-week_term_hours("429", 0, 2, 2, lecture).
-week_term_hours("429", 0, 2, 2, lab).
-week_term_hours("429", 0, 2, 2, tutorial).
-week_term_hours("233", 0, 2, 2, lecture).
-week_term_hours("233", 0, 2, 2, lecture).
-week_term_hours("233", 0, 2, 2, lab).
-week_term_hours("233", 0, 2, 2, tutorial).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lecture).
-week_term_hours("163", 0, 2, 2, lab).
-week_term_hours("163", 0, 2, 2, tutorial).
-week_term_hours("141J", 0, 2, 2, lecture).
-week_term_hours("141J", 0, 2, 2, lab).
-week_term_hours("141J", 0, 2, 2, tutorial).
-week_term_hours("522", 0, 2, 2, lecture).
-week_term_hours("522", 0, 2, 2, lecture).
-week_term_hours("522", 0, 2, 2, lab).
-week_term_hours("522", 0, 2, 2, tutorial).
-week_term_hours("528", 0, 2, 2, lecture).
-week_term_hours("528", 0, 2, 2, lab).
-week_term_hours("528", 0, 2, 2, tutorial).
-week_term_hours("530", 0, 2, 2, lecture).
-week_term_hours("530", 0, 2, 2, lab).
-week_term_hours("530", 0, 2, 2, tutorial).
-week_term_hours("525", 0, 2, 2, lecture).
-week_term_hours("525", 0, 2, 2, lab).
-week_term_hours("525", 0, 2, 2, tutorial).
-week_term_hours("533", 0, 2, 2, lecture).
-week_term_hours("533", 0, 2, 2, lab).
-week_term_hours("533", 0, 2, 2, tutorial).
-week_term_hours("493", 0, 3, 2, lecture).
-week_term_hours("493", 0, 3, 2, lab).
-week_term_hours("493", 0, 3, 2, tutorial).
-week_term_hours("317", 0, 3, 2, lecture).
-week_term_hours("317", 0, 3, 2, lecture).
-week_term_hours("317", 0, 3, 2, lab).
-week_term_hours("317", 0, 3, 2, tutorial).
-week_term_hours("437", 0, 3, 2, lecture).
-week_term_hours("437", 0, 3, 2, lab).
-week_term_hours("437", 0, 3, 2, tutorial).
-week_term_hours("531", 0, 3, 2, lecture).
-week_term_hours("531", 0, 3, 2, lecture).
-week_term_hours("531", 0, 3, 2, lab).
-week_term_hours("531", 0, 3, 2, tutorial).
-week_term_hours("552", 0, 3, 2, lecture).
-week_term_hours("552", 0, 3, 2, lab).
-week_term_hours("552", 0, 3, 2, tutorial).
-week_term_hours("332", 0, 3, 2, lecture).
-week_term_hours("332", 0, 3, 2, lab).
-week_term_hours("332", 0, 3, 2, tutorial).
-week_term_hours("474", 0, 3, 2, lecture).
-week_term_hours("474", 0, 3, 2, lab).
-week_term_hours("474", 0, 3, 2, tutorial).
-week_term_hours("436", 0, 3, 2, lecture).
-week_term_hours("436", 0, 3, 2, lecture).
-week_term_hours("436", 0, 3, 2, lab).
-week_term_hours("436", 0, 3, 2, tutorial).
-week_term_hours("333", 0, 3, 2, lecture).
-week_term_hours("333", 0, 3, 2, lab).
-week_term_hours("333", 0, 3, 2, tutorial).
-week_term_hours("417", 0, 3, 2, lecture).
-week_term_hours("417", 0, 3, 2, lecture).
-week_term_hours("417", 0, 3, 2, lab).
-week_term_hours("417", 0, 3, 2, tutorial).
-week_term_hours("212", 0, 3, 2, lecture).
-week_term_hours("212", 0, 3, 2, lecture).
-week_term_hours("212", 0, 3, 2, lab).
-week_term_hours("212", 0, 3, 2, tutorial).
-week_term_hours("438", 0, 3, 2, lecture).
-week_term_hours("438", 0, 3, 2, lab).
-week_term_hours("438", 0, 3, 2, tutorial).
-week_term_hours("484", 0, 3, 2, lecture).
-week_term_hours("484", 0, 3, 2, lab).
-week_term_hours("484", 0, 3, 2, tutorial).
-week_term_hours("422", 0, 3, 2, lecture).
-week_term_hours("422", 0, 3, 2, lab).
-week_term_hours("422", 0, 3, 2, tutorial).
-week_term_hours("470", 0, 3, 2, lecture).
-week_term_hours("470", 0, 3, 2, lecture).
-week_term_hours("470", 0, 3, 2, lab).
-week_term_hours("470", 0, 3, 2, tutorial).
-week_term_hours("341", 0, 3, 2, lecture).
-week_term_hours("341", 0, 3, 2, lecture).
-week_term_hours("341", 0, 3, 2, lab).
-week_term_hours("341", 0, 3, 2, tutorial).
-week_term_hours("210", 0, 3, 2, lecture).
-week_term_hours("210", 0, 3, 2, lecture).
-week_term_hours("210", 0, 3, 2, lab).
-week_term_hours("210", 0, 3, 2, tutorial).
-week_term_hours("526", 0, 3, 2, lecture).
-week_term_hours("526", 0, 3, 2, lab).
-week_term_hours("526", 0, 3, 2, tutorial).
-week_term_hours("202", 0, 3, 2, lecture).
-week_term_hours("202", 0, 3, 2, lecture).
-week_term_hours("202", 0, 3, 2, lab).
-week_term_hours("202", 0, 3, 2, tutorial).
-week_term_hours("211", 0, 3, 2, lecture).
-week_term_hours("211", 0, 3, 2, lecture).
-week_term_hours("211", 0, 3, 2, lab).
-week_term_hours("211", 0, 3, 2, tutorial).
-week_term_hours("350", 0, 3, 2, lecture).
-week_term_hours("350", 0, 3, 2, lab).
-week_term_hours("350", 0, 3, 2, tutorial).
-week_term_hours("318", 0, 3, 2, lecture).
-week_term_hours("318", 0, 3, 2, lecture).
-week_term_hours("318", 0, 3, 2, lab).
-week_term_hours("318", 0, 3, 2, tutorial).
-week_term_hours("338", 0, 3, 2, lecture).
-week_term_hours("338", 0, 3, 2, lecture).
-week_term_hours("338", 0, 3, 2, lab).
-week_term_hours("338", 0, 3, 2, tutorial).
-week_term_hours("276", 0, 3, 2, lecture).
-week_term_hours("276", 0, 3, 2, lab).
-week_term_hours("276", 0, 3, 2, tutorial).
-week_term_hours("164", 0, 3, 2, lecture).
-week_term_hours("164", 0, 3, 2, lab).
-week_term_hours("164", 0, 3, 2, tutorial).
-week_term_hours("142", 0, 3, 2, lecture).
-week_term_hours("142", 0, 3, 2, lecture).
-week_term_hours("142", 0, 3, 2, lab).
-week_term_hours("142", 0, 3, 2, tutorial).
-week_term_hours("141", 0, 3, 2, lecture).
-week_term_hours("141", 0, 3, 2, lecture).
-week_term_hours("141", 0, 3, 2, lab).
-week_term_hours("141", 0, 3, 2, tutorial).
-week_term_hours("130", 0, 3, 2, lecture).
-week_term_hours("130", 0, 3, 2, lab).
-week_term_hours("130", 0, 3, 2, tutorial).
-week_term_hours("113", 2, 3, 2, lecture).
-week_term_hours("113", 0, 3, 2, lecture).
-week_term_hours("113", 0, 3, 2, lab).
-week_term_hours("113", 1, 3, 2, tutorial).
-week_term_hours("120.2", 0, 3, 2, lecture).
-week_term_hours("120.2", 0, 3, 2, lecture).
-week_term_hours("120.2", 0, 3, 2, lecture).
-week_term_hours("120.2", 0, 3, 2, lab).
-week_term_hours("120.2", 0, 3, 2, tutorial).
-week_term_hours("527", 0, 3, 2, lecture).
-week_term_hours("527", 0, 3, 2, lab).
-week_term_hours("527", 0, 3, 2, tutorial).
-week_term_hours("491", 0, 3, 2, lecture).
-week_term_hours("491", 0, 3, 2, lab).
-week_term_hours("491", 0, 3, 2, tutorial).
-week_term_hours("231", 0, 3, 2, lecture).
-week_term_hours("231", 0, 3, 2, lecture).
-week_term_hours("231", 0, 3, 2, lab).
-week_term_hours("231", 0, 3, 2, tutorial).
-week_term_hours("429", 0, 3, 2, lecture).
-week_term_hours("429", 0, 3, 2, lecture).
-week_term_hours("429", 0, 3, 2, lab).
-week_term_hours("429", 0, 3, 2, tutorial).
-week_term_hours("233", 0, 3, 2, lecture).
-week_term_hours("233", 0, 3, 2, lecture).
-week_term_hours("233", 0, 3, 2, lab).
-week_term_hours("233", 0, 3, 2, tutorial).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lecture).
-week_term_hours("163", 0, 3, 2, lab).
-week_term_hours("163", 0, 3, 2, tutorial).
-week_term_hours("141J", 0, 3, 2, lecture).
-week_term_hours("141J", 0, 3, 2, lab).
-week_term_hours("141J", 0, 3, 2, tutorial).
-week_term_hours("522", 0, 3, 2, lecture).
-week_term_hours("522", 0, 3, 2, lecture).
-week_term_hours("522", 0, 3, 2, lab).
-week_term_hours("522", 0, 3, 2, tutorial).
-week_term_hours("528", 0, 3, 2, lecture).
-week_term_hours("528", 0, 3, 2, lab).
-week_term_hours("528", 0, 3, 2, tutorial).
-week_term_hours("530", 0, 3, 2, lecture).
-week_term_hours("530", 0, 3, 2, lab).
-week_term_hours("530", 0, 3, 2, tutorial).
-week_term_hours("525", 0, 3, 2, lecture).
-week_term_hours("525", 0, 3, 2, lab).
-week_term_hours("525", 0, 3, 2, tutorial).
-week_term_hours("533", 0, 3, 2, lecture).
-week_term_hours("533", 0, 3, 2, lab).
-week_term_hours("533", 0, 3, 2, tutorial).
-week_term_hours("493", 0, 4, 2, lecture).
-week_term_hours("493", 0, 4, 2, lab).
-week_term_hours("493", 0, 4, 2, tutorial).
-week_term_hours("317", 0, 4, 2, lecture).
-week_term_hours("317", 0, 4, 2, lecture).
-week_term_hours("317", 0, 4, 2, lab).
-week_term_hours("317", 0, 4, 2, tutorial).
-week_term_hours("437", 0, 4, 2, lecture).
-week_term_hours("437", 0, 4, 2, lab).
-week_term_hours("437", 0, 4, 2, tutorial).
-week_term_hours("531", 0, 4, 2, lecture).
-week_term_hours("531", 0, 4, 2, lecture).
-week_term_hours("531", 0, 4, 2, lab).
-week_term_hours("531", 0, 4, 2, tutorial).
-week_term_hours("552", 0, 4, 2, lecture).
-week_term_hours("552", 0, 4, 2, lab).
-week_term_hours("552", 0, 4, 2, tutorial).
-week_term_hours("332", 0, 4, 2, lecture).
-week_term_hours("332", 0, 4, 2, lab).
-week_term_hours("332", 0, 4, 2, tutorial).
-week_term_hours("474", 0, 4, 2, lecture).
-week_term_hours("474", 0, 4, 2, lab).
-week_term_hours("474", 0, 4, 2, tutorial).
-week_term_hours("436", 0, 4, 2, lecture).
-week_term_hours("436", 0, 4, 2, lecture).
-week_term_hours("436", 0, 4, 2, lab).
-week_term_hours("436", 0, 4, 2, tutorial).
-week_term_hours("333", 0, 4, 2, lecture).
-week_term_hours("333", 0, 4, 2, lab).
-week_term_hours("333", 0, 4, 2, tutorial).
-week_term_hours("417", 0, 4, 2, lecture).
-week_term_hours("417", 0, 4, 2, lecture).
-week_term_hours("417", 0, 4, 2, lab).
-week_term_hours("417", 0, 4, 2, tutorial).
-week_term_hours("212", 0, 4, 2, lecture).
-week_term_hours("212", 0, 4, 2, lecture).
-week_term_hours("212", 0, 4, 2, lab).
-week_term_hours("212", 0, 4, 2, tutorial).
-week_term_hours("438", 0, 4, 2, lecture).
-week_term_hours("438", 0, 4, 2, lab).
-week_term_hours("438", 0, 4, 2, tutorial).
-week_term_hours("484", 0, 4, 2, lecture).
-week_term_hours("484", 0, 4, 2, lab).
-week_term_hours("484", 0, 4, 2, tutorial).
-week_term_hours("422", 0, 4, 2, lecture).
-week_term_hours("422", 0, 4, 2, lab).
-week_term_hours("422", 0, 4, 2, tutorial).
-week_term_hours("470", 0, 4, 2, lecture).
-week_term_hours("470", 0, 4, 2, lecture).
-week_term_hours("470", 0, 4, 2, lab).
-week_term_hours("470", 0, 4, 2, tutorial).
-week_term_hours("341", 0, 4, 2, lecture).
-week_term_hours("341", 0, 4, 2, lecture).
-week_term_hours("341", 0, 4, 2, lab).
-week_term_hours("341", 0, 4, 2, tutorial).
-week_term_hours("210", 0, 4, 2, lecture).
-week_term_hours("210", 0, 4, 2, lecture).
-week_term_hours("210", 0, 4, 2, lab).
-week_term_hours("210", 0, 4, 2, tutorial).
-week_term_hours("526", 0, 4, 2, lecture).
-week_term_hours("526", 0, 4, 2, lab).
-week_term_hours("526", 0, 4, 2, tutorial).
-week_term_hours("202", 0, 4, 2, lecture).
-week_term_hours("202", 0, 4, 2, lecture).
-week_term_hours("202", 0, 4, 2, lab).
-week_term_hours("202", 0, 4, 2, tutorial).
-week_term_hours("211", 0, 4, 2, lecture).
-week_term_hours("211", 0, 4, 2, lecture).
-week_term_hours("211", 0, 4, 2, lab).
-week_term_hours("211", 0, 4, 2, tutorial).
-week_term_hours("350", 0, 4, 2, lecture).
-week_term_hours("350", 0, 4, 2, lab).
-week_term_hours("350", 0, 4, 2, tutorial).
-week_term_hours("318", 0, 4, 2, lecture).
-week_term_hours("318", 0, 4, 2, lecture).
-week_term_hours("318", 0, 4, 2, lab).
-week_term_hours("318", 0, 4, 2, tutorial).
-week_term_hours("338", 0, 4, 2, lecture).
-week_term_hours("338", 0, 4, 2, lecture).
-week_term_hours("338", 0, 4, 2, lab).
-week_term_hours("338", 0, 4, 2, tutorial).
-week_term_hours("276", 0, 4, 2, lecture).
-week_term_hours("276", 0, 4, 2, lab).
-week_term_hours("276", 0, 4, 2, tutorial).
-week_term_hours("164", 0, 4, 2, lecture).
-week_term_hours("164", 0, 4, 2, lab).
-week_term_hours("164", 0, 4, 2, tutorial).
-week_term_hours("142", 0, 4, 2, lecture).
-week_term_hours("142", 0, 4, 2, lecture).
-week_term_hours("142", 0, 4, 2, lab).
-week_term_hours("142", 0, 4, 2, tutorial).
-week_term_hours("141", 0, 4, 2, lecture).
-week_term_hours("141", 0, 4, 2, lecture).
-week_term_hours("141", 0, 4, 2, lab).
-week_term_hours("141", 0, 4, 2, tutorial).
-week_term_hours("130", 0, 4, 2, lecture).
-week_term_hours("130", 0, 4, 2, lab).
-week_term_hours("130", 0, 4, 2, tutorial).
-week_term_hours("113", 2, 4, 2, lecture).
-week_term_hours("113", 0, 4, 2, lecture).
-week_term_hours("113", 0, 4, 2, lab).
-week_term_hours("113", 1, 4, 2, tutorial).
-week_term_hours("120.2", 0, 4, 2, lecture).
-week_term_hours("120.2", 0, 4, 2, lecture).
-week_term_hours("120.2", 0, 4, 2, lecture).
-week_term_hours("120.2", 0, 4, 2, lab).
-week_term_hours("120.2", 0, 4, 2, tutorial).
-week_term_hours("527", 0, 4, 2, lecture).
-week_term_hours("527", 0, 4, 2, lab).
-week_term_hours("527", 0, 4, 2, tutorial).
-week_term_hours("491", 0, 4, 2, lecture).
-week_term_hours("491", 0, 4, 2, lab).
-week_term_hours("491", 0, 4, 2, tutorial).
-week_term_hours("231", 0, 4, 2, lecture).
-week_term_hours("231", 0, 4, 2, lecture).
-week_term_hours("231", 0, 4, 2, lab).
-week_term_hours("231", 0, 4, 2, tutorial).
-week_term_hours("429", 0, 4, 2, lecture).
-week_term_hours("429", 0, 4, 2, lecture).
-week_term_hours("429", 0, 4, 2, lab).
-week_term_hours("429", 0, 4, 2, tutorial).
-week_term_hours("233", 0, 4, 2, lecture).
-week_term_hours("233", 0, 4, 2, lecture).
-week_term_hours("233", 0, 4, 2, lab).
-week_term_hours("233", 0, 4, 2, tutorial).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lecture).
-week_term_hours("163", 0, 4, 2, lab).
-week_term_hours("163", 0, 4, 2, tutorial).
-week_term_hours("141J", 0, 4, 2, lecture).
-week_term_hours("141J", 0, 4, 2, lab).
-week_term_hours("141J", 0, 4, 2, tutorial).
-week_term_hours("522", 0, 4, 2, lecture).
-week_term_hours("522", 0, 4, 2, lecture).
-week_term_hours("522", 0, 4, 2, lab).
-week_term_hours("522", 0, 4, 2, tutorial).
-week_term_hours("528", 0, 4, 2, lecture).
-week_term_hours("528", 0, 4, 2, lab).
-week_term_hours("528", 0, 4, 2, tutorial).
-week_term_hours("530", 0, 4, 2, lecture).
-week_term_hours("530", 0, 4, 2, lab).
-week_term_hours("530", 0, 4, 2, tutorial).
-week_term_hours("525", 0, 4, 2, lecture).
-week_term_hours("525", 0, 4, 2, lab).
-week_term_hours("525", 0, 4, 2, tutorial).
-week_term_hours("533", 0, 4, 2, lecture).
-week_term_hours("533", 0, 4, 2, lab).
-week_term_hours("533", 0, 4, 2, tutorial).
-week_term_hours("493", 0, 5, 2, lecture).
-week_term_hours("493", 0, 5, 2, lab).
-week_term_hours("493", 0, 5, 2, tutorial).
-week_term_hours("317", 0, 5, 2, lecture).
-week_term_hours("317", 0, 5, 2, lecture).
-week_term_hours("317", 0, 5, 2, lab).
-week_term_hours("317", 0, 5, 2, tutorial).
-week_term_hours("437", 0, 5, 2, lecture).
-week_term_hours("437", 0, 5, 2, lab).
-week_term_hours("437", 0, 5, 2, tutorial).
-week_term_hours("531", 0, 5, 2, lecture).
-week_term_hours("531", 0, 5, 2, lecture).
-week_term_hours("531", 0, 5, 2, lab).
-week_term_hours("531", 0, 5, 2, tutorial).
-week_term_hours("552", 0, 5, 2, lecture).
-week_term_hours("552", 0, 5, 2, lab).
-week_term_hours("552", 0, 5, 2, tutorial).
-week_term_hours("332", 0, 5, 2, lecture).
-week_term_hours("332", 0, 5, 2, lab).
-week_term_hours("332", 0, 5, 2, tutorial).
-week_term_hours("474", 0, 5, 2, lecture).
-week_term_hours("474", 0, 5, 2, lab).
-week_term_hours("474", 0, 5, 2, tutorial).
-week_term_hours("436", 0, 5, 2, lecture).
-week_term_hours("436", 0, 5, 2, lecture).
-week_term_hours("436", 0, 5, 2, lab).
-week_term_hours("436", 0, 5, 2, tutorial).
-week_term_hours("333", 0, 5, 2, lecture).
-week_term_hours("333", 0, 5, 2, lab).
-week_term_hours("333", 0, 5, 2, tutorial).
-week_term_hours("417", 0, 5, 2, lecture).
-week_term_hours("417", 0, 5, 2, lecture).
-week_term_hours("417", 0, 5, 2, lab).
-week_term_hours("417", 0, 5, 2, tutorial).
-week_term_hours("212", 0, 5, 2, lecture).
-week_term_hours("212", 0, 5, 2, lecture).
-week_term_hours("212", 0, 5, 2, lab).
-week_term_hours("212", 0, 5, 2, tutorial).
-week_term_hours("438", 0, 5, 2, lecture).
-week_term_hours("438", 0, 5, 2, lab).
-week_term_hours("438", 0, 5, 2, tutorial).
-week_term_hours("484", 0, 5, 2, lecture).
-week_term_hours("484", 0, 5, 2, lab).
-week_term_hours("484", 0, 5, 2, tutorial).
-week_term_hours("422", 0, 5, 2, lecture).
-week_term_hours("422", 0, 5, 2, lab).
-week_term_hours("422", 0, 5, 2, tutorial).
-week_term_hours("470", 0, 5, 2, lecture).
-week_term_hours("470", 0, 5, 2, lecture).
-week_term_hours("470", 0, 5, 2, lab).
-week_term_hours("470", 0, 5, 2, tutorial).
-week_term_hours("341", 0, 5, 2, lecture).
-week_term_hours("341", 0, 5, 2, lecture).
-week_term_hours("341", 0, 5, 2, lab).
-week_term_hours("341", 0, 5, 2, tutorial).
-week_term_hours("210", 0, 5, 2, lecture).
-week_term_hours("210", 0, 5, 2, lecture).
-week_term_hours("210", 0, 5, 2, lab).
-week_term_hours("210", 0, 5, 2, tutorial).
-week_term_hours("526", 0, 5, 2, lecture).
-week_term_hours("526", 0, 5, 2, lab).
-week_term_hours("526", 0, 5, 2, tutorial).
-week_term_hours("202", 0, 5, 2, lecture).
-week_term_hours("202", 0, 5, 2, lecture).
-week_term_hours("202", 0, 5, 2, lab).
-week_term_hours("202", 0, 5, 2, tutorial).
-week_term_hours("211", 0, 5, 2, lecture).
-week_term_hours("211", 0, 5, 2, lecture).
-week_term_hours("211", 0, 5, 2, lab).
-week_term_hours("211", 0, 5, 2, tutorial).
-week_term_hours("350", 0, 5, 2, lecture).
-week_term_hours("350", 0, 5, 2, lab).
-week_term_hours("350", 0, 5, 2, tutorial).
-week_term_hours("318", 0, 5, 2, lecture).
-week_term_hours("318", 0, 5, 2, lecture).
-week_term_hours("318", 0, 5, 2, lab).
-week_term_hours("318", 0, 5, 2, tutorial).
-week_term_hours("338", 0, 5, 2, lecture).
-week_term_hours("338", 0, 5, 2, lecture).
-week_term_hours("338", 0, 5, 2, lab).
-week_term_hours("338", 0, 5, 2, tutorial).
-week_term_hours("276", 0, 5, 2, lecture).
-week_term_hours("276", 0, 5, 2, lab).
-week_term_hours("276", 0, 5, 2, tutorial).
-week_term_hours("164", 0, 5, 2, lecture).
-week_term_hours("164", 0, 5, 2, lab).
-week_term_hours("164", 0, 5, 2, tutorial).
-week_term_hours("142", 0, 5, 2, lecture).
-week_term_hours("142", 0, 5, 2, lecture).
-week_term_hours("142", 0, 5, 2, lab).
-week_term_hours("142", 0, 5, 2, tutorial).
-week_term_hours("141", 0, 5, 2, lecture).
-week_term_hours("141", 0, 5, 2, lecture).
-week_term_hours("141", 0, 5, 2, lab).
-week_term_hours("141", 0, 5, 2, tutorial).
-week_term_hours("130", 0, 5, 2, lecture).
-week_term_hours("130", 0, 5, 2, lab).
-week_term_hours("130", 0, 5, 2, tutorial).
-week_term_hours("113", 2, 5, 2, lecture).
-week_term_hours("113", 0, 5, 2, lecture).
-week_term_hours("113", 0, 5, 2, lab).
-week_term_hours("113", 1, 5, 2, tutorial).
-week_term_hours("120.2", 0, 5, 2, lecture).
-week_term_hours("120.2", 0, 5, 2, lecture).
-week_term_hours("120.2", 0, 5, 2, lecture).
-week_term_hours("120.2", 0, 5, 2, lab).
-week_term_hours("120.2", 0, 5, 2, tutorial).
-week_term_hours("527", 0, 5, 2, lecture).
-week_term_hours("527", 0, 5, 2, lab).
-week_term_hours("527", 0, 5, 2, tutorial).
-week_term_hours("491", 0, 5, 2, lecture).
-week_term_hours("491", 0, 5, 2, lab).
-week_term_hours("491", 0, 5, 2, tutorial).
-week_term_hours("231", 0, 5, 2, lecture).
-week_term_hours("231", 0, 5, 2, lecture).
-week_term_hours("231", 0, 5, 2, lab).
-week_term_hours("231", 0, 5, 2, tutorial).
-week_term_hours("429", 0, 5, 2, lecture).
-week_term_hours("429", 0, 5, 2, lecture).
-week_term_hours("429", 0, 5, 2, lab).
-week_term_hours("429", 0, 5, 2, tutorial).
-week_term_hours("233", 0, 5, 2, lecture).
-week_term_hours("233", 0, 5, 2, lecture).
-week_term_hours("233", 0, 5, 2, lab).
-week_term_hours("233", 0, 5, 2, tutorial).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lecture).
-week_term_hours("163", 0, 5, 2, lab).
-week_term_hours("163", 0, 5, 2, tutorial).
-week_term_hours("141J", 0, 5, 2, lecture).
-week_term_hours("141J", 0, 5, 2, lab).
-week_term_hours("141J", 0, 5, 2, tutorial).
-week_term_hours("522", 0, 5, 2, lecture).
-week_term_hours("522", 0, 5, 2, lecture).
-week_term_hours("522", 0, 5, 2, lab).
-week_term_hours("522", 0, 5, 2, tutorial).
-week_term_hours("528", 0, 5, 2, lecture).
-week_term_hours("528", 0, 5, 2, lab).
-week_term_hours("528", 0, 5, 2, tutorial).
-week_term_hours("530", 0, 5, 2, lecture).
-week_term_hours("530", 0, 5, 2, lab).
-week_term_hours("530", 0, 5, 2, tutorial).
-week_term_hours("525", 0, 5, 2, lecture).
-week_term_hours("525", 0, 5, 2, lab).
-week_term_hours("525", 0, 5, 2, tutorial).
-week_term_hours("533", 0, 5, 2, lecture).
-week_term_hours("533", 0, 5, 2, lab).
-week_term_hours("533", 0, 5, 2, tutorial).
-week_term_hours("493", 0, 6, 2, lecture).
-week_term_hours("493", 0, 6, 2, lab).
-week_term_hours("493", 0, 6, 2, tutorial).
-week_term_hours("317", 0, 6, 2, lecture).
-week_term_hours("317", 0, 6, 2, lecture).
-week_term_hours("317", 0, 6, 2, lab).
-week_term_hours("317", 0, 6, 2, tutorial).
-week_term_hours("437", 0, 6, 2, lecture).
-week_term_hours("437", 0, 6, 2, lab).
-week_term_hours("437", 0, 6, 2, tutorial).
-week_term_hours("531", 0, 6, 2, lecture).
-week_term_hours("531", 0, 6, 2, lecture).
-week_term_hours("531", 0, 6, 2, lab).
-week_term_hours("531", 0, 6, 2, tutorial).
-week_term_hours("552", 0, 6, 2, lecture).
-week_term_hours("552", 0, 6, 2, lab).
-week_term_hours("552", 0, 6, 2, tutorial).
-week_term_hours("332", 0, 6, 2, lecture).
-week_term_hours("332", 0, 6, 2, lab).
-week_term_hours("332", 0, 6, 2, tutorial).
-week_term_hours("474", 0, 6, 2, lecture).
-week_term_hours("474", 0, 6, 2, lab).
-week_term_hours("474", 0, 6, 2, tutorial).
-week_term_hours("436", 0, 6, 2, lecture).
-week_term_hours("436", 0, 6, 2, lecture).
-week_term_hours("436", 0, 6, 2, lab).
-week_term_hours("436", 0, 6, 2, tutorial).
-week_term_hours("333", 0, 6, 2, lecture).
-week_term_hours("333", 0, 6, 2, lab).
-week_term_hours("333", 0, 6, 2, tutorial).
-week_term_hours("417", 0, 6, 2, lecture).
-week_term_hours("417", 0, 6, 2, lecture).
-week_term_hours("417", 0, 6, 2, lab).
-week_term_hours("417", 0, 6, 2, tutorial).
-week_term_hours("212", 0, 6, 2, lecture).
-week_term_hours("212", 0, 6, 2, lecture).
-week_term_hours("212", 0, 6, 2, lab).
-week_term_hours("212", 0, 6, 2, tutorial).
-week_term_hours("438", 0, 6, 2, lecture).
-week_term_hours("438", 0, 6, 2, lab).
-week_term_hours("438", 0, 6, 2, tutorial).
-week_term_hours("484", 0, 6, 2, lecture).
-week_term_hours("484", 0, 6, 2, lab).
-week_term_hours("484", 0, 6, 2, tutorial).
-week_term_hours("422", 0, 6, 2, lecture).
-week_term_hours("422", 0, 6, 2, lab).
-week_term_hours("422", 0, 6, 2, tutorial).
-week_term_hours("470", 0, 6, 2, lecture).
-week_term_hours("470", 0, 6, 2, lecture).
-week_term_hours("470", 0, 6, 2, lab).
-week_term_hours("470", 0, 6, 2, tutorial).
-week_term_hours("341", 0, 6, 2, lecture).
-week_term_hours("341", 0, 6, 2, lecture).
-week_term_hours("341", 0, 6, 2, lab).
-week_term_hours("341", 0, 6, 2, tutorial).
-week_term_hours("210", 0, 6, 2, lecture).
-week_term_hours("210", 0, 6, 2, lecture).
-week_term_hours("210", 0, 6, 2, lab).
-week_term_hours("210", 0, 6, 2, tutorial).
-week_term_hours("526", 0, 6, 2, lecture).
-week_term_hours("526", 0, 6, 2, lab).
-week_term_hours("526", 0, 6, 2, tutorial).
-week_term_hours("202", 0, 6, 2, lecture).
-week_term_hours("202", 0, 6, 2, lecture).
-week_term_hours("202", 0, 6, 2, lab).
-week_term_hours("202", 0, 6, 2, tutorial).
-week_term_hours("211", 0, 6, 2, lecture).
-week_term_hours("211", 0, 6, 2, lecture).
-week_term_hours("211", 0, 6, 2, lab).
-week_term_hours("211", 0, 6, 2, tutorial).
-week_term_hours("350", 0, 6, 2, lecture).
-week_term_hours("350", 0, 6, 2, lab).
-week_term_hours("350", 0, 6, 2, tutorial).
-week_term_hours("318", 0, 6, 2, lecture).
-week_term_hours("318", 0, 6, 2, lecture).
-week_term_hours("318", 0, 6, 2, lab).
-week_term_hours("318", 0, 6, 2, tutorial).
-week_term_hours("338", 0, 6, 2, lecture).
-week_term_hours("338", 0, 6, 2, lecture).
-week_term_hours("338", 0, 6, 2, lab).
-week_term_hours("338", 0, 6, 2, tutorial).
-week_term_hours("276", 0, 6, 2, lecture).
-week_term_hours("276", 0, 6, 2, lab).
-week_term_hours("276", 0, 6, 2, tutorial).
-week_term_hours("164", 0, 6, 2, lecture).
-week_term_hours("164", 0, 6, 2, lab).
-week_term_hours("164", 0, 6, 2, tutorial).
-week_term_hours("142", 0, 6, 2, lecture).
-week_term_hours("142", 0, 6, 2, lecture).
-week_term_hours("142", 0, 6, 2, lab).
-week_term_hours("142", 0, 6, 2, tutorial).
-week_term_hours("141", 0, 6, 2, lecture).
-week_term_hours("141", 0, 6, 2, lecture).
-week_term_hours("141", 0, 6, 2, lab).
-week_term_hours("141", 0, 6, 2, tutorial).
-week_term_hours("130", 0, 6, 2, lecture).
-week_term_hours("130", 0, 6, 2, lab).
-week_term_hours("130", 0, 6, 2, tutorial).
-week_term_hours("113", 2, 6, 2, lecture).
-week_term_hours("113", 0, 6, 2, lecture).
-week_term_hours("113", 0, 6, 2, lab).
-week_term_hours("113", 1, 6, 2, tutorial).
-week_term_hours("120.2", 0, 6, 2, lecture).
-week_term_hours("120.2", 0, 6, 2, lecture).
-week_term_hours("120.2", 0, 6, 2, lecture).
-week_term_hours("120.2", 0, 6, 2, lab).
-week_term_hours("120.2", 0, 6, 2, tutorial).
-week_term_hours("527", 0, 6, 2, lecture).
-week_term_hours("527", 0, 6, 2, lab).
-week_term_hours("527", 0, 6, 2, tutorial).
-week_term_hours("491", 0, 6, 2, lecture).
-week_term_hours("491", 0, 6, 2, lab).
-week_term_hours("491", 0, 6, 2, tutorial).
-week_term_hours("231", 0, 6, 2, lecture).
-week_term_hours("231", 0, 6, 2, lecture).
-week_term_hours("231", 0, 6, 2, lab).
-week_term_hours("231", 0, 6, 2, tutorial).
-week_term_hours("429", 0, 6, 2, lecture).
-week_term_hours("429", 0, 6, 2, lecture).
-week_term_hours("429", 0, 6, 2, lab).
-week_term_hours("429", 0, 6, 2, tutorial).
-week_term_hours("233", 0, 6, 2, lecture).
-week_term_hours("233", 0, 6, 2, lecture).
-week_term_hours("233", 0, 6, 2, lab).
-week_term_hours("233", 0, 6, 2, tutorial).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lecture).
-week_term_hours("163", 0, 6, 2, lab).
-week_term_hours("163", 0, 6, 2, tutorial).
-week_term_hours("141J", 0, 6, 2, lecture).
-week_term_hours("141J", 0, 6, 2, lab).
-week_term_hours("141J", 0, 6, 2, tutorial).
-week_term_hours("522", 0, 6, 2, lecture).
-week_term_hours("522", 0, 6, 2, lecture).
-week_term_hours("522", 0, 6, 2, lab).
-week_term_hours("522", 0, 6, 2, tutorial).
-week_term_hours("528", 0, 6, 2, lecture).
-week_term_hours("528", 0, 6, 2, lab).
-week_term_hours("528", 0, 6, 2, tutorial).
-week_term_hours("530", 0, 6, 2, lecture).
-week_term_hours("530", 0, 6, 2, lab).
-week_term_hours("530", 0, 6, 2, tutorial).
-week_term_hours("525", 0, 6, 2, lecture).
-week_term_hours("525", 0, 6, 2, lab).
-week_term_hours("525", 0, 6, 2, tutorial).
-week_term_hours("533", 0, 6, 2, lecture).
-week_term_hours("533", 0, 6, 2, lab).
-week_term_hours("533", 0, 6, 2, tutorial).
-week_term_hours("493", 0, 7, 2, lecture).
-week_term_hours("493", 0, 7, 2, lab).
-week_term_hours("493", 0, 7, 2, tutorial).
-week_term_hours("317", 0, 7, 2, lecture).
-week_term_hours("317", 0, 7, 2, lecture).
-week_term_hours("317", 0, 7, 2, lab).
-week_term_hours("317", 0, 7, 2, tutorial).
-week_term_hours("437", 0, 7, 2, lecture).
-week_term_hours("437", 0, 7, 2, lab).
-week_term_hours("437", 0, 7, 2, tutorial).
-week_term_hours("531", 0, 7, 2, lecture).
-week_term_hours("531", 0, 7, 2, lecture).
-week_term_hours("531", 0, 7, 2, lab).
-week_term_hours("531", 0, 7, 2, tutorial).
-week_term_hours("552", 0, 7, 2, lecture).
-week_term_hours("552", 0, 7, 2, lab).
-week_term_hours("552", 0, 7, 2, tutorial).
-week_term_hours("332", 0, 7, 2, lecture).
-week_term_hours("332", 0, 7, 2, lab).
-week_term_hours("332", 0, 7, 2, tutorial).
-week_term_hours("474", 0, 7, 2, lecture).
-week_term_hours("474", 0, 7, 2, lab).
-week_term_hours("474", 0, 7, 2, tutorial).
-week_term_hours("436", 0, 7, 2, lecture).
-week_term_hours("436", 0, 7, 2, lecture).
-week_term_hours("436", 0, 7, 2, lab).
-week_term_hours("436", 0, 7, 2, tutorial).
-week_term_hours("333", 0, 7, 2, lecture).
-week_term_hours("333", 0, 7, 2, lab).
-week_term_hours("333", 0, 7, 2, tutorial).
-week_term_hours("417", 0, 7, 2, lecture).
-week_term_hours("417", 0, 7, 2, lecture).
-week_term_hours("417", 0, 7, 2, lab).
-week_term_hours("417", 0, 7, 2, tutorial).
-week_term_hours("212", 0, 7, 2, lecture).
-week_term_hours("212", 0, 7, 2, lecture).
-week_term_hours("212", 0, 7, 2, lab).
-week_term_hours("212", 0, 7, 2, tutorial).
-week_term_hours("438", 0, 7, 2, lecture).
-week_term_hours("438", 0, 7, 2, lab).
-week_term_hours("438", 0, 7, 2, tutorial).
-week_term_hours("484", 0, 7, 2, lecture).
-week_term_hours("484", 0, 7, 2, lab).
-week_term_hours("484", 0, 7, 2, tutorial).
-week_term_hours("422", 0, 7, 2, lecture).
-week_term_hours("422", 0, 7, 2, lab).
-week_term_hours("422", 0, 7, 2, tutorial).
-week_term_hours("470", 0, 7, 2, lecture).
-week_term_hours("470", 0, 7, 2, lecture).
-week_term_hours("470", 0, 7, 2, lab).
-week_term_hours("470", 0, 7, 2, tutorial).
-week_term_hours("341", 0, 7, 2, lecture).
-week_term_hours("341", 0, 7, 2, lecture).
-week_term_hours("341", 0, 7, 2, lab).
-week_term_hours("341", 0, 7, 2, tutorial).
-week_term_hours("210", 0, 7, 2, lecture).
-week_term_hours("210", 0, 7, 2, lecture).
-week_term_hours("210", 0, 7, 2, lab).
-week_term_hours("210", 0, 7, 2, tutorial).
-week_term_hours("526", 0, 7, 2, lecture).
-week_term_hours("526", 0, 7, 2, lab).
-week_term_hours("526", 0, 7, 2, tutorial).
-week_term_hours("202", 0, 7, 2, lecture).
-week_term_hours("202", 0, 7, 2, lecture).
-week_term_hours("202", 0, 7, 2, lab).
-week_term_hours("202", 0, 7, 2, tutorial).
-week_term_hours("211", 0, 7, 2, lecture).
-week_term_hours("211", 0, 7, 2, lecture).
-week_term_hours("211", 0, 7, 2, lab).
-week_term_hours("211", 0, 7, 2, tutorial).
-week_term_hours("350", 0, 7, 2, lecture).
-week_term_hours("350", 0, 7, 2, lab).
-week_term_hours("350", 0, 7, 2, tutorial).
-week_term_hours("318", 0, 7, 2, lecture).
-week_term_hours("318", 0, 7, 2, lecture).
-week_term_hours("318", 0, 7, 2, lab).
-week_term_hours("318", 0, 7, 2, tutorial).
-week_term_hours("338", 0, 7, 2, lecture).
-week_term_hours("338", 0, 7, 2, lecture).
-week_term_hours("338", 0, 7, 2, lab).
-week_term_hours("338", 0, 7, 2, tutorial).
-week_term_hours("276", 0, 7, 2, lecture).
-week_term_hours("276", 0, 7, 2, lab).
-week_term_hours("276", 0, 7, 2, tutorial).
-week_term_hours("164", 0, 7, 2, lecture).
-week_term_hours("164", 0, 7, 2, lab).
-week_term_hours("164", 0, 7, 2, tutorial).
-week_term_hours("142", 0, 7, 2, lecture).
-week_term_hours("142", 0, 7, 2, lecture).
-week_term_hours("142", 0, 7, 2, lab).
-week_term_hours("142", 0, 7, 2, tutorial).
-week_term_hours("141", 0, 7, 2, lecture).
-week_term_hours("141", 0, 7, 2, lecture).
-week_term_hours("141", 0, 7, 2, lab).
-week_term_hours("141", 0, 7, 2, tutorial).
-week_term_hours("130", 0, 7, 2, lecture).
-week_term_hours("130", 0, 7, 2, lab).
-week_term_hours("130", 0, 7, 2, tutorial).
-week_term_hours("113", 2, 7, 2, lecture).
-week_term_hours("113", 0, 7, 2, lecture).
-week_term_hours("113", 0, 7, 2, lab).
-week_term_hours("113", 1, 7, 2, tutorial).
-week_term_hours("120.2", 0, 7, 2, lecture).
-week_term_hours("120.2", 0, 7, 2, lecture).
-week_term_hours("120.2", 0, 7, 2, lecture).
-week_term_hours("120.2", 0, 7, 2, lab).
-week_term_hours("120.2", 0, 7, 2, tutorial).
-week_term_hours("527", 0, 7, 2, lecture).
-week_term_hours("527", 0, 7, 2, lab).
-week_term_hours("527", 0, 7, 2, tutorial).
-week_term_hours("491", 0, 7, 2, lecture).
-week_term_hours("491", 0, 7, 2, lab).
-week_term_hours("491", 0, 7, 2, tutorial).
-week_term_hours("231", 0, 7, 2, lecture).
-week_term_hours("231", 0, 7, 2, lecture).
-week_term_hours("231", 0, 7, 2, lab).
-week_term_hours("231", 0, 7, 2, tutorial).
-week_term_hours("429", 0, 7, 2, lecture).
-week_term_hours("429", 0, 7, 2, lecture).
-week_term_hours("429", 0, 7, 2, lab).
-week_term_hours("429", 0, 7, 2, tutorial).
-week_term_hours("233", 0, 7, 2, lecture).
-week_term_hours("233", 0, 7, 2, lecture).
-week_term_hours("233", 0, 7, 2, lab).
-week_term_hours("233", 0, 7, 2, tutorial).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lecture).
-week_term_hours("163", 0, 7, 2, lab).
-week_term_hours("163", 0, 7, 2, tutorial).
-week_term_hours("141J", 0, 7, 2, lecture).
-week_term_hours("141J", 0, 7, 2, lab).
-week_term_hours("141J", 0, 7, 2, tutorial).
-week_term_hours("522", 0, 7, 2, lecture).
-week_term_hours("522", 0, 7, 2, lecture).
-week_term_hours("522", 0, 7, 2, lab).
-week_term_hours("522", 0, 7, 2, tutorial).
-week_term_hours("528", 0, 7, 2, lecture).
-week_term_hours("528", 0, 7, 2, lab).
-week_term_hours("528", 0, 7, 2, tutorial).
-week_term_hours("530", 0, 7, 2, lecture).
-week_term_hours("530", 0, 7, 2, lab).
-week_term_hours("530", 0, 7, 2, tutorial).
-week_term_hours("525", 0, 7, 2, lecture).
-week_term_hours("525", 0, 7, 2, lab).
-week_term_hours("525", 0, 7, 2, tutorial).
-week_term_hours("533", 0, 7, 2, lecture).
-week_term_hours("533", 0, 7, 2, lab).
-week_term_hours("533", 0, 7, 2, tutorial).
-week_term_hours("493", 0, 8, 2, lecture).
-week_term_hours("493", 0, 8, 2, lab).
-week_term_hours("493", 0, 8, 2, tutorial).
-week_term_hours("317", 0, 8, 2, lecture).
-week_term_hours("317", 0, 8, 2, lecture).
-week_term_hours("317", 0, 8, 2, lab).
-week_term_hours("317", 0, 8, 2, tutorial).
-week_term_hours("437", 0, 8, 2, lecture).
-week_term_hours("437", 0, 8, 2, lab).
-week_term_hours("437", 0, 8, 2, tutorial).
-week_term_hours("531", 0, 8, 2, lecture).
-week_term_hours("531", 0, 8, 2, lecture).
-week_term_hours("531", 0, 8, 2, lab).
-week_term_hours("531", 0, 8, 2, tutorial).
-week_term_hours("552", 0, 8, 2, lecture).
-week_term_hours("552", 0, 8, 2, lab).
-week_term_hours("552", 0, 8, 2, tutorial).
-week_term_hours("332", 0, 8, 2, lecture).
-week_term_hours("332", 0, 8, 2, lab).
-week_term_hours("332", 0, 8, 2, tutorial).
-week_term_hours("474", 0, 8, 2, lecture).
-week_term_hours("474", 0, 8, 2, lab).
-week_term_hours("474", 0, 8, 2, tutorial).
-week_term_hours("436", 0, 8, 2, lecture).
-week_term_hours("436", 0, 8, 2, lecture).
-week_term_hours("436", 0, 8, 2, lab).
-week_term_hours("436", 0, 8, 2, tutorial).
-week_term_hours("333", 0, 8, 2, lecture).
-week_term_hours("333", 0, 8, 2, lab).
-week_term_hours("333", 0, 8, 2, tutorial).
-week_term_hours("417", 0, 8, 2, lecture).
-week_term_hours("417", 0, 8, 2, lecture).
-week_term_hours("417", 0, 8, 2, lab).
-week_term_hours("417", 0, 8, 2, tutorial).
-week_term_hours("212", 0, 8, 2, lecture).
-week_term_hours("212", 0, 8, 2, lecture).
-week_term_hours("212", 0, 8, 2, lab).
-week_term_hours("212", 0, 8, 2, tutorial).
-week_term_hours("438", 0, 8, 2, lecture).
-week_term_hours("438", 0, 8, 2, lab).
-week_term_hours("438", 0, 8, 2, tutorial).
-week_term_hours("484", 0, 8, 2, lecture).
-week_term_hours("484", 0, 8, 2, lab).
-week_term_hours("484", 0, 8, 2, tutorial).
-week_term_hours("422", 0, 8, 2, lecture).
-week_term_hours("422", 0, 8, 2, lab).
-week_term_hours("422", 0, 8, 2, tutorial).
-week_term_hours("470", 0, 8, 2, lecture).
-week_term_hours("470", 0, 8, 2, lecture).
-week_term_hours("470", 0, 8, 2, lab).
-week_term_hours("470", 0, 8, 2, tutorial).
-week_term_hours("341", 0, 8, 2, lecture).
-week_term_hours("341", 0, 8, 2, lecture).
-week_term_hours("341", 0, 8, 2, lab).
-week_term_hours("341", 0, 8, 2, tutorial).
-week_term_hours("210", 0, 8, 2, lecture).
-week_term_hours("210", 0, 8, 2, lecture).
-week_term_hours("210", 0, 8, 2, lab).
-week_term_hours("210", 0, 8, 2, tutorial).
-week_term_hours("526", 0, 8, 2, lecture).
-week_term_hours("526", 0, 8, 2, lab).
-week_term_hours("526", 0, 8, 2, tutorial).
-week_term_hours("202", 0, 8, 2, lecture).
-week_term_hours("202", 0, 8, 2, lecture).
-week_term_hours("202", 0, 8, 2, lab).
-week_term_hours("202", 0, 8, 2, tutorial).
-week_term_hours("211", 0, 8, 2, lecture).
-week_term_hours("211", 0, 8, 2, lecture).
-week_term_hours("211", 0, 8, 2, lab).
-week_term_hours("211", 0, 8, 2, tutorial).
-week_term_hours("350", 0, 8, 2, lecture).
-week_term_hours("350", 0, 8, 2, lab).
-week_term_hours("350", 0, 8, 2, tutorial).
-week_term_hours("318", 0, 8, 2, lecture).
-week_term_hours("318", 0, 8, 2, lecture).
-week_term_hours("318", 0, 8, 2, lab).
-week_term_hours("318", 0, 8, 2, tutorial).
-week_term_hours("338", 0, 8, 2, lecture).
-week_term_hours("338", 0, 8, 2, lecture).
-week_term_hours("338", 0, 8, 2, lab).
-week_term_hours("338", 0, 8, 2, tutorial).
-week_term_hours("276", 0, 8, 2, lecture).
-week_term_hours("276", 0, 8, 2, lab).
-week_term_hours("276", 0, 8, 2, tutorial).
-week_term_hours("164", 0, 8, 2, lecture).
-week_term_hours("164", 0, 8, 2, lab).
-week_term_hours("164", 0, 8, 2, tutorial).
-week_term_hours("142", 0, 8, 2, lecture).
-week_term_hours("142", 0, 8, 2, lecture).
-week_term_hours("142", 0, 8, 2, lab).
-week_term_hours("142", 0, 8, 2, tutorial).
-week_term_hours("141", 0, 8, 2, lecture).
-week_term_hours("141", 0, 8, 2, lecture).
-week_term_hours("141", 0, 8, 2, lab).
-week_term_hours("141", 0, 8, 2, tutorial).
-week_term_hours("130", 0, 8, 2, lecture).
-week_term_hours("130", 0, 8, 2, lab).
-week_term_hours("130", 0, 8, 2, tutorial).
-week_term_hours("113", 2, 8, 2, lecture).
-week_term_hours("113", 0, 8, 2, lecture).
-week_term_hours("113", 0, 8, 2, lab).
-week_term_hours("113", 1, 8, 2, tutorial).
-week_term_hours("120.2", 0, 8, 2, lecture).
-week_term_hours("120.2", 0, 8, 2, lecture).
-week_term_hours("120.2", 0, 8, 2, lecture).
-week_term_hours("120.2", 0, 8, 2, lab).
-week_term_hours("120.2", 0, 8, 2, tutorial).
-week_term_hours("527", 0, 8, 2, lecture).
-week_term_hours("527", 0, 8, 2, lab).
-week_term_hours("527", 0, 8, 2, tutorial).
-week_term_hours("491", 0, 8, 2, lecture).
-week_term_hours("491", 0, 8, 2, lab).
-week_term_hours("491", 0, 8, 2, tutorial).
-week_term_hours("231", 0, 8, 2, lecture).
-week_term_hours("231", 0, 8, 2, lecture).
-week_term_hours("231", 0, 8, 2, lab).
-week_term_hours("231", 0, 8, 2, tutorial).
-week_term_hours("429", 0, 8, 2, lecture).
-week_term_hours("429", 0, 8, 2, lecture).
-week_term_hours("429", 0, 8, 2, lab).
-week_term_hours("429", 0, 8, 2, tutorial).
-week_term_hours("233", 0, 8, 2, lecture).
-week_term_hours("233", 0, 8, 2, lecture).
-week_term_hours("233", 0, 8, 2, lab).
-week_term_hours("233", 0, 8, 2, tutorial).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lecture).
-week_term_hours("163", 0, 8, 2, lab).
-week_term_hours("163", 0, 8, 2, tutorial).
-week_term_hours("141J", 0, 8, 2, lecture).
-week_term_hours("141J", 0, 8, 2, lab).
-week_term_hours("141J", 0, 8, 2, tutorial).
-week_term_hours("522", 0, 8, 2, lecture).
-week_term_hours("522", 0, 8, 2, lecture).
-week_term_hours("522", 0, 8, 2, lab).
-week_term_hours("522", 0, 8, 2, tutorial).
-week_term_hours("528", 0, 8, 2, lecture).
-week_term_hours("528", 0, 8, 2, lab).
-week_term_hours("528", 0, 8, 2, tutorial).
-week_term_hours("530", 0, 8, 2, lecture).
-week_term_hours("530", 0, 8, 2, lab).
-week_term_hours("530", 0, 8, 2, tutorial).
-week_term_hours("525", 0, 8, 2, lecture).
-week_term_hours("525", 0, 8, 2, lab).
-week_term_hours("525", 0, 8, 2, tutorial).
-week_term_hours("533", 0, 8, 2, lecture).
-week_term_hours("533", 0, 8, 2, lab).
-week_term_hours("533", 0, 8, 2, tutorial).
-week_term_hours("493", 0, 9, 2, lecture).
-week_term_hours("493", 0, 9, 2, lab).
-week_term_hours("493", 0, 9, 2, tutorial).
-week_term_hours("317", 0, 9, 2, lecture).
-week_term_hours("317", 0, 9, 2, lecture).
-week_term_hours("317", 0, 9, 2, lab).
-week_term_hours("317", 0, 9, 2, tutorial).
-week_term_hours("437", 0, 9, 2, lecture).
-week_term_hours("437", 0, 9, 2, lab).
-week_term_hours("437", 0, 9, 2, tutorial).
-week_term_hours("531", 0, 9, 2, lecture).
-week_term_hours("531", 0, 9, 2, lecture).
-week_term_hours("531", 0, 9, 2, lab).
-week_term_hours("531", 0, 9, 2, tutorial).
-week_term_hours("552", 0, 9, 2, lecture).
-week_term_hours("552", 0, 9, 2, lab).
-week_term_hours("552", 0, 9, 2, tutorial).
-week_term_hours("332", 0, 9, 2, lecture).
-week_term_hours("332", 0, 9, 2, lab).
-week_term_hours("332", 0, 9, 2, tutorial).
-week_term_hours("474", 0, 9, 2, lecture).
-week_term_hours("474", 0, 9, 2, lab).
-week_term_hours("474", 0, 9, 2, tutorial).
-week_term_hours("436", 0, 9, 2, lecture).
-week_term_hours("436", 0, 9, 2, lecture).
-week_term_hours("436", 0, 9, 2, lab).
-week_term_hours("436", 0, 9, 2, tutorial).
-week_term_hours("333", 0, 9, 2, lecture).
-week_term_hours("333", 0, 9, 2, lab).
-week_term_hours("333", 0, 9, 2, tutorial).
-week_term_hours("417", 0, 9, 2, lecture).
-week_term_hours("417", 0, 9, 2, lecture).
-week_term_hours("417", 0, 9, 2, lab).
-week_term_hours("417", 0, 9, 2, tutorial).
-week_term_hours("212", 0, 9, 2, lecture).
-week_term_hours("212", 0, 9, 2, lecture).
-week_term_hours("212", 0, 9, 2, lab).
-week_term_hours("212", 0, 9, 2, tutorial).
-week_term_hours("438", 0, 9, 2, lecture).
-week_term_hours("438", 0, 9, 2, lab).
-week_term_hours("438", 0, 9, 2, tutorial).
-week_term_hours("484", 0, 9, 2, lecture).
-week_term_hours("484", 0, 9, 2, lab).
-week_term_hours("484", 0, 9, 2, tutorial).
-week_term_hours("422", 0, 9, 2, lecture).
-week_term_hours("422", 0, 9, 2, lab).
-week_term_hours("422", 0, 9, 2, tutorial).
-week_term_hours("470", 0, 9, 2, lecture).
-week_term_hours("470", 0, 9, 2, lecture).
-week_term_hours("470", 0, 9, 2, lab).
-week_term_hours("470", 0, 9, 2, tutorial).
-week_term_hours("341", 0, 9, 2, lecture).
-week_term_hours("341", 0, 9, 2, lecture).
-week_term_hours("341", 0, 9, 2, lab).
-week_term_hours("341", 0, 9, 2, tutorial).
-week_term_hours("210", 0, 9, 2, lecture).
-week_term_hours("210", 0, 9, 2, lecture).
-week_term_hours("210", 0, 9, 2, lab).
-week_term_hours("210", 0, 9, 2, tutorial).
-week_term_hours("526", 0, 9, 2, lecture).
-week_term_hours("526", 0, 9, 2, lab).
-week_term_hours("526", 0, 9, 2, tutorial).
-week_term_hours("202", 0, 9, 2, lecture).
-week_term_hours("202", 0, 9, 2, lecture).
-week_term_hours("202", 0, 9, 2, lab).
-week_term_hours("202", 0, 9, 2, tutorial).
-week_term_hours("211", 0, 9, 2, lecture).
-week_term_hours("211", 0, 9, 2, lecture).
-week_term_hours("211", 0, 9, 2, lab).
-week_term_hours("211", 0, 9, 2, tutorial).
-week_term_hours("350", 0, 9, 2, lecture).
-week_term_hours("350", 0, 9, 2, lab).
-week_term_hours("350", 0, 9, 2, tutorial).
-week_term_hours("318", 0, 9, 2, lecture).
-week_term_hours("318", 0, 9, 2, lecture).
-week_term_hours("318", 0, 9, 2, lab).
-week_term_hours("318", 0, 9, 2, tutorial).
-week_term_hours("338", 0, 9, 2, lecture).
-week_term_hours("338", 0, 9, 2, lecture).
-week_term_hours("338", 0, 9, 2, lab).
-week_term_hours("338", 0, 9, 2, tutorial).
-week_term_hours("276", 0, 9, 2, lecture).
-week_term_hours("276", 0, 9, 2, lab).
-week_term_hours("276", 0, 9, 2, tutorial).
-week_term_hours("164", 0, 9, 2, lecture).
-week_term_hours("164", 0, 9, 2, lab).
-week_term_hours("164", 0, 9, 2, tutorial).
-week_term_hours("142", 0, 9, 2, lecture).
-week_term_hours("142", 0, 9, 2, lecture).
-week_term_hours("142", 0, 9, 2, lab).
-week_term_hours("142", 0, 9, 2, tutorial).
-week_term_hours("141", 0, 9, 2, lecture).
-week_term_hours("141", 0, 9, 2, lecture).
-week_term_hours("141", 0, 9, 2, lab).
-week_term_hours("141", 0, 9, 2, tutorial).
-week_term_hours("130", 0, 9, 2, lecture).
-week_term_hours("130", 0, 9, 2, lab).
-week_term_hours("130", 0, 9, 2, tutorial).
-week_term_hours("113", 2, 9, 2, lecture).
-week_term_hours("113", 0, 9, 2, lecture).
-week_term_hours("113", 0, 9, 2, lab).
-week_term_hours("113", 1, 9, 2, tutorial).
-week_term_hours("120.2", 0, 9, 2, lecture).
-week_term_hours("120.2", 0, 9, 2, lecture).
-week_term_hours("120.2", 0, 9, 2, lecture).
-week_term_hours("120.2", 0, 9, 2, lab).
-week_term_hours("120.2", 0, 9, 2, tutorial).
-week_term_hours("527", 0, 9, 2, lecture).
-week_term_hours("527", 0, 9, 2, lab).
-week_term_hours("527", 0, 9, 2, tutorial).
-week_term_hours("491", 0, 9, 2, lecture).
-week_term_hours("491", 0, 9, 2, lab).
-week_term_hours("491", 0, 9, 2, tutorial).
-week_term_hours("231", 0, 9, 2, lecture).
-week_term_hours("231", 0, 9, 2, lecture).
-week_term_hours("231", 0, 9, 2, lab).
-week_term_hours("231", 0, 9, 2, tutorial).
-week_term_hours("429", 0, 9, 2, lecture).
-week_term_hours("429", 0, 9, 2, lecture).
-week_term_hours("429", 0, 9, 2, lab).
-week_term_hours("429", 0, 9, 2, tutorial).
-week_term_hours("233", 0, 9, 2, lecture).
-week_term_hours("233", 0, 9, 2, lecture).
-week_term_hours("233", 0, 9, 2, lab).
-week_term_hours("233", 0, 9, 2, tutorial).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lecture).
-week_term_hours("163", 0, 9, 2, lab).
-week_term_hours("163", 0, 9, 2, tutorial).
-week_term_hours("141J", 0, 9, 2, lecture).
-week_term_hours("141J", 0, 9, 2, lab).
-week_term_hours("141J", 0, 9, 2, tutorial).
-week_term_hours("522", 0, 9, 2, lecture).
-week_term_hours("522", 0, 9, 2, lecture).
-week_term_hours("522", 0, 9, 2, lab).
-week_term_hours("522", 0, 9, 2, tutorial).
-week_term_hours("528", 0, 9, 2, lecture).
-week_term_hours("528", 0, 9, 2, lab).
-week_term_hours("528", 0, 9, 2, tutorial).
-week_term_hours("530", 0, 9, 2, lecture).
-week_term_hours("530", 0, 9, 2, lab).
-week_term_hours("530", 0, 9, 2, tutorial).
-week_term_hours("525", 0, 9, 2, lecture).
-week_term_hours("525", 0, 9, 2, lab).
-week_term_hours("525", 0, 9, 2, tutorial).
-week_term_hours("533", 0, 9, 2, lecture).
-week_term_hours("533", 0, 9, 2, lab).
-week_term_hours("533", 0, 9, 2, tutorial).
-week_term_hours("493", 0, 10, 2, lecture).
-week_term_hours("493", 0, 10, 2, lab).
-week_term_hours("493", 0, 10, 2, tutorial).
-week_term_hours("317", 0, 10, 2, lecture).
-week_term_hours("317", 0, 10, 2, lecture).
-week_term_hours("317", 0, 10, 2, lab).
-week_term_hours("317", 0, 10, 2, tutorial).
-week_term_hours("437", 0, 10, 2, lecture).
-week_term_hours("437", 0, 10, 2, lab).
-week_term_hours("437", 0, 10, 2, tutorial).
-week_term_hours("531", 0, 10, 2, lecture).
-week_term_hours("531", 0, 10, 2, lecture).
-week_term_hours("531", 0, 10, 2, lab).
-week_term_hours("531", 0, 10, 2, tutorial).
-week_term_hours("552", 0, 10, 2, lecture).
-week_term_hours("552", 0, 10, 2, lab).
-week_term_hours("552", 0, 10, 2, tutorial).
-week_term_hours("332", 0, 10, 2, lecture).
-week_term_hours("332", 0, 10, 2, lab).
-week_term_hours("332", 0, 10, 2, tutorial).
-week_term_hours("474", 0, 10, 2, lecture).
-week_term_hours("474", 0, 10, 2, lab).
-week_term_hours("474", 0, 10, 2, tutorial).
-week_term_hours("436", 0, 10, 2, lecture).
-week_term_hours("436", 0, 10, 2, lecture).
-week_term_hours("436", 0, 10, 2, lab).
-week_term_hours("436", 0, 10, 2, tutorial).
-week_term_hours("333", 0, 10, 2, lecture).
-week_term_hours("333", 0, 10, 2, lab).
-week_term_hours("333", 0, 10, 2, tutorial).
-week_term_hours("417", 0, 10, 2, lecture).
-week_term_hours("417", 0, 10, 2, lecture).
-week_term_hours("417", 0, 10, 2, lab).
-week_term_hours("417", 0, 10, 2, tutorial).
-week_term_hours("212", 0, 10, 2, lecture).
-week_term_hours("212", 0, 10, 2, lecture).
-week_term_hours("212", 0, 10, 2, lab).
-week_term_hours("212", 0, 10, 2, tutorial).
-week_term_hours("438", 0, 10, 2, lecture).
-week_term_hours("438", 0, 10, 2, lab).
-week_term_hours("438", 0, 10, 2, tutorial).
-week_term_hours("484", 0, 10, 2, lecture).
-week_term_hours("484", 0, 10, 2, lab).
-week_term_hours("484", 0, 10, 2, tutorial).
-week_term_hours("422", 0, 10, 2, lecture).
-week_term_hours("422", 0, 10, 2, lab).
-week_term_hours("422", 0, 10, 2, tutorial).
-week_term_hours("470", 0, 10, 2, lecture).
-week_term_hours("470", 0, 10, 2, lecture).
-week_term_hours("470", 0, 10, 2, lab).
-week_term_hours("470", 0, 10, 2, tutorial).
-week_term_hours("341", 0, 10, 2, lecture).
-week_term_hours("341", 0, 10, 2, lecture).
-week_term_hours("341", 0, 10, 2, lab).
-week_term_hours("341", 0, 10, 2, tutorial).
-week_term_hours("210", 0, 10, 2, lecture).
-week_term_hours("210", 0, 10, 2, lecture).
-week_term_hours("210", 0, 10, 2, lab).
-week_term_hours("210", 0, 10, 2, tutorial).
-week_term_hours("526", 0, 10, 2, lecture).
-week_term_hours("526", 0, 10, 2, lab).
-week_term_hours("526", 0, 10, 2, tutorial).
-week_term_hours("202", 0, 10, 2, lecture).
-week_term_hours("202", 0, 10, 2, lecture).
-week_term_hours("202", 0, 10, 2, lab).
-week_term_hours("202", 0, 10, 2, tutorial).
-week_term_hours("211", 0, 10, 2, lecture).
-week_term_hours("211", 0, 10, 2, lecture).
-week_term_hours("211", 0, 10, 2, lab).
-week_term_hours("211", 0, 10, 2, tutorial).
-week_term_hours("350", 0, 10, 2, lecture).
-week_term_hours("350", 0, 10, 2, lab).
-week_term_hours("350", 0, 10, 2, tutorial).
-week_term_hours("318", 0, 10, 2, lecture).
-week_term_hours("318", 0, 10, 2, lecture).
-week_term_hours("318", 0, 10, 2, lab).
-week_term_hours("318", 0, 10, 2, tutorial).
-week_term_hours("338", 0, 10, 2, lecture).
-week_term_hours("338", 0, 10, 2, lecture).
-week_term_hours("338", 0, 10, 2, lab).
-week_term_hours("338", 0, 10, 2, tutorial).
-week_term_hours("276", 0, 10, 2, lecture).
-week_term_hours("276", 0, 10, 2, lab).
-week_term_hours("276", 0, 10, 2, tutorial).
-week_term_hours("164", 0, 10, 2, lecture).
-week_term_hours("164", 0, 10, 2, lab).
-week_term_hours("164", 0, 10, 2, tutorial).
-week_term_hours("142", 0, 10, 2, lecture).
-week_term_hours("142", 0, 10, 2, lecture).
-week_term_hours("142", 0, 10, 2, lab).
-week_term_hours("142", 0, 10, 2, tutorial).
-week_term_hours("141", 0, 10, 2, lecture).
-week_term_hours("141", 0, 10, 2, lecture).
-week_term_hours("141", 0, 10, 2, lab).
-week_term_hours("141", 0, 10, 2, tutorial).
-week_term_hours("130", 0, 10, 2, lecture).
-week_term_hours("130", 0, 10, 2, lab).
-week_term_hours("130", 0, 10, 2, tutorial).
-week_term_hours("113", 2, 10, 2, lecture).
-week_term_hours("113", 0, 10, 2, lecture).
-week_term_hours("113", 0, 10, 2, lab).
-week_term_hours("113", 1, 10, 2, tutorial).
-week_term_hours("120.2", 0, 10, 2, lecture).
-week_term_hours("120.2", 0, 10, 2, lecture).
-week_term_hours("120.2", 0, 10, 2, lecture).
-week_term_hours("120.2", 0, 10, 2, lab).
-week_term_hours("120.2", 0, 10, 2, tutorial).
-week_term_hours("527", 0, 10, 2, lecture).
-week_term_hours("527", 0, 10, 2, lab).
-week_term_hours("527", 0, 10, 2, tutorial).
-week_term_hours("491", 0, 10, 2, lecture).
-week_term_hours("491", 0, 10, 2, lab).
-week_term_hours("491", 0, 10, 2, tutorial).
-week_term_hours("231", 0, 10, 2, lecture).
-week_term_hours("231", 0, 10, 2, lecture).
-week_term_hours("231", 0, 10, 2, lab).
-week_term_hours("231", 0, 10, 2, tutorial).
-week_term_hours("429", 0, 10, 2, lecture).
-week_term_hours("429", 0, 10, 2, lecture).
-week_term_hours("429", 0, 10, 2, lab).
-week_term_hours("429", 0, 10, 2, tutorial).
-week_term_hours("233", 0, 10, 2, lecture).
-week_term_hours("233", 0, 10, 2, lecture).
-week_term_hours("233", 0, 10, 2, lab).
-week_term_hours("233", 0, 10, 2, tutorial).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lecture).
-week_term_hours("163", 0, 10, 2, lab).
-week_term_hours("163", 0, 10, 2, tutorial).
-week_term_hours("141J", 0, 10, 2, lecture).
-week_term_hours("141J", 0, 10, 2, lab).
-week_term_hours("141J", 0, 10, 2, tutorial).
-week_term_hours("522", 0, 10, 2, lecture).
-week_term_hours("522", 0, 10, 2, lecture).
-week_term_hours("522", 0, 10, 2, lab).
-week_term_hours("522", 0, 10, 2, tutorial).
-week_term_hours("528", 0, 10, 2, lecture).
-week_term_hours("528", 0, 10, 2, lab).
-week_term_hours("528", 0, 10, 2, tutorial).
-week_term_hours("530", 0, 10, 2, lecture).
-week_term_hours("530", 0, 10, 2, lab).
-week_term_hours("530", 0, 10, 2, tutorial).
-week_term_hours("525", 0, 10, 2, lecture).
-week_term_hours("525", 0, 10, 2, lab).
-week_term_hours("525", 0, 10, 2, tutorial).
-week_term_hours("533", 0, 10, 2, lecture).
-week_term_hours("533", 0, 10, 2, lab).
-week_term_hours("533", 0, 10, 2, tutorial).
-week_term_hours("493", 0, 11, 2, lecture).
-week_term_hours("493", 0, 11, 2, lab).
-week_term_hours("493", 0, 11, 2, tutorial).
-week_term_hours("317", 0, 11, 2, lecture).
-week_term_hours("317", 0, 11, 2, lecture).
-week_term_hours("317", 0, 11, 2, lab).
-week_term_hours("317", 0, 11, 2, tutorial).
-week_term_hours("437", 0, 11, 2, lecture).
-week_term_hours("437", 0, 11, 2, lab).
-week_term_hours("437", 0, 11, 2, tutorial).
-week_term_hours("531", 0, 11, 2, lecture).
-week_term_hours("531", 0, 11, 2, lecture).
-week_term_hours("531", 0, 11, 2, lab).
-week_term_hours("531", 0, 11, 2, tutorial).
-week_term_hours("552", 0, 11, 2, lecture).
-week_term_hours("552", 0, 11, 2, lab).
-week_term_hours("552", 0, 11, 2, tutorial).
-week_term_hours("332", 0, 11, 2, lecture).
-week_term_hours("332", 0, 11, 2, lab).
-week_term_hours("332", 0, 11, 2, tutorial).
-week_term_hours("474", 0, 11, 2, lecture).
-week_term_hours("474", 0, 11, 2, lab).
-week_term_hours("474", 0, 11, 2, tutorial).
-week_term_hours("436", 0, 11, 2, lecture).
-week_term_hours("436", 0, 11, 2, lecture).
-week_term_hours("436", 0, 11, 2, lab).
-week_term_hours("436", 0, 11, 2, tutorial).
-week_term_hours("333", 0, 11, 2, lecture).
-week_term_hours("333", 0, 11, 2, lab).
-week_term_hours("333", 0, 11, 2, tutorial).
-week_term_hours("417", 0, 11, 2, lecture).
-week_term_hours("417", 0, 11, 2, lecture).
-week_term_hours("417", 0, 11, 2, lab).
-week_term_hours("417", 0, 11, 2, tutorial).
-week_term_hours("212", 0, 11, 2, lecture).
-week_term_hours("212", 0, 11, 2, lecture).
-week_term_hours("212", 0, 11, 2, lab).
-week_term_hours("212", 0, 11, 2, tutorial).
-week_term_hours("438", 0, 11, 2, lecture).
-week_term_hours("438", 0, 11, 2, lab).
-week_term_hours("438", 0, 11, 2, tutorial).
-week_term_hours("484", 0, 11, 2, lecture).
-week_term_hours("484", 0, 11, 2, lab).
-week_term_hours("484", 0, 11, 2, tutorial).
-week_term_hours("422", 0, 11, 2, lecture).
-week_term_hours("422", 0, 11, 2, lab).
-week_term_hours("422", 0, 11, 2, tutorial).
-week_term_hours("470", 0, 11, 2, lecture).
-week_term_hours("470", 0, 11, 2, lecture).
-week_term_hours("470", 0, 11, 2, lab).
-week_term_hours("470", 0, 11, 2, tutorial).
-week_term_hours("341", 0, 11, 2, lecture).
-week_term_hours("341", 0, 11, 2, lecture).
-week_term_hours("341", 0, 11, 2, lab).
-week_term_hours("341", 0, 11, 2, tutorial).
-week_term_hours("210", 0, 11, 2, lecture).
-week_term_hours("210", 0, 11, 2, lecture).
-week_term_hours("210", 0, 11, 2, lab).
-week_term_hours("210", 0, 11, 2, tutorial).
-week_term_hours("526", 0, 11, 2, lecture).
-week_term_hours("526", 0, 11, 2, lab).
-week_term_hours("526", 0, 11, 2, tutorial).
-week_term_hours("202", 0, 11, 2, lecture).
-week_term_hours("202", 0, 11, 2, lecture).
-week_term_hours("202", 0, 11, 2, lab).
-week_term_hours("202", 0, 11, 2, tutorial).
-week_term_hours("211", 0, 11, 2, lecture).
-week_term_hours("211", 0, 11, 2, lecture).
-week_term_hours("211", 0, 11, 2, lab).
-week_term_hours("211", 0, 11, 2, tutorial).
-week_term_hours("350", 0, 11, 2, lecture).
-week_term_hours("350", 0, 11, 2, lab).
-week_term_hours("350", 0, 11, 2, tutorial).
-week_term_hours("318", 0, 11, 2, lecture).
-week_term_hours("318", 0, 11, 2, lecture).
-week_term_hours("318", 0, 11, 2, lab).
-week_term_hours("318", 0, 11, 2, tutorial).
-week_term_hours("338", 0, 11, 2, lecture).
-week_term_hours("338", 0, 11, 2, lecture).
-week_term_hours("338", 0, 11, 2, lab).
-week_term_hours("338", 0, 11, 2, tutorial).
-week_term_hours("276", 0, 11, 2, lecture).
-week_term_hours("276", 0, 11, 2, lab).
-week_term_hours("276", 0, 11, 2, tutorial).
-week_term_hours("164", 0, 11, 2, lecture).
-week_term_hours("164", 0, 11, 2, lab).
-week_term_hours("164", 0, 11, 2, tutorial).
-week_term_hours("142", 0, 11, 2, lecture).
-week_term_hours("142", 0, 11, 2, lecture).
-week_term_hours("142", 0, 11, 2, lab).
-week_term_hours("142", 0, 11, 2, tutorial).
-week_term_hours("141", 0, 11, 2, lecture).
-week_term_hours("141", 0, 11, 2, lecture).
-week_term_hours("141", 0, 11, 2, lab).
-week_term_hours("141", 0, 11, 2, tutorial).
-week_term_hours("130", 0, 11, 2, lecture).
-week_term_hours("130", 0, 11, 2, lab).
-week_term_hours("130", 0, 11, 2, tutorial).
-week_term_hours("113", 0, 11, 2, lecture).
-week_term_hours("113", 0, 11, 2, lecture).
-week_term_hours("113", 0, 11, 2, lab).
-week_term_hours("113", 0, 11, 2, tutorial).
-week_term_hours("120.2", 0, 11, 2, lecture).
-week_term_hours("120.2", 0, 11, 2, lecture).
-week_term_hours("120.2", 0, 11, 2, lecture).
-week_term_hours("120.2", 0, 11, 2, lab).
-week_term_hours("120.2", 0, 11, 2, tutorial).
-week_term_hours("527", 0, 11, 2, lecture).
-week_term_hours("527", 0, 11, 2, lab).
-week_term_hours("527", 0, 11, 2, tutorial).
-week_term_hours("491", 0, 11, 2, lecture).
-week_term_hours("491", 0, 11, 2, lab).
-week_term_hours("491", 0, 11, 2, tutorial).
-week_term_hours("231", 0, 11, 2, lecture).
-week_term_hours("231", 0, 11, 2, lecture).
-week_term_hours("231", 0, 11, 2, lab).
-week_term_hours("231", 0, 11, 2, tutorial).
-week_term_hours("429", 0, 11, 2, lecture).
-week_term_hours("429", 0, 11, 2, lecture).
-week_term_hours("429", 0, 11, 2, lab).
-week_term_hours("429", 0, 11, 2, tutorial).
-week_term_hours("233", 0, 11, 2, lecture).
-week_term_hours("233", 0, 11, 2, lecture).
-week_term_hours("233", 0, 11, 2, lab).
-week_term_hours("233", 0, 11, 2, tutorial).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lecture).
-week_term_hours("163", 0, 11, 2, lab).
-week_term_hours("163", 0, 11, 2, tutorial).
-week_term_hours("141J", 0, 11, 2, lecture).
-week_term_hours("141J", 0, 11, 2, lab).
-week_term_hours("141J", 0, 11, 2, tutorial).
-week_term_hours("522", 0, 11, 2, lecture).
-week_term_hours("522", 0, 11, 2, lecture).
-week_term_hours("522", 0, 11, 2, lab).
-week_term_hours("522", 0, 11, 2, tutorial).
-week_term_hours("528", 0, 11, 2, lecture).
-week_term_hours("528", 0, 11, 2, lab).
-week_term_hours("528", 0, 11, 2, tutorial).
-week_term_hours("530", 0, 11, 2, lecture).
-week_term_hours("530", 0, 11, 2, lab).
-week_term_hours("530", 0, 11, 2, tutorial).
-week_term_hours("525", 0, 11, 2, lecture).
-week_term_hours("525", 0, 11, 2, lab).
-week_term_hours("525", 0, 11, 2, tutorial).
-week_term_hours("533", 0, 11, 2, lecture).
-week_term_hours("533", 0, 11, 2, lab).
-week_term_hours("533", 0, 11, 2, tutorial).
-week_term_hours("120.3", 0, 1, 3, lecture).
-week_term_hours("120.3", 0, 1, 3, lab).
-week_term_hours("120.3", 0, 1, 3, tutorial).
-week_term_hours("120.3", 0, 2, 3, lecture).
-week_term_hours("120.3", 0, 2, 3, lab).
-week_term_hours("120.3", 0, 2, 3, tutorial).
-week_term_hours("120.3", 0, 3, 3, lecture).
-week_term_hours("120.3", 0, 3, 3, lab).
-week_term_hours("120.3", 0, 3, 3, tutorial).
-week_term_hours("120.3", 0, 4, 3, lecture).
-week_term_hours("120.3", 0, 4, 3, lab).
-week_term_hours("120.3", 0, 4, 3, tutorial).
-week_term_hours("120.3", 0, 5, 3, lecture).
-week_term_hours("120.3", 0, 5, 3, lab).
-week_term_hours("120.3", 0, 5, 3, tutorial).
-week_term_hours("120.3", 0, 6, 3, lecture).
-week_term_hours("120.3", 0, 6, 3, lab).
-week_term_hours("120.3", 0, 6, 3, tutorial).
-week_term_hours("120.3", 0, 7, 3, lecture).
-week_term_hours("120.3", 0, 7, 3, lab).
-week_term_hours("120.3", 0, 7, 3, tutorial).
-week_term_hours("120.3", 0, 8, 3, lecture).
-week_term_hours("120.3", 0, 8, 3, lab).
-week_term_hours("120.3", 0, 8, 3, tutorial).
-week_term_hours("120.3", 0, 9, 3, lecture).
-week_term_hours("120.3", 0, 9, 3, lab).
-week_term_hours("120.3", 0, 9, 3, tutorial).
-week_term_hours("120.3", 0, 10, 3, lecture).
-week_term_hours("120.3", 0, 10, 3, lab).
-week_term_hours("120.3", 0, 10, 3, tutorial).
-week_term_hours("120.3", 0, 11, 3, lecture).
-week_term_hours("120.3", 0, 11, 3, lab).
-week_term_hours("120.3", 0, 11, 3, tutorial).
+week_term_hours("223", 0, 1, 1, da04, lecture).
+week_term_hours("223", 0, 1, 1, jk, lecture).
+week_term_hours("223", 0, 1, 1, all, lab).
+week_term_hours("223", 0, 1, 1, all, tutorial).
+week_term_hours("471", 0, 1, 1, scd, lecture).
+week_term_hours("471", 0, 1, 1, all, lab).
+week_term_hours("471", 0, 1, 1, all, tutorial).
+week_term_hours("421", 0, 1, 1, mpsha, lecture).
+week_term_hours("421", 0, 1, 1, all, lab).
+week_term_hours("421", 0, 1, 1, all, tutorial).
+week_term_hours("480", 0, 1, 1, kb, lecture).
+week_term_hours("480", 0, 1, 1, all, lab).
+week_term_hours("480", 0, 1, 1, all, tutorial).
+week_term_hours("501", 0, 1, 1, axgopala, lecture).
+week_term_hours("501", 0, 1, 1, kkleung, lecture).
+week_term_hours("501", 0, 1, 1, all, lab).
+week_term_hours("501", 0, 1, 1, all, tutorial).
+week_term_hours("302", 0, 1, 1, rbc, lecture).
+week_term_hours("302", 0, 1, 1, all, lab).
+week_term_hours("302", 0, 1, 1, all, tutorial).
+week_term_hours("337", 0, 1, 1, jb, lecture).
+week_term_hours("337", 0, 1, 1, ajf, lecture).
+week_term_hours("337", 0, 1, 1, all, lab).
+week_term_hours("337", 0, 1, 1, all, tutorial).
+week_term_hours("534", 0, 1, 1, lwd03, lecture).
+week_term_hours("534", 0, 1, 1, tk106, lecture).
+week_term_hours("534", 0, 1, 1, all, lab).
+week_term_hours("534", 0, 1, 1, all, tutorial).
+week_term_hours("475", 0, 1, 1, rbc, lecture).
+week_term_hours("475", 0, 1, 1, np2, lecture).
+week_term_hours("475", 0, 1, 1, all, lab).
+week_term_hours("475", 0, 1, 1, all, tutorial).
+week_term_hours("220", 0, 1, 1, rbc, lecture).
+week_term_hours("220", 0, 1, 1, all, lab).
+week_term_hours("220", 0, 1, 1, all, tutorial).
+week_term_hours("477", 0, 1, 1, pp500, lecture).
+week_term_hours("477", 0, 1, 1, all, lab).
+week_term_hours("477", 0, 1, 1, all, tutorial).
+week_term_hours("531", 0, 1, 1, gbd10, lecture).
+week_term_hours("531", 0, 1, 1, tk106, lecture).
+week_term_hours("531", 0, 1, 1, all, lab).
+week_term_hours("531", 0, 1, 1, all, tutorial).
+week_term_hours("440", 0, 1, 1, afd, lecture).
+week_term_hours("440", 0, 1, 1, all, lab).
+week_term_hours("440", 0, 1, 1, all, tutorial).
+week_term_hours("343", 0, 1, 1, dkuhn, lecture).
+week_term_hours("343", 0, 1, 1, all, lab).
+week_term_hours("343", 0, 1, 1, all, tutorial).
+week_term_hours("312", 0, 1, 1, pjm, lecture).
+week_term_hours("312", 0, 1, 1, all, lab).
+week_term_hours("312", 0, 1, 1, all, tutorial).
+week_term_hours("382", 0, 1, 1, svb, lecture).
+week_term_hours("382", 0, 1, 1, all, lab).
+week_term_hours("382", 0, 1, 1, all, tutorial).
+week_term_hours("499", 0, 1, 1, imh, lecture).
+week_term_hours("499", 0, 1, 1, all, lab).
+week_term_hours("499", 0, 1, 1, all, tutorial).
+week_term_hours("335", 0, 1, 1, yg, lecture).
+week_term_hours("335", 0, 1, 1, mss, lecture).
+week_term_hours("335", 0, 1, 1, all, lab).
+week_term_hours("335", 0, 1, 1, all, tutorial).
+week_term_hours("516", 0, 1, 1, wjk, lecture).
+week_term_hours("516", 0, 1, 1, all, lab).
+week_term_hours("516", 0, 1, 1, all, tutorial).
+week_term_hours("502", 0, 1, 1, svb, lecture).
+week_term_hours("502", 0, 1, 1, all, lab).
+week_term_hours("502", 0, 1, 1, all, tutorial).
+week_term_hours("424", 0, 1, 1, afaisal, lecture).
+week_term_hours("424", 0, 1, 1, all, lab).
+week_term_hours("424", 0, 1, 1, all, tutorial).
+week_term_hours("330", 0, 1, 1, mrh, lecture).
+week_term_hours("330", 0, 1, 1, ecl1, lecture).
+week_term_hours("330", 0, 1, 1, all, lab).
+week_term_hours("330", 0, 1, 1, all, tutorial).
+week_term_hours("395", 0, 1, 1, shm, lecture).
+week_term_hours("395", 0, 1, 1, maja, lecture).
+week_term_hours("395", 0, 1, 1, all, lab).
+week_term_hours("395", 0, 1, 1, all, tutorial).
+week_term_hours("481", 0, 1, 1, pg, lecture).
+week_term_hours("481", 0, 1, 1, yoshida, lecture).
+week_term_hours("481", 0, 1, 1, all, lab).
+week_term_hours("481", 0, 1, 1, all, tutorial).
+week_term_hours("276", 0, 1, 1, mjs, lecture).
+week_term_hours("276", 0, 1, 1, all, lab).
+week_term_hours("276", 0, 1, 1, all, tutorial).
+week_term_hours("221", 0, 1, 1, nd, lecture).
+week_term_hours("221", 0, 1, 1, phjk, lecture).
+week_term_hours("221", 0, 1, 1, all, lab).
+week_term_hours("221", 0, 1, 1, all, tutorial).
+week_term_hours("142", 0, 1, 1, yg, lecture).
+week_term_hours("142", 0, 1, 1, iccp, lecture).
+week_term_hours("142", 0, 1, 1, all, lab).
+week_term_hours("142", 0, 1, 1, all, tutorial).
+week_term_hours("140", 0, 1, 1, imh, lecture).
+week_term_hours("140", 0, 1, 1, all, lab).
+week_term_hours("140", 0, 1, 1, all, tutorial).
+week_term_hours("120.2", 0, 1, 1, tora, lecture).
+week_term_hours("120.2", 0, 1, 1, afd, lecture).
+week_term_hours("120.2", 0, 1, 1, ar3, lecture).
+week_term_hours("120.2", 0, 1, 1, all, lab).
+week_term_hours("120.2", 0, 1, 1, all, tutorial).
+week_term_hours("112", 0, 1, 1, dfg, lecture).
+week_term_hours("112", 0, 1, 1, all, lab).
+week_term_hours("112", 0, 1, 1, all, tutorial).
+week_term_hours("356", 0, 1, 1, axgopala, lecture).
+week_term_hours("356", 0, 1, 1, all, lab).
+week_term_hours("356", 0, 1, 1, all, tutorial).
+week_term_hours("518", 0, 1, 1, fs, lecture).
+week_term_hours("518", 0, 1, 1, all, lab).
+week_term_hours("518", 0, 1, 1, all, tutorial).
+week_term_hours("245", 0, 1, 1, naheard, lecture).
+week_term_hours("245", 0, 1, 1, all, lab).
+week_term_hours("245", 0, 1, 1, all, tutorial).
+week_term_hours("517", 0, 1, 1, wjk, lecture).
+week_term_hours("517", 0, 1, 1, all, lab).
+week_term_hours("517", 0, 1, 1, all, tutorial).
+week_term_hours("265", 0, 1, 1, ealpay, lecture).
+week_term_hours("265", 0, 1, 1, all, lab).
+week_term_hours("265", 0, 1, 1, all, tutorial).
+week_term_hours("120.1", 0, 1, 1, ajf, lecture).
+week_term_hours("120.1", 0, 1, 1, all, lab).
+week_term_hours("120.1", 0, 1, 1, all, tutorial).
+week_term_hours("145", 0, 1, 1, jb, lecture).
+week_term_hours("145", 0, 1, 1, all, lab).
+week_term_hours("145", 0, 1, 1, all, tutorial).
+week_term_hours("418", 0, 1, 1, gzy, lecture).
+week_term_hours("418", 0, 1, 1, all, lab).
+week_term_hours("418", 0, 1, 1, all, tutorial).
+week_term_hours("240", 0, 1, 1, pg, lecture).
+week_term_hours("240", 0, 1, 1, all, lab).
+week_term_hours("240", 0, 1, 1, all, tutorial).
+week_term_hours("320", 0, 1, 1, ae, lecture).
+week_term_hours("320", 0, 1, 1, all, lab).
+week_term_hours("320", 0, 1, 1, all, tutorial).
+week_term_hours("533", 0, 1, 1, rbc, lecture).
+week_term_hours("533", 0, 1, 1, all, lab).
+week_term_hours("533", 0, 1, 1, all, tutorial).
+week_term_hours("223", 0, 2, 1, da04, lecture).
+week_term_hours("223", 0, 2, 1, jk, lecture).
+week_term_hours("223", 0, 2, 1, all, lab).
+week_term_hours("223", 0, 2, 1, all, tutorial).
+week_term_hours("471", 0, 2, 1, scd, lecture).
+week_term_hours("471", 0, 2, 1, all, lab).
+week_term_hours("471", 0, 2, 1, all, tutorial).
+week_term_hours("421", 0, 2, 1, mpsha, lecture).
+week_term_hours("421", 0, 2, 1, all, lab).
+week_term_hours("421", 0, 2, 1, all, tutorial).
+week_term_hours("480", 0, 2, 1, kb, lecture).
+week_term_hours("480", 0, 2, 1, all, lab).
+week_term_hours("480", 0, 2, 1, all, tutorial).
+week_term_hours("501", 0, 2, 1, axgopala, lecture).
+week_term_hours("501", 0, 2, 1, kkleung, lecture).
+week_term_hours("501", 0, 2, 1, all, lab).
+week_term_hours("501", 0, 2, 1, all, tutorial).
+week_term_hours("302", 0, 2, 1, rbc, lecture).
+week_term_hours("302", 0, 2, 1, all, lab).
+week_term_hours("302", 0, 2, 1, all, tutorial).
+week_term_hours("337", 0, 2, 1, jb, lecture).
+week_term_hours("337", 0, 2, 1, ajf, lecture).
+week_term_hours("337", 0, 2, 1, all, lab).
+week_term_hours("337", 0, 2, 1, all, tutorial).
+week_term_hours("534", 0, 2, 1, lwd03, lecture).
+week_term_hours("534", 0, 2, 1, tk106, lecture).
+week_term_hours("534", 0, 2, 1, all, lab).
+week_term_hours("534", 0, 2, 1, all, tutorial).
+week_term_hours("475", 0, 2, 1, rbc, lecture).
+week_term_hours("475", 0, 2, 1, np2, lecture).
+week_term_hours("475", 0, 2, 1, all, lab).
+week_term_hours("475", 0, 2, 1, all, tutorial).
+week_term_hours("220", 0, 2, 1, rbc, lecture).
+week_term_hours("220", 0, 2, 1, all, lab).
+week_term_hours("220", 0, 2, 1, all, tutorial).
+week_term_hours("477", 0, 2, 1, pp500, lecture).
+week_term_hours("477", 0, 2, 1, all, lab).
+week_term_hours("477", 0, 2, 1, all, tutorial).
+week_term_hours("531", 0, 2, 1, gbd10, lecture).
+week_term_hours("531", 0, 2, 1, tk106, lecture).
+week_term_hours("531", 0, 2, 1, all, lab).
+week_term_hours("531", 0, 2, 1, all, tutorial).
+week_term_hours("440", 0, 2, 1, afd, lecture).
+week_term_hours("440", 0, 2, 1, all, lab).
+week_term_hours("440", 0, 2, 1, all, tutorial).
+week_term_hours("343", 0, 2, 1, dkuhn, lecture).
+week_term_hours("343", 0, 2, 1, all, lab).
+week_term_hours("343", 0, 2, 1, all, tutorial).
+week_term_hours("312", 0, 2, 1, pjm, lecture).
+week_term_hours("312", 0, 2, 1, all, lab).
+week_term_hours("312", 0, 2, 1, all, tutorial).
+week_term_hours("382", 0, 2, 1, svb, lecture).
+week_term_hours("382", 0, 2, 1, all, lab).
+week_term_hours("382", 0, 2, 1, all, tutorial).
+week_term_hours("499", 0, 2, 1, imh, lecture).
+week_term_hours("499", 0, 2, 1, all, lab).
+week_term_hours("499", 0, 2, 1, all, tutorial).
+week_term_hours("335", 0, 2, 1, yg, lecture).
+week_term_hours("335", 0, 2, 1, mss, lecture).
+week_term_hours("335", 0, 2, 1, all, lab).
+week_term_hours("335", 0, 2, 1, all, tutorial).
+week_term_hours("516", 0, 2, 1, wjk, lecture).
+week_term_hours("516", 0, 2, 1, all, lab).
+week_term_hours("516", 0, 2, 1, all, tutorial).
+week_term_hours("502", 0, 2, 1, svb, lecture).
+week_term_hours("502", 0, 2, 1, all, lab).
+week_term_hours("502", 0, 2, 1, all, tutorial).
+week_term_hours("424", 0, 2, 1, afaisal, lecture).
+week_term_hours("424", 0, 2, 1, all, lab).
+week_term_hours("424", 0, 2, 1, all, tutorial).
+week_term_hours("330", 0, 2, 1, mrh, lecture).
+week_term_hours("330", 0, 2, 1, ecl1, lecture).
+week_term_hours("330", 0, 2, 1, all, lab).
+week_term_hours("330", 0, 2, 1, all, tutorial).
+week_term_hours("395", 0, 2, 1, shm, lecture).
+week_term_hours("395", 0, 2, 1, maja, lecture).
+week_term_hours("395", 0, 2, 1, all, lab).
+week_term_hours("395", 0, 2, 1, all, tutorial).
+week_term_hours("481", 0, 2, 1, pg, lecture).
+week_term_hours("481", 0, 2, 1, yoshida, lecture).
+week_term_hours("481", 0, 2, 1, all, lab).
+week_term_hours("481", 0, 2, 1, all, tutorial).
+week_term_hours("276", 0, 2, 1, mjs, lecture).
+week_term_hours("276", 0, 2, 1, all, lab).
+week_term_hours("276", 0, 2, 1, all, tutorial).
+week_term_hours("221", 0, 2, 1, nd, lecture).
+week_term_hours("221", 0, 2, 1, phjk, lecture).
+week_term_hours("221", 0, 2, 1, all, lab).
+week_term_hours("221", 0, 2, 1, all, tutorial).
+week_term_hours("142", 0, 2, 1, yg, lecture).
+week_term_hours("142", 0, 2, 1, iccp, lecture).
+week_term_hours("142", 0, 2, 1, all, lab).
+week_term_hours("142", 0, 2, 1, all, tutorial).
+week_term_hours("140", 0, 2, 1, imh, lecture).
+week_term_hours("140", 0, 2, 1, all, lab).
+week_term_hours("140", 0, 2, 1, all, tutorial).
+week_term_hours("120.2", 0, 2, 1, tora, lecture).
+week_term_hours("120.2", 0, 2, 1, afd, lecture).
+week_term_hours("120.2", 0, 2, 1, ar3, lecture).
+week_term_hours("120.2", 0, 2, 1, all, lab).
+week_term_hours("120.2", 0, 2, 1, all, tutorial).
+week_term_hours("112", 2, 2, 1, dfg, lecture).
+week_term_hours("112", 0, 2, 1, all, lab).
+week_term_hours("112", 1, 2, 1, all, tutorial).
+week_term_hours("356", 0, 2, 1, axgopala, lecture).
+week_term_hours("356", 0, 2, 1, all, lab).
+week_term_hours("356", 0, 2, 1, all, tutorial).
+week_term_hours("518", 0, 2, 1, fs, lecture).
+week_term_hours("518", 0, 2, 1, all, lab).
+week_term_hours("518", 0, 2, 1, all, tutorial).
+week_term_hours("245", 0, 2, 1, naheard, lecture).
+week_term_hours("245", 0, 2, 1, all, lab).
+week_term_hours("245", 0, 2, 1, all, tutorial).
+week_term_hours("517", 0, 2, 1, wjk, lecture).
+week_term_hours("517", 0, 2, 1, all, lab).
+week_term_hours("517", 0, 2, 1, all, tutorial).
+week_term_hours("265", 0, 2, 1, ealpay, lecture).
+week_term_hours("265", 0, 2, 1, all, lab).
+week_term_hours("265", 0, 2, 1, all, tutorial).
+week_term_hours("120.1", 0, 2, 1, ajf, lecture).
+week_term_hours("120.1", 0, 2, 1, all, lab).
+week_term_hours("120.1", 0, 2, 1, all, tutorial).
+week_term_hours("145", 0, 2, 1, jb, lecture).
+week_term_hours("145", 0, 2, 1, all, lab).
+week_term_hours("145", 0, 2, 1, all, tutorial).
+week_term_hours("418", 0, 2, 1, gzy, lecture).
+week_term_hours("418", 0, 2, 1, all, lab).
+week_term_hours("418", 0, 2, 1, all, tutorial).
+week_term_hours("240", 0, 2, 1, pg, lecture).
+week_term_hours("240", 0, 2, 1, all, lab).
+week_term_hours("240", 0, 2, 1, all, tutorial).
+week_term_hours("320", 0, 2, 1, ae, lecture).
+week_term_hours("320", 0, 2, 1, all, lab).
+week_term_hours("320", 0, 2, 1, all, tutorial).
+week_term_hours("533", 0, 2, 1, rbc, lecture).
+week_term_hours("533", 0, 2, 1, all, lab).
+week_term_hours("533", 0, 2, 1, all, tutorial).
+week_term_hours("223", 0, 3, 1, da04, lecture).
+week_term_hours("223", 0, 3, 1, jk, lecture).
+week_term_hours("223", 0, 3, 1, all, lab).
+week_term_hours("223", 0, 3, 1, all, tutorial).
+week_term_hours("471", 0, 3, 1, scd, lecture).
+week_term_hours("471", 0, 3, 1, all, lab).
+week_term_hours("471", 0, 3, 1, all, tutorial).
+week_term_hours("421", 0, 3, 1, mpsha, lecture).
+week_term_hours("421", 0, 3, 1, all, lab).
+week_term_hours("421", 0, 3, 1, all, tutorial).
+week_term_hours("480", 0, 3, 1, kb, lecture).
+week_term_hours("480", 0, 3, 1, all, lab).
+week_term_hours("480", 0, 3, 1, all, tutorial).
+week_term_hours("501", 0, 3, 1, axgopala, lecture).
+week_term_hours("501", 0, 3, 1, kkleung, lecture).
+week_term_hours("501", 0, 3, 1, all, lab).
+week_term_hours("501", 0, 3, 1, all, tutorial).
+week_term_hours("302", 0, 3, 1, rbc, lecture).
+week_term_hours("302", 0, 3, 1, all, lab).
+week_term_hours("302", 0, 3, 1, all, tutorial).
+week_term_hours("337", 0, 3, 1, jb, lecture).
+week_term_hours("337", 0, 3, 1, ajf, lecture).
+week_term_hours("337", 0, 3, 1, all, lab).
+week_term_hours("337", 0, 3, 1, all, tutorial).
+week_term_hours("534", 0, 3, 1, lwd03, lecture).
+week_term_hours("534", 0, 3, 1, tk106, lecture).
+week_term_hours("534", 0, 3, 1, all, lab).
+week_term_hours("534", 0, 3, 1, all, tutorial).
+week_term_hours("475", 0, 3, 1, rbc, lecture).
+week_term_hours("475", 0, 3, 1, np2, lecture).
+week_term_hours("475", 0, 3, 1, all, lab).
+week_term_hours("475", 0, 3, 1, all, tutorial).
+week_term_hours("220", 0, 3, 1, rbc, lecture).
+week_term_hours("220", 0, 3, 1, all, lab).
+week_term_hours("220", 0, 3, 1, all, tutorial).
+week_term_hours("477", 0, 3, 1, pp500, lecture).
+week_term_hours("477", 0, 3, 1, all, lab).
+week_term_hours("477", 0, 3, 1, all, tutorial).
+week_term_hours("531", 0, 3, 1, gbd10, lecture).
+week_term_hours("531", 0, 3, 1, tk106, lecture).
+week_term_hours("531", 0, 3, 1, all, lab).
+week_term_hours("531", 0, 3, 1, all, tutorial).
+week_term_hours("440", 0, 3, 1, afd, lecture).
+week_term_hours("440", 0, 3, 1, all, lab).
+week_term_hours("440", 0, 3, 1, all, tutorial).
+week_term_hours("343", 0, 3, 1, dkuhn, lecture).
+week_term_hours("343", 0, 3, 1, all, lab).
+week_term_hours("343", 0, 3, 1, all, tutorial).
+week_term_hours("312", 0, 3, 1, pjm, lecture).
+week_term_hours("312", 0, 3, 1, all, lab).
+week_term_hours("312", 0, 3, 1, all, tutorial).
+week_term_hours("382", 0, 3, 1, svb, lecture).
+week_term_hours("382", 0, 3, 1, all, lab).
+week_term_hours("382", 0, 3, 1, all, tutorial).
+week_term_hours("499", 0, 3, 1, imh, lecture).
+week_term_hours("499", 0, 3, 1, all, lab).
+week_term_hours("499", 0, 3, 1, all, tutorial).
+week_term_hours("335", 0, 3, 1, yg, lecture).
+week_term_hours("335", 0, 3, 1, mss, lecture).
+week_term_hours("335", 0, 3, 1, all, lab).
+week_term_hours("335", 0, 3, 1, all, tutorial).
+week_term_hours("516", 0, 3, 1, wjk, lecture).
+week_term_hours("516", 0, 3, 1, all, lab).
+week_term_hours("516", 0, 3, 1, all, tutorial).
+week_term_hours("502", 0, 3, 1, svb, lecture).
+week_term_hours("502", 0, 3, 1, all, lab).
+week_term_hours("502", 0, 3, 1, all, tutorial).
+week_term_hours("424", 0, 3, 1, afaisal, lecture).
+week_term_hours("424", 0, 3, 1, all, lab).
+week_term_hours("424", 0, 3, 1, all, tutorial).
+week_term_hours("330", 0, 3, 1, mrh, lecture).
+week_term_hours("330", 0, 3, 1, ecl1, lecture).
+week_term_hours("330", 0, 3, 1, all, lab).
+week_term_hours("330", 0, 3, 1, all, tutorial).
+week_term_hours("395", 0, 3, 1, shm, lecture).
+week_term_hours("395", 0, 3, 1, maja, lecture).
+week_term_hours("395", 0, 3, 1, all, lab).
+week_term_hours("395", 0, 3, 1, all, tutorial).
+week_term_hours("481", 0, 3, 1, pg, lecture).
+week_term_hours("481", 0, 3, 1, yoshida, lecture).
+week_term_hours("481", 0, 3, 1, all, lab).
+week_term_hours("481", 0, 3, 1, all, tutorial).
+week_term_hours("276", 0, 3, 1, mjs, lecture).
+week_term_hours("276", 0, 3, 1, all, lab).
+week_term_hours("276", 0, 3, 1, all, tutorial).
+week_term_hours("221", 0, 3, 1, nd, lecture).
+week_term_hours("221", 0, 3, 1, phjk, lecture).
+week_term_hours("221", 0, 3, 1, all, lab).
+week_term_hours("221", 0, 3, 1, all, tutorial).
+week_term_hours("142", 0, 3, 1, yg, lecture).
+week_term_hours("142", 0, 3, 1, iccp, lecture).
+week_term_hours("142", 0, 3, 1, all, lab).
+week_term_hours("142", 0, 3, 1, all, tutorial).
+week_term_hours("140", 0, 3, 1, imh, lecture).
+week_term_hours("140", 0, 3, 1, all, lab).
+week_term_hours("140", 0, 3, 1, all, tutorial).
+week_term_hours("120.2", 0, 3, 1, tora, lecture).
+week_term_hours("120.2", 0, 3, 1, afd, lecture).
+week_term_hours("120.2", 0, 3, 1, ar3, lecture).
+week_term_hours("120.2", 0, 3, 1, all, lab).
+week_term_hours("120.2", 0, 3, 1, all, tutorial).
+week_term_hours("112", 2, 3, 1, dfg, lecture).
+week_term_hours("112", 0, 3, 1, all, lab).
+week_term_hours("112", 1, 3, 1, all, tutorial).
+week_term_hours("356", 0, 3, 1, axgopala, lecture).
+week_term_hours("356", 0, 3, 1, all, lab).
+week_term_hours("356", 0, 3, 1, all, tutorial).
+week_term_hours("518", 0, 3, 1, fs, lecture).
+week_term_hours("518", 0, 3, 1, all, lab).
+week_term_hours("518", 0, 3, 1, all, tutorial).
+week_term_hours("245", 0, 3, 1, naheard, lecture).
+week_term_hours("245", 0, 3, 1, all, lab).
+week_term_hours("245", 0, 3, 1, all, tutorial).
+week_term_hours("517", 0, 3, 1, wjk, lecture).
+week_term_hours("517", 0, 3, 1, all, lab).
+week_term_hours("517", 0, 3, 1, all, tutorial).
+week_term_hours("265", 0, 3, 1, ealpay, lecture).
+week_term_hours("265", 0, 3, 1, all, lab).
+week_term_hours("265", 0, 3, 1, all, tutorial).
+week_term_hours("120.1", 0, 3, 1, ajf, lecture).
+week_term_hours("120.1", 0, 3, 1, all, lab).
+week_term_hours("120.1", 0, 3, 1, all, tutorial).
+week_term_hours("145", 0, 3, 1, jb, lecture).
+week_term_hours("145", 0, 3, 1, all, lab).
+week_term_hours("145", 0, 3, 1, all, tutorial).
+week_term_hours("418", 0, 3, 1, gzy, lecture).
+week_term_hours("418", 0, 3, 1, all, lab).
+week_term_hours("418", 0, 3, 1, all, tutorial).
+week_term_hours("240", 0, 3, 1, pg, lecture).
+week_term_hours("240", 0, 3, 1, all, lab).
+week_term_hours("240", 0, 3, 1, all, tutorial).
+week_term_hours("320", 0, 3, 1, ae, lecture).
+week_term_hours("320", 0, 3, 1, all, lab).
+week_term_hours("320", 0, 3, 1, all, tutorial).
+week_term_hours("533", 0, 3, 1, rbc, lecture).
+week_term_hours("533", 0, 3, 1, all, lab).
+week_term_hours("533", 0, 3, 1, all, tutorial).
+week_term_hours("223", 0, 4, 1, da04, lecture).
+week_term_hours("223", 0, 4, 1, jk, lecture).
+week_term_hours("223", 0, 4, 1, all, lab).
+week_term_hours("223", 0, 4, 1, all, tutorial).
+week_term_hours("471", 0, 4, 1, scd, lecture).
+week_term_hours("471", 0, 4, 1, all, lab).
+week_term_hours("471", 0, 4, 1, all, tutorial).
+week_term_hours("421", 0, 4, 1, mpsha, lecture).
+week_term_hours("421", 0, 4, 1, all, lab).
+week_term_hours("421", 0, 4, 1, all, tutorial).
+week_term_hours("480", 0, 4, 1, kb, lecture).
+week_term_hours("480", 0, 4, 1, all, lab).
+week_term_hours("480", 0, 4, 1, all, tutorial).
+week_term_hours("501", 0, 4, 1, axgopala, lecture).
+week_term_hours("501", 0, 4, 1, kkleung, lecture).
+week_term_hours("501", 0, 4, 1, all, lab).
+week_term_hours("501", 0, 4, 1, all, tutorial).
+week_term_hours("302", 0, 4, 1, rbc, lecture).
+week_term_hours("302", 0, 4, 1, all, lab).
+week_term_hours("302", 0, 4, 1, all, tutorial).
+week_term_hours("337", 0, 4, 1, jb, lecture).
+week_term_hours("337", 0, 4, 1, ajf, lecture).
+week_term_hours("337", 0, 4, 1, all, lab).
+week_term_hours("337", 0, 4, 1, all, tutorial).
+week_term_hours("534", 0, 4, 1, lwd03, lecture).
+week_term_hours("534", 0, 4, 1, tk106, lecture).
+week_term_hours("534", 0, 4, 1, all, lab).
+week_term_hours("534", 0, 4, 1, all, tutorial).
+week_term_hours("475", 0, 4, 1, rbc, lecture).
+week_term_hours("475", 0, 4, 1, np2, lecture).
+week_term_hours("475", 0, 4, 1, all, lab).
+week_term_hours("475", 0, 4, 1, all, tutorial).
+week_term_hours("220", 0, 4, 1, rbc, lecture).
+week_term_hours("220", 0, 4, 1, all, lab).
+week_term_hours("220", 0, 4, 1, all, tutorial).
+week_term_hours("477", 0, 4, 1, pp500, lecture).
+week_term_hours("477", 0, 4, 1, all, lab).
+week_term_hours("477", 0, 4, 1, all, tutorial).
+week_term_hours("531", 0, 4, 1, gbd10, lecture).
+week_term_hours("531", 0, 4, 1, tk106, lecture).
+week_term_hours("531", 0, 4, 1, all, lab).
+week_term_hours("531", 0, 4, 1, all, tutorial).
+week_term_hours("440", 0, 4, 1, afd, lecture).
+week_term_hours("440", 0, 4, 1, all, lab).
+week_term_hours("440", 0, 4, 1, all, tutorial).
+week_term_hours("343", 0, 4, 1, dkuhn, lecture).
+week_term_hours("343", 0, 4, 1, all, lab).
+week_term_hours("343", 0, 4, 1, all, tutorial).
+week_term_hours("312", 0, 4, 1, pjm, lecture).
+week_term_hours("312", 0, 4, 1, all, lab).
+week_term_hours("312", 0, 4, 1, all, tutorial).
+week_term_hours("382", 0, 4, 1, svb, lecture).
+week_term_hours("382", 0, 4, 1, all, lab).
+week_term_hours("382", 0, 4, 1, all, tutorial).
+week_term_hours("499", 0, 4, 1, imh, lecture).
+week_term_hours("499", 0, 4, 1, all, lab).
+week_term_hours("499", 0, 4, 1, all, tutorial).
+week_term_hours("335", 0, 4, 1, yg, lecture).
+week_term_hours("335", 0, 4, 1, mss, lecture).
+week_term_hours("335", 0, 4, 1, all, lab).
+week_term_hours("335", 0, 4, 1, all, tutorial).
+week_term_hours("516", 0, 4, 1, wjk, lecture).
+week_term_hours("516", 0, 4, 1, all, lab).
+week_term_hours("516", 0, 4, 1, all, tutorial).
+week_term_hours("502", 0, 4, 1, svb, lecture).
+week_term_hours("502", 0, 4, 1, all, lab).
+week_term_hours("502", 0, 4, 1, all, tutorial).
+week_term_hours("424", 0, 4, 1, afaisal, lecture).
+week_term_hours("424", 0, 4, 1, all, lab).
+week_term_hours("424", 0, 4, 1, all, tutorial).
+week_term_hours("330", 0, 4, 1, mrh, lecture).
+week_term_hours("330", 0, 4, 1, ecl1, lecture).
+week_term_hours("330", 0, 4, 1, all, lab).
+week_term_hours("330", 0, 4, 1, all, tutorial).
+week_term_hours("395", 0, 4, 1, shm, lecture).
+week_term_hours("395", 0, 4, 1, maja, lecture).
+week_term_hours("395", 0, 4, 1, all, lab).
+week_term_hours("395", 0, 4, 1, all, tutorial).
+week_term_hours("481", 0, 4, 1, pg, lecture).
+week_term_hours("481", 0, 4, 1, yoshida, lecture).
+week_term_hours("481", 0, 4, 1, all, lab).
+week_term_hours("481", 0, 4, 1, all, tutorial).
+week_term_hours("276", 0, 4, 1, mjs, lecture).
+week_term_hours("276", 0, 4, 1, all, lab).
+week_term_hours("276", 0, 4, 1, all, tutorial).
+week_term_hours("221", 0, 4, 1, nd, lecture).
+week_term_hours("221", 0, 4, 1, phjk, lecture).
+week_term_hours("221", 0, 4, 1, all, lab).
+week_term_hours("221", 0, 4, 1, all, tutorial).
+week_term_hours("142", 0, 4, 1, yg, lecture).
+week_term_hours("142", 0, 4, 1, iccp, lecture).
+week_term_hours("142", 0, 4, 1, all, lab).
+week_term_hours("142", 0, 4, 1, all, tutorial).
+week_term_hours("140", 0, 4, 1, imh, lecture).
+week_term_hours("140", 0, 4, 1, all, lab).
+week_term_hours("140", 0, 4, 1, all, tutorial).
+week_term_hours("120.2", 0, 4, 1, tora, lecture).
+week_term_hours("120.2", 0, 4, 1, afd, lecture).
+week_term_hours("120.2", 0, 4, 1, ar3, lecture).
+week_term_hours("120.2", 0, 4, 1, all, lab).
+week_term_hours("120.2", 0, 4, 1, all, tutorial).
+week_term_hours("112", 2, 4, 1, dfg, lecture).
+week_term_hours("112", 0, 4, 1, all, lab).
+week_term_hours("112", 1, 4, 1, all, tutorial).
+week_term_hours("356", 0, 4, 1, axgopala, lecture).
+week_term_hours("356", 0, 4, 1, all, lab).
+week_term_hours("356", 0, 4, 1, all, tutorial).
+week_term_hours("518", 0, 4, 1, fs, lecture).
+week_term_hours("518", 0, 4, 1, all, lab).
+week_term_hours("518", 0, 4, 1, all, tutorial).
+week_term_hours("245", 0, 4, 1, naheard, lecture).
+week_term_hours("245", 0, 4, 1, all, lab).
+week_term_hours("245", 0, 4, 1, all, tutorial).
+week_term_hours("517", 0, 4, 1, wjk, lecture).
+week_term_hours("517", 0, 4, 1, all, lab).
+week_term_hours("517", 0, 4, 1, all, tutorial).
+week_term_hours("265", 0, 4, 1, ealpay, lecture).
+week_term_hours("265", 0, 4, 1, all, lab).
+week_term_hours("265", 0, 4, 1, all, tutorial).
+week_term_hours("120.1", 0, 4, 1, ajf, lecture).
+week_term_hours("120.1", 0, 4, 1, all, lab).
+week_term_hours("120.1", 0, 4, 1, all, tutorial).
+week_term_hours("145", 0, 4, 1, jb, lecture).
+week_term_hours("145", 0, 4, 1, all, lab).
+week_term_hours("145", 0, 4, 1, all, tutorial).
+week_term_hours("418", 0, 4, 1, gzy, lecture).
+week_term_hours("418", 0, 4, 1, all, lab).
+week_term_hours("418", 0, 4, 1, all, tutorial).
+week_term_hours("240", 0, 4, 1, pg, lecture).
+week_term_hours("240", 0, 4, 1, all, lab).
+week_term_hours("240", 0, 4, 1, all, tutorial).
+week_term_hours("320", 0, 4, 1, ae, lecture).
+week_term_hours("320", 0, 4, 1, all, lab).
+week_term_hours("320", 0, 4, 1, all, tutorial).
+week_term_hours("533", 0, 4, 1, rbc, lecture).
+week_term_hours("533", 0, 4, 1, all, lab).
+week_term_hours("533", 0, 4, 1, all, tutorial).
+week_term_hours("223", 0, 5, 1, da04, lecture).
+week_term_hours("223", 0, 5, 1, jk, lecture).
+week_term_hours("223", 0, 5, 1, all, lab).
+week_term_hours("223", 0, 5, 1, all, tutorial).
+week_term_hours("471", 0, 5, 1, scd, lecture).
+week_term_hours("471", 0, 5, 1, all, lab).
+week_term_hours("471", 0, 5, 1, all, tutorial).
+week_term_hours("421", 0, 5, 1, mpsha, lecture).
+week_term_hours("421", 0, 5, 1, all, lab).
+week_term_hours("421", 0, 5, 1, all, tutorial).
+week_term_hours("480", 0, 5, 1, kb, lecture).
+week_term_hours("480", 0, 5, 1, all, lab).
+week_term_hours("480", 0, 5, 1, all, tutorial).
+week_term_hours("501", 0, 5, 1, axgopala, lecture).
+week_term_hours("501", 0, 5, 1, kkleung, lecture).
+week_term_hours("501", 0, 5, 1, all, lab).
+week_term_hours("501", 0, 5, 1, all, tutorial).
+week_term_hours("302", 0, 5, 1, rbc, lecture).
+week_term_hours("302", 0, 5, 1, all, lab).
+week_term_hours("302", 0, 5, 1, all, tutorial).
+week_term_hours("337", 0, 5, 1, jb, lecture).
+week_term_hours("337", 0, 5, 1, ajf, lecture).
+week_term_hours("337", 0, 5, 1, all, lab).
+week_term_hours("337", 0, 5, 1, all, tutorial).
+week_term_hours("534", 0, 5, 1, lwd03, lecture).
+week_term_hours("534", 0, 5, 1, tk106, lecture).
+week_term_hours("534", 0, 5, 1, all, lab).
+week_term_hours("534", 0, 5, 1, all, tutorial).
+week_term_hours("475", 0, 5, 1, rbc, lecture).
+week_term_hours("475", 0, 5, 1, np2, lecture).
+week_term_hours("475", 0, 5, 1, all, lab).
+week_term_hours("475", 0, 5, 1, all, tutorial).
+week_term_hours("220", 0, 5, 1, rbc, lecture).
+week_term_hours("220", 0, 5, 1, all, lab).
+week_term_hours("220", 0, 5, 1, all, tutorial).
+week_term_hours("477", 0, 5, 1, pp500, lecture).
+week_term_hours("477", 0, 5, 1, all, lab).
+week_term_hours("477", 0, 5, 1, all, tutorial).
+week_term_hours("531", 0, 5, 1, gbd10, lecture).
+week_term_hours("531", 0, 5, 1, tk106, lecture).
+week_term_hours("531", 0, 5, 1, all, lab).
+week_term_hours("531", 0, 5, 1, all, tutorial).
+week_term_hours("440", 0, 5, 1, afd, lecture).
+week_term_hours("440", 0, 5, 1, all, lab).
+week_term_hours("440", 0, 5, 1, all, tutorial).
+week_term_hours("343", 0, 5, 1, dkuhn, lecture).
+week_term_hours("343", 0, 5, 1, all, lab).
+week_term_hours("343", 0, 5, 1, all, tutorial).
+week_term_hours("312", 0, 5, 1, pjm, lecture).
+week_term_hours("312", 0, 5, 1, all, lab).
+week_term_hours("312", 0, 5, 1, all, tutorial).
+week_term_hours("382", 0, 5, 1, svb, lecture).
+week_term_hours("382", 0, 5, 1, all, lab).
+week_term_hours("382", 0, 5, 1, all, tutorial).
+week_term_hours("499", 0, 5, 1, imh, lecture).
+week_term_hours("499", 0, 5, 1, all, lab).
+week_term_hours("499", 0, 5, 1, all, tutorial).
+week_term_hours("335", 0, 5, 1, yg, lecture).
+week_term_hours("335", 0, 5, 1, mss, lecture).
+week_term_hours("335", 0, 5, 1, all, lab).
+week_term_hours("335", 0, 5, 1, all, tutorial).
+week_term_hours("516", 0, 5, 1, wjk, lecture).
+week_term_hours("516", 0, 5, 1, all, lab).
+week_term_hours("516", 0, 5, 1, all, tutorial).
+week_term_hours("502", 0, 5, 1, svb, lecture).
+week_term_hours("502", 0, 5, 1, all, lab).
+week_term_hours("502", 0, 5, 1, all, tutorial).
+week_term_hours("424", 0, 5, 1, afaisal, lecture).
+week_term_hours("424", 0, 5, 1, all, lab).
+week_term_hours("424", 0, 5, 1, all, tutorial).
+week_term_hours("330", 0, 5, 1, mrh, lecture).
+week_term_hours("330", 0, 5, 1, ecl1, lecture).
+week_term_hours("330", 0, 5, 1, all, lab).
+week_term_hours("330", 0, 5, 1, all, tutorial).
+week_term_hours("395", 0, 5, 1, shm, lecture).
+week_term_hours("395", 0, 5, 1, maja, lecture).
+week_term_hours("395", 0, 5, 1, all, lab).
+week_term_hours("395", 0, 5, 1, all, tutorial).
+week_term_hours("481", 0, 5, 1, pg, lecture).
+week_term_hours("481", 0, 5, 1, yoshida, lecture).
+week_term_hours("481", 0, 5, 1, all, lab).
+week_term_hours("481", 0, 5, 1, all, tutorial).
+week_term_hours("276", 0, 5, 1, mjs, lecture).
+week_term_hours("276", 0, 5, 1, all, lab).
+week_term_hours("276", 0, 5, 1, all, tutorial).
+week_term_hours("221", 0, 5, 1, nd, lecture).
+week_term_hours("221", 0, 5, 1, phjk, lecture).
+week_term_hours("221", 0, 5, 1, all, lab).
+week_term_hours("221", 0, 5, 1, all, tutorial).
+week_term_hours("142", 0, 5, 1, yg, lecture).
+week_term_hours("142", 0, 5, 1, iccp, lecture).
+week_term_hours("142", 0, 5, 1, all, lab).
+week_term_hours("142", 0, 5, 1, all, tutorial).
+week_term_hours("140", 0, 5, 1, imh, lecture).
+week_term_hours("140", 0, 5, 1, all, lab).
+week_term_hours("140", 0, 5, 1, all, tutorial).
+week_term_hours("120.2", 0, 5, 1, tora, lecture).
+week_term_hours("120.2", 0, 5, 1, afd, lecture).
+week_term_hours("120.2", 0, 5, 1, ar3, lecture).
+week_term_hours("120.2", 0, 5, 1, all, lab).
+week_term_hours("120.2", 0, 5, 1, all, tutorial).
+week_term_hours("112", 2, 5, 1, dfg, lecture).
+week_term_hours("112", 0, 5, 1, all, lab).
+week_term_hours("112", 1, 5, 1, all, tutorial).
+week_term_hours("356", 0, 5, 1, axgopala, lecture).
+week_term_hours("356", 0, 5, 1, all, lab).
+week_term_hours("356", 0, 5, 1, all, tutorial).
+week_term_hours("518", 0, 5, 1, fs, lecture).
+week_term_hours("518", 0, 5, 1, all, lab).
+week_term_hours("518", 0, 5, 1, all, tutorial).
+week_term_hours("245", 0, 5, 1, naheard, lecture).
+week_term_hours("245", 0, 5, 1, all, lab).
+week_term_hours("245", 0, 5, 1, all, tutorial).
+week_term_hours("517", 0, 5, 1, wjk, lecture).
+week_term_hours("517", 0, 5, 1, all, lab).
+week_term_hours("517", 0, 5, 1, all, tutorial).
+week_term_hours("265", 0, 5, 1, ealpay, lecture).
+week_term_hours("265", 0, 5, 1, all, lab).
+week_term_hours("265", 0, 5, 1, all, tutorial).
+week_term_hours("120.1", 0, 5, 1, ajf, lecture).
+week_term_hours("120.1", 0, 5, 1, all, lab).
+week_term_hours("120.1", 0, 5, 1, all, tutorial).
+week_term_hours("145", 0, 5, 1, jb, lecture).
+week_term_hours("145", 0, 5, 1, all, lab).
+week_term_hours("145", 0, 5, 1, all, tutorial).
+week_term_hours("418", 0, 5, 1, gzy, lecture).
+week_term_hours("418", 0, 5, 1, all, lab).
+week_term_hours("418", 0, 5, 1, all, tutorial).
+week_term_hours("240", 0, 5, 1, pg, lecture).
+week_term_hours("240", 0, 5, 1, all, lab).
+week_term_hours("240", 0, 5, 1, all, tutorial).
+week_term_hours("320", 0, 5, 1, ae, lecture).
+week_term_hours("320", 0, 5, 1, all, lab).
+week_term_hours("320", 0, 5, 1, all, tutorial).
+week_term_hours("533", 0, 5, 1, rbc, lecture).
+week_term_hours("533", 0, 5, 1, all, lab).
+week_term_hours("533", 0, 5, 1, all, tutorial).
+week_term_hours("223", 0, 6, 1, da04, lecture).
+week_term_hours("223", 0, 6, 1, jk, lecture).
+week_term_hours("223", 0, 6, 1, all, lab).
+week_term_hours("223", 0, 6, 1, all, tutorial).
+week_term_hours("471", 0, 6, 1, scd, lecture).
+week_term_hours("471", 0, 6, 1, all, lab).
+week_term_hours("471", 0, 6, 1, all, tutorial).
+week_term_hours("421", 0, 6, 1, mpsha, lecture).
+week_term_hours("421", 0, 6, 1, all, lab).
+week_term_hours("421", 0, 6, 1, all, tutorial).
+week_term_hours("480", 0, 6, 1, kb, lecture).
+week_term_hours("480", 0, 6, 1, all, lab).
+week_term_hours("480", 0, 6, 1, all, tutorial).
+week_term_hours("501", 0, 6, 1, axgopala, lecture).
+week_term_hours("501", 0, 6, 1, kkleung, lecture).
+week_term_hours("501", 0, 6, 1, all, lab).
+week_term_hours("501", 0, 6, 1, all, tutorial).
+week_term_hours("302", 0, 6, 1, rbc, lecture).
+week_term_hours("302", 0, 6, 1, all, lab).
+week_term_hours("302", 0, 6, 1, all, tutorial).
+week_term_hours("337", 0, 6, 1, jb, lecture).
+week_term_hours("337", 0, 6, 1, ajf, lecture).
+week_term_hours("337", 0, 6, 1, all, lab).
+week_term_hours("337", 0, 6, 1, all, tutorial).
+week_term_hours("534", 0, 6, 1, lwd03, lecture).
+week_term_hours("534", 0, 6, 1, tk106, lecture).
+week_term_hours("534", 0, 6, 1, all, lab).
+week_term_hours("534", 0, 6, 1, all, tutorial).
+week_term_hours("475", 0, 6, 1, rbc, lecture).
+week_term_hours("475", 0, 6, 1, np2, lecture).
+week_term_hours("475", 0, 6, 1, all, lab).
+week_term_hours("475", 0, 6, 1, all, tutorial).
+week_term_hours("220", 0, 6, 1, rbc, lecture).
+week_term_hours("220", 0, 6, 1, all, lab).
+week_term_hours("220", 0, 6, 1, all, tutorial).
+week_term_hours("477", 0, 6, 1, pp500, lecture).
+week_term_hours("477", 0, 6, 1, all, lab).
+week_term_hours("477", 0, 6, 1, all, tutorial).
+week_term_hours("531", 0, 6, 1, gbd10, lecture).
+week_term_hours("531", 0, 6, 1, tk106, lecture).
+week_term_hours("531", 0, 6, 1, all, lab).
+week_term_hours("531", 0, 6, 1, all, tutorial).
+week_term_hours("440", 0, 6, 1, afd, lecture).
+week_term_hours("440", 0, 6, 1, all, lab).
+week_term_hours("440", 0, 6, 1, all, tutorial).
+week_term_hours("343", 0, 6, 1, dkuhn, lecture).
+week_term_hours("343", 0, 6, 1, all, lab).
+week_term_hours("343", 0, 6, 1, all, tutorial).
+week_term_hours("312", 0, 6, 1, pjm, lecture).
+week_term_hours("312", 0, 6, 1, all, lab).
+week_term_hours("312", 0, 6, 1, all, tutorial).
+week_term_hours("382", 0, 6, 1, svb, lecture).
+week_term_hours("382", 0, 6, 1, all, lab).
+week_term_hours("382", 0, 6, 1, all, tutorial).
+week_term_hours("499", 0, 6, 1, imh, lecture).
+week_term_hours("499", 0, 6, 1, all, lab).
+week_term_hours("499", 0, 6, 1, all, tutorial).
+week_term_hours("335", 0, 6, 1, yg, lecture).
+week_term_hours("335", 0, 6, 1, mss, lecture).
+week_term_hours("335", 0, 6, 1, all, lab).
+week_term_hours("335", 0, 6, 1, all, tutorial).
+week_term_hours("516", 0, 6, 1, wjk, lecture).
+week_term_hours("516", 0, 6, 1, all, lab).
+week_term_hours("516", 0, 6, 1, all, tutorial).
+week_term_hours("502", 0, 6, 1, svb, lecture).
+week_term_hours("502", 0, 6, 1, all, lab).
+week_term_hours("502", 0, 6, 1, all, tutorial).
+week_term_hours("424", 0, 6, 1, afaisal, lecture).
+week_term_hours("424", 0, 6, 1, all, lab).
+week_term_hours("424", 0, 6, 1, all, tutorial).
+week_term_hours("330", 0, 6, 1, mrh, lecture).
+week_term_hours("330", 0, 6, 1, ecl1, lecture).
+week_term_hours("330", 0, 6, 1, all, lab).
+week_term_hours("330", 0, 6, 1, all, tutorial).
+week_term_hours("395", 0, 6, 1, shm, lecture).
+week_term_hours("395", 0, 6, 1, maja, lecture).
+week_term_hours("395", 0, 6, 1, all, lab).
+week_term_hours("395", 0, 6, 1, all, tutorial).
+week_term_hours("481", 0, 6, 1, pg, lecture).
+week_term_hours("481", 0, 6, 1, yoshida, lecture).
+week_term_hours("481", 0, 6, 1, all, lab).
+week_term_hours("481", 0, 6, 1, all, tutorial).
+week_term_hours("276", 0, 6, 1, mjs, lecture).
+week_term_hours("276", 0, 6, 1, all, lab).
+week_term_hours("276", 0, 6, 1, all, tutorial).
+week_term_hours("221", 0, 6, 1, nd, lecture).
+week_term_hours("221", 0, 6, 1, phjk, lecture).
+week_term_hours("221", 0, 6, 1, all, lab).
+week_term_hours("221", 0, 6, 1, all, tutorial).
+week_term_hours("142", 0, 6, 1, yg, lecture).
+week_term_hours("142", 0, 6, 1, iccp, lecture).
+week_term_hours("142", 0, 6, 1, all, lab).
+week_term_hours("142", 0, 6, 1, all, tutorial).
+week_term_hours("140", 0, 6, 1, imh, lecture).
+week_term_hours("140", 0, 6, 1, all, lab).
+week_term_hours("140", 0, 6, 1, all, tutorial).
+week_term_hours("120.2", 0, 6, 1, tora, lecture).
+week_term_hours("120.2", 0, 6, 1, afd, lecture).
+week_term_hours("120.2", 0, 6, 1, ar3, lecture).
+week_term_hours("120.2", 0, 6, 1, all, lab).
+week_term_hours("120.2", 0, 6, 1, all, tutorial).
+week_term_hours("112", 2, 6, 1, dfg, lecture).
+week_term_hours("112", 0, 6, 1, all, lab).
+week_term_hours("112", 1, 6, 1, all, tutorial).
+week_term_hours("356", 0, 6, 1, axgopala, lecture).
+week_term_hours("356", 0, 6, 1, all, lab).
+week_term_hours("356", 0, 6, 1, all, tutorial).
+week_term_hours("518", 0, 6, 1, fs, lecture).
+week_term_hours("518", 0, 6, 1, all, lab).
+week_term_hours("518", 0, 6, 1, all, tutorial).
+week_term_hours("245", 0, 6, 1, naheard, lecture).
+week_term_hours("245", 0, 6, 1, all, lab).
+week_term_hours("245", 0, 6, 1, all, tutorial).
+week_term_hours("517", 0, 6, 1, wjk, lecture).
+week_term_hours("517", 0, 6, 1, all, lab).
+week_term_hours("517", 0, 6, 1, all, tutorial).
+week_term_hours("265", 0, 6, 1, ealpay, lecture).
+week_term_hours("265", 0, 6, 1, all, lab).
+week_term_hours("265", 0, 6, 1, all, tutorial).
+week_term_hours("120.1", 0, 6, 1, ajf, lecture).
+week_term_hours("120.1", 0, 6, 1, all, lab).
+week_term_hours("120.1", 0, 6, 1, all, tutorial).
+week_term_hours("145", 0, 6, 1, jb, lecture).
+week_term_hours("145", 0, 6, 1, all, lab).
+week_term_hours("145", 0, 6, 1, all, tutorial).
+week_term_hours("418", 0, 6, 1, gzy, lecture).
+week_term_hours("418", 0, 6, 1, all, lab).
+week_term_hours("418", 0, 6, 1, all, tutorial).
+week_term_hours("240", 0, 6, 1, pg, lecture).
+week_term_hours("240", 0, 6, 1, all, lab).
+week_term_hours("240", 0, 6, 1, all, tutorial).
+week_term_hours("320", 0, 6, 1, ae, lecture).
+week_term_hours("320", 0, 6, 1, all, lab).
+week_term_hours("320", 0, 6, 1, all, tutorial).
+week_term_hours("533", 0, 6, 1, rbc, lecture).
+week_term_hours("533", 0, 6, 1, all, lab).
+week_term_hours("533", 0, 6, 1, all, tutorial).
+week_term_hours("223", 0, 7, 1, da04, lecture).
+week_term_hours("223", 0, 7, 1, jk, lecture).
+week_term_hours("223", 0, 7, 1, all, lab).
+week_term_hours("223", 0, 7, 1, all, tutorial).
+week_term_hours("471", 0, 7, 1, scd, lecture).
+week_term_hours("471", 0, 7, 1, all, lab).
+week_term_hours("471", 0, 7, 1, all, tutorial).
+week_term_hours("421", 0, 7, 1, mpsha, lecture).
+week_term_hours("421", 0, 7, 1, all, lab).
+week_term_hours("421", 0, 7, 1, all, tutorial).
+week_term_hours("480", 0, 7, 1, kb, lecture).
+week_term_hours("480", 0, 7, 1, all, lab).
+week_term_hours("480", 0, 7, 1, all, tutorial).
+week_term_hours("501", 0, 7, 1, axgopala, lecture).
+week_term_hours("501", 0, 7, 1, kkleung, lecture).
+week_term_hours("501", 0, 7, 1, all, lab).
+week_term_hours("501", 0, 7, 1, all, tutorial).
+week_term_hours("302", 0, 7, 1, rbc, lecture).
+week_term_hours("302", 0, 7, 1, all, lab).
+week_term_hours("302", 0, 7, 1, all, tutorial).
+week_term_hours("337", 0, 7, 1, jb, lecture).
+week_term_hours("337", 0, 7, 1, ajf, lecture).
+week_term_hours("337", 0, 7, 1, all, lab).
+week_term_hours("337", 0, 7, 1, all, tutorial).
+week_term_hours("534", 0, 7, 1, lwd03, lecture).
+week_term_hours("534", 0, 7, 1, tk106, lecture).
+week_term_hours("534", 0, 7, 1, all, lab).
+week_term_hours("534", 0, 7, 1, all, tutorial).
+week_term_hours("475", 0, 7, 1, rbc, lecture).
+week_term_hours("475", 0, 7, 1, np2, lecture).
+week_term_hours("475", 0, 7, 1, all, lab).
+week_term_hours("475", 0, 7, 1, all, tutorial).
+week_term_hours("220", 0, 7, 1, rbc, lecture).
+week_term_hours("220", 0, 7, 1, all, lab).
+week_term_hours("220", 0, 7, 1, all, tutorial).
+week_term_hours("477", 0, 7, 1, pp500, lecture).
+week_term_hours("477", 0, 7, 1, all, lab).
+week_term_hours("477", 0, 7, 1, all, tutorial).
+week_term_hours("531", 0, 7, 1, gbd10, lecture).
+week_term_hours("531", 0, 7, 1, tk106, lecture).
+week_term_hours("531", 0, 7, 1, all, lab).
+week_term_hours("531", 0, 7, 1, all, tutorial).
+week_term_hours("440", 0, 7, 1, afd, lecture).
+week_term_hours("440", 0, 7, 1, all, lab).
+week_term_hours("440", 0, 7, 1, all, tutorial).
+week_term_hours("343", 0, 7, 1, dkuhn, lecture).
+week_term_hours("343", 0, 7, 1, all, lab).
+week_term_hours("343", 0, 7, 1, all, tutorial).
+week_term_hours("312", 0, 7, 1, pjm, lecture).
+week_term_hours("312", 0, 7, 1, all, lab).
+week_term_hours("312", 0, 7, 1, all, tutorial).
+week_term_hours("382", 0, 7, 1, svb, lecture).
+week_term_hours("382", 0, 7, 1, all, lab).
+week_term_hours("382", 0, 7, 1, all, tutorial).
+week_term_hours("499", 0, 7, 1, imh, lecture).
+week_term_hours("499", 0, 7, 1, all, lab).
+week_term_hours("499", 0, 7, 1, all, tutorial).
+week_term_hours("335", 0, 7, 1, yg, lecture).
+week_term_hours("335", 0, 7, 1, mss, lecture).
+week_term_hours("335", 0, 7, 1, all, lab).
+week_term_hours("335", 0, 7, 1, all, tutorial).
+week_term_hours("516", 0, 7, 1, wjk, lecture).
+week_term_hours("516", 0, 7, 1, all, lab).
+week_term_hours("516", 0, 7, 1, all, tutorial).
+week_term_hours("502", 0, 7, 1, svb, lecture).
+week_term_hours("502", 0, 7, 1, all, lab).
+week_term_hours("502", 0, 7, 1, all, tutorial).
+week_term_hours("424", 0, 7, 1, afaisal, lecture).
+week_term_hours("424", 0, 7, 1, all, lab).
+week_term_hours("424", 0, 7, 1, all, tutorial).
+week_term_hours("330", 0, 7, 1, mrh, lecture).
+week_term_hours("330", 0, 7, 1, ecl1, lecture).
+week_term_hours("330", 0, 7, 1, all, lab).
+week_term_hours("330", 0, 7, 1, all, tutorial).
+week_term_hours("395", 0, 7, 1, shm, lecture).
+week_term_hours("395", 0, 7, 1, maja, lecture).
+week_term_hours("395", 0, 7, 1, all, lab).
+week_term_hours("395", 0, 7, 1, all, tutorial).
+week_term_hours("481", 0, 7, 1, pg, lecture).
+week_term_hours("481", 0, 7, 1, yoshida, lecture).
+week_term_hours("481", 0, 7, 1, all, lab).
+week_term_hours("481", 0, 7, 1, all, tutorial).
+week_term_hours("276", 0, 7, 1, mjs, lecture).
+week_term_hours("276", 0, 7, 1, all, lab).
+week_term_hours("276", 0, 7, 1, all, tutorial).
+week_term_hours("221", 0, 7, 1, nd, lecture).
+week_term_hours("221", 0, 7, 1, phjk, lecture).
+week_term_hours("221", 0, 7, 1, all, lab).
+week_term_hours("221", 0, 7, 1, all, tutorial).
+week_term_hours("142", 0, 7, 1, yg, lecture).
+week_term_hours("142", 0, 7, 1, iccp, lecture).
+week_term_hours("142", 0, 7, 1, all, lab).
+week_term_hours("142", 0, 7, 1, all, tutorial).
+week_term_hours("140", 0, 7, 1, imh, lecture).
+week_term_hours("140", 0, 7, 1, all, lab).
+week_term_hours("140", 0, 7, 1, all, tutorial).
+week_term_hours("120.2", 0, 7, 1, tora, lecture).
+week_term_hours("120.2", 0, 7, 1, afd, lecture).
+week_term_hours("120.2", 0, 7, 1, ar3, lecture).
+week_term_hours("120.2", 0, 7, 1, all, lab).
+week_term_hours("120.2", 0, 7, 1, all, tutorial).
+week_term_hours("112", 2, 7, 1, dfg, lecture).
+week_term_hours("112", 0, 7, 1, all, lab).
+week_term_hours("112", 1, 7, 1, all, tutorial).
+week_term_hours("356", 0, 7, 1, axgopala, lecture).
+week_term_hours("356", 0, 7, 1, all, lab).
+week_term_hours("356", 0, 7, 1, all, tutorial).
+week_term_hours("518", 0, 7, 1, fs, lecture).
+week_term_hours("518", 0, 7, 1, all, lab).
+week_term_hours("518", 0, 7, 1, all, tutorial).
+week_term_hours("245", 0, 7, 1, naheard, lecture).
+week_term_hours("245", 0, 7, 1, all, lab).
+week_term_hours("245", 0, 7, 1, all, tutorial).
+week_term_hours("517", 0, 7, 1, wjk, lecture).
+week_term_hours("517", 0, 7, 1, all, lab).
+week_term_hours("517", 0, 7, 1, all, tutorial).
+week_term_hours("265", 0, 7, 1, ealpay, lecture).
+week_term_hours("265", 0, 7, 1, all, lab).
+week_term_hours("265", 0, 7, 1, all, tutorial).
+week_term_hours("120.1", 0, 7, 1, ajf, lecture).
+week_term_hours("120.1", 0, 7, 1, all, lab).
+week_term_hours("120.1", 0, 7, 1, all, tutorial).
+week_term_hours("145", 0, 7, 1, jb, lecture).
+week_term_hours("145", 0, 7, 1, all, lab).
+week_term_hours("145", 0, 7, 1, all, tutorial).
+week_term_hours("418", 0, 7, 1, gzy, lecture).
+week_term_hours("418", 0, 7, 1, all, lab).
+week_term_hours("418", 0, 7, 1, all, tutorial).
+week_term_hours("240", 0, 7, 1, pg, lecture).
+week_term_hours("240", 0, 7, 1, all, lab).
+week_term_hours("240", 0, 7, 1, all, tutorial).
+week_term_hours("320", 0, 7, 1, ae, lecture).
+week_term_hours("320", 0, 7, 1, all, lab).
+week_term_hours("320", 0, 7, 1, all, tutorial).
+week_term_hours("533", 0, 7, 1, rbc, lecture).
+week_term_hours("533", 0, 7, 1, all, lab).
+week_term_hours("533", 0, 7, 1, all, tutorial).
+week_term_hours("223", 0, 8, 1, da04, lecture).
+week_term_hours("223", 0, 8, 1, jk, lecture).
+week_term_hours("223", 0, 8, 1, all, lab).
+week_term_hours("223", 0, 8, 1, all, tutorial).
+week_term_hours("471", 0, 8, 1, scd, lecture).
+week_term_hours("471", 0, 8, 1, all, lab).
+week_term_hours("471", 0, 8, 1, all, tutorial).
+week_term_hours("421", 0, 8, 1, mpsha, lecture).
+week_term_hours("421", 0, 8, 1, all, lab).
+week_term_hours("421", 0, 8, 1, all, tutorial).
+week_term_hours("480", 0, 8, 1, kb, lecture).
+week_term_hours("480", 0, 8, 1, all, lab).
+week_term_hours("480", 0, 8, 1, all, tutorial).
+week_term_hours("501", 0, 8, 1, axgopala, lecture).
+week_term_hours("501", 0, 8, 1, kkleung, lecture).
+week_term_hours("501", 0, 8, 1, all, lab).
+week_term_hours("501", 0, 8, 1, all, tutorial).
+week_term_hours("302", 0, 8, 1, rbc, lecture).
+week_term_hours("302", 0, 8, 1, all, lab).
+week_term_hours("302", 0, 8, 1, all, tutorial).
+week_term_hours("337", 0, 8, 1, jb, lecture).
+week_term_hours("337", 0, 8, 1, ajf, lecture).
+week_term_hours("337", 0, 8, 1, all, lab).
+week_term_hours("337", 0, 8, 1, all, tutorial).
+week_term_hours("534", 0, 8, 1, lwd03, lecture).
+week_term_hours("534", 0, 8, 1, tk106, lecture).
+week_term_hours("534", 0, 8, 1, all, lab).
+week_term_hours("534", 0, 8, 1, all, tutorial).
+week_term_hours("475", 0, 8, 1, rbc, lecture).
+week_term_hours("475", 0, 8, 1, np2, lecture).
+week_term_hours("475", 0, 8, 1, all, lab).
+week_term_hours("475", 0, 8, 1, all, tutorial).
+week_term_hours("220", 0, 8, 1, rbc, lecture).
+week_term_hours("220", 0, 8, 1, all, lab).
+week_term_hours("220", 0, 8, 1, all, tutorial).
+week_term_hours("477", 0, 8, 1, pp500, lecture).
+week_term_hours("477", 0, 8, 1, all, lab).
+week_term_hours("477", 0, 8, 1, all, tutorial).
+week_term_hours("531", 0, 8, 1, gbd10, lecture).
+week_term_hours("531", 0, 8, 1, tk106, lecture).
+week_term_hours("531", 0, 8, 1, all, lab).
+week_term_hours("531", 0, 8, 1, all, tutorial).
+week_term_hours("440", 0, 8, 1, afd, lecture).
+week_term_hours("440", 0, 8, 1, all, lab).
+week_term_hours("440", 0, 8, 1, all, tutorial).
+week_term_hours("343", 0, 8, 1, dkuhn, lecture).
+week_term_hours("343", 0, 8, 1, all, lab).
+week_term_hours("343", 0, 8, 1, all, tutorial).
+week_term_hours("312", 0, 8, 1, pjm, lecture).
+week_term_hours("312", 0, 8, 1, all, lab).
+week_term_hours("312", 0, 8, 1, all, tutorial).
+week_term_hours("382", 0, 8, 1, svb, lecture).
+week_term_hours("382", 0, 8, 1, all, lab).
+week_term_hours("382", 0, 8, 1, all, tutorial).
+week_term_hours("499", 0, 8, 1, imh, lecture).
+week_term_hours("499", 0, 8, 1, all, lab).
+week_term_hours("499", 0, 8, 1, all, tutorial).
+week_term_hours("335", 0, 8, 1, yg, lecture).
+week_term_hours("335", 0, 8, 1, mss, lecture).
+week_term_hours("335", 0, 8, 1, all, lab).
+week_term_hours("335", 0, 8, 1, all, tutorial).
+week_term_hours("516", 0, 8, 1, wjk, lecture).
+week_term_hours("516", 0, 8, 1, all, lab).
+week_term_hours("516", 0, 8, 1, all, tutorial).
+week_term_hours("502", 0, 8, 1, svb, lecture).
+week_term_hours("502", 0, 8, 1, all, lab).
+week_term_hours("502", 0, 8, 1, all, tutorial).
+week_term_hours("424", 0, 8, 1, afaisal, lecture).
+week_term_hours("424", 0, 8, 1, all, lab).
+week_term_hours("424", 0, 8, 1, all, tutorial).
+week_term_hours("330", 0, 8, 1, mrh, lecture).
+week_term_hours("330", 0, 8, 1, ecl1, lecture).
+week_term_hours("330", 0, 8, 1, all, lab).
+week_term_hours("330", 0, 8, 1, all, tutorial).
+week_term_hours("395", 0, 8, 1, shm, lecture).
+week_term_hours("395", 0, 8, 1, maja, lecture).
+week_term_hours("395", 0, 8, 1, all, lab).
+week_term_hours("395", 0, 8, 1, all, tutorial).
+week_term_hours("481", 0, 8, 1, pg, lecture).
+week_term_hours("481", 0, 8, 1, yoshida, lecture).
+week_term_hours("481", 0, 8, 1, all, lab).
+week_term_hours("481", 0, 8, 1, all, tutorial).
+week_term_hours("276", 0, 8, 1, mjs, lecture).
+week_term_hours("276", 0, 8, 1, all, lab).
+week_term_hours("276", 0, 8, 1, all, tutorial).
+week_term_hours("221", 0, 8, 1, nd, lecture).
+week_term_hours("221", 0, 8, 1, phjk, lecture).
+week_term_hours("221", 0, 8, 1, all, lab).
+week_term_hours("221", 0, 8, 1, all, tutorial).
+week_term_hours("142", 0, 8, 1, yg, lecture).
+week_term_hours("142", 0, 8, 1, iccp, lecture).
+week_term_hours("142", 0, 8, 1, all, lab).
+week_term_hours("142", 0, 8, 1, all, tutorial).
+week_term_hours("140", 0, 8, 1, imh, lecture).
+week_term_hours("140", 0, 8, 1, all, lab).
+week_term_hours("140", 0, 8, 1, all, tutorial).
+week_term_hours("120.2", 0, 8, 1, tora, lecture).
+week_term_hours("120.2", 0, 8, 1, afd, lecture).
+week_term_hours("120.2", 0, 8, 1, ar3, lecture).
+week_term_hours("120.2", 0, 8, 1, all, lab).
+week_term_hours("120.2", 0, 8, 1, all, tutorial).
+week_term_hours("112", 2, 8, 1, dfg, lecture).
+week_term_hours("112", 0, 8, 1, all, lab).
+week_term_hours("112", 1, 8, 1, all, tutorial).
+week_term_hours("356", 0, 8, 1, axgopala, lecture).
+week_term_hours("356", 0, 8, 1, all, lab).
+week_term_hours("356", 0, 8, 1, all, tutorial).
+week_term_hours("518", 0, 8, 1, fs, lecture).
+week_term_hours("518", 0, 8, 1, all, lab).
+week_term_hours("518", 0, 8, 1, all, tutorial).
+week_term_hours("245", 0, 8, 1, naheard, lecture).
+week_term_hours("245", 0, 8, 1, all, lab).
+week_term_hours("245", 0, 8, 1, all, tutorial).
+week_term_hours("517", 0, 8, 1, wjk, lecture).
+week_term_hours("517", 0, 8, 1, all, lab).
+week_term_hours("517", 0, 8, 1, all, tutorial).
+week_term_hours("265", 0, 8, 1, ealpay, lecture).
+week_term_hours("265", 0, 8, 1, all, lab).
+week_term_hours("265", 0, 8, 1, all, tutorial).
+week_term_hours("120.1", 0, 8, 1, ajf, lecture).
+week_term_hours("120.1", 0, 8, 1, all, lab).
+week_term_hours("120.1", 0, 8, 1, all, tutorial).
+week_term_hours("145", 0, 8, 1, jb, lecture).
+week_term_hours("145", 0, 8, 1, all, lab).
+week_term_hours("145", 0, 8, 1, all, tutorial).
+week_term_hours("418", 0, 8, 1, gzy, lecture).
+week_term_hours("418", 0, 8, 1, all, lab).
+week_term_hours("418", 0, 8, 1, all, tutorial).
+week_term_hours("240", 0, 8, 1, pg, lecture).
+week_term_hours("240", 0, 8, 1, all, lab).
+week_term_hours("240", 0, 8, 1, all, tutorial).
+week_term_hours("320", 0, 8, 1, ae, lecture).
+week_term_hours("320", 0, 8, 1, all, lab).
+week_term_hours("320", 0, 8, 1, all, tutorial).
+week_term_hours("533", 0, 8, 1, rbc, lecture).
+week_term_hours("533", 0, 8, 1, all, lab).
+week_term_hours("533", 0, 8, 1, all, tutorial).
+week_term_hours("223", 0, 9, 1, da04, lecture).
+week_term_hours("223", 0, 9, 1, jk, lecture).
+week_term_hours("223", 0, 9, 1, all, lab).
+week_term_hours("223", 0, 9, 1, all, tutorial).
+week_term_hours("471", 0, 9, 1, scd, lecture).
+week_term_hours("471", 0, 9, 1, all, lab).
+week_term_hours("471", 0, 9, 1, all, tutorial).
+week_term_hours("421", 0, 9, 1, mpsha, lecture).
+week_term_hours("421", 0, 9, 1, all, lab).
+week_term_hours("421", 0, 9, 1, all, tutorial).
+week_term_hours("480", 0, 9, 1, kb, lecture).
+week_term_hours("480", 0, 9, 1, all, lab).
+week_term_hours("480", 0, 9, 1, all, tutorial).
+week_term_hours("501", 0, 9, 1, axgopala, lecture).
+week_term_hours("501", 0, 9, 1, kkleung, lecture).
+week_term_hours("501", 0, 9, 1, all, lab).
+week_term_hours("501", 0, 9, 1, all, tutorial).
+week_term_hours("302", 0, 9, 1, rbc, lecture).
+week_term_hours("302", 0, 9, 1, all, lab).
+week_term_hours("302", 0, 9, 1, all, tutorial).
+week_term_hours("337", 0, 9, 1, jb, lecture).
+week_term_hours("337", 0, 9, 1, ajf, lecture).
+week_term_hours("337", 0, 9, 1, all, lab).
+week_term_hours("337", 0, 9, 1, all, tutorial).
+week_term_hours("534", 0, 9, 1, lwd03, lecture).
+week_term_hours("534", 0, 9, 1, tk106, lecture).
+week_term_hours("534", 0, 9, 1, all, lab).
+week_term_hours("534", 0, 9, 1, all, tutorial).
+week_term_hours("475", 0, 9, 1, rbc, lecture).
+week_term_hours("475", 0, 9, 1, np2, lecture).
+week_term_hours("475", 0, 9, 1, all, lab).
+week_term_hours("475", 0, 9, 1, all, tutorial).
+week_term_hours("220", 0, 9, 1, rbc, lecture).
+week_term_hours("220", 0, 9, 1, all, lab).
+week_term_hours("220", 0, 9, 1, all, tutorial).
+week_term_hours("477", 0, 9, 1, pp500, lecture).
+week_term_hours("477", 0, 9, 1, all, lab).
+week_term_hours("477", 0, 9, 1, all, tutorial).
+week_term_hours("531", 0, 9, 1, gbd10, lecture).
+week_term_hours("531", 0, 9, 1, tk106, lecture).
+week_term_hours("531", 0, 9, 1, all, lab).
+week_term_hours("531", 0, 9, 1, all, tutorial).
+week_term_hours("440", 0, 9, 1, afd, lecture).
+week_term_hours("440", 0, 9, 1, all, lab).
+week_term_hours("440", 0, 9, 1, all, tutorial).
+week_term_hours("343", 0, 9, 1, dkuhn, lecture).
+week_term_hours("343", 0, 9, 1, all, lab).
+week_term_hours("343", 0, 9, 1, all, tutorial).
+week_term_hours("312", 0, 9, 1, pjm, lecture).
+week_term_hours("312", 0, 9, 1, all, lab).
+week_term_hours("312", 0, 9, 1, all, tutorial).
+week_term_hours("382", 0, 9, 1, svb, lecture).
+week_term_hours("382", 0, 9, 1, all, lab).
+week_term_hours("382", 0, 9, 1, all, tutorial).
+week_term_hours("499", 0, 9, 1, imh, lecture).
+week_term_hours("499", 0, 9, 1, all, lab).
+week_term_hours("499", 0, 9, 1, all, tutorial).
+week_term_hours("335", 0, 9, 1, yg, lecture).
+week_term_hours("335", 0, 9, 1, mss, lecture).
+week_term_hours("335", 0, 9, 1, all, lab).
+week_term_hours("335", 0, 9, 1, all, tutorial).
+week_term_hours("516", 0, 9, 1, wjk, lecture).
+week_term_hours("516", 0, 9, 1, all, lab).
+week_term_hours("516", 0, 9, 1, all, tutorial).
+week_term_hours("502", 0, 9, 1, svb, lecture).
+week_term_hours("502", 0, 9, 1, all, lab).
+week_term_hours("502", 0, 9, 1, all, tutorial).
+week_term_hours("424", 0, 9, 1, afaisal, lecture).
+week_term_hours("424", 0, 9, 1, all, lab).
+week_term_hours("424", 0, 9, 1, all, tutorial).
+week_term_hours("330", 0, 9, 1, mrh, lecture).
+week_term_hours("330", 0, 9, 1, ecl1, lecture).
+week_term_hours("330", 0, 9, 1, all, lab).
+week_term_hours("330", 0, 9, 1, all, tutorial).
+week_term_hours("395", 0, 9, 1, shm, lecture).
+week_term_hours("395", 0, 9, 1, maja, lecture).
+week_term_hours("395", 0, 9, 1, all, lab).
+week_term_hours("395", 0, 9, 1, all, tutorial).
+week_term_hours("481", 0, 9, 1, pg, lecture).
+week_term_hours("481", 0, 9, 1, yoshida, lecture).
+week_term_hours("481", 0, 9, 1, all, lab).
+week_term_hours("481", 0, 9, 1, all, tutorial).
+week_term_hours("276", 0, 9, 1, mjs, lecture).
+week_term_hours("276", 0, 9, 1, all, lab).
+week_term_hours("276", 0, 9, 1, all, tutorial).
+week_term_hours("221", 0, 9, 1, nd, lecture).
+week_term_hours("221", 0, 9, 1, phjk, lecture).
+week_term_hours("221", 0, 9, 1, all, lab).
+week_term_hours("221", 0, 9, 1, all, tutorial).
+week_term_hours("142", 0, 9, 1, yg, lecture).
+week_term_hours("142", 0, 9, 1, iccp, lecture).
+week_term_hours("142", 0, 9, 1, all, lab).
+week_term_hours("142", 0, 9, 1, all, tutorial).
+week_term_hours("140", 0, 9, 1, imh, lecture).
+week_term_hours("140", 0, 9, 1, all, lab).
+week_term_hours("140", 0, 9, 1, all, tutorial).
+week_term_hours("120.2", 0, 9, 1, tora, lecture).
+week_term_hours("120.2", 0, 9, 1, afd, lecture).
+week_term_hours("120.2", 0, 9, 1, ar3, lecture).
+week_term_hours("120.2", 0, 9, 1, all, lab).
+week_term_hours("120.2", 0, 9, 1, all, tutorial).
+week_term_hours("112", 2, 9, 1, dfg, lecture).
+week_term_hours("112", 0, 9, 1, all, lab).
+week_term_hours("112", 1, 9, 1, all, tutorial).
+week_term_hours("356", 0, 9, 1, axgopala, lecture).
+week_term_hours("356", 0, 9, 1, all, lab).
+week_term_hours("356", 0, 9, 1, all, tutorial).
+week_term_hours("518", 0, 9, 1, fs, lecture).
+week_term_hours("518", 0, 9, 1, all, lab).
+week_term_hours("518", 0, 9, 1, all, tutorial).
+week_term_hours("245", 0, 9, 1, naheard, lecture).
+week_term_hours("245", 0, 9, 1, all, lab).
+week_term_hours("245", 0, 9, 1, all, tutorial).
+week_term_hours("517", 0, 9, 1, wjk, lecture).
+week_term_hours("517", 0, 9, 1, all, lab).
+week_term_hours("517", 0, 9, 1, all, tutorial).
+week_term_hours("265", 0, 9, 1, ealpay, lecture).
+week_term_hours("265", 0, 9, 1, all, lab).
+week_term_hours("265", 0, 9, 1, all, tutorial).
+week_term_hours("120.1", 0, 9, 1, ajf, lecture).
+week_term_hours("120.1", 0, 9, 1, all, lab).
+week_term_hours("120.1", 0, 9, 1, all, tutorial).
+week_term_hours("145", 0, 9, 1, jb, lecture).
+week_term_hours("145", 0, 9, 1, all, lab).
+week_term_hours("145", 0, 9, 1, all, tutorial).
+week_term_hours("418", 0, 9, 1, gzy, lecture).
+week_term_hours("418", 0, 9, 1, all, lab).
+week_term_hours("418", 0, 9, 1, all, tutorial).
+week_term_hours("240", 0, 9, 1, pg, lecture).
+week_term_hours("240", 0, 9, 1, all, lab).
+week_term_hours("240", 0, 9, 1, all, tutorial).
+week_term_hours("320", 0, 9, 1, ae, lecture).
+week_term_hours("320", 0, 9, 1, all, lab).
+week_term_hours("320", 0, 9, 1, all, tutorial).
+week_term_hours("533", 0, 9, 1, rbc, lecture).
+week_term_hours("533", 0, 9, 1, all, lab).
+week_term_hours("533", 0, 9, 1, all, tutorial).
+week_term_hours("223", 0, 10, 1, da04, lecture).
+week_term_hours("223", 0, 10, 1, jk, lecture).
+week_term_hours("223", 0, 10, 1, all, lab).
+week_term_hours("223", 0, 10, 1, all, tutorial).
+week_term_hours("471", 0, 10, 1, scd, lecture).
+week_term_hours("471", 0, 10, 1, all, lab).
+week_term_hours("471", 0, 10, 1, all, tutorial).
+week_term_hours("421", 0, 10, 1, mpsha, lecture).
+week_term_hours("421", 0, 10, 1, all, lab).
+week_term_hours("421", 0, 10, 1, all, tutorial).
+week_term_hours("480", 0, 10, 1, kb, lecture).
+week_term_hours("480", 0, 10, 1, all, lab).
+week_term_hours("480", 0, 10, 1, all, tutorial).
+week_term_hours("501", 0, 10, 1, axgopala, lecture).
+week_term_hours("501", 0, 10, 1, kkleung, lecture).
+week_term_hours("501", 0, 10, 1, all, lab).
+week_term_hours("501", 0, 10, 1, all, tutorial).
+week_term_hours("302", 0, 10, 1, rbc, lecture).
+week_term_hours("302", 0, 10, 1, all, lab).
+week_term_hours("302", 0, 10, 1, all, tutorial).
+week_term_hours("337", 0, 10, 1, jb, lecture).
+week_term_hours("337", 0, 10, 1, ajf, lecture).
+week_term_hours("337", 0, 10, 1, all, lab).
+week_term_hours("337", 0, 10, 1, all, tutorial).
+week_term_hours("534", 0, 10, 1, lwd03, lecture).
+week_term_hours("534", 0, 10, 1, tk106, lecture).
+week_term_hours("534", 0, 10, 1, all, lab).
+week_term_hours("534", 0, 10, 1, all, tutorial).
+week_term_hours("475", 0, 10, 1, rbc, lecture).
+week_term_hours("475", 0, 10, 1, np2, lecture).
+week_term_hours("475", 0, 10, 1, all, lab).
+week_term_hours("475", 0, 10, 1, all, tutorial).
+week_term_hours("220", 0, 10, 1, rbc, lecture).
+week_term_hours("220", 0, 10, 1, all, lab).
+week_term_hours("220", 0, 10, 1, all, tutorial).
+week_term_hours("477", 0, 10, 1, pp500, lecture).
+week_term_hours("477", 0, 10, 1, all, lab).
+week_term_hours("477", 0, 10, 1, all, tutorial).
+week_term_hours("531", 0, 10, 1, gbd10, lecture).
+week_term_hours("531", 0, 10, 1, tk106, lecture).
+week_term_hours("531", 0, 10, 1, all, lab).
+week_term_hours("531", 0, 10, 1, all, tutorial).
+week_term_hours("440", 0, 10, 1, afd, lecture).
+week_term_hours("440", 0, 10, 1, all, lab).
+week_term_hours("440", 0, 10, 1, all, tutorial).
+week_term_hours("343", 0, 10, 1, dkuhn, lecture).
+week_term_hours("343", 0, 10, 1, all, lab).
+week_term_hours("343", 0, 10, 1, all, tutorial).
+week_term_hours("312", 0, 10, 1, pjm, lecture).
+week_term_hours("312", 0, 10, 1, all, lab).
+week_term_hours("312", 0, 10, 1, all, tutorial).
+week_term_hours("382", 0, 10, 1, svb, lecture).
+week_term_hours("382", 0, 10, 1, all, lab).
+week_term_hours("382", 0, 10, 1, all, tutorial).
+week_term_hours("499", 0, 10, 1, imh, lecture).
+week_term_hours("499", 0, 10, 1, all, lab).
+week_term_hours("499", 0, 10, 1, all, tutorial).
+week_term_hours("335", 0, 10, 1, yg, lecture).
+week_term_hours("335", 0, 10, 1, mss, lecture).
+week_term_hours("335", 0, 10, 1, all, lab).
+week_term_hours("335", 0, 10, 1, all, tutorial).
+week_term_hours("516", 0, 10, 1, wjk, lecture).
+week_term_hours("516", 0, 10, 1, all, lab).
+week_term_hours("516", 0, 10, 1, all, tutorial).
+week_term_hours("502", 0, 10, 1, svb, lecture).
+week_term_hours("502", 0, 10, 1, all, lab).
+week_term_hours("502", 0, 10, 1, all, tutorial).
+week_term_hours("424", 0, 10, 1, afaisal, lecture).
+week_term_hours("424", 0, 10, 1, all, lab).
+week_term_hours("424", 0, 10, 1, all, tutorial).
+week_term_hours("330", 0, 10, 1, mrh, lecture).
+week_term_hours("330", 0, 10, 1, ecl1, lecture).
+week_term_hours("330", 0, 10, 1, all, lab).
+week_term_hours("330", 0, 10, 1, all, tutorial).
+week_term_hours("395", 0, 10, 1, shm, lecture).
+week_term_hours("395", 0, 10, 1, maja, lecture).
+week_term_hours("395", 0, 10, 1, all, lab).
+week_term_hours("395", 0, 10, 1, all, tutorial).
+week_term_hours("481", 0, 10, 1, pg, lecture).
+week_term_hours("481", 0, 10, 1, yoshida, lecture).
+week_term_hours("481", 0, 10, 1, all, lab).
+week_term_hours("481", 0, 10, 1, all, tutorial).
+week_term_hours("276", 0, 10, 1, mjs, lecture).
+week_term_hours("276", 0, 10, 1, all, lab).
+week_term_hours("276", 0, 10, 1, all, tutorial).
+week_term_hours("221", 0, 10, 1, nd, lecture).
+week_term_hours("221", 0, 10, 1, phjk, lecture).
+week_term_hours("221", 0, 10, 1, all, lab).
+week_term_hours("221", 0, 10, 1, all, tutorial).
+week_term_hours("142", 0, 10, 1, yg, lecture).
+week_term_hours("142", 0, 10, 1, iccp, lecture).
+week_term_hours("142", 0, 10, 1, all, lab).
+week_term_hours("142", 0, 10, 1, all, tutorial).
+week_term_hours("140", 0, 10, 1, imh, lecture).
+week_term_hours("140", 0, 10, 1, all, lab).
+week_term_hours("140", 0, 10, 1, all, tutorial).
+week_term_hours("120.2", 0, 10, 1, tora, lecture).
+week_term_hours("120.2", 0, 10, 1, afd, lecture).
+week_term_hours("120.2", 0, 10, 1, ar3, lecture).
+week_term_hours("120.2", 0, 10, 1, all, lab).
+week_term_hours("120.2", 0, 10, 1, all, tutorial).
+week_term_hours("112", 2, 10, 1, dfg, lecture).
+week_term_hours("112", 0, 10, 1, all, lab).
+week_term_hours("112", 1, 10, 1, all, tutorial).
+week_term_hours("356", 0, 10, 1, axgopala, lecture).
+week_term_hours("356", 0, 10, 1, all, lab).
+week_term_hours("356", 0, 10, 1, all, tutorial).
+week_term_hours("518", 0, 10, 1, fs, lecture).
+week_term_hours("518", 0, 10, 1, all, lab).
+week_term_hours("518", 0, 10, 1, all, tutorial).
+week_term_hours("245", 0, 10, 1, naheard, lecture).
+week_term_hours("245", 0, 10, 1, all, lab).
+week_term_hours("245", 0, 10, 1, all, tutorial).
+week_term_hours("517", 0, 10, 1, wjk, lecture).
+week_term_hours("517", 0, 10, 1, all, lab).
+week_term_hours("517", 0, 10, 1, all, tutorial).
+week_term_hours("265", 0, 10, 1, ealpay, lecture).
+week_term_hours("265", 0, 10, 1, all, lab).
+week_term_hours("265", 0, 10, 1, all, tutorial).
+week_term_hours("120.1", 0, 10, 1, ajf, lecture).
+week_term_hours("120.1", 0, 10, 1, all, lab).
+week_term_hours("120.1", 0, 10, 1, all, tutorial).
+week_term_hours("145", 0, 10, 1, jb, lecture).
+week_term_hours("145", 0, 10, 1, all, lab).
+week_term_hours("145", 0, 10, 1, all, tutorial).
+week_term_hours("418", 0, 10, 1, gzy, lecture).
+week_term_hours("418", 0, 10, 1, all, lab).
+week_term_hours("418", 0, 10, 1, all, tutorial).
+week_term_hours("240", 0, 10, 1, pg, lecture).
+week_term_hours("240", 0, 10, 1, all, lab).
+week_term_hours("240", 0, 10, 1, all, tutorial).
+week_term_hours("320", 0, 10, 1, ae, lecture).
+week_term_hours("320", 0, 10, 1, all, lab).
+week_term_hours("320", 0, 10, 1, all, tutorial).
+week_term_hours("533", 0, 10, 1, rbc, lecture).
+week_term_hours("533", 0, 10, 1, all, lab).
+week_term_hours("533", 0, 10, 1, all, tutorial).
+week_term_hours("223", 0, 11, 1, da04, lecture).
+week_term_hours("223", 0, 11, 1, jk, lecture).
+week_term_hours("223", 0, 11, 1, all, lab).
+week_term_hours("223", 0, 11, 1, all, tutorial).
+week_term_hours("471", 0, 11, 1, scd, lecture).
+week_term_hours("471", 0, 11, 1, all, lab).
+week_term_hours("471", 0, 11, 1, all, tutorial).
+week_term_hours("421", 0, 11, 1, mpsha, lecture).
+week_term_hours("421", 0, 11, 1, all, lab).
+week_term_hours("421", 0, 11, 1, all, tutorial).
+week_term_hours("480", 0, 11, 1, kb, lecture).
+week_term_hours("480", 0, 11, 1, all, lab).
+week_term_hours("480", 0, 11, 1, all, tutorial).
+week_term_hours("501", 0, 11, 1, axgopala, lecture).
+week_term_hours("501", 0, 11, 1, kkleung, lecture).
+week_term_hours("501", 0, 11, 1, all, lab).
+week_term_hours("501", 0, 11, 1, all, tutorial).
+week_term_hours("302", 0, 11, 1, rbc, lecture).
+week_term_hours("302", 0, 11, 1, all, lab).
+week_term_hours("302", 0, 11, 1, all, tutorial).
+week_term_hours("337", 0, 11, 1, jb, lecture).
+week_term_hours("337", 0, 11, 1, ajf, lecture).
+week_term_hours("337", 0, 11, 1, all, lab).
+week_term_hours("337", 0, 11, 1, all, tutorial).
+week_term_hours("534", 0, 11, 1, lwd03, lecture).
+week_term_hours("534", 0, 11, 1, tk106, lecture).
+week_term_hours("534", 0, 11, 1, all, lab).
+week_term_hours("534", 0, 11, 1, all, tutorial).
+week_term_hours("475", 0, 11, 1, rbc, lecture).
+week_term_hours("475", 0, 11, 1, np2, lecture).
+week_term_hours("475", 0, 11, 1, all, lab).
+week_term_hours("475", 0, 11, 1, all, tutorial).
+week_term_hours("220", 0, 11, 1, rbc, lecture).
+week_term_hours("220", 0, 11, 1, all, lab).
+week_term_hours("220", 0, 11, 1, all, tutorial).
+week_term_hours("477", 0, 11, 1, pp500, lecture).
+week_term_hours("477", 0, 11, 1, all, lab).
+week_term_hours("477", 0, 11, 1, all, tutorial).
+week_term_hours("531", 0, 11, 1, gbd10, lecture).
+week_term_hours("531", 0, 11, 1, tk106, lecture).
+week_term_hours("531", 0, 11, 1, all, lab).
+week_term_hours("531", 0, 11, 1, all, tutorial).
+week_term_hours("440", 0, 11, 1, afd, lecture).
+week_term_hours("440", 0, 11, 1, all, lab).
+week_term_hours("440", 0, 11, 1, all, tutorial).
+week_term_hours("343", 0, 11, 1, dkuhn, lecture).
+week_term_hours("343", 0, 11, 1, all, lab).
+week_term_hours("343", 0, 11, 1, all, tutorial).
+week_term_hours("312", 0, 11, 1, pjm, lecture).
+week_term_hours("312", 0, 11, 1, all, lab).
+week_term_hours("312", 0, 11, 1, all, tutorial).
+week_term_hours("382", 0, 11, 1, svb, lecture).
+week_term_hours("382", 0, 11, 1, all, lab).
+week_term_hours("382", 0, 11, 1, all, tutorial).
+week_term_hours("499", 0, 11, 1, imh, lecture).
+week_term_hours("499", 0, 11, 1, all, lab).
+week_term_hours("499", 0, 11, 1, all, tutorial).
+week_term_hours("335", 0, 11, 1, yg, lecture).
+week_term_hours("335", 0, 11, 1, mss, lecture).
+week_term_hours("335", 0, 11, 1, all, lab).
+week_term_hours("335", 0, 11, 1, all, tutorial).
+week_term_hours("516", 0, 11, 1, wjk, lecture).
+week_term_hours("516", 0, 11, 1, all, lab).
+week_term_hours("516", 0, 11, 1, all, tutorial).
+week_term_hours("502", 0, 11, 1, svb, lecture).
+week_term_hours("502", 0, 11, 1, all, lab).
+week_term_hours("502", 0, 11, 1, all, tutorial).
+week_term_hours("424", 0, 11, 1, afaisal, lecture).
+week_term_hours("424", 0, 11, 1, all, lab).
+week_term_hours("424", 0, 11, 1, all, tutorial).
+week_term_hours("330", 0, 11, 1, mrh, lecture).
+week_term_hours("330", 0, 11, 1, ecl1, lecture).
+week_term_hours("330", 0, 11, 1, all, lab).
+week_term_hours("330", 0, 11, 1, all, tutorial).
+week_term_hours("395", 0, 11, 1, shm, lecture).
+week_term_hours("395", 0, 11, 1, maja, lecture).
+week_term_hours("395", 0, 11, 1, all, lab).
+week_term_hours("395", 0, 11, 1, all, tutorial).
+week_term_hours("481", 0, 11, 1, pg, lecture).
+week_term_hours("481", 0, 11, 1, yoshida, lecture).
+week_term_hours("481", 0, 11, 1, all, lab).
+week_term_hours("481", 0, 11, 1, all, tutorial).
+week_term_hours("276", 0, 11, 1, mjs, lecture).
+week_term_hours("276", 0, 11, 1, all, lab).
+week_term_hours("276", 0, 11, 1, all, tutorial).
+week_term_hours("221", 0, 11, 1, nd, lecture).
+week_term_hours("221", 0, 11, 1, phjk, lecture).
+week_term_hours("221", 0, 11, 1, all, lab).
+week_term_hours("221", 0, 11, 1, all, tutorial).
+week_term_hours("142", 0, 11, 1, yg, lecture).
+week_term_hours("142", 0, 11, 1, iccp, lecture).
+week_term_hours("142", 0, 11, 1, all, lab).
+week_term_hours("142", 0, 11, 1, all, tutorial).
+week_term_hours("140", 0, 11, 1, imh, lecture).
+week_term_hours("140", 0, 11, 1, all, lab).
+week_term_hours("140", 0, 11, 1, all, tutorial).
+week_term_hours("120.2", 0, 11, 1, tora, lecture).
+week_term_hours("120.2", 0, 11, 1, afd, lecture).
+week_term_hours("120.2", 0, 11, 1, ar3, lecture).
+week_term_hours("120.2", 0, 11, 1, all, lab).
+week_term_hours("120.2", 0, 11, 1, all, tutorial).
+week_term_hours("112", 0, 11, 1, dfg, lecture).
+week_term_hours("112", 0, 11, 1, all, lab).
+week_term_hours("112", 0, 11, 1, all, tutorial).
+week_term_hours("356", 0, 11, 1, axgopala, lecture).
+week_term_hours("356", 0, 11, 1, all, lab).
+week_term_hours("356", 0, 11, 1, all, tutorial).
+week_term_hours("518", 0, 11, 1, fs, lecture).
+week_term_hours("518", 0, 11, 1, all, lab).
+week_term_hours("518", 0, 11, 1, all, tutorial).
+week_term_hours("245", 0, 11, 1, naheard, lecture).
+week_term_hours("245", 0, 11, 1, all, lab).
+week_term_hours("245", 0, 11, 1, all, tutorial).
+week_term_hours("517", 0, 11, 1, wjk, lecture).
+week_term_hours("517", 0, 11, 1, all, lab).
+week_term_hours("517", 0, 11, 1, all, tutorial).
+week_term_hours("265", 0, 11, 1, ealpay, lecture).
+week_term_hours("265", 0, 11, 1, all, lab).
+week_term_hours("265", 0, 11, 1, all, tutorial).
+week_term_hours("120.1", 0, 11, 1, ajf, lecture).
+week_term_hours("120.1", 0, 11, 1, all, lab).
+week_term_hours("120.1", 0, 11, 1, all, tutorial).
+week_term_hours("145", 0, 11, 1, jb, lecture).
+week_term_hours("145", 0, 11, 1, all, lab).
+week_term_hours("145", 0, 11, 1, all, tutorial).
+week_term_hours("418", 0, 11, 1, gzy, lecture).
+week_term_hours("418", 0, 11, 1, all, lab).
+week_term_hours("418", 0, 11, 1, all, tutorial).
+week_term_hours("240", 0, 11, 1, pg, lecture).
+week_term_hours("240", 0, 11, 1, all, lab).
+week_term_hours("240", 0, 11, 1, all, tutorial).
+week_term_hours("320", 0, 11, 1, ae, lecture).
+week_term_hours("320", 0, 11, 1, all, lab).
+week_term_hours("320", 0, 11, 1, all, tutorial).
+week_term_hours("533", 0, 11, 1, rbc, lecture).
+week_term_hours("533", 0, 11, 1, all, lab).
+week_term_hours("533", 0, 11, 1, all, tutorial).
+week_term_hours("493", 0, 1, 2, dfg, lecture).
+week_term_hours("493", 0, 1, 2, all, lab).
+week_term_hours("493", 0, 1, 2, all, tutorial).
+week_term_hours("317", 0, 1, 2, dfg, lecture).
+week_term_hours("317", 0, 1, 2, dr, lecture).
+week_term_hours("317", 0, 1, 2, all, lab).
+week_term_hours("317", 0, 1, 2, all, tutorial).
+week_term_hours("437", 0, 1, 2, alw, lecture).
+week_term_hours("437", 0, 1, 2, all, lab).
+week_term_hours("437", 0, 1, 2, all, tutorial).
+week_term_hours("531", 0, 1, 2, gbd10, lecture).
+week_term_hours("531", 0, 1, 2, tk106, lecture).
+week_term_hours("531", 0, 1, 2, all, lab).
+week_term_hours("531", 0, 1, 2, all, tutorial).
+week_term_hours("552", 0, 1, 2, fs, lecture).
+week_term_hours("552", 0, 1, 2, all, lab).
+week_term_hours("552", 0, 1, 2, all, tutorial).
+week_term_hours("332", 0, 1, 2, phjk, lecture).
+week_term_hours("332", 0, 1, 2, all, lab).
+week_term_hours("332", 0, 1, 2, all, tutorial).
+week_term_hours("474", 0, 1, 2, ft, lecture).
+week_term_hours("474", 0, 1, 2, all, lab).
+week_term_hours("474", 0, 1, 2, all, tutorial).
+week_term_hours("436", 0, 1, 2, gcasale, lecture).
+week_term_hours("436", 0, 1, 2, pgh, lecture).
+week_term_hours("436", 0, 1, 2, all, lab).
+week_term_hours("436", 0, 1, 2, all, tutorial).
+week_term_hours("333", 0, 1, 2, ajd, lecture).
+week_term_hours("333", 0, 1, 2, all, lab).
+week_term_hours("333", 0, 1, 2, all, tutorial).
+week_term_hours("417", 0, 1, 2, eedwards, lecture).
+week_term_hours("417", 0, 1, 2, dr, lecture).
+week_term_hours("417", 0, 1, 2, all, lab).
+week_term_hours("417", 0, 1, 2, all, tutorial).
+week_term_hours("212", 0, 1, 2, costa, lecture).
+week_term_hours("212", 0, 1, 2, prp, lecture).
+week_term_hours("212", 0, 1, 2, all, lab).
+week_term_hours("212", 0, 1, 2, all, tutorial).
+week_term_hours("438", 0, 1, 2, iccp, lecture).
+week_term_hours("438", 0, 1, 2, all, lab).
+week_term_hours("438", 0, 1, 2, all, tutorial).
+week_term_hours("484", 0, 1, 2, herbert, lecture).
+week_term_hours("484", 0, 1, 2, all, lab).
+week_term_hours("484", 0, 1, 2, all, tutorial).
+week_term_hours("422", 0, 1, 2, dkuhn, lecture).
+week_term_hours("422", 0, 1, 2, all, lab).
+week_term_hours("422", 0, 1, 2, all, tutorial).
+week_term_hours("470", 0, 1, 2, clh, lecture).
+week_term_hours("470", 0, 1, 2, herbert, lecture).
+week_term_hours("470", 0, 1, 2, all, lab).
+week_term_hours("470", 0, 1, 2, all, tutorial).
+week_term_hours("341", 0, 1, 2, yg, lecture).
+week_term_hours("341", 0, 1, 2, natasha, lecture).
+week_term_hours("341", 0, 1, 2, all, lab).
+week_term_hours("341", 0, 1, 2, all, tutorial).
+week_term_hours("210", 0, 1, 2, wl, lecture).
+week_term_hours("210", 0, 1, 2, dt10, lecture).
+week_term_hours("210", 0, 1, 2, all, lab).
+week_term_hours("210", 0, 1, 2, all, tutorial).
+week_term_hours("526", 0, 1, 2, pjm, lecture).
+week_term_hours("526", 0, 1, 2, all, lab).
+week_term_hours("526", 0, 1, 2, all, tutorial).
+week_term_hours("202", 0, 1, 2, pp500, lecture).
+week_term_hours("202", 0, 1, 2, alw, lecture).
+week_term_hours("202", 0, 1, 2, all, lab).
+week_term_hours("202", 0, 1, 2, all, tutorial).
+week_term_hours("211", 0, 1, 2, cristic, lecture).
+week_term_hours("211", 0, 1, 2, prp, lecture).
+week_term_hours("211", 0, 1, 2, all, lab).
+week_term_hours("211", 0, 1, 2, all, tutorial).
+week_term_hours("350", 0, 1, 2, jss, lecture).
+week_term_hours("350", 0, 1, 2, all, lab).
+week_term_hours("350", 0, 1, 2, all, tutorial).
+week_term_hours("318", 0, 1, 2, wl, lecture).
+week_term_hours("318", 0, 1, 2, tjt97, lecture).
+week_term_hours("318", 0, 1, 2, all, lab).
+week_term_hours("318", 0, 1, 2, all, tutorial).
+week_term_hours("338", 0, 1, 2, axgopala, lecture).
+week_term_hours("338", 0, 1, 2, jamm, lecture).
+week_term_hours("338", 0, 1, 2, all, lab).
+week_term_hours("338", 0, 1, 2, all, tutorial).
+week_term_hours("276", 0, 1, 2, mjs, lecture).
+week_term_hours("276", 0, 1, 2, all, lab).
+week_term_hours("276", 0, 1, 2, all, tutorial).
+week_term_hours("164", 0, 1, 2, ealpay, lecture).
+week_term_hours("164", 0, 1, 2, all, lab).
+week_term_hours("164", 0, 1, 2, all, tutorial).
+week_term_hours("142", 0, 1, 2, yg, lecture).
+week_term_hours("142", 0, 1, 2, iccp, lecture).
+week_term_hours("142", 0, 1, 2, all, lab).
+week_term_hours("142", 0, 1, 2, all, tutorial).
+week_term_hours("141", 0, 1, 2, scd, lecture).
+week_term_hours("141", 0, 1, 2, mjw03, lecture).
+week_term_hours("141", 0, 1, 2, all, lab).
+week_term_hours("141", 0, 1, 2, all, tutorial).
+week_term_hours("130", 0, 1, 2, nd, lecture).
+week_term_hours("130", 0, 1, 2, all, lab).
+week_term_hours("130", 0, 1, 2, all, tutorial).
+week_term_hours("113", 0, 1, 2, axgopala, lecture).
+week_term_hours("113", 0, 1, 2, wl, lecture).
+week_term_hours("113", 0, 1, 2, all, lab).
+week_term_hours("113", 0, 1, 2, all, tutorial).
+week_term_hours("120.2", 0, 1, 2, tora, lecture).
+week_term_hours("120.2", 0, 1, 2, afd, lecture).
+week_term_hours("120.2", 0, 1, 2, ar3, lecture).
+week_term_hours("120.2", 0, 1, 2, all, lab).
+week_term_hours("120.2", 0, 1, 2, all, tutorial).
+week_term_hours("527", 0, 1, 2, ecl1, lecture).
+week_term_hours("527", 0, 1, 2, all, lab).
+week_term_hours("527", 0, 1, 2, all, tutorial).
+week_term_hours("491", 0, 1, 2, mjs, lecture).
+week_term_hours("491", 0, 1, 2, all, lab).
+week_term_hours("491", 0, 1, 2, all, tutorial).
+week_term_hours("231", 0, 1, 2, mpsha, lecture).
+week_term_hours("231", 0, 1, 2, ft, lecture).
+week_term_hours("231", 0, 1, 2, all, lab).
+week_term_hours("231", 0, 1, 2, all, tutorial).
+week_term_hours("429", 0, 1, 2, pgh, lecture).
+week_term_hours("429", 0, 1, 2, wjk, lecture).
+week_term_hours("429", 0, 1, 2, all, lab).
+week_term_hours("429", 0, 1, 2, all, tutorial).
+week_term_hours("233", 0, 1, 2, ae, lecture).
+week_term_hours("233", 0, 1, 2, pgh, lecture).
+week_term_hours("233", 0, 1, 2, all, lab).
+week_term_hours("233", 0, 1, 2, all, tutorial).
+week_term_hours("163", 0, 1, 2, jwc04, lecture).
+week_term_hours("163", 0, 1, 2, eedwards, lecture).
+week_term_hours("163", 0, 1, 2, dfg, lecture).
+week_term_hours("163", 0, 1, 2, clh, lecture).
+week_term_hours("163", 0, 1, 2, mrh, lecture).
+week_term_hours("163", 0, 1, 2, pjm, lecture).
+week_term_hours("163", 0, 1, 2, iccp, lecture).
+week_term_hours("163", 0, 1, 2, herbert, lecture).
+week_term_hours("163", 0, 1, 2, all, lab).
+week_term_hours("163", 0, 1, 2, all, tutorial).
+week_term_hours("141J", 0, 1, 2, mrh, lecture).
+week_term_hours("141J", 0, 1, 2, all, lab).
+week_term_hours("141J", 0, 1, 2, all, tutorial).
+week_term_hours("522", 0, 1, 2, yg, lecture).
+week_term_hours("522", 0, 1, 2, natasha, lecture).
+week_term_hours("522", 0, 1, 2, all, lab).
+week_term_hours("522", 0, 1, 2, all, tutorial).
+week_term_hours("528", 0, 1, 2, yoshida, lecture).
+week_term_hours("528", 0, 1, 2, all, lab).
+week_term_hours("528", 0, 1, 2, all, tutorial).
+week_term_hours("530", 0, 1, 2, cristic, lecture).
+week_term_hours("530", 0, 1, 2, all, lab).
+week_term_hours("530", 0, 1, 2, all, tutorial).
+week_term_hours("525", 0, 1, 2, ar3, lecture).
+week_term_hours("525", 0, 1, 2, all, lab).
+week_term_hours("525", 0, 1, 2, all, tutorial).
+week_term_hours("533", 0, 1, 2, rbc, lecture).
+week_term_hours("533", 0, 1, 2, all, lab).
+week_term_hours("533", 0, 1, 2, all, tutorial).
+week_term_hours("493", 0, 2, 2, dfg, lecture).
+week_term_hours("493", 0, 2, 2, all, lab).
+week_term_hours("493", 0, 2, 2, all, tutorial).
+week_term_hours("317", 0, 2, 2, dfg, lecture).
+week_term_hours("317", 0, 2, 2, dr, lecture).
+week_term_hours("317", 0, 2, 2, all, lab).
+week_term_hours("317", 0, 2, 2, all, tutorial).
+week_term_hours("437", 0, 2, 2, alw, lecture).
+week_term_hours("437", 0, 2, 2, all, lab).
+week_term_hours("437", 0, 2, 2, all, tutorial).
+week_term_hours("531", 0, 2, 2, gbd10, lecture).
+week_term_hours("531", 0, 2, 2, tk106, lecture).
+week_term_hours("531", 0, 2, 2, all, lab).
+week_term_hours("531", 0, 2, 2, all, tutorial).
+week_term_hours("552", 0, 2, 2, fs, lecture).
+week_term_hours("552", 0, 2, 2, all, lab).
+week_term_hours("552", 0, 2, 2, all, tutorial).
+week_term_hours("332", 0, 2, 2, phjk, lecture).
+week_term_hours("332", 0, 2, 2, all, lab).
+week_term_hours("332", 0, 2, 2, all, tutorial).
+week_term_hours("474", 0, 2, 2, ft, lecture).
+week_term_hours("474", 0, 2, 2, all, lab).
+week_term_hours("474", 0, 2, 2, all, tutorial).
+week_term_hours("436", 0, 2, 2, gcasale, lecture).
+week_term_hours("436", 0, 2, 2, pgh, lecture).
+week_term_hours("436", 0, 2, 2, all, lab).
+week_term_hours("436", 0, 2, 2, all, tutorial).
+week_term_hours("333", 0, 2, 2, ajd, lecture).
+week_term_hours("333", 0, 2, 2, all, lab).
+week_term_hours("333", 0, 2, 2, all, tutorial).
+week_term_hours("417", 0, 2, 2, eedwards, lecture).
+week_term_hours("417", 0, 2, 2, dr, lecture).
+week_term_hours("417", 0, 2, 2, all, lab).
+week_term_hours("417", 0, 2, 2, all, tutorial).
+week_term_hours("212", 0, 2, 2, costa, lecture).
+week_term_hours("212", 0, 2, 2, prp, lecture).
+week_term_hours("212", 0, 2, 2, all, lab).
+week_term_hours("212", 0, 2, 2, all, tutorial).
+week_term_hours("438", 0, 2, 2, iccp, lecture).
+week_term_hours("438", 0, 2, 2, all, lab).
+week_term_hours("438", 0, 2, 2, all, tutorial).
+week_term_hours("484", 0, 2, 2, herbert, lecture).
+week_term_hours("484", 0, 2, 2, all, lab).
+week_term_hours("484", 0, 2, 2, all, tutorial).
+week_term_hours("422", 0, 2, 2, dkuhn, lecture).
+week_term_hours("422", 0, 2, 2, all, lab).
+week_term_hours("422", 0, 2, 2, all, tutorial).
+week_term_hours("470", 0, 2, 2, clh, lecture).
+week_term_hours("470", 0, 2, 2, herbert, lecture).
+week_term_hours("470", 0, 2, 2, all, lab).
+week_term_hours("470", 0, 2, 2, all, tutorial).
+week_term_hours("341", 0, 2, 2, yg, lecture).
+week_term_hours("341", 0, 2, 2, natasha, lecture).
+week_term_hours("341", 0, 2, 2, all, lab).
+week_term_hours("341", 0, 2, 2, all, tutorial).
+week_term_hours("210", 0, 2, 2, wl, lecture).
+week_term_hours("210", 0, 2, 2, dt10, lecture).
+week_term_hours("210", 0, 2, 2, all, lab).
+week_term_hours("210", 0, 2, 2, all, tutorial).
+week_term_hours("526", 0, 2, 2, pjm, lecture).
+week_term_hours("526", 0, 2, 2, all, lab).
+week_term_hours("526", 0, 2, 2, all, tutorial).
+week_term_hours("202", 0, 2, 2, pp500, lecture).
+week_term_hours("202", 0, 2, 2, alw, lecture).
+week_term_hours("202", 0, 2, 2, all, lab).
+week_term_hours("202", 0, 2, 2, all, tutorial).
+week_term_hours("211", 0, 2, 2, cristic, lecture).
+week_term_hours("211", 0, 2, 2, prp, lecture).
+week_term_hours("211", 0, 2, 2, all, lab).
+week_term_hours("211", 0, 2, 2, all, tutorial).
+week_term_hours("350", 0, 2, 2, jss, lecture).
+week_term_hours("350", 0, 2, 2, all, lab).
+week_term_hours("350", 0, 2, 2, all, tutorial).
+week_term_hours("318", 0, 2, 2, wl, lecture).
+week_term_hours("318", 0, 2, 2, tjt97, lecture).
+week_term_hours("318", 0, 2, 2, all, lab).
+week_term_hours("318", 0, 2, 2, all, tutorial).
+week_term_hours("338", 0, 2, 2, axgopala, lecture).
+week_term_hours("338", 0, 2, 2, jamm, lecture).
+week_term_hours("338", 0, 2, 2, all, lab).
+week_term_hours("338", 0, 2, 2, all, tutorial).
+week_term_hours("276", 0, 2, 2, mjs, lecture).
+week_term_hours("276", 0, 2, 2, all, lab).
+week_term_hours("276", 0, 2, 2, all, tutorial).
+week_term_hours("164", 0, 2, 2, ealpay, lecture).
+week_term_hours("164", 0, 2, 2, all, lab).
+week_term_hours("164", 0, 2, 2, all, tutorial).
+week_term_hours("142", 0, 2, 2, yg, lecture).
+week_term_hours("142", 0, 2, 2, iccp, lecture).
+week_term_hours("142", 0, 2, 2, all, lab).
+week_term_hours("142", 0, 2, 2, all, tutorial).
+week_term_hours("141", 0, 2, 2, scd, lecture).
+week_term_hours("141", 0, 2, 2, mjw03, lecture).
+week_term_hours("141", 0, 2, 2, all, lab).
+week_term_hours("141", 0, 2, 2, all, tutorial).
+week_term_hours("130", 0, 2, 2, nd, lecture).
+week_term_hours("130", 0, 2, 2, all, lab).
+week_term_hours("130", 0, 2, 2, all, tutorial).
+week_term_hours("113", 2, 2, 2, axgopala, lecture).
+week_term_hours("113", 0, 2, 2, wl, lecture).
+week_term_hours("113", 0, 2, 2, all, lab).
+week_term_hours("113", 1, 2, 2, all, tutorial).
+week_term_hours("120.2", 0, 2, 2, tora, lecture).
+week_term_hours("120.2", 0, 2, 2, afd, lecture).
+week_term_hours("120.2", 0, 2, 2, ar3, lecture).
+week_term_hours("120.2", 0, 2, 2, all, lab).
+week_term_hours("120.2", 0, 2, 2, all, tutorial).
+week_term_hours("527", 0, 2, 2, ecl1, lecture).
+week_term_hours("527", 0, 2, 2, all, lab).
+week_term_hours("527", 0, 2, 2, all, tutorial).
+week_term_hours("491", 0, 2, 2, mjs, lecture).
+week_term_hours("491", 0, 2, 2, all, lab).
+week_term_hours("491", 0, 2, 2, all, tutorial).
+week_term_hours("231", 0, 2, 2, mpsha, lecture).
+week_term_hours("231", 0, 2, 2, ft, lecture).
+week_term_hours("231", 0, 2, 2, all, lab).
+week_term_hours("231", 0, 2, 2, all, tutorial).
+week_term_hours("429", 0, 2, 2, pgh, lecture).
+week_term_hours("429", 0, 2, 2, wjk, lecture).
+week_term_hours("429", 0, 2, 2, all, lab).
+week_term_hours("429", 0, 2, 2, all, tutorial).
+week_term_hours("233", 0, 2, 2, ae, lecture).
+week_term_hours("233", 0, 2, 2, pgh, lecture).
+week_term_hours("233", 0, 2, 2, all, lab).
+week_term_hours("233", 0, 2, 2, all, tutorial).
+week_term_hours("163", 0, 2, 2, jwc04, lecture).
+week_term_hours("163", 0, 2, 2, eedwards, lecture).
+week_term_hours("163", 0, 2, 2, dfg, lecture).
+week_term_hours("163", 0, 2, 2, clh, lecture).
+week_term_hours("163", 0, 2, 2, mrh, lecture).
+week_term_hours("163", 0, 2, 2, pjm, lecture).
+week_term_hours("163", 0, 2, 2, iccp, lecture).
+week_term_hours("163", 0, 2, 2, herbert, lecture).
+week_term_hours("163", 0, 2, 2, all, lab).
+week_term_hours("163", 0, 2, 2, all, tutorial).
+week_term_hours("141J", 0, 2, 2, mrh, lecture).
+week_term_hours("141J", 0, 2, 2, all, lab).
+week_term_hours("141J", 0, 2, 2, all, tutorial).
+week_term_hours("522", 0, 2, 2, yg, lecture).
+week_term_hours("522", 0, 2, 2, natasha, lecture).
+week_term_hours("522", 0, 2, 2, all, lab).
+week_term_hours("522", 0, 2, 2, all, tutorial).
+week_term_hours("528", 0, 2, 2, yoshida, lecture).
+week_term_hours("528", 0, 2, 2, all, lab).
+week_term_hours("528", 0, 2, 2, all, tutorial).
+week_term_hours("530", 0, 2, 2, cristic, lecture).
+week_term_hours("530", 0, 2, 2, all, lab).
+week_term_hours("530", 0, 2, 2, all, tutorial).
+week_term_hours("525", 0, 2, 2, ar3, lecture).
+week_term_hours("525", 0, 2, 2, all, lab).
+week_term_hours("525", 0, 2, 2, all, tutorial).
+week_term_hours("533", 0, 2, 2, rbc, lecture).
+week_term_hours("533", 0, 2, 2, all, lab).
+week_term_hours("533", 0, 2, 2, all, tutorial).
+week_term_hours("493", 0, 3, 2, dfg, lecture).
+week_term_hours("493", 0, 3, 2, all, lab).
+week_term_hours("493", 0, 3, 2, all, tutorial).
+week_term_hours("317", 0, 3, 2, dfg, lecture).
+week_term_hours("317", 0, 3, 2, dr, lecture).
+week_term_hours("317", 0, 3, 2, all, lab).
+week_term_hours("317", 0, 3, 2, all, tutorial).
+week_term_hours("437", 0, 3, 2, alw, lecture).
+week_term_hours("437", 0, 3, 2, all, lab).
+week_term_hours("437", 0, 3, 2, all, tutorial).
+week_term_hours("531", 0, 3, 2, gbd10, lecture).
+week_term_hours("531", 0, 3, 2, tk106, lecture).
+week_term_hours("531", 0, 3, 2, all, lab).
+week_term_hours("531", 0, 3, 2, all, tutorial).
+week_term_hours("552", 0, 3, 2, fs, lecture).
+week_term_hours("552", 0, 3, 2, all, lab).
+week_term_hours("552", 0, 3, 2, all, tutorial).
+week_term_hours("332", 0, 3, 2, phjk, lecture).
+week_term_hours("332", 0, 3, 2, all, lab).
+week_term_hours("332", 0, 3, 2, all, tutorial).
+week_term_hours("474", 0, 3, 2, ft, lecture).
+week_term_hours("474", 0, 3, 2, all, lab).
+week_term_hours("474", 0, 3, 2, all, tutorial).
+week_term_hours("436", 0, 3, 2, gcasale, lecture).
+week_term_hours("436", 0, 3, 2, pgh, lecture).
+week_term_hours("436", 0, 3, 2, all, lab).
+week_term_hours("436", 0, 3, 2, all, tutorial).
+week_term_hours("333", 0, 3, 2, ajd, lecture).
+week_term_hours("333", 0, 3, 2, all, lab).
+week_term_hours("333", 0, 3, 2, all, tutorial).
+week_term_hours("417", 0, 3, 2, eedwards, lecture).
+week_term_hours("417", 0, 3, 2, dr, lecture).
+week_term_hours("417", 0, 3, 2, all, lab).
+week_term_hours("417", 0, 3, 2, all, tutorial).
+week_term_hours("212", 0, 3, 2, costa, lecture).
+week_term_hours("212", 0, 3, 2, prp, lecture).
+week_term_hours("212", 0, 3, 2, all, lab).
+week_term_hours("212", 0, 3, 2, all, tutorial).
+week_term_hours("438", 0, 3, 2, iccp, lecture).
+week_term_hours("438", 0, 3, 2, all, lab).
+week_term_hours("438", 0, 3, 2, all, tutorial).
+week_term_hours("484", 0, 3, 2, herbert, lecture).
+week_term_hours("484", 0, 3, 2, all, lab).
+week_term_hours("484", 0, 3, 2, all, tutorial).
+week_term_hours("422", 0, 3, 2, dkuhn, lecture).
+week_term_hours("422", 0, 3, 2, all, lab).
+week_term_hours("422", 0, 3, 2, all, tutorial).
+week_term_hours("470", 0, 3, 2, clh, lecture).
+week_term_hours("470", 0, 3, 2, herbert, lecture).
+week_term_hours("470", 0, 3, 2, all, lab).
+week_term_hours("470", 0, 3, 2, all, tutorial).
+week_term_hours("341", 0, 3, 2, yg, lecture).
+week_term_hours("341", 0, 3, 2, natasha, lecture).
+week_term_hours("341", 0, 3, 2, all, lab).
+week_term_hours("341", 0, 3, 2, all, tutorial).
+week_term_hours("210", 0, 3, 2, wl, lecture).
+week_term_hours("210", 0, 3, 2, dt10, lecture).
+week_term_hours("210", 0, 3, 2, all, lab).
+week_term_hours("210", 0, 3, 2, all, tutorial).
+week_term_hours("526", 0, 3, 2, pjm, lecture).
+week_term_hours("526", 0, 3, 2, all, lab).
+week_term_hours("526", 0, 3, 2, all, tutorial).
+week_term_hours("202", 0, 3, 2, pp500, lecture).
+week_term_hours("202", 0, 3, 2, alw, lecture).
+week_term_hours("202", 0, 3, 2, all, lab).
+week_term_hours("202", 0, 3, 2, all, tutorial).
+week_term_hours("211", 0, 3, 2, cristic, lecture).
+week_term_hours("211", 0, 3, 2, prp, lecture).
+week_term_hours("211", 0, 3, 2, all, lab).
+week_term_hours("211", 0, 3, 2, all, tutorial).
+week_term_hours("350", 0, 3, 2, jss, lecture).
+week_term_hours("350", 0, 3, 2, all, lab).
+week_term_hours("350", 0, 3, 2, all, tutorial).
+week_term_hours("318", 0, 3, 2, wl, lecture).
+week_term_hours("318", 0, 3, 2, tjt97, lecture).
+week_term_hours("318", 0, 3, 2, all, lab).
+week_term_hours("318", 0, 3, 2, all, tutorial).
+week_term_hours("338", 0, 3, 2, axgopala, lecture).
+week_term_hours("338", 0, 3, 2, jamm, lecture).
+week_term_hours("338", 0, 3, 2, all, lab).
+week_term_hours("338", 0, 3, 2, all, tutorial).
+week_term_hours("276", 0, 3, 2, mjs, lecture).
+week_term_hours("276", 0, 3, 2, all, lab).
+week_term_hours("276", 0, 3, 2, all, tutorial).
+week_term_hours("164", 0, 3, 2, ealpay, lecture).
+week_term_hours("164", 0, 3, 2, all, lab).
+week_term_hours("164", 0, 3, 2, all, tutorial).
+week_term_hours("142", 0, 3, 2, yg, lecture).
+week_term_hours("142", 0, 3, 2, iccp, lecture).
+week_term_hours("142", 0, 3, 2, all, lab).
+week_term_hours("142", 0, 3, 2, all, tutorial).
+week_term_hours("141", 0, 3, 2, scd, lecture).
+week_term_hours("141", 0, 3, 2, mjw03, lecture).
+week_term_hours("141", 0, 3, 2, all, lab).
+week_term_hours("141", 0, 3, 2, all, tutorial).
+week_term_hours("130", 0, 3, 2, nd, lecture).
+week_term_hours("130", 0, 3, 2, all, lab).
+week_term_hours("130", 0, 3, 2, all, tutorial).
+week_term_hours("113", 2, 3, 2, axgopala, lecture).
+week_term_hours("113", 0, 3, 2, wl, lecture).
+week_term_hours("113", 0, 3, 2, all, lab).
+week_term_hours("113", 1, 3, 2, all, tutorial).
+week_term_hours("120.2", 0, 3, 2, tora, lecture).
+week_term_hours("120.2", 0, 3, 2, afd, lecture).
+week_term_hours("120.2", 0, 3, 2, ar3, lecture).
+week_term_hours("120.2", 0, 3, 2, all, lab).
+week_term_hours("120.2", 0, 3, 2, all, tutorial).
+week_term_hours("527", 0, 3, 2, ecl1, lecture).
+week_term_hours("527", 0, 3, 2, all, lab).
+week_term_hours("527", 0, 3, 2, all, tutorial).
+week_term_hours("491", 0, 3, 2, mjs, lecture).
+week_term_hours("491", 0, 3, 2, all, lab).
+week_term_hours("491", 0, 3, 2, all, tutorial).
+week_term_hours("231", 0, 3, 2, mpsha, lecture).
+week_term_hours("231", 0, 3, 2, ft, lecture).
+week_term_hours("231", 0, 3, 2, all, lab).
+week_term_hours("231", 0, 3, 2, all, tutorial).
+week_term_hours("429", 0, 3, 2, pgh, lecture).
+week_term_hours("429", 0, 3, 2, wjk, lecture).
+week_term_hours("429", 0, 3, 2, all, lab).
+week_term_hours("429", 0, 3, 2, all, tutorial).
+week_term_hours("233", 0, 3, 2, ae, lecture).
+week_term_hours("233", 0, 3, 2, pgh, lecture).
+week_term_hours("233", 0, 3, 2, all, lab).
+week_term_hours("233", 0, 3, 2, all, tutorial).
+week_term_hours("163", 0, 3, 2, jwc04, lecture).
+week_term_hours("163", 0, 3, 2, eedwards, lecture).
+week_term_hours("163", 0, 3, 2, dfg, lecture).
+week_term_hours("163", 0, 3, 2, clh, lecture).
+week_term_hours("163", 0, 3, 2, mrh, lecture).
+week_term_hours("163", 0, 3, 2, pjm, lecture).
+week_term_hours("163", 0, 3, 2, iccp, lecture).
+week_term_hours("163", 0, 3, 2, herbert, lecture).
+week_term_hours("163", 0, 3, 2, all, lab).
+week_term_hours("163", 0, 3, 2, all, tutorial).
+week_term_hours("141J", 0, 3, 2, mrh, lecture).
+week_term_hours("141J", 0, 3, 2, all, lab).
+week_term_hours("141J", 0, 3, 2, all, tutorial).
+week_term_hours("522", 0, 3, 2, yg, lecture).
+week_term_hours("522", 0, 3, 2, natasha, lecture).
+week_term_hours("522", 0, 3, 2, all, lab).
+week_term_hours("522", 0, 3, 2, all, tutorial).
+week_term_hours("528", 0, 3, 2, yoshida, lecture).
+week_term_hours("528", 0, 3, 2, all, lab).
+week_term_hours("528", 0, 3, 2, all, tutorial).
+week_term_hours("530", 0, 3, 2, cristic, lecture).
+week_term_hours("530", 0, 3, 2, all, lab).
+week_term_hours("530", 0, 3, 2, all, tutorial).
+week_term_hours("525", 0, 3, 2, ar3, lecture).
+week_term_hours("525", 0, 3, 2, all, lab).
+week_term_hours("525", 0, 3, 2, all, tutorial).
+week_term_hours("533", 0, 3, 2, rbc, lecture).
+week_term_hours("533", 0, 3, 2, all, lab).
+week_term_hours("533", 0, 3, 2, all, tutorial).
+week_term_hours("493", 0, 4, 2, dfg, lecture).
+week_term_hours("493", 0, 4, 2, all, lab).
+week_term_hours("493", 0, 4, 2, all, tutorial).
+week_term_hours("317", 0, 4, 2, dfg, lecture).
+week_term_hours("317", 0, 4, 2, dr, lecture).
+week_term_hours("317", 0, 4, 2, all, lab).
+week_term_hours("317", 0, 4, 2, all, tutorial).
+week_term_hours("437", 0, 4, 2, alw, lecture).
+week_term_hours("437", 0, 4, 2, all, lab).
+week_term_hours("437", 0, 4, 2, all, tutorial).
+week_term_hours("531", 0, 4, 2, gbd10, lecture).
+week_term_hours("531", 0, 4, 2, tk106, lecture).
+week_term_hours("531", 0, 4, 2, all, lab).
+week_term_hours("531", 0, 4, 2, all, tutorial).
+week_term_hours("552", 0, 4, 2, fs, lecture).
+week_term_hours("552", 0, 4, 2, all, lab).
+week_term_hours("552", 0, 4, 2, all, tutorial).
+week_term_hours("332", 0, 4, 2, phjk, lecture).
+week_term_hours("332", 0, 4, 2, all, lab).
+week_term_hours("332", 0, 4, 2, all, tutorial).
+week_term_hours("474", 0, 4, 2, ft, lecture).
+week_term_hours("474", 0, 4, 2, all, lab).
+week_term_hours("474", 0, 4, 2, all, tutorial).
+week_term_hours("436", 0, 4, 2, gcasale, lecture).
+week_term_hours("436", 0, 4, 2, pgh, lecture).
+week_term_hours("436", 0, 4, 2, all, lab).
+week_term_hours("436", 0, 4, 2, all, tutorial).
+week_term_hours("333", 0, 4, 2, ajd, lecture).
+week_term_hours("333", 0, 4, 2, all, lab).
+week_term_hours("333", 0, 4, 2, all, tutorial).
+week_term_hours("417", 0, 4, 2, eedwards, lecture).
+week_term_hours("417", 0, 4, 2, dr, lecture).
+week_term_hours("417", 0, 4, 2, all, lab).
+week_term_hours("417", 0, 4, 2, all, tutorial).
+week_term_hours("212", 0, 4, 2, costa, lecture).
+week_term_hours("212", 0, 4, 2, prp, lecture).
+week_term_hours("212", 0, 4, 2, all, lab).
+week_term_hours("212", 0, 4, 2, all, tutorial).
+week_term_hours("438", 0, 4, 2, iccp, lecture).
+week_term_hours("438", 0, 4, 2, all, lab).
+week_term_hours("438", 0, 4, 2, all, tutorial).
+week_term_hours("484", 0, 4, 2, herbert, lecture).
+week_term_hours("484", 0, 4, 2, all, lab).
+week_term_hours("484", 0, 4, 2, all, tutorial).
+week_term_hours("422", 0, 4, 2, dkuhn, lecture).
+week_term_hours("422", 0, 4, 2, all, lab).
+week_term_hours("422", 0, 4, 2, all, tutorial).
+week_term_hours("470", 0, 4, 2, clh, lecture).
+week_term_hours("470", 0, 4, 2, herbert, lecture).
+week_term_hours("470", 0, 4, 2, all, lab).
+week_term_hours("470", 0, 4, 2, all, tutorial).
+week_term_hours("341", 0, 4, 2, yg, lecture).
+week_term_hours("341", 0, 4, 2, natasha, lecture).
+week_term_hours("341", 0, 4, 2, all, lab).
+week_term_hours("341", 0, 4, 2, all, tutorial).
+week_term_hours("210", 0, 4, 2, wl, lecture).
+week_term_hours("210", 0, 4, 2, dt10, lecture).
+week_term_hours("210", 0, 4, 2, all, lab).
+week_term_hours("210", 0, 4, 2, all, tutorial).
+week_term_hours("526", 0, 4, 2, pjm, lecture).
+week_term_hours("526", 0, 4, 2, all, lab).
+week_term_hours("526", 0, 4, 2, all, tutorial).
+week_term_hours("202", 0, 4, 2, pp500, lecture).
+week_term_hours("202", 0, 4, 2, alw, lecture).
+week_term_hours("202", 0, 4, 2, all, lab).
+week_term_hours("202", 0, 4, 2, all, tutorial).
+week_term_hours("211", 0, 4, 2, cristic, lecture).
+week_term_hours("211", 0, 4, 2, prp, lecture).
+week_term_hours("211", 0, 4, 2, all, lab).
+week_term_hours("211", 0, 4, 2, all, tutorial).
+week_term_hours("350", 0, 4, 2, jss, lecture).
+week_term_hours("350", 0, 4, 2, all, lab).
+week_term_hours("350", 0, 4, 2, all, tutorial).
+week_term_hours("318", 0, 4, 2, wl, lecture).
+week_term_hours("318", 0, 4, 2, tjt97, lecture).
+week_term_hours("318", 0, 4, 2, all, lab).
+week_term_hours("318", 0, 4, 2, all, tutorial).
+week_term_hours("338", 0, 4, 2, axgopala, lecture).
+week_term_hours("338", 0, 4, 2, jamm, lecture).
+week_term_hours("338", 0, 4, 2, all, lab).
+week_term_hours("338", 0, 4, 2, all, tutorial).
+week_term_hours("276", 0, 4, 2, mjs, lecture).
+week_term_hours("276", 0, 4, 2, all, lab).
+week_term_hours("276", 0, 4, 2, all, tutorial).
+week_term_hours("164", 0, 4, 2, ealpay, lecture).
+week_term_hours("164", 0, 4, 2, all, lab).
+week_term_hours("164", 0, 4, 2, all, tutorial).
+week_term_hours("142", 0, 4, 2, yg, lecture).
+week_term_hours("142", 0, 4, 2, iccp, lecture).
+week_term_hours("142", 0, 4, 2, all, lab).
+week_term_hours("142", 0, 4, 2, all, tutorial).
+week_term_hours("141", 0, 4, 2, scd, lecture).
+week_term_hours("141", 0, 4, 2, mjw03, lecture).
+week_term_hours("141", 0, 4, 2, all, lab).
+week_term_hours("141", 0, 4, 2, all, tutorial).
+week_term_hours("130", 0, 4, 2, nd, lecture).
+week_term_hours("130", 0, 4, 2, all, lab).
+week_term_hours("130", 0, 4, 2, all, tutorial).
+week_term_hours("113", 2, 4, 2, axgopala, lecture).
+week_term_hours("113", 0, 4, 2, wl, lecture).
+week_term_hours("113", 0, 4, 2, all, lab).
+week_term_hours("113", 1, 4, 2, all, tutorial).
+week_term_hours("120.2", 0, 4, 2, tora, lecture).
+week_term_hours("120.2", 0, 4, 2, afd, lecture).
+week_term_hours("120.2", 0, 4, 2, ar3, lecture).
+week_term_hours("120.2", 0, 4, 2, all, lab).
+week_term_hours("120.2", 0, 4, 2, all, tutorial).
+week_term_hours("527", 0, 4, 2, ecl1, lecture).
+week_term_hours("527", 0, 4, 2, all, lab).
+week_term_hours("527", 0, 4, 2, all, tutorial).
+week_term_hours("491", 0, 4, 2, mjs, lecture).
+week_term_hours("491", 0, 4, 2, all, lab).
+week_term_hours("491", 0, 4, 2, all, tutorial).
+week_term_hours("231", 0, 4, 2, mpsha, lecture).
+week_term_hours("231", 0, 4, 2, ft, lecture).
+week_term_hours("231", 0, 4, 2, all, lab).
+week_term_hours("231", 0, 4, 2, all, tutorial).
+week_term_hours("429", 0, 4, 2, pgh, lecture).
+week_term_hours("429", 0, 4, 2, wjk, lecture).
+week_term_hours("429", 0, 4, 2, all, lab).
+week_term_hours("429", 0, 4, 2, all, tutorial).
+week_term_hours("233", 0, 4, 2, ae, lecture).
+week_term_hours("233", 0, 4, 2, pgh, lecture).
+week_term_hours("233", 0, 4, 2, all, lab).
+week_term_hours("233", 0, 4, 2, all, tutorial).
+week_term_hours("163", 0, 4, 2, jwc04, lecture).
+week_term_hours("163", 0, 4, 2, eedwards, lecture).
+week_term_hours("163", 0, 4, 2, dfg, lecture).
+week_term_hours("163", 0, 4, 2, clh, lecture).
+week_term_hours("163", 0, 4, 2, mrh, lecture).
+week_term_hours("163", 0, 4, 2, pjm, lecture).
+week_term_hours("163", 0, 4, 2, iccp, lecture).
+week_term_hours("163", 0, 4, 2, herbert, lecture).
+week_term_hours("163", 0, 4, 2, all, lab).
+week_term_hours("163", 0, 4, 2, all, tutorial).
+week_term_hours("141J", 0, 4, 2, mrh, lecture).
+week_term_hours("141J", 0, 4, 2, all, lab).
+week_term_hours("141J", 0, 4, 2, all, tutorial).
+week_term_hours("522", 0, 4, 2, yg, lecture).
+week_term_hours("522", 0, 4, 2, natasha, lecture).
+week_term_hours("522", 0, 4, 2, all, lab).
+week_term_hours("522", 0, 4, 2, all, tutorial).
+week_term_hours("528", 0, 4, 2, yoshida, lecture).
+week_term_hours("528", 0, 4, 2, all, lab).
+week_term_hours("528", 0, 4, 2, all, tutorial).
+week_term_hours("530", 0, 4, 2, cristic, lecture).
+week_term_hours("530", 0, 4, 2, all, lab).
+week_term_hours("530", 0, 4, 2, all, tutorial).
+week_term_hours("525", 0, 4, 2, ar3, lecture).
+week_term_hours("525", 0, 4, 2, all, lab).
+week_term_hours("525", 0, 4, 2, all, tutorial).
+week_term_hours("533", 0, 4, 2, rbc, lecture).
+week_term_hours("533", 0, 4, 2, all, lab).
+week_term_hours("533", 0, 4, 2, all, tutorial).
+week_term_hours("493", 0, 5, 2, dfg, lecture).
+week_term_hours("493", 0, 5, 2, all, lab).
+week_term_hours("493", 0, 5, 2, all, tutorial).
+week_term_hours("317", 0, 5, 2, dfg, lecture).
+week_term_hours("317", 0, 5, 2, dr, lecture).
+week_term_hours("317", 0, 5, 2, all, lab).
+week_term_hours("317", 0, 5, 2, all, tutorial).
+week_term_hours("437", 0, 5, 2, alw, lecture).
+week_term_hours("437", 0, 5, 2, all, lab).
+week_term_hours("437", 0, 5, 2, all, tutorial).
+week_term_hours("531", 0, 5, 2, gbd10, lecture).
+week_term_hours("531", 0, 5, 2, tk106, lecture).
+week_term_hours("531", 0, 5, 2, all, lab).
+week_term_hours("531", 0, 5, 2, all, tutorial).
+week_term_hours("552", 0, 5, 2, fs, lecture).
+week_term_hours("552", 0, 5, 2, all, lab).
+week_term_hours("552", 0, 5, 2, all, tutorial).
+week_term_hours("332", 0, 5, 2, phjk, lecture).
+week_term_hours("332", 0, 5, 2, all, lab).
+week_term_hours("332", 0, 5, 2, all, tutorial).
+week_term_hours("474", 0, 5, 2, ft, lecture).
+week_term_hours("474", 0, 5, 2, all, lab).
+week_term_hours("474", 0, 5, 2, all, tutorial).
+week_term_hours("436", 0, 5, 2, gcasale, lecture).
+week_term_hours("436", 0, 5, 2, pgh, lecture).
+week_term_hours("436", 0, 5, 2, all, lab).
+week_term_hours("436", 0, 5, 2, all, tutorial).
+week_term_hours("333", 0, 5, 2, ajd, lecture).
+week_term_hours("333", 0, 5, 2, all, lab).
+week_term_hours("333", 0, 5, 2, all, tutorial).
+week_term_hours("417", 0, 5, 2, eedwards, lecture).
+week_term_hours("417", 0, 5, 2, dr, lecture).
+week_term_hours("417", 0, 5, 2, all, lab).
+week_term_hours("417", 0, 5, 2, all, tutorial).
+week_term_hours("212", 0, 5, 2, costa, lecture).
+week_term_hours("212", 0, 5, 2, prp, lecture).
+week_term_hours("212", 0, 5, 2, all, lab).
+week_term_hours("212", 0, 5, 2, all, tutorial).
+week_term_hours("438", 0, 5, 2, iccp, lecture).
+week_term_hours("438", 0, 5, 2, all, lab).
+week_term_hours("438", 0, 5, 2, all, tutorial).
+week_term_hours("484", 0, 5, 2, herbert, lecture).
+week_term_hours("484", 0, 5, 2, all, lab).
+week_term_hours("484", 0, 5, 2, all, tutorial).
+week_term_hours("422", 0, 5, 2, dkuhn, lecture).
+week_term_hours("422", 0, 5, 2, all, lab).
+week_term_hours("422", 0, 5, 2, all, tutorial).
+week_term_hours("470", 0, 5, 2, clh, lecture).
+week_term_hours("470", 0, 5, 2, herbert, lecture).
+week_term_hours("470", 0, 5, 2, all, lab).
+week_term_hours("470", 0, 5, 2, all, tutorial).
+week_term_hours("341", 0, 5, 2, yg, lecture).
+week_term_hours("341", 0, 5, 2, natasha, lecture).
+week_term_hours("341", 0, 5, 2, all, lab).
+week_term_hours("341", 0, 5, 2, all, tutorial).
+week_term_hours("210", 0, 5, 2, wl, lecture).
+week_term_hours("210", 0, 5, 2, dt10, lecture).
+week_term_hours("210", 0, 5, 2, all, lab).
+week_term_hours("210", 0, 5, 2, all, tutorial).
+week_term_hours("526", 0, 5, 2, pjm, lecture).
+week_term_hours("526", 0, 5, 2, all, lab).
+week_term_hours("526", 0, 5, 2, all, tutorial).
+week_term_hours("202", 0, 5, 2, pp500, lecture).
+week_term_hours("202", 0, 5, 2, alw, lecture).
+week_term_hours("202", 0, 5, 2, all, lab).
+week_term_hours("202", 0, 5, 2, all, tutorial).
+week_term_hours("211", 0, 5, 2, cristic, lecture).
+week_term_hours("211", 0, 5, 2, prp, lecture).
+week_term_hours("211", 0, 5, 2, all, lab).
+week_term_hours("211", 0, 5, 2, all, tutorial).
+week_term_hours("350", 0, 5, 2, jss, lecture).
+week_term_hours("350", 0, 5, 2, all, lab).
+week_term_hours("350", 0, 5, 2, all, tutorial).
+week_term_hours("318", 0, 5, 2, wl, lecture).
+week_term_hours("318", 0, 5, 2, tjt97, lecture).
+week_term_hours("318", 0, 5, 2, all, lab).
+week_term_hours("318", 0, 5, 2, all, tutorial).
+week_term_hours("338", 0, 5, 2, axgopala, lecture).
+week_term_hours("338", 0, 5, 2, jamm, lecture).
+week_term_hours("338", 0, 5, 2, all, lab).
+week_term_hours("338", 0, 5, 2, all, tutorial).
+week_term_hours("276", 0, 5, 2, mjs, lecture).
+week_term_hours("276", 0, 5, 2, all, lab).
+week_term_hours("276", 0, 5, 2, all, tutorial).
+week_term_hours("164", 0, 5, 2, ealpay, lecture).
+week_term_hours("164", 0, 5, 2, all, lab).
+week_term_hours("164", 0, 5, 2, all, tutorial).
+week_term_hours("142", 0, 5, 2, yg, lecture).
+week_term_hours("142", 0, 5, 2, iccp, lecture).
+week_term_hours("142", 0, 5, 2, all, lab).
+week_term_hours("142", 0, 5, 2, all, tutorial).
+week_term_hours("141", 0, 5, 2, scd, lecture).
+week_term_hours("141", 0, 5, 2, mjw03, lecture).
+week_term_hours("141", 0, 5, 2, all, lab).
+week_term_hours("141", 0, 5, 2, all, tutorial).
+week_term_hours("130", 0, 5, 2, nd, lecture).
+week_term_hours("130", 0, 5, 2, all, lab).
+week_term_hours("130", 0, 5, 2, all, tutorial).
+week_term_hours("113", 2, 5, 2, axgopala, lecture).
+week_term_hours("113", 0, 5, 2, wl, lecture).
+week_term_hours("113", 0, 5, 2, all, lab).
+week_term_hours("113", 1, 5, 2, all, tutorial).
+week_term_hours("120.2", 0, 5, 2, tora, lecture).
+week_term_hours("120.2", 0, 5, 2, afd, lecture).
+week_term_hours("120.2", 0, 5, 2, ar3, lecture).
+week_term_hours("120.2", 0, 5, 2, all, lab).
+week_term_hours("120.2", 0, 5, 2, all, tutorial).
+week_term_hours("527", 0, 5, 2, ecl1, lecture).
+week_term_hours("527", 0, 5, 2, all, lab).
+week_term_hours("527", 0, 5, 2, all, tutorial).
+week_term_hours("491", 0, 5, 2, mjs, lecture).
+week_term_hours("491", 0, 5, 2, all, lab).
+week_term_hours("491", 0, 5, 2, all, tutorial).
+week_term_hours("231", 0, 5, 2, mpsha, lecture).
+week_term_hours("231", 0, 5, 2, ft, lecture).
+week_term_hours("231", 0, 5, 2, all, lab).
+week_term_hours("231", 0, 5, 2, all, tutorial).
+week_term_hours("429", 0, 5, 2, pgh, lecture).
+week_term_hours("429", 0, 5, 2, wjk, lecture).
+week_term_hours("429", 0, 5, 2, all, lab).
+week_term_hours("429", 0, 5, 2, all, tutorial).
+week_term_hours("233", 0, 5, 2, ae, lecture).
+week_term_hours("233", 0, 5, 2, pgh, lecture).
+week_term_hours("233", 0, 5, 2, all, lab).
+week_term_hours("233", 0, 5, 2, all, tutorial).
+week_term_hours("163", 0, 5, 2, jwc04, lecture).
+week_term_hours("163", 0, 5, 2, eedwards, lecture).
+week_term_hours("163", 0, 5, 2, dfg, lecture).
+week_term_hours("163", 0, 5, 2, clh, lecture).
+week_term_hours("163", 0, 5, 2, mrh, lecture).
+week_term_hours("163", 0, 5, 2, pjm, lecture).
+week_term_hours("163", 0, 5, 2, iccp, lecture).
+week_term_hours("163", 0, 5, 2, herbert, lecture).
+week_term_hours("163", 0, 5, 2, all, lab).
+week_term_hours("163", 0, 5, 2, all, tutorial).
+week_term_hours("141J", 0, 5, 2, mrh, lecture).
+week_term_hours("141J", 0, 5, 2, all, lab).
+week_term_hours("141J", 0, 5, 2, all, tutorial).
+week_term_hours("522", 0, 5, 2, yg, lecture).
+week_term_hours("522", 0, 5, 2, natasha, lecture).
+week_term_hours("522", 0, 5, 2, all, lab).
+week_term_hours("522", 0, 5, 2, all, tutorial).
+week_term_hours("528", 0, 5, 2, yoshida, lecture).
+week_term_hours("528", 0, 5, 2, all, lab).
+week_term_hours("528", 0, 5, 2, all, tutorial).
+week_term_hours("530", 0, 5, 2, cristic, lecture).
+week_term_hours("530", 0, 5, 2, all, lab).
+week_term_hours("530", 0, 5, 2, all, tutorial).
+week_term_hours("525", 0, 5, 2, ar3, lecture).
+week_term_hours("525", 0, 5, 2, all, lab).
+week_term_hours("525", 0, 5, 2, all, tutorial).
+week_term_hours("533", 0, 5, 2, rbc, lecture).
+week_term_hours("533", 0, 5, 2, all, lab).
+week_term_hours("533", 0, 5, 2, all, tutorial).
+week_term_hours("493", 0, 6, 2, dfg, lecture).
+week_term_hours("493", 0, 6, 2, all, lab).
+week_term_hours("493", 0, 6, 2, all, tutorial).
+week_term_hours("317", 0, 6, 2, dfg, lecture).
+week_term_hours("317", 0, 6, 2, dr, lecture).
+week_term_hours("317", 0, 6, 2, all, lab).
+week_term_hours("317", 0, 6, 2, all, tutorial).
+week_term_hours("437", 0, 6, 2, alw, lecture).
+week_term_hours("437", 0, 6, 2, all, lab).
+week_term_hours("437", 0, 6, 2, all, tutorial).
+week_term_hours("531", 0, 6, 2, gbd10, lecture).
+week_term_hours("531", 0, 6, 2, tk106, lecture).
+week_term_hours("531", 0, 6, 2, all, lab).
+week_term_hours("531", 0, 6, 2, all, tutorial).
+week_term_hours("552", 0, 6, 2, fs, lecture).
+week_term_hours("552", 0, 6, 2, all, lab).
+week_term_hours("552", 0, 6, 2, all, tutorial).
+week_term_hours("332", 0, 6, 2, phjk, lecture).
+week_term_hours("332", 0, 6, 2, all, lab).
+week_term_hours("332", 0, 6, 2, all, tutorial).
+week_term_hours("474", 0, 6, 2, ft, lecture).
+week_term_hours("474", 0, 6, 2, all, lab).
+week_term_hours("474", 0, 6, 2, all, tutorial).
+week_term_hours("436", 0, 6, 2, gcasale, lecture).
+week_term_hours("436", 0, 6, 2, pgh, lecture).
+week_term_hours("436", 0, 6, 2, all, lab).
+week_term_hours("436", 0, 6, 2, all, tutorial).
+week_term_hours("333", 0, 6, 2, ajd, lecture).
+week_term_hours("333", 0, 6, 2, all, lab).
+week_term_hours("333", 0, 6, 2, all, tutorial).
+week_term_hours("417", 0, 6, 2, eedwards, lecture).
+week_term_hours("417", 0, 6, 2, dr, lecture).
+week_term_hours("417", 0, 6, 2, all, lab).
+week_term_hours("417", 0, 6, 2, all, tutorial).
+week_term_hours("212", 0, 6, 2, costa, lecture).
+week_term_hours("212", 0, 6, 2, prp, lecture).
+week_term_hours("212", 0, 6, 2, all, lab).
+week_term_hours("212", 0, 6, 2, all, tutorial).
+week_term_hours("438", 0, 6, 2, iccp, lecture).
+week_term_hours("438", 0, 6, 2, all, lab).
+week_term_hours("438", 0, 6, 2, all, tutorial).
+week_term_hours("484", 0, 6, 2, herbert, lecture).
+week_term_hours("484", 0, 6, 2, all, lab).
+week_term_hours("484", 0, 6, 2, all, tutorial).
+week_term_hours("422", 0, 6, 2, dkuhn, lecture).
+week_term_hours("422", 0, 6, 2, all, lab).
+week_term_hours("422", 0, 6, 2, all, tutorial).
+week_term_hours("470", 0, 6, 2, clh, lecture).
+week_term_hours("470", 0, 6, 2, herbert, lecture).
+week_term_hours("470", 0, 6, 2, all, lab).
+week_term_hours("470", 0, 6, 2, all, tutorial).
+week_term_hours("341", 0, 6, 2, yg, lecture).
+week_term_hours("341", 0, 6, 2, natasha, lecture).
+week_term_hours("341", 0, 6, 2, all, lab).
+week_term_hours("341", 0, 6, 2, all, tutorial).
+week_term_hours("210", 0, 6, 2, wl, lecture).
+week_term_hours("210", 0, 6, 2, dt10, lecture).
+week_term_hours("210", 0, 6, 2, all, lab).
+week_term_hours("210", 0, 6, 2, all, tutorial).
+week_term_hours("526", 0, 6, 2, pjm, lecture).
+week_term_hours("526", 0, 6, 2, all, lab).
+week_term_hours("526", 0, 6, 2, all, tutorial).
+week_term_hours("202", 0, 6, 2, pp500, lecture).
+week_term_hours("202", 0, 6, 2, alw, lecture).
+week_term_hours("202", 0, 6, 2, all, lab).
+week_term_hours("202", 0, 6, 2, all, tutorial).
+week_term_hours("211", 0, 6, 2, cristic, lecture).
+week_term_hours("211", 0, 6, 2, prp, lecture).
+week_term_hours("211", 0, 6, 2, all, lab).
+week_term_hours("211", 0, 6, 2, all, tutorial).
+week_term_hours("350", 0, 6, 2, jss, lecture).
+week_term_hours("350", 0, 6, 2, all, lab).
+week_term_hours("350", 0, 6, 2, all, tutorial).
+week_term_hours("318", 0, 6, 2, wl, lecture).
+week_term_hours("318", 0, 6, 2, tjt97, lecture).
+week_term_hours("318", 0, 6, 2, all, lab).
+week_term_hours("318", 0, 6, 2, all, tutorial).
+week_term_hours("338", 0, 6, 2, axgopala, lecture).
+week_term_hours("338", 0, 6, 2, jamm, lecture).
+week_term_hours("338", 0, 6, 2, all, lab).
+week_term_hours("338", 0, 6, 2, all, tutorial).
+week_term_hours("276", 0, 6, 2, mjs, lecture).
+week_term_hours("276", 0, 6, 2, all, lab).
+week_term_hours("276", 0, 6, 2, all, tutorial).
+week_term_hours("164", 0, 6, 2, ealpay, lecture).
+week_term_hours("164", 0, 6, 2, all, lab).
+week_term_hours("164", 0, 6, 2, all, tutorial).
+week_term_hours("142", 0, 6, 2, yg, lecture).
+week_term_hours("142", 0, 6, 2, iccp, lecture).
+week_term_hours("142", 0, 6, 2, all, lab).
+week_term_hours("142", 0, 6, 2, all, tutorial).
+week_term_hours("141", 0, 6, 2, scd, lecture).
+week_term_hours("141", 0, 6, 2, mjw03, lecture).
+week_term_hours("141", 0, 6, 2, all, lab).
+week_term_hours("141", 0, 6, 2, all, tutorial).
+week_term_hours("130", 0, 6, 2, nd, lecture).
+week_term_hours("130", 0, 6, 2, all, lab).
+week_term_hours("130", 0, 6, 2, all, tutorial).
+week_term_hours("113", 2, 6, 2, axgopala, lecture).
+week_term_hours("113", 0, 6, 2, wl, lecture).
+week_term_hours("113", 0, 6, 2, all, lab).
+week_term_hours("113", 1, 6, 2, all, tutorial).
+week_term_hours("120.2", 0, 6, 2, tora, lecture).
+week_term_hours("120.2", 0, 6, 2, afd, lecture).
+week_term_hours("120.2", 0, 6, 2, ar3, lecture).
+week_term_hours("120.2", 0, 6, 2, all, lab).
+week_term_hours("120.2", 0, 6, 2, all, tutorial).
+week_term_hours("527", 0, 6, 2, ecl1, lecture).
+week_term_hours("527", 0, 6, 2, all, lab).
+week_term_hours("527", 0, 6, 2, all, tutorial).
+week_term_hours("491", 0, 6, 2, mjs, lecture).
+week_term_hours("491", 0, 6, 2, all, lab).
+week_term_hours("491", 0, 6, 2, all, tutorial).
+week_term_hours("231", 0, 6, 2, mpsha, lecture).
+week_term_hours("231", 0, 6, 2, ft, lecture).
+week_term_hours("231", 0, 6, 2, all, lab).
+week_term_hours("231", 0, 6, 2, all, tutorial).
+week_term_hours("429", 0, 6, 2, pgh, lecture).
+week_term_hours("429", 0, 6, 2, wjk, lecture).
+week_term_hours("429", 0, 6, 2, all, lab).
+week_term_hours("429", 0, 6, 2, all, tutorial).
+week_term_hours("233", 0, 6, 2, ae, lecture).
+week_term_hours("233", 0, 6, 2, pgh, lecture).
+week_term_hours("233", 0, 6, 2, all, lab).
+week_term_hours("233", 0, 6, 2, all, tutorial).
+week_term_hours("163", 0, 6, 2, jwc04, lecture).
+week_term_hours("163", 0, 6, 2, eedwards, lecture).
+week_term_hours("163", 0, 6, 2, dfg, lecture).
+week_term_hours("163", 0, 6, 2, clh, lecture).
+week_term_hours("163", 0, 6, 2, mrh, lecture).
+week_term_hours("163", 0, 6, 2, pjm, lecture).
+week_term_hours("163", 0, 6, 2, iccp, lecture).
+week_term_hours("163", 0, 6, 2, herbert, lecture).
+week_term_hours("163", 0, 6, 2, all, lab).
+week_term_hours("163", 0, 6, 2, all, tutorial).
+week_term_hours("141J", 0, 6, 2, mrh, lecture).
+week_term_hours("141J", 0, 6, 2, all, lab).
+week_term_hours("141J", 0, 6, 2, all, tutorial).
+week_term_hours("522", 0, 6, 2, yg, lecture).
+week_term_hours("522", 0, 6, 2, natasha, lecture).
+week_term_hours("522", 0, 6, 2, all, lab).
+week_term_hours("522", 0, 6, 2, all, tutorial).
+week_term_hours("528", 0, 6, 2, yoshida, lecture).
+week_term_hours("528", 0, 6, 2, all, lab).
+week_term_hours("528", 0, 6, 2, all, tutorial).
+week_term_hours("530", 0, 6, 2, cristic, lecture).
+week_term_hours("530", 0, 6, 2, all, lab).
+week_term_hours("530", 0, 6, 2, all, tutorial).
+week_term_hours("525", 0, 6, 2, ar3, lecture).
+week_term_hours("525", 0, 6, 2, all, lab).
+week_term_hours("525", 0, 6, 2, all, tutorial).
+week_term_hours("533", 0, 6, 2, rbc, lecture).
+week_term_hours("533", 0, 6, 2, all, lab).
+week_term_hours("533", 0, 6, 2, all, tutorial).
+week_term_hours("493", 0, 7, 2, dfg, lecture).
+week_term_hours("493", 0, 7, 2, all, lab).
+week_term_hours("493", 0, 7, 2, all, tutorial).
+week_term_hours("317", 0, 7, 2, dfg, lecture).
+week_term_hours("317", 0, 7, 2, dr, lecture).
+week_term_hours("317", 0, 7, 2, all, lab).
+week_term_hours("317", 0, 7, 2, all, tutorial).
+week_term_hours("437", 0, 7, 2, alw, lecture).
+week_term_hours("437", 0, 7, 2, all, lab).
+week_term_hours("437", 0, 7, 2, all, tutorial).
+week_term_hours("531", 0, 7, 2, gbd10, lecture).
+week_term_hours("531", 0, 7, 2, tk106, lecture).
+week_term_hours("531", 0, 7, 2, all, lab).
+week_term_hours("531", 0, 7, 2, all, tutorial).
+week_term_hours("552", 0, 7, 2, fs, lecture).
+week_term_hours("552", 0, 7, 2, all, lab).
+week_term_hours("552", 0, 7, 2, all, tutorial).
+week_term_hours("332", 0, 7, 2, phjk, lecture).
+week_term_hours("332", 0, 7, 2, all, lab).
+week_term_hours("332", 0, 7, 2, all, tutorial).
+week_term_hours("474", 0, 7, 2, ft, lecture).
+week_term_hours("474", 0, 7, 2, all, lab).
+week_term_hours("474", 0, 7, 2, all, tutorial).
+week_term_hours("436", 0, 7, 2, gcasale, lecture).
+week_term_hours("436", 0, 7, 2, pgh, lecture).
+week_term_hours("436", 0, 7, 2, all, lab).
+week_term_hours("436", 0, 7, 2, all, tutorial).
+week_term_hours("333", 0, 7, 2, ajd, lecture).
+week_term_hours("333", 0, 7, 2, all, lab).
+week_term_hours("333", 0, 7, 2, all, tutorial).
+week_term_hours("417", 0, 7, 2, eedwards, lecture).
+week_term_hours("417", 0, 7, 2, dr, lecture).
+week_term_hours("417", 0, 7, 2, all, lab).
+week_term_hours("417", 0, 7, 2, all, tutorial).
+week_term_hours("212", 0, 7, 2, costa, lecture).
+week_term_hours("212", 0, 7, 2, prp, lecture).
+week_term_hours("212", 0, 7, 2, all, lab).
+week_term_hours("212", 0, 7, 2, all, tutorial).
+week_term_hours("438", 0, 7, 2, iccp, lecture).
+week_term_hours("438", 0, 7, 2, all, lab).
+week_term_hours("438", 0, 7, 2, all, tutorial).
+week_term_hours("484", 0, 7, 2, herbert, lecture).
+week_term_hours("484", 0, 7, 2, all, lab).
+week_term_hours("484", 0, 7, 2, all, tutorial).
+week_term_hours("422", 0, 7, 2, dkuhn, lecture).
+week_term_hours("422", 0, 7, 2, all, lab).
+week_term_hours("422", 0, 7, 2, all, tutorial).
+week_term_hours("470", 0, 7, 2, clh, lecture).
+week_term_hours("470", 0, 7, 2, herbert, lecture).
+week_term_hours("470", 0, 7, 2, all, lab).
+week_term_hours("470", 0, 7, 2, all, tutorial).
+week_term_hours("341", 0, 7, 2, yg, lecture).
+week_term_hours("341", 0, 7, 2, natasha, lecture).
+week_term_hours("341", 0, 7, 2, all, lab).
+week_term_hours("341", 0, 7, 2, all, tutorial).
+week_term_hours("210", 0, 7, 2, wl, lecture).
+week_term_hours("210", 0, 7, 2, dt10, lecture).
+week_term_hours("210", 0, 7, 2, all, lab).
+week_term_hours("210", 0, 7, 2, all, tutorial).
+week_term_hours("526", 0, 7, 2, pjm, lecture).
+week_term_hours("526", 0, 7, 2, all, lab).
+week_term_hours("526", 0, 7, 2, all, tutorial).
+week_term_hours("202", 0, 7, 2, pp500, lecture).
+week_term_hours("202", 0, 7, 2, alw, lecture).
+week_term_hours("202", 0, 7, 2, all, lab).
+week_term_hours("202", 0, 7, 2, all, tutorial).
+week_term_hours("211", 0, 7, 2, cristic, lecture).
+week_term_hours("211", 0, 7, 2, prp, lecture).
+week_term_hours("211", 0, 7, 2, all, lab).
+week_term_hours("211", 0, 7, 2, all, tutorial).
+week_term_hours("350", 0, 7, 2, jss, lecture).
+week_term_hours("350", 0, 7, 2, all, lab).
+week_term_hours("350", 0, 7, 2, all, tutorial).
+week_term_hours("318", 0, 7, 2, wl, lecture).
+week_term_hours("318", 0, 7, 2, tjt97, lecture).
+week_term_hours("318", 0, 7, 2, all, lab).
+week_term_hours("318", 0, 7, 2, all, tutorial).
+week_term_hours("338", 0, 7, 2, axgopala, lecture).
+week_term_hours("338", 0, 7, 2, jamm, lecture).
+week_term_hours("338", 0, 7, 2, all, lab).
+week_term_hours("338", 0, 7, 2, all, tutorial).
+week_term_hours("276", 0, 7, 2, mjs, lecture).
+week_term_hours("276", 0, 7, 2, all, lab).
+week_term_hours("276", 0, 7, 2, all, tutorial).
+week_term_hours("164", 0, 7, 2, ealpay, lecture).
+week_term_hours("164", 0, 7, 2, all, lab).
+week_term_hours("164", 0, 7, 2, all, tutorial).
+week_term_hours("142", 0, 7, 2, yg, lecture).
+week_term_hours("142", 0, 7, 2, iccp, lecture).
+week_term_hours("142", 0, 7, 2, all, lab).
+week_term_hours("142", 0, 7, 2, all, tutorial).
+week_term_hours("141", 0, 7, 2, scd, lecture).
+week_term_hours("141", 0, 7, 2, mjw03, lecture).
+week_term_hours("141", 0, 7, 2, all, lab).
+week_term_hours("141", 0, 7, 2, all, tutorial).
+week_term_hours("130", 0, 7, 2, nd, lecture).
+week_term_hours("130", 0, 7, 2, all, lab).
+week_term_hours("130", 0, 7, 2, all, tutorial).
+week_term_hours("113", 2, 7, 2, axgopala, lecture).
+week_term_hours("113", 0, 7, 2, wl, lecture).
+week_term_hours("113", 0, 7, 2, all, lab).
+week_term_hours("113", 1, 7, 2, all, tutorial).
+week_term_hours("120.2", 0, 7, 2, tora, lecture).
+week_term_hours("120.2", 0, 7, 2, afd, lecture).
+week_term_hours("120.2", 0, 7, 2, ar3, lecture).
+week_term_hours("120.2", 0, 7, 2, all, lab).
+week_term_hours("120.2", 0, 7, 2, all, tutorial).
+week_term_hours("527", 0, 7, 2, ecl1, lecture).
+week_term_hours("527", 0, 7, 2, all, lab).
+week_term_hours("527", 0, 7, 2, all, tutorial).
+week_term_hours("491", 0, 7, 2, mjs, lecture).
+week_term_hours("491", 0, 7, 2, all, lab).
+week_term_hours("491", 0, 7, 2, all, tutorial).
+week_term_hours("231", 0, 7, 2, mpsha, lecture).
+week_term_hours("231", 0, 7, 2, ft, lecture).
+week_term_hours("231", 0, 7, 2, all, lab).
+week_term_hours("231", 0, 7, 2, all, tutorial).
+week_term_hours("429", 0, 7, 2, pgh, lecture).
+week_term_hours("429", 0, 7, 2, wjk, lecture).
+week_term_hours("429", 0, 7, 2, all, lab).
+week_term_hours("429", 0, 7, 2, all, tutorial).
+week_term_hours("233", 0, 7, 2, ae, lecture).
+week_term_hours("233", 0, 7, 2, pgh, lecture).
+week_term_hours("233", 0, 7, 2, all, lab).
+week_term_hours("233", 0, 7, 2, all, tutorial).
+week_term_hours("163", 0, 7, 2, jwc04, lecture).
+week_term_hours("163", 0, 7, 2, eedwards, lecture).
+week_term_hours("163", 0, 7, 2, dfg, lecture).
+week_term_hours("163", 0, 7, 2, clh, lecture).
+week_term_hours("163", 0, 7, 2, mrh, lecture).
+week_term_hours("163", 0, 7, 2, pjm, lecture).
+week_term_hours("163", 0, 7, 2, iccp, lecture).
+week_term_hours("163", 0, 7, 2, herbert, lecture).
+week_term_hours("163", 0, 7, 2, all, lab).
+week_term_hours("163", 0, 7, 2, all, tutorial).
+week_term_hours("141J", 0, 7, 2, mrh, lecture).
+week_term_hours("141J", 0, 7, 2, all, lab).
+week_term_hours("141J", 0, 7, 2, all, tutorial).
+week_term_hours("522", 0, 7, 2, yg, lecture).
+week_term_hours("522", 0, 7, 2, natasha, lecture).
+week_term_hours("522", 0, 7, 2, all, lab).
+week_term_hours("522", 0, 7, 2, all, tutorial).
+week_term_hours("528", 0, 7, 2, yoshida, lecture).
+week_term_hours("528", 0, 7, 2, all, lab).
+week_term_hours("528", 0, 7, 2, all, tutorial).
+week_term_hours("530", 0, 7, 2, cristic, lecture).
+week_term_hours("530", 0, 7, 2, all, lab).
+week_term_hours("530", 0, 7, 2, all, tutorial).
+week_term_hours("525", 0, 7, 2, ar3, lecture).
+week_term_hours("525", 0, 7, 2, all, lab).
+week_term_hours("525", 0, 7, 2, all, tutorial).
+week_term_hours("533", 0, 7, 2, rbc, lecture).
+week_term_hours("533", 0, 7, 2, all, lab).
+week_term_hours("533", 0, 7, 2, all, tutorial).
+week_term_hours("493", 0, 8, 2, dfg, lecture).
+week_term_hours("493", 0, 8, 2, all, lab).
+week_term_hours("493", 0, 8, 2, all, tutorial).
+week_term_hours("317", 0, 8, 2, dfg, lecture).
+week_term_hours("317", 0, 8, 2, dr, lecture).
+week_term_hours("317", 0, 8, 2, all, lab).
+week_term_hours("317", 0, 8, 2, all, tutorial).
+week_term_hours("437", 0, 8, 2, alw, lecture).
+week_term_hours("437", 0, 8, 2, all, lab).
+week_term_hours("437", 0, 8, 2, all, tutorial).
+week_term_hours("531", 0, 8, 2, gbd10, lecture).
+week_term_hours("531", 0, 8, 2, tk106, lecture).
+week_term_hours("531", 0, 8, 2, all, lab).
+week_term_hours("531", 0, 8, 2, all, tutorial).
+week_term_hours("552", 0, 8, 2, fs, lecture).
+week_term_hours("552", 0, 8, 2, all, lab).
+week_term_hours("552", 0, 8, 2, all, tutorial).
+week_term_hours("332", 0, 8, 2, phjk, lecture).
+week_term_hours("332", 0, 8, 2, all, lab).
+week_term_hours("332", 0, 8, 2, all, tutorial).
+week_term_hours("474", 0, 8, 2, ft, lecture).
+week_term_hours("474", 0, 8, 2, all, lab).
+week_term_hours("474", 0, 8, 2, all, tutorial).
+week_term_hours("436", 0, 8, 2, gcasale, lecture).
+week_term_hours("436", 0, 8, 2, pgh, lecture).
+week_term_hours("436", 0, 8, 2, all, lab).
+week_term_hours("436", 0, 8, 2, all, tutorial).
+week_term_hours("333", 0, 8, 2, ajd, lecture).
+week_term_hours("333", 0, 8, 2, all, lab).
+week_term_hours("333", 0, 8, 2, all, tutorial).
+week_term_hours("417", 0, 8, 2, eedwards, lecture).
+week_term_hours("417", 0, 8, 2, dr, lecture).
+week_term_hours("417", 0, 8, 2, all, lab).
+week_term_hours("417", 0, 8, 2, all, tutorial).
+week_term_hours("212", 0, 8, 2, costa, lecture).
+week_term_hours("212", 0, 8, 2, prp, lecture).
+week_term_hours("212", 0, 8, 2, all, lab).
+week_term_hours("212", 0, 8, 2, all, tutorial).
+week_term_hours("438", 0, 8, 2, iccp, lecture).
+week_term_hours("438", 0, 8, 2, all, lab).
+week_term_hours("438", 0, 8, 2, all, tutorial).
+week_term_hours("484", 0, 8, 2, herbert, lecture).
+week_term_hours("484", 0, 8, 2, all, lab).
+week_term_hours("484", 0, 8, 2, all, tutorial).
+week_term_hours("422", 0, 8, 2, dkuhn, lecture).
+week_term_hours("422", 0, 8, 2, all, lab).
+week_term_hours("422", 0, 8, 2, all, tutorial).
+week_term_hours("470", 0, 8, 2, clh, lecture).
+week_term_hours("470", 0, 8, 2, herbert, lecture).
+week_term_hours("470", 0, 8, 2, all, lab).
+week_term_hours("470", 0, 8, 2, all, tutorial).
+week_term_hours("341", 0, 8, 2, yg, lecture).
+week_term_hours("341", 0, 8, 2, natasha, lecture).
+week_term_hours("341", 0, 8, 2, all, lab).
+week_term_hours("341", 0, 8, 2, all, tutorial).
+week_term_hours("210", 0, 8, 2, wl, lecture).
+week_term_hours("210", 0, 8, 2, dt10, lecture).
+week_term_hours("210", 0, 8, 2, all, lab).
+week_term_hours("210", 0, 8, 2, all, tutorial).
+week_term_hours("526", 0, 8, 2, pjm, lecture).
+week_term_hours("526", 0, 8, 2, all, lab).
+week_term_hours("526", 0, 8, 2, all, tutorial).
+week_term_hours("202", 0, 8, 2, pp500, lecture).
+week_term_hours("202", 0, 8, 2, alw, lecture).
+week_term_hours("202", 0, 8, 2, all, lab).
+week_term_hours("202", 0, 8, 2, all, tutorial).
+week_term_hours("211", 0, 8, 2, cristic, lecture).
+week_term_hours("211", 0, 8, 2, prp, lecture).
+week_term_hours("211", 0, 8, 2, all, lab).
+week_term_hours("211", 0, 8, 2, all, tutorial).
+week_term_hours("350", 0, 8, 2, jss, lecture).
+week_term_hours("350", 0, 8, 2, all, lab).
+week_term_hours("350", 0, 8, 2, all, tutorial).
+week_term_hours("318", 0, 8, 2, wl, lecture).
+week_term_hours("318", 0, 8, 2, tjt97, lecture).
+week_term_hours("318", 0, 8, 2, all, lab).
+week_term_hours("318", 0, 8, 2, all, tutorial).
+week_term_hours("338", 0, 8, 2, axgopala, lecture).
+week_term_hours("338", 0, 8, 2, jamm, lecture).
+week_term_hours("338", 0, 8, 2, all, lab).
+week_term_hours("338", 0, 8, 2, all, tutorial).
+week_term_hours("276", 0, 8, 2, mjs, lecture).
+week_term_hours("276", 0, 8, 2, all, lab).
+week_term_hours("276", 0, 8, 2, all, tutorial).
+week_term_hours("164", 0, 8, 2, ealpay, lecture).
+week_term_hours("164", 0, 8, 2, all, lab).
+week_term_hours("164", 0, 8, 2, all, tutorial).
+week_term_hours("142", 0, 8, 2, yg, lecture).
+week_term_hours("142", 0, 8, 2, iccp, lecture).
+week_term_hours("142", 0, 8, 2, all, lab).
+week_term_hours("142", 0, 8, 2, all, tutorial).
+week_term_hours("141", 0, 8, 2, scd, lecture).
+week_term_hours("141", 0, 8, 2, mjw03, lecture).
+week_term_hours("141", 0, 8, 2, all, lab).
+week_term_hours("141", 0, 8, 2, all, tutorial).
+week_term_hours("130", 0, 8, 2, nd, lecture).
+week_term_hours("130", 0, 8, 2, all, lab).
+week_term_hours("130", 0, 8, 2, all, tutorial).
+week_term_hours("113", 2, 8, 2, axgopala, lecture).
+week_term_hours("113", 0, 8, 2, wl, lecture).
+week_term_hours("113", 0, 8, 2, all, lab).
+week_term_hours("113", 1, 8, 2, all, tutorial).
+week_term_hours("120.2", 0, 8, 2, tora, lecture).
+week_term_hours("120.2", 0, 8, 2, afd, lecture).
+week_term_hours("120.2", 0, 8, 2, ar3, lecture).
+week_term_hours("120.2", 0, 8, 2, all, lab).
+week_term_hours("120.2", 0, 8, 2, all, tutorial).
+week_term_hours("527", 0, 8, 2, ecl1, lecture).
+week_term_hours("527", 0, 8, 2, all, lab).
+week_term_hours("527", 0, 8, 2, all, tutorial).
+week_term_hours("491", 0, 8, 2, mjs, lecture).
+week_term_hours("491", 0, 8, 2, all, lab).
+week_term_hours("491", 0, 8, 2, all, tutorial).
+week_term_hours("231", 0, 8, 2, mpsha, lecture).
+week_term_hours("231", 0, 8, 2, ft, lecture).
+week_term_hours("231", 0, 8, 2, all, lab).
+week_term_hours("231", 0, 8, 2, all, tutorial).
+week_term_hours("429", 0, 8, 2, pgh, lecture).
+week_term_hours("429", 0, 8, 2, wjk, lecture).
+week_term_hours("429", 0, 8, 2, all, lab).
+week_term_hours("429", 0, 8, 2, all, tutorial).
+week_term_hours("233", 0, 8, 2, ae, lecture).
+week_term_hours("233", 0, 8, 2, pgh, lecture).
+week_term_hours("233", 0, 8, 2, all, lab).
+week_term_hours("233", 0, 8, 2, all, tutorial).
+week_term_hours("163", 0, 8, 2, jwc04, lecture).
+week_term_hours("163", 0, 8, 2, eedwards, lecture).
+week_term_hours("163", 0, 8, 2, dfg, lecture).
+week_term_hours("163", 0, 8, 2, clh, lecture).
+week_term_hours("163", 0, 8, 2, mrh, lecture).
+week_term_hours("163", 0, 8, 2, pjm, lecture).
+week_term_hours("163", 0, 8, 2, iccp, lecture).
+week_term_hours("163", 0, 8, 2, herbert, lecture).
+week_term_hours("163", 0, 8, 2, all, lab).
+week_term_hours("163", 0, 8, 2, all, tutorial).
+week_term_hours("141J", 0, 8, 2, mrh, lecture).
+week_term_hours("141J", 0, 8, 2, all, lab).
+week_term_hours("141J", 0, 8, 2, all, tutorial).
+week_term_hours("522", 0, 8, 2, yg, lecture).
+week_term_hours("522", 0, 8, 2, natasha, lecture).
+week_term_hours("522", 0, 8, 2, all, lab).
+week_term_hours("522", 0, 8, 2, all, tutorial).
+week_term_hours("528", 0, 8, 2, yoshida, lecture).
+week_term_hours("528", 0, 8, 2, all, lab).
+week_term_hours("528", 0, 8, 2, all, tutorial).
+week_term_hours("530", 0, 8, 2, cristic, lecture).
+week_term_hours("530", 0, 8, 2, all, lab).
+week_term_hours("530", 0, 8, 2, all, tutorial).
+week_term_hours("525", 0, 8, 2, ar3, lecture).
+week_term_hours("525", 0, 8, 2, all, lab).
+week_term_hours("525", 0, 8, 2, all, tutorial).
+week_term_hours("533", 0, 8, 2, rbc, lecture).
+week_term_hours("533", 0, 8, 2, all, lab).
+week_term_hours("533", 0, 8, 2, all, tutorial).
+week_term_hours("493", 0, 9, 2, dfg, lecture).
+week_term_hours("493", 0, 9, 2, all, lab).
+week_term_hours("493", 0, 9, 2, all, tutorial).
+week_term_hours("317", 0, 9, 2, dfg, lecture).
+week_term_hours("317", 0, 9, 2, dr, lecture).
+week_term_hours("317", 0, 9, 2, all, lab).
+week_term_hours("317", 0, 9, 2, all, tutorial).
+week_term_hours("437", 0, 9, 2, alw, lecture).
+week_term_hours("437", 0, 9, 2, all, lab).
+week_term_hours("437", 0, 9, 2, all, tutorial).
+week_term_hours("531", 0, 9, 2, gbd10, lecture).
+week_term_hours("531", 0, 9, 2, tk106, lecture).
+week_term_hours("531", 0, 9, 2, all, lab).
+week_term_hours("531", 0, 9, 2, all, tutorial).
+week_term_hours("552", 0, 9, 2, fs, lecture).
+week_term_hours("552", 0, 9, 2, all, lab).
+week_term_hours("552", 0, 9, 2, all, tutorial).
+week_term_hours("332", 0, 9, 2, phjk, lecture).
+week_term_hours("332", 0, 9, 2, all, lab).
+week_term_hours("332", 0, 9, 2, all, tutorial).
+week_term_hours("474", 0, 9, 2, ft, lecture).
+week_term_hours("474", 0, 9, 2, all, lab).
+week_term_hours("474", 0, 9, 2, all, tutorial).
+week_term_hours("436", 0, 9, 2, gcasale, lecture).
+week_term_hours("436", 0, 9, 2, pgh, lecture).
+week_term_hours("436", 0, 9, 2, all, lab).
+week_term_hours("436", 0, 9, 2, all, tutorial).
+week_term_hours("333", 0, 9, 2, ajd, lecture).
+week_term_hours("333", 0, 9, 2, all, lab).
+week_term_hours("333", 0, 9, 2, all, tutorial).
+week_term_hours("417", 0, 9, 2, eedwards, lecture).
+week_term_hours("417", 0, 9, 2, dr, lecture).
+week_term_hours("417", 0, 9, 2, all, lab).
+week_term_hours("417", 0, 9, 2, all, tutorial).
+week_term_hours("212", 0, 9, 2, costa, lecture).
+week_term_hours("212", 0, 9, 2, prp, lecture).
+week_term_hours("212", 0, 9, 2, all, lab).
+week_term_hours("212", 0, 9, 2, all, tutorial).
+week_term_hours("438", 0, 9, 2, iccp, lecture).
+week_term_hours("438", 0, 9, 2, all, lab).
+week_term_hours("438", 0, 9, 2, all, tutorial).
+week_term_hours("484", 0, 9, 2, herbert, lecture).
+week_term_hours("484", 0, 9, 2, all, lab).
+week_term_hours("484", 0, 9, 2, all, tutorial).
+week_term_hours("422", 0, 9, 2, dkuhn, lecture).
+week_term_hours("422", 0, 9, 2, all, lab).
+week_term_hours("422", 0, 9, 2, all, tutorial).
+week_term_hours("470", 0, 9, 2, clh, lecture).
+week_term_hours("470", 0, 9, 2, herbert, lecture).
+week_term_hours("470", 0, 9, 2, all, lab).
+week_term_hours("470", 0, 9, 2, all, tutorial).
+week_term_hours("341", 0, 9, 2, yg, lecture).
+week_term_hours("341", 0, 9, 2, natasha, lecture).
+week_term_hours("341", 0, 9, 2, all, lab).
+week_term_hours("341", 0, 9, 2, all, tutorial).
+week_term_hours("210", 0, 9, 2, wl, lecture).
+week_term_hours("210", 0, 9, 2, dt10, lecture).
+week_term_hours("210", 0, 9, 2, all, lab).
+week_term_hours("210", 0, 9, 2, all, tutorial).
+week_term_hours("526", 0, 9, 2, pjm, lecture).
+week_term_hours("526", 0, 9, 2, all, lab).
+week_term_hours("526", 0, 9, 2, all, tutorial).
+week_term_hours("202", 0, 9, 2, pp500, lecture).
+week_term_hours("202", 0, 9, 2, alw, lecture).
+week_term_hours("202", 0, 9, 2, all, lab).
+week_term_hours("202", 0, 9, 2, all, tutorial).
+week_term_hours("211", 0, 9, 2, cristic, lecture).
+week_term_hours("211", 0, 9, 2, prp, lecture).
+week_term_hours("211", 0, 9, 2, all, lab).
+week_term_hours("211", 0, 9, 2, all, tutorial).
+week_term_hours("350", 0, 9, 2, jss, lecture).
+week_term_hours("350", 0, 9, 2, all, lab).
+week_term_hours("350", 0, 9, 2, all, tutorial).
+week_term_hours("318", 0, 9, 2, wl, lecture).
+week_term_hours("318", 0, 9, 2, tjt97, lecture).
+week_term_hours("318", 0, 9, 2, all, lab).
+week_term_hours("318", 0, 9, 2, all, tutorial).
+week_term_hours("338", 0, 9, 2, axgopala, lecture).
+week_term_hours("338", 0, 9, 2, jamm, lecture).
+week_term_hours("338", 0, 9, 2, all, lab).
+week_term_hours("338", 0, 9, 2, all, tutorial).
+week_term_hours("276", 0, 9, 2, mjs, lecture).
+week_term_hours("276", 0, 9, 2, all, lab).
+week_term_hours("276", 0, 9, 2, all, tutorial).
+week_term_hours("164", 0, 9, 2, ealpay, lecture).
+week_term_hours("164", 0, 9, 2, all, lab).
+week_term_hours("164", 0, 9, 2, all, tutorial).
+week_term_hours("142", 0, 9, 2, yg, lecture).
+week_term_hours("142", 0, 9, 2, iccp, lecture).
+week_term_hours("142", 0, 9, 2, all, lab).
+week_term_hours("142", 0, 9, 2, all, tutorial).
+week_term_hours("141", 0, 9, 2, scd, lecture).
+week_term_hours("141", 0, 9, 2, mjw03, lecture).
+week_term_hours("141", 0, 9, 2, all, lab).
+week_term_hours("141", 0, 9, 2, all, tutorial).
+week_term_hours("130", 0, 9, 2, nd, lecture).
+week_term_hours("130", 0, 9, 2, all, lab).
+week_term_hours("130", 0, 9, 2, all, tutorial).
+week_term_hours("113", 2, 9, 2, axgopala, lecture).
+week_term_hours("113", 0, 9, 2, wl, lecture).
+week_term_hours("113", 0, 9, 2, all, lab).
+week_term_hours("113", 1, 9, 2, all, tutorial).
+week_term_hours("120.2", 0, 9, 2, tora, lecture).
+week_term_hours("120.2", 0, 9, 2, afd, lecture).
+week_term_hours("120.2", 0, 9, 2, ar3, lecture).
+week_term_hours("120.2", 0, 9, 2, all, lab).
+week_term_hours("120.2", 0, 9, 2, all, tutorial).
+week_term_hours("527", 0, 9, 2, ecl1, lecture).
+week_term_hours("527", 0, 9, 2, all, lab).
+week_term_hours("527", 0, 9, 2, all, tutorial).
+week_term_hours("491", 0, 9, 2, mjs, lecture).
+week_term_hours("491", 0, 9, 2, all, lab).
+week_term_hours("491", 0, 9, 2, all, tutorial).
+week_term_hours("231", 0, 9, 2, mpsha, lecture).
+week_term_hours("231", 0, 9, 2, ft, lecture).
+week_term_hours("231", 0, 9, 2, all, lab).
+week_term_hours("231", 0, 9, 2, all, tutorial).
+week_term_hours("429", 0, 9, 2, pgh, lecture).
+week_term_hours("429", 0, 9, 2, wjk, lecture).
+week_term_hours("429", 0, 9, 2, all, lab).
+week_term_hours("429", 0, 9, 2, all, tutorial).
+week_term_hours("233", 0, 9, 2, ae, lecture).
+week_term_hours("233", 0, 9, 2, pgh, lecture).
+week_term_hours("233", 0, 9, 2, all, lab).
+week_term_hours("233", 0, 9, 2, all, tutorial).
+week_term_hours("163", 0, 9, 2, jwc04, lecture).
+week_term_hours("163", 0, 9, 2, eedwards, lecture).
+week_term_hours("163", 0, 9, 2, dfg, lecture).
+week_term_hours("163", 0, 9, 2, clh, lecture).
+week_term_hours("163", 0, 9, 2, mrh, lecture).
+week_term_hours("163", 0, 9, 2, pjm, lecture).
+week_term_hours("163", 0, 9, 2, iccp, lecture).
+week_term_hours("163", 0, 9, 2, herbert, lecture).
+week_term_hours("163", 0, 9, 2, all, lab).
+week_term_hours("163", 0, 9, 2, all, tutorial).
+week_term_hours("141J", 0, 9, 2, mrh, lecture).
+week_term_hours("141J", 0, 9, 2, all, lab).
+week_term_hours("141J", 0, 9, 2, all, tutorial).
+week_term_hours("522", 0, 9, 2, yg, lecture).
+week_term_hours("522", 0, 9, 2, natasha, lecture).
+week_term_hours("522", 0, 9, 2, all, lab).
+week_term_hours("522", 0, 9, 2, all, tutorial).
+week_term_hours("528", 0, 9, 2, yoshida, lecture).
+week_term_hours("528", 0, 9, 2, all, lab).
+week_term_hours("528", 0, 9, 2, all, tutorial).
+week_term_hours("530", 0, 9, 2, cristic, lecture).
+week_term_hours("530", 0, 9, 2, all, lab).
+week_term_hours("530", 0, 9, 2, all, tutorial).
+week_term_hours("525", 0, 9, 2, ar3, lecture).
+week_term_hours("525", 0, 9, 2, all, lab).
+week_term_hours("525", 0, 9, 2, all, tutorial).
+week_term_hours("533", 0, 9, 2, rbc, lecture).
+week_term_hours("533", 0, 9, 2, all, lab).
+week_term_hours("533", 0, 9, 2, all, tutorial).
+week_term_hours("493", 0, 10, 2, dfg, lecture).
+week_term_hours("493", 0, 10, 2, all, lab).
+week_term_hours("493", 0, 10, 2, all, tutorial).
+week_term_hours("317", 0, 10, 2, dfg, lecture).
+week_term_hours("317", 0, 10, 2, dr, lecture).
+week_term_hours("317", 0, 10, 2, all, lab).
+week_term_hours("317", 0, 10, 2, all, tutorial).
+week_term_hours("437", 0, 10, 2, alw, lecture).
+week_term_hours("437", 0, 10, 2, all, lab).
+week_term_hours("437", 0, 10, 2, all, tutorial).
+week_term_hours("531", 0, 10, 2, gbd10, lecture).
+week_term_hours("531", 0, 10, 2, tk106, lecture).
+week_term_hours("531", 0, 10, 2, all, lab).
+week_term_hours("531", 0, 10, 2, all, tutorial).
+week_term_hours("552", 0, 10, 2, fs, lecture).
+week_term_hours("552", 0, 10, 2, all, lab).
+week_term_hours("552", 0, 10, 2, all, tutorial).
+week_term_hours("332", 0, 10, 2, phjk, lecture).
+week_term_hours("332", 0, 10, 2, all, lab).
+week_term_hours("332", 0, 10, 2, all, tutorial).
+week_term_hours("474", 0, 10, 2, ft, lecture).
+week_term_hours("474", 0, 10, 2, all, lab).
+week_term_hours("474", 0, 10, 2, all, tutorial).
+week_term_hours("436", 0, 10, 2, gcasale, lecture).
+week_term_hours("436", 0, 10, 2, pgh, lecture).
+week_term_hours("436", 0, 10, 2, all, lab).
+week_term_hours("436", 0, 10, 2, all, tutorial).
+week_term_hours("333", 0, 10, 2, ajd, lecture).
+week_term_hours("333", 0, 10, 2, all, lab).
+week_term_hours("333", 0, 10, 2, all, tutorial).
+week_term_hours("417", 0, 10, 2, eedwards, lecture).
+week_term_hours("417", 0, 10, 2, dr, lecture).
+week_term_hours("417", 0, 10, 2, all, lab).
+week_term_hours("417", 0, 10, 2, all, tutorial).
+week_term_hours("212", 0, 10, 2, costa, lecture).
+week_term_hours("212", 0, 10, 2, prp, lecture).
+week_term_hours("212", 0, 10, 2, all, lab).
+week_term_hours("212", 0, 10, 2, all, tutorial).
+week_term_hours("438", 0, 10, 2, iccp, lecture).
+week_term_hours("438", 0, 10, 2, all, lab).
+week_term_hours("438", 0, 10, 2, all, tutorial).
+week_term_hours("484", 0, 10, 2, herbert, lecture).
+week_term_hours("484", 0, 10, 2, all, lab).
+week_term_hours("484", 0, 10, 2, all, tutorial).
+week_term_hours("422", 0, 10, 2, dkuhn, lecture).
+week_term_hours("422", 0, 10, 2, all, lab).
+week_term_hours("422", 0, 10, 2, all, tutorial).
+week_term_hours("470", 0, 10, 2, clh, lecture).
+week_term_hours("470", 0, 10, 2, herbert, lecture).
+week_term_hours("470", 0, 10, 2, all, lab).
+week_term_hours("470", 0, 10, 2, all, tutorial).
+week_term_hours("341", 0, 10, 2, yg, lecture).
+week_term_hours("341", 0, 10, 2, natasha, lecture).
+week_term_hours("341", 0, 10, 2, all, lab).
+week_term_hours("341", 0, 10, 2, all, tutorial).
+week_term_hours("210", 0, 10, 2, wl, lecture).
+week_term_hours("210", 0, 10, 2, dt10, lecture).
+week_term_hours("210", 0, 10, 2, all, lab).
+week_term_hours("210", 0, 10, 2, all, tutorial).
+week_term_hours("526", 0, 10, 2, pjm, lecture).
+week_term_hours("526", 0, 10, 2, all, lab).
+week_term_hours("526", 0, 10, 2, all, tutorial).
+week_term_hours("202", 0, 10, 2, pp500, lecture).
+week_term_hours("202", 0, 10, 2, alw, lecture).
+week_term_hours("202", 0, 10, 2, all, lab).
+week_term_hours("202", 0, 10, 2, all, tutorial).
+week_term_hours("211", 0, 10, 2, cristic, lecture).
+week_term_hours("211", 0, 10, 2, prp, lecture).
+week_term_hours("211", 0, 10, 2, all, lab).
+week_term_hours("211", 0, 10, 2, all, tutorial).
+week_term_hours("350", 0, 10, 2, jss, lecture).
+week_term_hours("350", 0, 10, 2, all, lab).
+week_term_hours("350", 0, 10, 2, all, tutorial).
+week_term_hours("318", 0, 10, 2, wl, lecture).
+week_term_hours("318", 0, 10, 2, tjt97, lecture).
+week_term_hours("318", 0, 10, 2, all, lab).
+week_term_hours("318", 0, 10, 2, all, tutorial).
+week_term_hours("338", 0, 10, 2, axgopala, lecture).
+week_term_hours("338", 0, 10, 2, jamm, lecture).
+week_term_hours("338", 0, 10, 2, all, lab).
+week_term_hours("338", 0, 10, 2, all, tutorial).
+week_term_hours("276", 0, 10, 2, mjs, lecture).
+week_term_hours("276", 0, 10, 2, all, lab).
+week_term_hours("276", 0, 10, 2, all, tutorial).
+week_term_hours("164", 0, 10, 2, ealpay, lecture).
+week_term_hours("164", 0, 10, 2, all, lab).
+week_term_hours("164", 0, 10, 2, all, tutorial).
+week_term_hours("142", 0, 10, 2, yg, lecture).
+week_term_hours("142", 0, 10, 2, iccp, lecture).
+week_term_hours("142", 0, 10, 2, all, lab).
+week_term_hours("142", 0, 10, 2, all, tutorial).
+week_term_hours("141", 0, 10, 2, scd, lecture).
+week_term_hours("141", 0, 10, 2, mjw03, lecture).
+week_term_hours("141", 0, 10, 2, all, lab).
+week_term_hours("141", 0, 10, 2, all, tutorial).
+week_term_hours("130", 0, 10, 2, nd, lecture).
+week_term_hours("130", 0, 10, 2, all, lab).
+week_term_hours("130", 0, 10, 2, all, tutorial).
+week_term_hours("113", 2, 10, 2, axgopala, lecture).
+week_term_hours("113", 0, 10, 2, wl, lecture).
+week_term_hours("113", 0, 10, 2, all, lab).
+week_term_hours("113", 1, 10, 2, all, tutorial).
+week_term_hours("120.2", 0, 10, 2, tora, lecture).
+week_term_hours("120.2", 0, 10, 2, afd, lecture).
+week_term_hours("120.2", 0, 10, 2, ar3, lecture).
+week_term_hours("120.2", 0, 10, 2, all, lab).
+week_term_hours("120.2", 0, 10, 2, all, tutorial).
+week_term_hours("527", 0, 10, 2, ecl1, lecture).
+week_term_hours("527", 0, 10, 2, all, lab).
+week_term_hours("527", 0, 10, 2, all, tutorial).
+week_term_hours("491", 0, 10, 2, mjs, lecture).
+week_term_hours("491", 0, 10, 2, all, lab).
+week_term_hours("491", 0, 10, 2, all, tutorial).
+week_term_hours("231", 0, 10, 2, mpsha, lecture).
+week_term_hours("231", 0, 10, 2, ft, lecture).
+week_term_hours("231", 0, 10, 2, all, lab).
+week_term_hours("231", 0, 10, 2, all, tutorial).
+week_term_hours("429", 0, 10, 2, pgh, lecture).
+week_term_hours("429", 0, 10, 2, wjk, lecture).
+week_term_hours("429", 0, 10, 2, all, lab).
+week_term_hours("429", 0, 10, 2, all, tutorial).
+week_term_hours("233", 0, 10, 2, ae, lecture).
+week_term_hours("233", 0, 10, 2, pgh, lecture).
+week_term_hours("233", 0, 10, 2, all, lab).
+week_term_hours("233", 0, 10, 2, all, tutorial).
+week_term_hours("163", 0, 10, 2, jwc04, lecture).
+week_term_hours("163", 0, 10, 2, eedwards, lecture).
+week_term_hours("163", 0, 10, 2, dfg, lecture).
+week_term_hours("163", 0, 10, 2, clh, lecture).
+week_term_hours("163", 0, 10, 2, mrh, lecture).
+week_term_hours("163", 0, 10, 2, pjm, lecture).
+week_term_hours("163", 0, 10, 2, iccp, lecture).
+week_term_hours("163", 0, 10, 2, herbert, lecture).
+week_term_hours("163", 0, 10, 2, all, lab).
+week_term_hours("163", 0, 10, 2, all, tutorial).
+week_term_hours("141J", 0, 10, 2, mrh, lecture).
+week_term_hours("141J", 0, 10, 2, all, lab).
+week_term_hours("141J", 0, 10, 2, all, tutorial).
+week_term_hours("522", 0, 10, 2, yg, lecture).
+week_term_hours("522", 0, 10, 2, natasha, lecture).
+week_term_hours("522", 0, 10, 2, all, lab).
+week_term_hours("522", 0, 10, 2, all, tutorial).
+week_term_hours("528", 0, 10, 2, yoshida, lecture).
+week_term_hours("528", 0, 10, 2, all, lab).
+week_term_hours("528", 0, 10, 2, all, tutorial).
+week_term_hours("530", 0, 10, 2, cristic, lecture).
+week_term_hours("530", 0, 10, 2, all, lab).
+week_term_hours("530", 0, 10, 2, all, tutorial).
+week_term_hours("525", 0, 10, 2, ar3, lecture).
+week_term_hours("525", 0, 10, 2, all, lab).
+week_term_hours("525", 0, 10, 2, all, tutorial).
+week_term_hours("533", 0, 10, 2, rbc, lecture).
+week_term_hours("533", 0, 10, 2, all, lab).
+week_term_hours("533", 0, 10, 2, all, tutorial).
+week_term_hours("493", 0, 11, 2, dfg, lecture).
+week_term_hours("493", 0, 11, 2, all, lab).
+week_term_hours("493", 0, 11, 2, all, tutorial).
+week_term_hours("317", 0, 11, 2, dfg, lecture).
+week_term_hours("317", 0, 11, 2, dr, lecture).
+week_term_hours("317", 0, 11, 2, all, lab).
+week_term_hours("317", 0, 11, 2, all, tutorial).
+week_term_hours("437", 0, 11, 2, alw, lecture).
+week_term_hours("437", 0, 11, 2, all, lab).
+week_term_hours("437", 0, 11, 2, all, tutorial).
+week_term_hours("531", 0, 11, 2, gbd10, lecture).
+week_term_hours("531", 0, 11, 2, tk106, lecture).
+week_term_hours("531", 0, 11, 2, all, lab).
+week_term_hours("531", 0, 11, 2, all, tutorial).
+week_term_hours("552", 0, 11, 2, fs, lecture).
+week_term_hours("552", 0, 11, 2, all, lab).
+week_term_hours("552", 0, 11, 2, all, tutorial).
+week_term_hours("332", 0, 11, 2, phjk, lecture).
+week_term_hours("332", 0, 11, 2, all, lab).
+week_term_hours("332", 0, 11, 2, all, tutorial).
+week_term_hours("474", 0, 11, 2, ft, lecture).
+week_term_hours("474", 0, 11, 2, all, lab).
+week_term_hours("474", 0, 11, 2, all, tutorial).
+week_term_hours("436", 0, 11, 2, gcasale, lecture).
+week_term_hours("436", 0, 11, 2, pgh, lecture).
+week_term_hours("436", 0, 11, 2, all, lab).
+week_term_hours("436", 0, 11, 2, all, tutorial).
+week_term_hours("333", 0, 11, 2, ajd, lecture).
+week_term_hours("333", 0, 11, 2, all, lab).
+week_term_hours("333", 0, 11, 2, all, tutorial).
+week_term_hours("417", 0, 11, 2, eedwards, lecture).
+week_term_hours("417", 0, 11, 2, dr, lecture).
+week_term_hours("417", 0, 11, 2, all, lab).
+week_term_hours("417", 0, 11, 2, all, tutorial).
+week_term_hours("212", 0, 11, 2, costa, lecture).
+week_term_hours("212", 0, 11, 2, prp, lecture).
+week_term_hours("212", 0, 11, 2, all, lab).
+week_term_hours("212", 0, 11, 2, all, tutorial).
+week_term_hours("438", 0, 11, 2, iccp, lecture).
+week_term_hours("438", 0, 11, 2, all, lab).
+week_term_hours("438", 0, 11, 2, all, tutorial).
+week_term_hours("484", 0, 11, 2, herbert, lecture).
+week_term_hours("484", 0, 11, 2, all, lab).
+week_term_hours("484", 0, 11, 2, all, tutorial).
+week_term_hours("422", 0, 11, 2, dkuhn, lecture).
+week_term_hours("422", 0, 11, 2, all, lab).
+week_term_hours("422", 0, 11, 2, all, tutorial).
+week_term_hours("470", 0, 11, 2, clh, lecture).
+week_term_hours("470", 0, 11, 2, herbert, lecture).
+week_term_hours("470", 0, 11, 2, all, lab).
+week_term_hours("470", 0, 11, 2, all, tutorial).
+week_term_hours("341", 0, 11, 2, yg, lecture).
+week_term_hours("341", 0, 11, 2, natasha, lecture).
+week_term_hours("341", 0, 11, 2, all, lab).
+week_term_hours("341", 0, 11, 2, all, tutorial).
+week_term_hours("210", 0, 11, 2, wl, lecture).
+week_term_hours("210", 0, 11, 2, dt10, lecture).
+week_term_hours("210", 0, 11, 2, all, lab).
+week_term_hours("210", 0, 11, 2, all, tutorial).
+week_term_hours("526", 0, 11, 2, pjm, lecture).
+week_term_hours("526", 0, 11, 2, all, lab).
+week_term_hours("526", 0, 11, 2, all, tutorial).
+week_term_hours("202", 0, 11, 2, pp500, lecture).
+week_term_hours("202", 0, 11, 2, alw, lecture).
+week_term_hours("202", 0, 11, 2, all, lab).
+week_term_hours("202", 0, 11, 2, all, tutorial).
+week_term_hours("211", 0, 11, 2, cristic, lecture).
+week_term_hours("211", 0, 11, 2, prp, lecture).
+week_term_hours("211", 0, 11, 2, all, lab).
+week_term_hours("211", 0, 11, 2, all, tutorial).
+week_term_hours("350", 0, 11, 2, jss, lecture).
+week_term_hours("350", 0, 11, 2, all, lab).
+week_term_hours("350", 0, 11, 2, all, tutorial).
+week_term_hours("318", 0, 11, 2, wl, lecture).
+week_term_hours("318", 0, 11, 2, tjt97, lecture).
+week_term_hours("318", 0, 11, 2, all, lab).
+week_term_hours("318", 0, 11, 2, all, tutorial).
+week_term_hours("338", 0, 11, 2, axgopala, lecture).
+week_term_hours("338", 0, 11, 2, jamm, lecture).
+week_term_hours("338", 0, 11, 2, all, lab).
+week_term_hours("338", 0, 11, 2, all, tutorial).
+week_term_hours("276", 0, 11, 2, mjs, lecture).
+week_term_hours("276", 0, 11, 2, all, lab).
+week_term_hours("276", 0, 11, 2, all, tutorial).
+week_term_hours("164", 0, 11, 2, ealpay, lecture).
+week_term_hours("164", 0, 11, 2, all, lab).
+week_term_hours("164", 0, 11, 2, all, tutorial).
+week_term_hours("142", 0, 11, 2, yg, lecture).
+week_term_hours("142", 0, 11, 2, iccp, lecture).
+week_term_hours("142", 0, 11, 2, all, lab).
+week_term_hours("142", 0, 11, 2, all, tutorial).
+week_term_hours("141", 0, 11, 2, scd, lecture).
+week_term_hours("141", 0, 11, 2, mjw03, lecture).
+week_term_hours("141", 0, 11, 2, all, lab).
+week_term_hours("141", 0, 11, 2, all, tutorial).
+week_term_hours("130", 0, 11, 2, nd, lecture).
+week_term_hours("130", 0, 11, 2, all, lab).
+week_term_hours("130", 0, 11, 2, all, tutorial).
+week_term_hours("113", 0, 11, 2, axgopala, lecture).
+week_term_hours("113", 0, 11, 2, wl, lecture).
+week_term_hours("113", 0, 11, 2, all, lab).
+week_term_hours("113", 0, 11, 2, all, tutorial).
+week_term_hours("120.2", 0, 11, 2, tora, lecture).
+week_term_hours("120.2", 0, 11, 2, afd, lecture).
+week_term_hours("120.2", 0, 11, 2, ar3, lecture).
+week_term_hours("120.2", 0, 11, 2, all, lab).
+week_term_hours("120.2", 0, 11, 2, all, tutorial).
+week_term_hours("527", 0, 11, 2, ecl1, lecture).
+week_term_hours("527", 0, 11, 2, all, lab).
+week_term_hours("527", 0, 11, 2, all, tutorial).
+week_term_hours("491", 0, 11, 2, mjs, lecture).
+week_term_hours("491", 0, 11, 2, all, lab).
+week_term_hours("491", 0, 11, 2, all, tutorial).
+week_term_hours("231", 0, 11, 2, mpsha, lecture).
+week_term_hours("231", 0, 11, 2, ft, lecture).
+week_term_hours("231", 0, 11, 2, all, lab).
+week_term_hours("231", 0, 11, 2, all, tutorial).
+week_term_hours("429", 0, 11, 2, pgh, lecture).
+week_term_hours("429", 0, 11, 2, wjk, lecture).
+week_term_hours("429", 0, 11, 2, all, lab).
+week_term_hours("429", 0, 11, 2, all, tutorial).
+week_term_hours("233", 0, 11, 2, ae, lecture).
+week_term_hours("233", 0, 11, 2, pgh, lecture).
+week_term_hours("233", 0, 11, 2, all, lab).
+week_term_hours("233", 0, 11, 2, all, tutorial).
+week_term_hours("163", 0, 11, 2, jwc04, lecture).
+week_term_hours("163", 0, 11, 2, eedwards, lecture).
+week_term_hours("163", 0, 11, 2, dfg, lecture).
+week_term_hours("163", 0, 11, 2, clh, lecture).
+week_term_hours("163", 0, 11, 2, mrh, lecture).
+week_term_hours("163", 0, 11, 2, pjm, lecture).
+week_term_hours("163", 0, 11, 2, iccp, lecture).
+week_term_hours("163", 0, 11, 2, herbert, lecture).
+week_term_hours("163", 0, 11, 2, all, lab).
+week_term_hours("163", 0, 11, 2, all, tutorial).
+week_term_hours("141J", 0, 11, 2, mrh, lecture).
+week_term_hours("141J", 0, 11, 2, all, lab).
+week_term_hours("141J", 0, 11, 2, all, tutorial).
+week_term_hours("522", 0, 11, 2, yg, lecture).
+week_term_hours("522", 0, 11, 2, natasha, lecture).
+week_term_hours("522", 0, 11, 2, all, lab).
+week_term_hours("522", 0, 11, 2, all, tutorial).
+week_term_hours("528", 0, 11, 2, yoshida, lecture).
+week_term_hours("528", 0, 11, 2, all, lab).
+week_term_hours("528", 0, 11, 2, all, tutorial).
+week_term_hours("530", 0, 11, 2, cristic, lecture).
+week_term_hours("530", 0, 11, 2, all, lab).
+week_term_hours("530", 0, 11, 2, all, tutorial).
+week_term_hours("525", 0, 11, 2, ar3, lecture).
+week_term_hours("525", 0, 11, 2, all, lab).
+week_term_hours("525", 0, 11, 2, all, tutorial).
+week_term_hours("533", 0, 11, 2, rbc, lecture).
+week_term_hours("533", 0, 11, 2, all, lab).
+week_term_hours("533", 0, 11, 2, all, tutorial).
+week_term_hours("120.3", 0, 1, 3, tora, lecture).
+week_term_hours("120.3", 0, 1, 3, all, lab).
+week_term_hours("120.3", 0, 1, 3, all, tutorial).
+week_term_hours("120.3", 0, 2, 3, tora, lecture).
+week_term_hours("120.3", 0, 2, 3, all, lab).
+week_term_hours("120.3", 0, 2, 3, all, tutorial).
+week_term_hours("120.3", 0, 3, 3, tora, lecture).
+week_term_hours("120.3", 0, 3, 3, all, lab).
+week_term_hours("120.3", 0, 3, 3, all, tutorial).
+week_term_hours("120.3", 0, 4, 3, tora, lecture).
+week_term_hours("120.3", 0, 4, 3, all, lab).
+week_term_hours("120.3", 0, 4, 3, all, tutorial).
+week_term_hours("120.3", 0, 5, 3, tora, lecture).
+week_term_hours("120.3", 0, 5, 3, all, lab).
+week_term_hours("120.3", 0, 5, 3, all, tutorial).
+week_term_hours("120.3", 0, 6, 3, tora, lecture).
+week_term_hours("120.3", 0, 6, 3, all, lab).
+week_term_hours("120.3", 0, 6, 3, all, tutorial).
+week_term_hours("120.3", 0, 7, 3, tora, lecture).
+week_term_hours("120.3", 0, 7, 3, all, lab).
+week_term_hours("120.3", 0, 7, 3, all, tutorial).
+week_term_hours("120.3", 0, 8, 3, tora, lecture).
+week_term_hours("120.3", 0, 8, 3, all, lab).
+week_term_hours("120.3", 0, 8, 3, all, tutorial).
+week_term_hours("120.3", 0, 9, 3, tora, lecture).
+week_term_hours("120.3", 0, 9, 3, all, lab).
+week_term_hours("120.3", 0, 9, 3, all, tutorial).
+week_term_hours("120.3", 0, 10, 3, tora, lecture).
+week_term_hours("120.3", 0, 10, 3, all, lab).
+week_term_hours("120.3", 0, 10, 3, all, tutorial).
+week_term_hours("120.3", 0, 11, 3, tora, lecture).
+week_term_hours("120.3", 0, 11, 3, all, lab).
+week_term_hours("120.3", 0, 11, 3, all, tutorial).
