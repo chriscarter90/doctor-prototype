@@ -78,6 +78,9 @@ allocated(C, session(D, T, 3..9, E), R) :- allocated(C, session(D, T, 2, E), R),
 % Two courses which are not allowed to be clashed cannot be put at the same time.
 :- allocated(C1, S, R1), allocated(C2, S, R2), never_clash(C1, C2), R1 >= R2.
 
+% A lecturer can't be in two places at once.
+:- allocated(C1, S, R1), allocated(C2, S, R2), not never_clash(C1, C2), C1 > C2, teaches(C1, L), teaches(C2, L).
+
 % Only have between Min and Max different slot times over the term.
 Min { alloc_gen_term(C, D, T, E, R) : room(R) : day_time(D, T) : term(E) } Max :- min_per_week(C, E, Min), max_per_week(C, E, Max).
 
