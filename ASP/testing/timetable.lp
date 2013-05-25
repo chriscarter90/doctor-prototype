@@ -123,7 +123,10 @@ clash_exception(X, Y) :- b4(X), b4(Y), X != Y.
 clash_together(X, Y) :- clash_compatible(X, Y), clash_wanted(X, Y).
 
 %% Check for clash compatibility.
-clash_compatible(X, Y) :- course_type(X, T), course_type(Y, T).
+clash_compatible(X, Y) :- course_type(X, T), course_type(Y, T), not matching_lecturer(X, Y).
+
+%% Check for a common lecturer.
+matching_lecturer(X, Y) :- teaches(X, L), teaches(Y, L).
 
 % ============================================= %
 %% Course week rules
