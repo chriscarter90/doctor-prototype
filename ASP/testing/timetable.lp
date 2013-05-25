@@ -35,6 +35,10 @@ course(X) :- b4(X).
 room(X) :- lecture_room(X).
 room(X) :- lab_room(X).
 
+session_type(lecture).
+session_type(tutorial).
+session_type(lab).
+
 % Define the conditions where the type holds.
 holds(C, a, W, E) :- course_type(C, a), allocated(C, session(D, T, W, E), R, _),  allocated(C, session(D, T + 1, W, E), R, _),  allocated(C, session(D, T + 2, W, E), R, _).
 
@@ -75,19 +79,19 @@ allocated(C, session(D, T, 3..9, E), R, Type) :- allocated(C, session(D, T, 2, E
 % Basic constraints
 
 % Two courses which ARE allowed to be clashed can't be scheduled in the same room concurrently.
-:- allocated(C1, S, R, _), allocated(C2, S, R, _), C1 > C2, not never_clash(C1, C2).
+:- alloc_no_type(C1, S, R), alloc_no_type(C2, S, R), C1 > C2, not never_clash(C1, C2).
 
 % The same course can't be in the two rooms at the same time.
-:- allocated(C, S, R1, _), allocated(C, S, R2, _), R1 > R2.
+:- alloc_no_type(C, S, R1), alloc_no_type(C, S, R2), R1 > R2.
 
 % The same course can't have two types on at once.
-:- allocated(C, S, R1, Type), allocated(C, S, R2, Type2), Type != Type2.
+:- alloc_no_room(C, S, Type), alloc_no_room(C, S, Type2), Type != Type2.
 
 % Two courses which are not allowed to be clashed cannot be put at the same time.
-:- allocated(C1, S, R1, _), allocated(C2, S, R2, _), never_clash(C1, C2), R1 >= R2.
+:- alloc_no_type(C1, S, R1), alloc_no_type(C2, S, R2), never_clash(C1, C2), R1 >= R2.
 
 % A lecturer can't be in two places at once.
-:- allocated(C1, S, R1, _), allocated(C2, S, R2, _), not never_clash(C1, C2), C1 > C2, teaches(C1, L), teaches(C2, L).
+:- alloc_no_type(C1, S, R1), alloc_no_type(C2, S, R2), not never_clash(C1, C2), C1 > C2, teaches(C1, L), teaches(C2, L).
 
 % Only have between Min and Max different slot times over the term.
 Min { alloc_gen_term(C, D, T, E, R, Type) : room(R) : day_time(D, T) : term(E) } Max :- min_per_week(C, E, Min, Type), max_per_week(C, E, Max, Type).
@@ -98,6 +102,9 @@ Min { alloc_gen_term(C, D, T, E, R, Type) : room(R) : day_time(D, T) : term(E) }
 alloc_gen(C, D, T) :- allocated(C, session(D, T, _, _), _, _).
 alloc_gen_type(C, D, T, Type) :- allocated(C, session(D, T, _, _), _, Type).
 alloc_gen_term(C, D, T, E, R, Type) :- allocated(C, session(D, T, _, E), R, Type).
+alloc_no_type(C, S, R) :- allocated(C, S, R, _).
+alloc_no_room(C, S, Type) :- allocated(C, S, _, Type).
+alloc_no_room_or_type(C, S) :- allocated(C, S, _, _).
 
 % ============================================= %
 % Unclashables
@@ -106,7 +113,7 @@ alloc_gen_term(C, D, T, E, R, Type) :- allocated(C, session(D, T, _, E), R, Type
 
 % Two courses which can't be clashed can't be scheduled concurrently.
 unclashable(C1, C2) :- unclashable(C2, C1).
-:- allocated(C1, S, R1, _), allocated(C2, S, R2, _), unclashable(C1, C2), R1 >= R2.
+:- alloc_no_type(C1, S, R1), alloc_no_type(C2, S, R2), unclashable(C1, C2), R1 >= R2.
 
 never_clash(X, Y) :- b1(X), b1(Y), X != Y, not clash_exception(X, Y).
 never_clash(X, Y) :- b2(X), b2(Y), X != Y, not clash_exception(X, Y).
@@ -118,8 +125,8 @@ never_clash(X, Y) :- b4(X), b4(Y), X != Y, not clash_exception(X, Y).
 
 % ### Put clash wanted clauses into clashes.lp ### %
 
-1 { allocated(C1, S, R, Type) : room(R) : session_type(Type) } 1 :- allocated(C2, S, _, _), clash_together(C1, C2), total_per_week(C1, H1, W, E), total_per_week(C2, H2, W, E), H1 < H2.
-1 { allocated(C1, S, R, Type) : room(R) : session_type(Type) } 1 :- allocated(C2, S, _, _), clash_together(C1, C2), total_per_week(C1, H1, W, E), total_per_week(C2, H2, W, E), H1 == H2.
+1 { allocated(C1, S, R, Type) : room(R) : session_type(Type) } 1 :- alloc_no_room_or_type(C2, S), clash_together(C1, C2), total_per_week(C1, H1, W, E), total_per_week(C2, H2, W, E), H1 < H2.
+1 { allocated(C1, S, R, Type) : room(R) : session_type(Type) } 1 :- alloc_no_room_or_type(C2, S), clash_together(C1, C2), total_per_week(C1, H1, W, E), total_per_week(C2, H2, W, E), H1 == H2.
 
 %% Clash exceptions are ALLOWED to clash, doesn't mean that they SHOULD.
 clash_exception(X, Y) :- clash_exception(Y, X).
@@ -132,10 +139,13 @@ clash_exception(X, Y) :- b4(X), b4(Y), X != Y.
 clash_together(X, Y) :- clash_compatible(X, Y), clash_wanted(X, Y).
 
 %% Check for clash compatibility.
-clash_compatible(X, Y) :- course_type(X, T), course_type(Y, T), not matching_lecturer(X, Y).
+clash_compatible(X, Y) :- course(X), course(Y), not types_clash(X, Y), not matching_lecturer(X, Y).
 
 %% Check for a common lecturer.
 matching_lecturer(X, Y) :- teaches(X, L), teaches(Y, L).
+
+%% Types clash
+types_clash(X, Y) :- course_type(X, T1), course_type(Y, T2), T1 != T2.
 
 % ============================================= %
 %% Course week rules
