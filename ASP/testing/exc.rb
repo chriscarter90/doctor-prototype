@@ -18,7 +18,7 @@ def format_allocations(allocations)
     allocs[term][week] ||= {}
     allocs[term][week][day] ||= {}
     allocs[term][week][day][time] ||= []
-    allocs[term][week][day][time] << "#{course} (R: #{room}, T: #{type})"
+    allocs[term][week][day][time] << "#{type[0..1]}#{course}/#{room}"
   end
   allocs
 end
