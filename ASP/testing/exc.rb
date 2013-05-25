@@ -12,12 +12,13 @@ def format_allocations(allocations)
     time   = a.match(/session\([^,]+,(\d+)/)[1]
     course = a.match(/allocated\("([^"]+)"/)[1]
     room   = a.match(/session\(.*\),"(\d+)"/)[1]
+    type = a.match(/session\(.*\),"[^"]+",([^\)]+)/)[1]
 
     allocs[term] ||= {}
     allocs[term][week] ||= {}
     allocs[term][week][day] ||= {}
     allocs[term][week][day][time] ||= []
-    allocs[term][week][day][time] << "#{course} (R: #{room})"
+    allocs[term][week][day][time] << "#{course} (R: #{room}, T: #{type})"
   end
   allocs
 end
@@ -38,7 +39,7 @@ threads = []
 
 3.times do |i|
   threads[i] = Thread.new {
-    allocations = `clingo --const t=#{i+1} *.lp 2> /dev/null`
+    allocations = `/vol/lab/CLASP/clingo --const t=#{i+1} *.lp 2> /dev/null`
 
     lines = allocations.split("\n")
     if lines.first.match(/UNSATISFIABLE/)
@@ -46,6 +47,7 @@ threads = []
     else
       answers += find_optimal_answer(lines).split(/\s/)
     end
+    puts "Thread for term #{i+1} has finished."
   }
 end
 

@@ -32,63 +32,72 @@ course(X) :- b2(X).
 course(X) :- b3(X).
 course(X) :- b4(X).
 
+room(X) :- lecture_room(X).
+room(X) :- lab_room(X).
+
 % Define the conditions where the type holds.
-holds(C, a, W, E) :- course_type(C, a), allocated(C, session(D, T, W, E), R),  allocated(C, session(D, T + 1, W, E), R),  allocated(C, session(D, T + 2, W, E), R).
+holds(C, a, W, E) :- course_type(C, a), allocated(C, session(D, T, W, E), R, _),  allocated(C, session(D, T + 1, W, E), R, _),  allocated(C, session(D, T + 2, W, E), R, _).
 
-holds(C, b, W, E) :- course_type(C, b), consecutive(C, D, W, E, afternoon),  allocated(C, session(D, T2, W, E), _), morning(T2).
-holds(C, b, W, E) :- course_type(C, b), consecutive(C, D, W, E, morning),  allocated(C, session(D, T2, W, E), _), afternoon(T2).
+holds(C, b, W, E) :- course_type(C, b), consecutive(C, D, W, E, afternoon),  allocated(C, session(D, T2, W, E), _, _), morning(T2).
+holds(C, b, W, E) :- course_type(C, b), consecutive(C, D, W, E, morning),  allocated(C, session(D, T2, W, E), _, _), afternoon(T2).
 
-holds(C, c, W, E) :- course_type(C, c), consecutive(C, D1, W, E), allocated(C, session(D2, _, W, E), _), D1 != D2.
+holds(C, c, W, E) :- course_type(C, c), consecutive(C, D1, W, E), allocated(C, session(D2, _, W, E), _, _), D1 != D2.
 
-consecutive(C, D, W, E) :- course_type(C, c), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R).
-consecutive(C, D, W, E, morning) :- course_type(C, b), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R), morning(T).
-consecutive(C, D, W, E, afternoon) :- course_type(C, b), allocated(C, session(D, T, W, E), R), allocated(C, session(D, T + 1, W, E), R), afternoon(T).
+consecutive(C, D, W, E) :- course_type(C, c), allocated(C, session(D, T, W, E), R, _), allocated(C, session(D, T + 1, W, E), R, _).
+consecutive(C, D, W, E, morning) :- course_type(C, b), allocated(C, session(D, T, W, E), R, _), allocated(C, session(D, T + 1, W, E), R, _), morning(T).
+consecutive(C, D, W, E, afternoon) :- course_type(C, b), allocated(C, session(D, T, W, E), R, _), allocated(C, session(D, T + 1, W, E), R, _), afternoon(T).
 
 % Ensure that the types hold (for weeks which have 3 lectures, otherwise who cares?).
-:- not holds(C, T, W, E), course_type(C, T), per_week(C, 3, W, E).
-:- not holds(C, T, W, E), W = 2..10, course_type(C, T), per_week_2_10(C, 3, E).
-:- not holds(C, T, W, E), W = 2..9, course_type(C, T), per_week_2_9(C, 3, E).
+:- not holds(C, T, W, E), course_type(C, T), total_per_week(C, 3, W, E).
 
 % ============================================= %
 % Only have enough allocations for each subject, for each week that it's taught.
 
-N { allocated(C, session(D, T, W, E), R) : ses(D, T, W, E) : room(R) : T != 4 : T != 5 } N :- per_week(C, N, W, E).
+N { allocated(C, session(D, T, W, E), R, Type) : ses(D, T, W, E) : room(R) : T != 4 : T != 5 } N :- per_week(C, N, W, E, Type).
 
 %% Weeks 2-10 same:
-N { allocated(C, session(D, T, 2, E), R) : ses(D, T, 2, E) : room (R) : T != 4 : T != 5 } N :- per_week_2_10(C, N, E).
+N { allocated(C, session(D, T, 2, E), R, Type) : ses(D, T, 2, E) : room (R) : T != 4 : T != 5 } N :- per_week_2_10(C, N, E, Type).
 
-allocated(C, session(D, T, 3..10, E), R) :- allocated(C, session(D, T, 2, E), R), per_week_2_10(C, _, E).
+allocated(C, session(D, T, 3..10, E), R, Type) :- allocated(C, session(D, T, 2, E), R, Type), per_week_2_10(C, _, E, Type).
 %%
 
 %% Weeks 2-9 same:
-N { allocated(C, session(D, T, 2, E), R) : ses(D, T, 2, E) : room(R) : T != 4 : T != 5 } N :- per_week_2_9(C, N, E).
+N { allocated(C, session(D, T, 2, E), R, Type) : ses(D, T, 2, E) : room(R) : T != 4 : T != 5 } N :- per_week_2_9(C, N, E, Type).
 
-allocated(C, session(D, T, 3..9, E), R) :- allocated(C, session(D, T, 2, E), R), per_week_2_9(C, _, E).
+allocated(C, session(D, T, 3..9, E), R, Type) :- allocated(C, session(D, T, 2, E), R, Type), per_week_2_9(C, _, E, Type).
 %%
+
+:- allocated(C1, S, R, lecture), not lecture_room(R).
+:- allocated(C1, S, R, tutorial), not lecture_room(R).
+:- allocated(C1, S, R, lab), not lab_room(R).
 
 % ============================================= %
 % Basic constraints
 
 % Two courses which ARE allowed to be clashed can't be scheduled in the same room concurrently.
-:- allocated(C1, S, R), allocated(C2, S, R), C1 > C2, not never_clash(C1, C2).
+:- allocated(C1, S, R, _), allocated(C2, S, R, _), C1 > C2, not never_clash(C1, C2).
 
 % The same course can't be in the two rooms at the same time.
-:- allocated(C, S, R1), allocated(C, S, R2), R1 > R2.
+:- allocated(C, S, R1, _), allocated(C, S, R2, _), R1 > R2.
+
+% The same course can't have two types on at once.
+:- allocated(C, S, R1, Type), allocated(C, S, R2, Type2), Type != Type2.
 
 % Two courses which are not allowed to be clashed cannot be put at the same time.
-:- allocated(C1, S, R1), allocated(C2, S, R2), never_clash(C1, C2), R1 >= R2.
+:- allocated(C1, S, R1, _), allocated(C2, S, R2, _), never_clash(C1, C2), R1 >= R2.
 
 % A lecturer can't be in two places at once.
-:- allocated(C1, S, R1), allocated(C2, S, R2), not never_clash(C1, C2), C1 > C2, teaches(C1, L), teaches(C2, L).
+:- allocated(C1, S, R1, _), allocated(C2, S, R2, _), not never_clash(C1, C2), C1 > C2, teaches(C1, L), teaches(C2, L).
 
 % Only have between Min and Max different slot times over the term.
-Min { alloc_gen_term(C, D, T, E, R) : room(R) : day_time(D, T) : term(E) } Max :- min_per_week(C, E, Min), max_per_week(C, E, Max).
+Min { alloc_gen_term(C, D, T, E, R, Type) : room(R) : day_time(D, T) : term(E) } Max :- min_per_week(C, E, Min, Type), max_per_week(C, E, Max, Type).
 
 % ============================================= %
 % Generalise allocated clauses for use elsewhere.
 
-alloc_gen(C, D, T) :- allocated(C, session(D, T, _, _), _).
-alloc_gen_term(C, D, T, E, R) :- allocated(C, session(D, T, _, E), R).
+alloc_gen(C, D, T) :- allocated(C, session(D, T, _, _), _, _).
+alloc_gen_type(C, D, T, Type) :- allocated(C, session(D, T, _, _), _, Type).
+alloc_gen_term(C, D, T, E, R, Type) :- allocated(C, session(D, T, _, E), R, Type).
 
 % ============================================= %
 % Unclashables
@@ -97,7 +106,7 @@ alloc_gen_term(C, D, T, E, R) :- allocated(C, session(D, T, _, E), R).
 
 % Two courses which can't be clashed can't be scheduled concurrently.
 unclashable(C1, C2) :- unclashable(C2, C1).
-:- allocated(C1, S, R1), allocated(C2, S, R2), unclashable(C1, C2), R1 >= R2.
+:- allocated(C1, S, R1, _), allocated(C2, S, R2, _), unclashable(C1, C2), R1 >= R2.
 
 never_clash(X, Y) :- b1(X), b1(Y), X != Y, not clash_exception(X, Y).
 never_clash(X, Y) :- b2(X), b2(Y), X != Y, not clash_exception(X, Y).
@@ -109,8 +118,8 @@ never_clash(X, Y) :- b4(X), b4(Y), X != Y, not clash_exception(X, Y).
 
 % ### Put clash wanted clauses into clashes.lp ### %
 
-1 { allocated(C1, S, R) : room(R) } 1 :- allocated(C2, S, _), clash_together(C1, C2), week_term_hours(C1, H1, W, E), week_term_hours(C2, H2, W, E), H1 < H2.
-1 { allocated(C1, S, R) : room(R) } 1 :- allocated(C2, S, _), clash_together(C1, C2), week_term_hours(C1, H1, W, E), week_term_hours(C2, H2, W, E), H1 == H2.
+1 { allocated(C1, S, R, Type) : room(R) : session_type(Type) } 1 :- allocated(C2, S, _, _), clash_together(C1, C2), total_per_week(C1, H1, W, E), total_per_week(C2, H2, W, E), H1 < H2.
+1 { allocated(C1, S, R, Type) : room(R) : session_type(Type) } 1 :- allocated(C2, S, _, _), clash_together(C1, C2), total_per_week(C1, H1, W, E), total_per_week(C2, H2, W, E), H1 == H2.
 
 %% Clash exceptions are ALLOWED to clash, doesn't mean that they SHOULD.
 clash_exception(X, Y) :- clash_exception(Y, X).
@@ -133,21 +142,25 @@ matching_lecturer(X, Y) :- teaches(X, L), teaches(Y, L).
 
 % ### Put course week data into into course_weeks.lp ### %
 
-min_per_week(C, E, M) :- course(C), week_term_hours(C, _, _, E), M = #min[ week_term_hours(C, H, W, E) = H ].
-max_per_week(C, E, M) :- course(C), week_term_hours(C, _, _, E), M = #max[ week_term_hours(C, H, W, E) = H ].
+min_per_week(C, t, M, Type) :- course(C), week_term_hours(C, _, _, t, Type), M = #min[ week_term_hours(C, H, W, t, Type) = H ].
+max_per_week(C, t, M, Type) :- course(C), week_term_hours(C, _, _, t, Type), M = #max[ week_term_hours(C, H, W, t, Type) = H ].
 
 %% For when weeks 2-10 are the same:
-per_week_2_10(C, H, t) :- week_term_hours(C, H, W, t) : W = 3..10, week_term_hours(C, H, 2, t).
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W < 2, per_week_2_10(C, _, t).
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W > 10, per_week_2_10(C, _, t).
+per_week_2_10(C, H, t, Type) :- week_term_hours(C, H, W, t, Type) : W = 3..10, week_term_hours(C, H, 2, t, Type).
+per_week(C, H, W, t, Type) :- week_term_hours(C, H, W, t, Type), W < 2, per_week_2_10(C, _, t, Type).
+per_week(C, H, W, t, Type) :- week_term_hours(C, H, W, t, Type), W > 10, per_week_2_10(C, _, t, Type).
 
 %% For when 2-9 are the same and 10 is different:
-per_week_2_9(C, H, t) :- week_term_hours(C, H, W, t) : W = 3..9, week_term_hours(C, H, 2, t), not per_week_2_10(C, H, t).
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W < 2, per_week_2_9(C, _, t).
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), W > 9, per_week_2_9(C, _, t).
+per_week_2_9(C, H, t, Type) :- week_term_hours(C, H, W, t, Type) : W = 3..9, week_term_hours(C, H, 2, t, Type), not per_week_2_10(C, H, t, Type).
+per_week(C, H, W, t, Type) :- week_term_hours(C, H, W, t, Type), W < 2, per_week_2_9(C, _, t, Type).
+per_week(C, H, W, t, Type) :- week_term_hours(C, H, W, t, Type), W > 9, per_week_2_9(C, _, t, Type).
 
 %% For when neither of the above hold:
-per_week(C, H, W, t) :- week_term_hours(C, H, W, t), not per_week_2_10(C, H, t), not per_week_2_9(C, H, t).
+per_week(C, H, W, t, Type) :- week_term_hours(C, H, W, t, Type), not per_week_2_10(C, H, t, Type), not per_week_2_9(C, H, t, Type).
+
+total_per_week(C, M, W, t) :- course(C), week_term_hours(C, _, W, t, _), M = [ week_term_hours(C, H, W, t, _, _) = H ].
+
+week_term_hours(C, M, W, t, Type) :- course(C), week_term_hours(C, _, W, t, _, Type), M = [ week_term_hours(C, H, W, t, _, Type) = H ].
 
 % ============================================= %
 %% Preferences
@@ -170,6 +183,7 @@ prefer_not_before_violated(C, T) :- allocated(C, session(_, T1, _, _), _), prefe
 prefer_not_after_violated(C, T) :- allocated(C, session(_, T1, _, _), _), prefer_not_after(C, T), T1 > T.
 
 precisely_violated(C, D, T) :- precisely(C, D, T), not alloc_gen(C, D, T).
+precisely_violated(C, D, T, Type) :- precisely(C, D, T, Type), not alloc_gen_type(C, D, T, Type).
 
 #maximize { preference_time_met(_, _) }.
 #maximize { preference_day_met(_, _) }.
@@ -188,4 +202,4 @@ precisely_violated(C, D, T) :- precisely(C, D, T), not alloc_gen(C, D, T).
 
 % Only output allocated clauses.
 #hide.
-#show allocated/3.
+#show allocated/4.
