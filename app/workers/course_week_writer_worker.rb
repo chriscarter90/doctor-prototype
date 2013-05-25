@@ -9,5 +9,11 @@ class CourseWeekWriterWorker
         f.write("#{cw.to_ASP}\n")
       end
     end
+
+    File.open(Rails.root.join("ASP", year_no.to_s, "course_types.lp"), "w") do |f|
+      year.lecture_courses.each do |c|
+        f.write("#{c.type_to_ASP}")
+      end
+    end
   end
 end
