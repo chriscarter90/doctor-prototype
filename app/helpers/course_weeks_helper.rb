@@ -10,4 +10,13 @@ module CourseWeeksHelper
   def investigation_class(course)
     course.total_hours == 27 ? "standard" : "investigation"
   end
+
+  def scheduling_type_options(course)
+    options = []
+    'a'.upto('c') do |char|
+      options << ["Type #{char}", char]
+    end
+
+    options_for_select(options, course.scheduling_type)
+  end
 end

@@ -22,7 +22,9 @@ class CourseWeeksController < ApplicationController
         if allocations
           # Update the course to reflect whether the lecturers are merged or not
           merged_lecturers = allocations.delete("merged_lecturers")
+          scheduling_type = allocations.delete("scheduling_type")
           c.merged_lecturers = merged_lecturers.present?
+          c.scheduling_type = scheduling_type
           c.save!
           c.reload
 

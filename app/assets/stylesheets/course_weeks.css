@@ -44,3 +44,12 @@ input.tiny {
 .summary .total {
   text-align: center;
 }
+
+.scheduling-type .controls,
+.scheduling-type label {
+  display: inline;
+}
+
+.scheduling-type .controls {
+  padding-left: 50px;
+}

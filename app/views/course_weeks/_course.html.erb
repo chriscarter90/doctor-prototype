@@ -15,6 +15,15 @@
           </label>
         <% end %>
 
+        <div class="scheduling-type">
+          <label class="control-label">
+            Scheduling type
+          </label>
+          <div class="controls">
+            <%= select_tag "course_weeks[#{course.code}][scheduling_type]", scheduling_type_options(course), :include_blank => true, :class => "input-medium" %>
+          </div>
+        </div>
+
         <table>
           <%= render :partial => 'course_header' , :locals => { :course => course } %>
           <%= render :partial => 'course_single' , :locals => { :course => course } %>
