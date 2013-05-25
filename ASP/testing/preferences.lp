@@ -24,7 +24,7 @@
 
 % I prefer a certain time or day:
 
-% prefer_time("499", 1).
+% prefer_time("493", 1).
 % prefer_day("499", fri).
 
 
@@ -46,3 +46,4 @@
 
 % Precisely...:
 % precisely("493", mon, 1).
+precisely("333", fri, 9, lab).

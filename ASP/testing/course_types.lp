@@ -89,5 +89,5 @@
 % course_type("481", a).
 % course_type("484", a).
 % course_type("491", a).
-% course_type("493", a).
+course_type("493", a).
 % course_type("499", a).
