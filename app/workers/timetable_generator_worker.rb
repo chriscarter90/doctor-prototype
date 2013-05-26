@@ -6,6 +6,12 @@ class TimetableGeneratorWorker
 
     year.update_attribute(:timetable_generated, false)
 
+    year.terms.each do |term|
+      term.weeks.each do |week|
+        week.timetable_slots.destroy_all
+      end
+    end
+
     answers = []
     threads = []
 
