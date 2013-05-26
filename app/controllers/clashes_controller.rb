@@ -5,7 +5,7 @@ class ClashesController < ApplicationController
     @clashes = @year.clashes
     @unclashables = @year.unclashables
 
-    @courses = LectureCourse.has_lecturers.by_code.clashable
+    @courses = @year.lecture_courses.has_lecturers.by_code.clashable
   end
 
   def new
