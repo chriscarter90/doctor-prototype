@@ -1,6 +1,6 @@
 class Year < ActiveRecord::Base
 
-  attr_accessible :no, :terms_attributes
+  attr_accessible :no, :terms_attributes, :timetable_generated
 
   # = Validations =
   validates :no, :presence => true, :uniqueness => true

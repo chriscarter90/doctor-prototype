@@ -14,6 +14,10 @@ DoctorPrototype::Application.routes.draw do
     :to => 'unclashables#remove',
     :as => :remove_unclashable
 
+  put 'years/:id/generate_timetable',
+    :to => 'years#generate_timetable',
+    :as => :year_generate_timetable
+
   resources :years, :except => [:destroy] do
     resources :requirements, :only => [] do
       collection do

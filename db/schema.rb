@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130526133659) do
+ActiveRecord::Schema.define(:version => 20130526141747) do
 
   create_table "clashes", :force => true do |t|
     t.integer  "year_id"
@@ -171,8 +171,9 @@ ActiveRecord::Schema.define(:version => 20130526133659) do
 
   create_table "years", :force => true do |t|
     t.integer  "no"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.boolean  "timetable_generated", :default => false
   end
 
 end

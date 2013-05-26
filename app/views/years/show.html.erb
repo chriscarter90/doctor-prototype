@@ -60,3 +60,20 @@
     <%= link_to "Select Clashes", year_clashes_path(@year) %>
   </li>
 </ul>
+
+<hr>
+
+<h4>
+  Processing
+</h4>
+
+<ul class='nav nav-pills nav-stacked models'>
+  <li>
+    <% if @year.timetable_generated? %>
+      <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put', :confirm => "This will overwrite any previous timetable data. Are you sure?" %>
+      I have a timetable
+    <% else %>
+      <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put' %>
+    <% end %>
+  </li>
+</ul>
