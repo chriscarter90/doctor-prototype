@@ -27,6 +27,9 @@
       <th>
         Capacity
       </th>
+      <th>
+        Room Type
+      </th>
       <th> </th>
     </tr>
 
@@ -37,6 +40,9 @@
         </td>
         <td>
           <%= r.capacity %>
+        </td>
+        <td>
+          <%= r.room_type.capitalize %>
         </td>
         <td>
           <%= link_to "Edit", edit_year_room_path(@year, r), :class => "btn btn-primary" %>
