@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130525183110) do
+ActiveRecord::Schema.define(:version => 20130526133659) do
 
   create_table "clashes", :force => true do |t|
     t.integer  "year_id"
@@ -105,9 +105,10 @@ ActiveRecord::Schema.define(:version => 20130525183110) do
   create_table "rooms", :force => true do |t|
     t.integer  "no"
     t.integer  "capacity"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
     t.integer  "year_id"
+    t.string   "room_type",  :default => "lecture", :null => false
   end
 
   add_index "rooms", ["no", "year_id"], :name => "index_rooms_on_no_and_year_id", :unique => true

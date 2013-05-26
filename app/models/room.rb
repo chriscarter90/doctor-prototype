@@ -1,9 +1,9 @@
 class Room < ActiveRecord::Base
 
-  attr_accessible :no, :capacity, :year
+  attr_accessible :no, :capacity, :year, :room_type
 
   # = Validations =
-  validates_presence_of :no, :capacity, :year
+  validates_presence_of :no, :capacity, :year, :room_type
 
   # = Relationships =
   has_many :timetable_slots
@@ -17,6 +17,6 @@ class Room < ActiveRecord::Base
   end
 
   def to_ASP
-    "room(\"#{no}\")."
+    "#{room_type}_room(\"#{no}\")."
   end
 end
