@@ -1,9 +1,0 @@
-week_term(1, 1).
-week_term(2, 1).
-week_term(3, 1).
-week_term(1, 2).
-week_term(2, 2).
-week_term(3, 2).
-week_term(1, 3).
-week_term(2, 3).
-week_term(3, 3).
