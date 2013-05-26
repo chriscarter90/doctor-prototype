@@ -31,6 +31,6 @@ class Year < ActiveRecord::Base
     FileUtils::mkdir_p(Rails.root.join('ASP', no.to_s))
     # FileUtils::cp(master_dir + 'course_weeks.lp', Rails.root.join('ASP', no.to_s, 'course_weeks.lp'))
     FileUtils::cp(master_dir + 'timetable.lp', Rails.root.join('ASP', no.to_s, 'timetable.lp'))
-    FileUtils::cp(master_dir + 'exc.rb', Rails.root.join('ASP', no.to_s, 'exc.rb'))
+    # FileUtils::cp(master_dir + 'exc.rb', Rails.root.join('ASP', no.to_s, 'exc.rb'))
   end
 end
