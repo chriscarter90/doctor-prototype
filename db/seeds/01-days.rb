@@ -10,8 +10,6 @@ days = [
   { :no => 3, :name => "Wednesday" },
   { :no => 4, :name => "Thursday" },
   { :no => 5, :name => "Friday" },
-  { :no => 6, :name => "Saturday" },
-  { :no => 7, :name => "Sunday" }
 ]
 
 days.each do |day|
