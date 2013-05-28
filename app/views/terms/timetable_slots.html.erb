@@ -1,6 +1,6 @@
-<h5>
-  Term <%= term.no %>
-</h5>
+<h3>
+  Timetable for Term <%= @term.no %>
+</h3>
 
 <table class="table table-bordered">
   <tr>
@@ -19,8 +19,8 @@
       </td>
       <% Day.all.each do |d| %>
         <td>
-          <% if allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].present? %>
-            <% allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].each_pair do |course, course_allocs| %>
+          <% if @slots[@time_slots.where(:day_id => d.id, :start_hour => time).first].present? %>
+            <% @slots[@time_slots.where(:day_id => d.id, :start_hour => time).first].each_pair do |course, course_allocs| %>
               <%= course.code %> (<%= get_week_ranges(course_allocs.map(&:week_id)) %>)
             <% end %>
           <% end %>
