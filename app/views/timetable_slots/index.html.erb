@@ -1,0 +1,29 @@
+<h3>
+  View timetable by:
+</h3>
+
+<h4>
+  Term
+</h4>
+
+<ul class='nav nav-pills nav-stacked'>
+  <% @terms.each do |t| %>
+    <li>
+      <%= link_to "Term #{t.no}", timetable_slots_year_term_path(@year, t) %>
+    </li>
+  <% end %>
+</ul>
+
+<hr>
+
+<h4>
+  Room
+</h4>
+
+<ul class='nav nav-pills nav-stacked'>
+  <% @rooms.each do |r| %>
+    <li>
+      <%= link_to "Room #{r.no}", timetable_slots_year_room_path(@year, r) %>
+    </li>
+  <% end %>
+</ul>

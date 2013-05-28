@@ -24,12 +24,21 @@ DoctorPrototype::Application.routes.draw do
         post 'import'
       end
     end
+    resources :terms, :only => [] do
+      member do
+        get 'timetable_slots'
+      end
+    end
     resources :lecturers, :only => [] do
       collection do
         post 'import'
       end
     end
-    resources :rooms, :except => [:show]
+    resources :rooms, :except => [:show] do
+      member do
+        get 'timetable_slots'
+      end
+    end
     resources :degree_classes, :only => [:index, :show] do
       collection do
         post 'import'
@@ -52,5 +61,6 @@ DoctorPrototype::Application.routes.draw do
     resources :course_weeks, :only => [:index]
     resources :clashes, :only => [:index, :new]
     resources :unclashables, :only => [:create]
+    resources :timetable_slots, :only => [:index]
   end
 end

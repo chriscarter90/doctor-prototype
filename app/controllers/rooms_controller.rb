@@ -44,4 +44,24 @@ class RoomsController < ApplicationController
     @room.destroy
     redirect_to year_rooms_path(@year), :notice => "Room was deleted successfully."
   end
+
+  def timetable_slots
+    @year = Year.find_by_no(params[:year_id])
+    @room = @year.rooms.find_by_no(params[:id])
+    @time_slots = TimeSlot.scoped
+    @slots = group_slots(@year.timetable_slots.where(:room_id => @room.id))
+  end
+
+  private
+  def group_slots(slots)
+    by_term = slots.group_by { |s| s.week.term }
+    by_term_and_time_slot = {}
+    by_term.each_pair do |term, term_slots|
+      by_term_and_time_slot[term] = term_slots.group_by { |t| t.time_slot }
+      by_term_and_time_slot[term].each_pair do |slot, slot_allocs|
+        by_term_and_time_slot[term][slot] = slot_allocs.group_by { |s| s.lecture_course }
+      end
+    end
+    by_term_and_time_slot
+  end
 end

@@ -1,0 +1,33 @@
+<h5>
+  Term <%= term.no %>
+</h5>
+
+<table class="table table-bordered">
+  <tr>
+    <th></th>
+    <% Day.all.each do |d| %>
+      <th>
+        <%= d.name %>
+      </th>
+    <% end %>
+  </tr>
+
+  <% 1.upto(9) do |time| %>
+    <tr>
+      <td>
+        <%= time %>
+      </td>
+      <% Day.all.each do |d| %>
+        <td>
+          <ul>
+            <% if allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].present? %>
+              <% allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].each_pair do |course, course_allocs| %>
+                <%= course.code %>, weeks: <%= course_allocs.map { |c| c.week.no }.join(',') %>
+              <% end %>
+            <% end %>
+          </ul>
+        </td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>

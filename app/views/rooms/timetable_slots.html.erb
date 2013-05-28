@@ -1,0 +1,7 @@
+<h3>
+  Timetable for Room <%= @room.no %>
+</h3>
+
+<% @slots.each_pair do |term, allocs| %>
+  <%= render :partial => 'timetable_term', :locals => { :term => term, :allocs => allocs } %>
+<% end %>

@@ -71,7 +71,7 @@
   <li>
     <% if @year.timetable_generated? %>
       <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put', :confirm => "This will overwrite any previous timetable data. Are you sure?" %>
-      I have a timetable
+      <%= link_to "View Tabletable", year_timetable_slots_path(@year) %>
     <% else %>
       <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put' %>
     <% end %>
