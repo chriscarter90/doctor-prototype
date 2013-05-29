@@ -16,6 +16,9 @@ class TermsController < ApplicationController
     by_time_slot_and_course = {}
     by_time_slot.each_pair do |slot, slot_allocs|
       by_time_slot_and_course[slot] = slot_allocs.group_by { |s| s.lecture_course }
+      by_time_slot_and_course[slot].each_pair do |course, course_allocs|
+        by_time_slot_and_course[slot][course] = course_allocs.group_by { |c| c.room }
+      end
     end
     by_time_slot_and_course
   end

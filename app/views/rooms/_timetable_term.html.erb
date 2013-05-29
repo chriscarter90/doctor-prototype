@@ -21,7 +21,7 @@
         <td>
           <% if allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].present? %>
             <% allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].each_pair do |course, course_allocs| %>
-              <%= course.code %> (<%= get_week_ranges(course_allocs.map(&:week_id)) %>)
+              <%= course.code %> (<%= get_week_ranges(course_allocs.map { |c| c.week.no } ) %>)
             <% end %>
           <% end %>
         </td>
