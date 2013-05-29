@@ -19,4 +19,13 @@ module CourseWeeksHelper
 
     options_for_select(options, course.scheduling_type)
   end
+
+  def course_size_options(course)
+    options = []
+    ['small', 'medium', 'large'].each do |size|
+      options << [size.capitalize, size]
+    end
+
+    options_for_select(options, course.size)
+  end
 end

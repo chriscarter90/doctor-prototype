@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130526141747) do
+ActiveRecord::Schema.define(:version => 20130529205819) do
 
   create_table "clashes", :force => true do |t|
     t.integer  "year_id"
@@ -71,6 +71,7 @@ ActiveRecord::Schema.define(:version => 20130526141747) do
     t.integer  "year_id"
     t.boolean  "clashes_hidden"
     t.string   "scheduling_type"
+    t.string   "size"
   end
 
   add_index "lecture_courses", ["code", "year_id"], :name => "index_lecture_courses_on_code_and_year_id", :unique => true

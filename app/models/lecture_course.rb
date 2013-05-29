@@ -1,6 +1,6 @@
 class LectureCourse < ActiveRecord::Base
 
-  attr_accessible :code, :title, :term, :classes, :lecturehours, :tutorialhours, :labhours, :weeklyhours, :popestimate, :popregistered, :year, :clashes_hidden, :scheduling_type
+  attr_accessible :code, :title, :term, :classes, :lecturehours, :tutorialhours, :labhours, :weeklyhours, :popestimate, :popregistered, :year, :clashes_hidden, :scheduling_type, :size
 
   # = Validations =
   validates_presence_of :code, :title, :term, :year
@@ -64,6 +64,12 @@ class LectureCourse < ActiveRecord::Base
   def type_to_ASP
     if scheduling_type.present?
       "course_type(\"#{code}\", #{scheduling_type}).\n"
+    end
+  end
+
+  def size_to_ASP
+    if size.present?
+      "course_size(\"#{code}\", #{size}).\n"
     end
   end
 end
