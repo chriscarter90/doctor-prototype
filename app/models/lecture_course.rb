@@ -58,7 +58,7 @@ class LectureCourse < ActiveRecord::Base
   end
 
   def to_ASP
-    "course(\"#{code}\")."
+    "b#{code.first}(\"#{code}\")."
   end
 
   def type_to_ASP
