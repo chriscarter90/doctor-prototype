@@ -10,6 +10,12 @@ class RoomWriterWorker
       models.each do |m|
         f.write("#{m.to_ASP}\n")
       end
+
+      f.write("\n")
+
+      models.each do |m|
+        f.write("#{m.size_to_ASP}\n")
+      end
     end
   end
 end

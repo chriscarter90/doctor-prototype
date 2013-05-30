@@ -21,6 +21,13 @@
       </div>
     </div>
 
+    <div class="control-group">
+      <%= f.label :size, :class => "control-label" %>
+      <div class="controls">
+        <%= f.select :size, room_size_options(@room) %>
+      </div>
+    </div>
+
   <div class="control-group">
     <div class="controls">
       <%= f.submit :class => "btn btn-primary" %>
