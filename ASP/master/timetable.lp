@@ -2,14 +2,10 @@
 %% Session definitions
 
 % Define the days of the week.
-day(mon).
-day(tues).
-day(wed).
-day(thurs).
-day(fri).
+day(1..5).
 
-day_time(X, 1..9) :- day(X), X != wed.
-day_time(wed, 1..4).
+day_time(X, 1..9) :- day(X), X != 3.
+day_time(3, 1..4).
 
 % Define the sessions in each day.
 ses(D, T, W, E) :- day_time(D, T), week_term(W, E).
@@ -38,6 +34,13 @@ room(X) :- lab_room(X).
 session_type(lecture).
 session_type(tutorial).
 session_type(lab).
+
+size_compatible(large,  large).
+size_compatible(medium, large).
+size_compatible(small,  large).
+size_compatible(medium, medium).
+size_compatible(small,  medium).
+size_compatible(small,  small).
 
 % Define the conditions where the type holds.
 holds(C, a, W, E) :- course_type(C, a), allocated(C, session(D, T, W, E), R, _),  allocated(C, session(D, T + 1, W, E), R, _),  allocated(C, session(D, T + 2, W, E), R, _).
@@ -75,6 +78,10 @@ allocated(C, session(D, T, 3..9, E), R, Type) :- allocated(C, session(D, T, 2, E
 :- allocated(C1, S, R, tutorial), not lecture_room(R).
 :- allocated(C1, S, R, lab), not lab_room(R).
 
+:- alloc_just_room(C, R), course_size(C, CS), not fit_course_in_room(C, R).
+
+fit_course_in_room(C, R) :- course_size(C, CS), room_size(R, RS), size_compatible(CS, RS).
+
 % ============================================= %
 % Basic constraints
 
@@ -105,6 +112,7 @@ alloc_gen_term(C, D, T, E, R, Type) :- allocated(C, session(D, T, _, E), R, Type
 alloc_no_type(C, S, R) :- allocated(C, S, R, _).
 alloc_no_room(C, S, Type) :- allocated(C, S, _, Type).
 alloc_no_room_or_type(C, S) :- allocated(C, S, _, _).
+alloc_just_room(C, R) :- allocated(C, _, R, _).
 
 % ============================================= %
 % Unclashables
@@ -132,8 +140,8 @@ never_clash(X, Y) :- b4(X), b4(Y), X != Y, not clash_exception(X, Y).
 clash_exception(X, Y) :- clash_exception(Y, X).
 
 %% TEMPORARY to allow the timetable to not be over constrained
-clash_exception(X, Y) :- b3(X), b3(Y), X != Y.
-clash_exception(X, Y) :- b4(X), b4(Y), X != Y.
+% clash_exception(X, Y) :- b3(X), b3(Y), X != Y.
+% clash_exception(X, Y) :- b4(X), b4(Y), X != Y.
 
 %% Only clash if they're compabible and we want to.
 clash_together(X, Y) :- clash_compatible(X, Y), clash_wanted(X, Y).
