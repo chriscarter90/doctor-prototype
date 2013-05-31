@@ -1,93 +1,10 @@
-% course_type("112", c).
-% course_type("113", b).
-% course_type("120.1", a).
-% course_type("120.2", a).
-% course_type("120.3", a).
-% course_type("130", c).
-% course_type("140", b).
-% course_type("141", b).
-% course_type("141J", b).
-% course_type("142", c).
-% course_type("145", a).
-% course_type("161", a).
-% course_type("163", a).
-% course_type("164", b).
-% course_type("173", a).
-% course_type("176", a).
-% 
-% course_type("202", b).
-% course_type("203", b).
-% course_type("210", b).
-% course_type("211", b).
-% course_type("212", b).
-% course_type("220", b).
-% course_type("221", b).
-% course_type("223", b).
-% course_type("231", b).
-% course_type("233", b).
-% course_type("240", b).
-% course_type("245", b).
-% course_type("252", b).
-% course_type("261", b).
-% course_type("261J", b).
-% course_type("265", b).
-% course_type("271", b).
-% course_type("272", b).
-% course_type("275", b).
-% course_type("276", b).
-% 
-% course_type("301", a).
-% course_type("301I", a).
-% course_type("301J", a).
-% course_type("302", b).
-% course_type("303", c).
-% course_type("312", a).
-% course_type("317", b).
-% course_type("318", c).
-% course_type("320", c).
-% course_type("325", a).
-% course_type("330", a).
-% course_type("332", b).
-% course_type("333", a).
-% course_type("335", c).
-% course_type("337", a).
-% course_type("338", c).
-% course_type("341", a).
-% course_type("343", a).
-% course_type("350", b).
-% course_type("351", a).
-% course_type("351J", a).
-% course_type("356", c).
-% course_type("362", b).
-% course_type("382", b).
-% course_type("395", c).
-% 
-% course_type("401", a).
-% course_type("401I", a).
-% course_type("401J", a).
-% course_type("417", a).
-% course_type("418", a).
-% course_type("421", a).
-% course_type("422", a).
-% course_type("424", a).
-% course_type("429", a).
-% course_type("436", a).
-% course_type("437", a).
-% course_type("438", a).
-% course_type("440", a).
-% course_type("451", a).
-% course_type("451J", a).
-% course_type("452", a).
-% course_type("464", a).
-% course_type("470", a).
-% course_type("471", a).
-% course_type("474", a).
-% course_type("475", a).
-% course_type("477", a).
-% course_type("478", a).
-% course_type("480", a).
-% course_type("481", a).
-% course_type("484", a).
-% course_type("491", a).
-course_type("493", a).
-% course_type("499", a).
+course_type("130", b).
+course_type("141", a).
+course_type("210", b).
+course_type("318", a).
+course_type("140", c).
+course_type("330", a).
+course_type("335", c).
+course_type("202", c).
+course_type("320", c).
+course_type("112", a).

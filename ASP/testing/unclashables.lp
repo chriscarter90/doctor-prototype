@@ -1,2 +1,2 @@
-unclashable("417", "333").
-unclashable("330", "477").
+unclashable("312", "302").
+unclashable("302", "320").

@@ -55,27 +55,25 @@ threads.map(&:join)
 
 allocs = format_allocations(answers)
 
-days = %w[mon tues wed thurs fri]
+days = ("1".."5").to_a
 
-allocs.each do |term|
-  puts "Term #{term[0]}"
-  term_data = term[1]
-  term_data.each do |week|
-    puts "Week #{week[0]}"
-    week_data = week[1]
+allocs.each_pair do |term_no, term_allocs|
+  puts "Term #{term_no}"
+  term_allocs.each_pair do |week_no, week_allocs|
+    puts "Week #{week_no}"
     table = TinyTable::Table.new
     table.header = [""] + days
 
-    "1".upto("9") do |i|
-      line = [i]
+    "1".upto("9") do |time|
+      line = [time]
 
       days.each do |day|
-        if week_data[day].nil?
+        if week_allocs[day].nil?
           line << ""
-        elsif week_data[day][i].nil?
+        elsif week_allocs[day][time].nil?
           line << ""
         else
-          line << week_data[day][i].join(", ")
+          line << week_allocs[day][time].join(", ")
         end
       end
       table << line
@@ -84,3 +82,4 @@ allocs.each do |term|
     puts table.to_text
   end
 end
+
