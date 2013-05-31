@@ -34,10 +34,12 @@
             <% @slots[@time_slots.where(:day_id => d.id, :start_hour => time).first].each_pair do |course, course_allocs| %>
               <%= course.code %>
               <ul>
-                <% course_allocs.each_pair do |room, room_allocs| %>
-                  <li>
-                    <%= room.no %> (<%= get_week_ranges(room_allocs.map { |r| r.week.no } ) %>)
-                  </li>
+                <% course_allocs.each_pair do |type, type_allocs| %>
+                  <% type_allocs.each_pair do |room, room_allocs| %>
+                    <li>
+                      <%= type.capitalize %> - <%= room.no %> (<%= get_week_ranges(room_allocs.map { |r| r.week.no }.sort ) %>)
+                    </li>
+                  <% end %>
                 <% end %>
               </ul>
             <% end %>

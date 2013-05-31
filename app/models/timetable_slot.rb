@@ -1,9 +1,9 @@
 class TimetableSlot < ActiveRecord::Base
 
-  attr_accessible :lecture_course, :room, :time_slot, :week
+  attr_accessible :lecture_course, :room, :time_slot, :week, :slot_type
 
   # = Validations =
-  validates_presence_of :lecture_course, :room, :time_slot, :week
+  validates_presence_of :lecture_course, :room, :time_slot, :week, :slot_type
 
   # = Relationships =
   belongs_to :lecture_course

@@ -6,7 +6,7 @@
     <% if course.taught_in_term?(t) %>
       <% t.weeks.each do |w| %>
         <td>
-          <%= text_field_tag "course_weeks[#{course.code}][lectures][all][#{t.no}][#{w.no}]", find_existing_hours(@course_weeks, course, w, nil, "Lecture"), :class => "tiny term-#{t.no} merged", :id => "#{t.no}-#{w.no}-all" %>
+          <%= text_field_tag "course_weeks[#{course.code}][lectures][all][#{t.no}][#{w.no}]", find_existing_hours(course.course_weeks, w, nil, "Lecture"), :class => "tiny term-#{t.no} merged", :id => "#{t.no}-#{w.no}-all" %>
         </td>
       <% end %>
       <td>

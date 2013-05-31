@@ -60,6 +60,9 @@ class RoomsController < ApplicationController
       by_term_and_time_slot[term] = term_slots.group_by { |t| t.time_slot }
       by_term_and_time_slot[term].each_pair do |slot, slot_allocs|
         by_term_and_time_slot[term][slot] = slot_allocs.group_by { |s| s.lecture_course }
+        by_term_and_time_slot[term][slot].each_pair do |course, course_allocs|
+          by_term_and_time_slot[term][slot][course] = course_allocs.group_by { |c| c.slot_type }
+        end
       end
     end
     by_term_and_time_slot

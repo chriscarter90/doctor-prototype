@@ -21,7 +21,14 @@
         <td>
           <% if allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].present? %>
             <% allocs[@time_slots.where(:day_id => d.id, :start_hour => time).first].each_pair do |course, course_allocs| %>
-              <%= course.code %> (<%= get_week_ranges(course_allocs.map { |c| c.week.no } ) %>)
+              <%= course.code %>
+              <ul>
+                <% course_allocs.each_pair do |type, type_allocs| %>
+                  <li>
+                    <%= type.capitalize %> (<%= get_week_ranges(type_allocs.map { |t| t.week.no }.sort ) %>)
+                  </li>
+                <%  end %>
+              </ul>
             <% end %>
           <% end %>
         </td>

@@ -34,6 +34,8 @@ class TimetableGeneratorWorker
 
     threads.map(&:join)
 
+    puts "Finished."
+
     allocs = format_allocations(answers)
 
     import_allocations(year, allocs)
@@ -78,6 +80,7 @@ class TimetableGeneratorWorker
         week_allocs[1].each do |day_allocs|
           day_allocs[1].each do |slot|
             slot[1].each do |lecture|
+              type = lecture[0]
               course_code = lecture[1]
               room_no = lecture[2]
 
@@ -86,7 +89,7 @@ class TimetableGeneratorWorker
               course = year.lecture_courses.find_by_code(course_code)
               room = year.rooms.find_by_no(room_no)
 
-              TimetableSlot.create!(:lecture_course => course, :room => room, :week => week, :time_slot => time_slot)
+              TimetableSlot.create!(:lecture_course => course, :room => room, :week => week, :time_slot => time_slot, :slot_type => type)
             end
           end
         end
