@@ -207,7 +207,7 @@ total_per_week(C, M, W, t) :- course(C), week_term_hours(C, _, W, t, _), M = [ w
 
 week_term_hours(C, M, W, t, Type) :- course(C), week_term_hours(C, _, W, t, _, Type), M = [ week_term_hours(C, H, W, t, _, Type) = H ].
 
-#minimize { alloc_gen(_, 5, _) }.
+#minimize { alloc_gen(C, 5, _) : not b1(C) : not b2(C) }.
 
 % ============================================= %
 %% Preferences
