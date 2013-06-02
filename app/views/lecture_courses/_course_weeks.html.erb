@@ -1,48 +1,73 @@
 <div class='course-weeks'>
-  <h4>
-    Course-week Selection
-  </h4>
+  <div class='row-fluid'>
+    <div class='span2'>
+      <ul class='nav nav-pills nav-stacked'>
+        <% @prev_5.each do |n| %>
+          <li>
+            <%= link_to n.code, year_lecture_course_path(@year, n) %>
+          </li>
+        <% end %>
 
-  <%= form_tag update_course_weeks_year_lecture_course_path(@year, @course), :method => :put do %>
-    <% if @course.has_multiple_lecturers? %>
-      <label class="checkbox">
-        <%= check_box_tag "course_weeks[merged_lecturers]", true, @course.merged_lecturers, :class => "merged-lecturers", :id => "merge" %>
-        Schedule lecturers concurrently?
-      </label>
-    <% end %>
+        <strong>
+          <li>
+            <%= @course.code %>
+          </li>
+        </strong>
 
-    <div class="scheduling-type">
-      <label class="control-label">
-        Scheduling type
-      </label>
-      <div class="controls">
-        <%= select_tag "course_weeks[scheduling_type]", scheduling_type_options(@course), :include_blank => true, :class => "input-medium" %>
-      </div>
+        <% @next_5.each do |n| %>
+          <li>
+            <%= link_to n.code, year_lecture_course_path(@year, n) %>
+          </li>
+        <% end %>
+      </ul>
     </div>
+    <div class='span10'>
+      <h4>
+        Course-week Selection
+      </h4>
 
-    <div class="scheduling-type">
-      <label class="control-label">
-        Size
-      </label>
-      <div class="controls">
-        <%= select_tag "course_weeks[size]", course_size_options(@course), :include_blank => true, :class => "input-medium" %>
-      </div>
-    </div>
+      <%= form_tag update_course_weeks_year_lecture_course_path(@year, @course), :method => :put do %>
+        <% if @course.has_multiple_lecturers? %>
+          <label class="checkbox">
+            <%= check_box_tag "course_weeks[merged_lecturers]", true, @course.merged_lecturers, :class => "merged-lecturers", :id => "merge" %>
+            Schedule lecturers concurrently?
+          </label>
+        <% end %>
 
-    <table>
-      <%= render :partial => 'course_header' %>
-      <%= render :partial => 'course_single' %>
-      <% if @course.has_multiple_lecturers? %>
-        <%= render :partial => 'course_merged' %>
+        <div class="scheduling-type">
+          <label class="control-label">
+            Scheduling type
+          </label>
+          <div class="controls">
+            <%= select_tag "course_weeks[scheduling_type]", scheduling_type_options(@course), :include_blank => true, :class => "input-medium" %>
+          </div>
+        </div>
+
+        <div class="scheduling-type">
+          <label class="control-label">
+            Size
+          </label>
+          <div class="controls">
+            <%= select_tag "course_weeks[size]", course_size_options(@course), :include_blank => true, :class => "input-medium" %>
+          </div>
+        </div>
+
+        <table>
+          <%= render :partial => 'course_header' %>
+          <%= render :partial => 'course_single' %>
+          <% if @course.has_multiple_lecturers? %>
+            <%= render :partial => 'course_merged' %>
+          <% end %>
+          <%= render :partial => 'tutorial_hours' %>
+          <%= render :partial => 'lab_hours' %>
+          <%= render :partial => 'course_summary' %>
+        </table>
+
+        <div class='form-actions'>
+          <%= submit_tag "Submit", :class => 'btn btn-primary' %>
+          <%= link_to "Cancel", year_path(@year), :class => 'btn btn-danger' %>
+        </div>
       <% end %>
-      <%= render :partial => 'tutorial_hours' %>
-      <%= render :partial => 'lab_hours' %>
-      <%= render :partial => 'course_summary' %>
-    </table>
-
-    <div class='form-actions'>
-      <%= submit_tag "Submit", :class => 'btn btn-primary' %>
-      <%= link_to "Cancel", year_path(@year), :class => 'btn btn-danger' %>
     </div>
-  <% end %>
+  </div>
 </div>

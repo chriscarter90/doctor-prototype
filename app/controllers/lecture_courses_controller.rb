@@ -9,6 +9,11 @@ class LectureCoursesController < ApplicationController
     @course = @year.lecture_courses.find_by_code(params[:id])
     @requirements = @course.requirements
     @lecturers = @course.lecturers
+
+    courses = @year.lecture_courses.by_code
+    course_index = courses.index(@course)
+    @prev_5 = courses.take(course_index).last(5)
+    @next_5 = courses.drop(course_index + 1).take(5)
   end
 
   def show_clashes
