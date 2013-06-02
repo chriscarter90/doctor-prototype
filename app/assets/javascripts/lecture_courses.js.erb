@@ -10,7 +10,7 @@ $(document).ready(function() {
       }
     });
 
-    var container = $(this).parents('.course');
+    var container = $(this).parents('.course-weeks');
     $(container).find('input.tutorial.' + term).each(function(index) {
       if (index >= 1 && index <= 9) {
         $(this).attr("value", 1);
@@ -19,12 +19,12 @@ $(document).ready(function() {
       }
     });
     event.preventDefault();
-    updateLectureCount($(this).parents('.course'));
-    updateTutorialCount($(this).parents('.course'));
+    updateLectureCount($(this).parents('.course-weeks'));
+    updateTutorialCount($(this).parents('.course-weeks'));
   });
 
   function showHide(elem) {
-    var container = $(elem).parents('.course');
+    var container = $(elem).parents('.course-weeks');
     $(container).find('.single-row').toggleClass('hidden');
     $(container).find('.merged-row').toggleClass('hidden');
     updateLectureCount(container);
@@ -84,7 +84,7 @@ $(document).ready(function() {
   };
 
 
-  $('div.course').each(function() {
+  $('div.course-weeks').each(function() {
     updateLectureCount(this);
     updateTutorialCount(this);
     updateLabCount(this);
@@ -92,22 +92,22 @@ $(document).ready(function() {
   });
 
   $('input.single').keyup(function() {
-    updateLectureCount($(this).parents('.course'));
-    updateTotal($(this).parents('.course'));
+    updateLectureCount($(this).parents('.course-weeks'));
+    updateTotal($(this).parents('.course-weeks'));
   });
 
   $('input.merged').keyup(function() {
-    updateLectureCount($(this).parents('.course'));
-    updateTotal($(this).parents('.course'));
+    updateLectureCount($(this).parents('.course-weeks'));
+    updateTotal($(this).parents('.course-weeks'));
   });
 
   $('input.tutorial').keyup(function() {
-    updateTutorialCount($(this).parents('.course'));
-    updateTotal($(this).parents('.course'));
+    updateTutorialCount($(this).parents('.course-weeks'));
+    updateTotal($(this).parents('.course-weeks'));
   });
 
   $('input.lab').keyup(function() {
-    updateLabCount($(this).parents('.course'));
-    updateTotal($(this).parents('.course'));
+    updateLabCount($(this).parents('.course-weeks'));
+    updateTotal($(this).parents('.course-weeks'));
   });
 });

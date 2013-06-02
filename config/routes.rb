@@ -2,10 +2,6 @@ DoctorPrototype::Application.routes.draw do
 
   root :to => 'years#index'
 
-  put 'years/:year_id/course_weeks',
-    :to => 'course_weeks#update',
-    :as => :update_course_weeks
-
   put 'years/:year_id/clashes',
     :to => 'clashes#update',
     :as => :update_clashes
@@ -53,12 +49,12 @@ DoctorPrototype::Application.routes.draw do
       member do
         post 'show_clashes'
         delete 'hide_clashes'
+        put 'update_course_weeks'
       end
       collection do
         post 'import'
       end
     end
-    resources :course_weeks, :only => [:index]
     resources :clashes, :only => [:index, :new]
     resources :unclashables, :only => [:create]
     resources :timetable_slots, :only => [:index]

@@ -1,12 +1,12 @@
-<tr class="merged-row <%= course.merged_lecturers ? '' : 'hidden' %>">
+<tr class="merged-row <%= @course.merged_lecturers ? '' : 'hidden' %>">
   <td>
     All lecturers
   </td>
-  <% @terms.each do |t| %>
-    <% if course.taught_in_term?(t) %>
+  <% @year.terms.each do |t| %>
+    <% if @course.taught_in_term?(t) %>
       <% t.weeks.each do |w| %>
         <td>
-          <%= text_field_tag "course_weeks[#{course.code}][lectures][all][#{t.no}][#{w.no}]", find_existing_hours(course.course_weeks, w, nil, "Lecture"), :class => "tiny term-#{t.no} merged", :id => "#{t.no}-#{w.no}-all" %>
+          <%= text_field_tag "course_weeks[lectures][all][#{t.no}][#{w.no}]", find_existing_hours(@course.course_weeks, w, nil, "Lecture"), :class => "tiny term-#{t.no} merged", :id => "#{t.no}-#{w.no}-all" %>
         </td>
       <% end %>
       <td>

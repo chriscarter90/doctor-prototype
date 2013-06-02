@@ -1,4 +1,4 @@
-module CourseWeeksHelper
+module LectureCoursesHelper
   def find_existing_hours(course_weeks, week, lecturer, type)
     existing = course_weeks.where(:week_id => week, :staff_member_id => lecturer, :session_type => type)
     if existing.present?

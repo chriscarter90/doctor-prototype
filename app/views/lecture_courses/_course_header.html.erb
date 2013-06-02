@@ -4,7 +4,7 @@
   </th>
 
   <% @year.terms.each do |t| %>
-    <% if course.taught_in_term?(t) %>
+    <% if @course.taught_in_term?(t) %>
       <th colspan="<%= t.weeks.count + 1 %>">
         <%= "Term #{t.no}" %>
       </th>
@@ -15,7 +15,7 @@
 
 <tr class='header'>
   <% @year.terms.each do |t| %>
-    <% if course.taught_in_term?(t) %>
+    <% if @course.taught_in_term?(t) %>
       <% t.weeks.each do |w| %>
         <th class="week-header">
           <%= w.no %>
