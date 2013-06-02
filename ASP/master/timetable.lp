@@ -50,12 +50,39 @@ holds(C, b, W, E) :- course_type(C, b), consecutive(C, D, W, E, morning),  alloc
 
 holds(C, c, W, E) :- course_type(C, c), consecutive(C, D1, W, E), allocated(C, session(D2, _, W, E), _, _), D1 != D2.
 
+holds(C, b1, W, E) :- course_type(C, b1), consecutive_types(C, D, W, E, lecture, tutorial, morning), allocated(C, session(D, T2, W, E), _, lecture), afternoon(T2).
+holds(C, b2, W, E) :- course_type(C, b2), consecutive_types(C, D, W, E, lecture, tutorial, afternoon), allocated(C, session(D, T2, W, E), _, lecture), morning(T2).
+holds(C, b3, W, E) :- course_type(C, b3), consecutive_types(C, D, W, E, tutorial, lecture, afternoon), allocated(C, session(D, T2, W, E), _, lecture), morning(T2).
+holds(C, b4, W, E) :- course_type(C, b4), consecutive_types(C, D, W, E, tutorial, lecture, morning), allocated(C, session(D, T2, W, E), _, lecture), afternoon(T2).
+
+holds(C, c1, W, E) :- course_type(C, c1), consecutive_types(C, D, W, E, lecture, tutorial, morning), allocated(C, session(D2, _, W, E), _, lecture), D2 > D.
+holds(C, c2, W, E) :- course_type(C, c2), consecutive_types(C, D, W, E, lecture, tutorial, afternoon), allocated(C, session(D2, _, W, E), _, lecture), D2 < D.
+holds(C, c3, W, E) :- course_type(C, c3), consecutive_types(C, D, W, E, tutorial, lecture, afternoon), allocated(C, session(D2, _, W, E), _, lecture), D2 < D.
+holds(C, c4, W, E) :- course_type(C, c4), consecutive_types(C, D, W, E, tutorial, lecture, morning), allocated(C, session(D2, _, W, E), _, lecture), D2 > D.
+
 consecutive(C, D, W, E) :- course_type(C, c), allocated(C, session(D, T, W, E), R, _), allocated(C, session(D, T + 1, W, E), R, _).
+consecutive_types(C, D, W, E, T1, T2) :- allocated(C, session(D, T, W, E), R, T1), allocated(C, session(D, T + 1, W, E), R, T2).
+
 consecutive(C, D, W, E, morning) :- course_type(C, b), allocated(C, session(D, T, W, E), R, _), allocated(C, session(D, T + 1, W, E), R, _), morning(T).
 consecutive(C, D, W, E, afternoon) :- course_type(C, b), allocated(C, session(D, T, W, E), R, _), allocated(C, session(D, T + 1, W, E), R, _), afternoon(T).
 
+consecutive_types(C, D, W, E, T1, T2, morning) :- allocated(C, session(D, T, W, E), R, T1), allocated(C, session(D, T + 1, W, E), R, T2), morning(T).
+consecutive_types(C, D, W, E, T1, T2, afternoon) :- allocated(C, session(D, T, W, E), R, T1), allocated(C, session(D, T + 1, W, E), R, T2), afternoon(T).
+
 % Ensure that the types hold (for weeks which have 3 lectures, otherwise who cares?).
-:- not holds(C, T, W, E), course_type(C, T), total_per_week(C, 3, W, E).
+:- not holds(C, a, W, E), course_type(C, a), total_per_week(C, 3, W, E).
+:- not holds(C, b, W, E), course_type(C, b), total_per_week(C, 3, W, E).
+:- not holds(C, c, W, E), course_type(C, c), total_per_week(C, 3, W, E).
+
+:- not holds(C, b1, W, E), course_type(C, b1), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
+:- not holds(C, b2, W, E), course_type(C, b2), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
+:- not holds(C, b3, W, E), course_type(C, b3), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
+:- not holds(C, b4, W, E), course_type(C, b4), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
+
+:- not holds(C, c1, W, E), course_type(C, c1), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
+:- not holds(C, c2, W, E), course_type(C, c2), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
+:- not holds(C, c3, W, E), course_type(C, c3), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
+:- not holds(C, c4, W, E), course_type(C, c4), week_term_hours(C, 1, W, E, tutorial), week_term_hours(C, 2, W, E, lecture).
 
 % ============================================= %
 % Only have enough allocations for each subject, for each week that it's taught.
@@ -179,6 +206,8 @@ per_week(C, H, W, t, Type) :- week_term_hours(C, H, W, t, Type), not per_week_2_
 total_per_week(C, M, W, t) :- course(C), week_term_hours(C, _, W, t, _), M = [ week_term_hours(C, H, W, t, _, _) = H ].
 
 week_term_hours(C, M, W, t, Type) :- course(C), week_term_hours(C, _, W, t, _, Type), M = [ week_term_hours(C, H, W, t, _, Type) = H ].
+
+#minimize { alloc_gen(_, 5, _) }.
 
 % ============================================= %
 %% Preferences

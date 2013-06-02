@@ -14,8 +14,9 @@ module LectureCoursesHelper
 
   def scheduling_type_options(course)
     options = []
-    'a'.upto('c') do |char|
-      options << ["Type #{char}", char]
+    types = ('a'..'c').to_a + ('b1' .. 'b4').to_a + ('c1' .. 'c4').to_a
+    types.each do |type|
+      options << ["Type #{type}", type]
     end
 
     options_for_select(options, course.scheduling_type)
