@@ -42,9 +42,3 @@
 % I prefer not after:
 
 % prefer_not_after("484", 8).
-
-
-% Precisely...:
-% precisely("493", 1, 1).
-precisely("161", 2, 8, 1, lab).
-precisely("161", 2, 9, 1, lab).

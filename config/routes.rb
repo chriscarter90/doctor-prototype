@@ -20,6 +20,11 @@ DoctorPrototype::Application.routes.draw do
         post 'import'
       end
     end
+    resources :precisely_clauses, :only => [:index] do
+      collection do
+        put 'update'
+      end
+    end
     resources :terms, :only => [] do
       member do
         get 'timetable_slots'
