@@ -220,10 +220,10 @@ week_term_hours(C, M, W, t, Type) :- course(C), week_term_hours(C, _, W, t, _, T
 :- alloc_no_room(C1, session(D, T, W, E), lecture), alloc_no_room(C2, session(D, T + 1, W, E), lecture), alloc_no_room(C3, session(D, T + 2, W, E), lecture), b2(C1), b2(C2), b2(C3).
 
 %% Don't put anything of the first and second years in Monday 8 & 9
-:- alloc_gen(C, 1, 8), b1(C).
-:- alloc_gen(C, 1, 8), b2(C).
-:- alloc_gen(C, 1, 9), b1(C).
-:- alloc_gen(C, 1, 9), b2(C).
+horizon_alloc(C) :- alloc_gen(C, 1, 8), b1(C).
+horizon_alloc(C) :- alloc_gen(C, 1, 8), b2(C).
+horizon_alloc(C) :- alloc_gen(C, 1, 9), b1(C).
+horizon_alloc(C) :- alloc_gen(C, 1, 9), b2(C).
 
 % ============================================= %
 %% Preferences
@@ -249,15 +249,16 @@ precisely_violated(C, D, T) :- precisely(C, D, T), not alloc_gen(C, D, T).
 precisely_violated(C, D, T, Type) :- precisely(C, D, T, Type), not alloc_gen_type(C, D, T, Type).
 precisely_violated(C, D, T, E, Type) :- precisely(C, D, T, E, Type), not alloc_gen_term_type(C, D, T, E, Type).
 
-#minimize { precisely_violated(_, _, _, _, _) }.
-#minimize { precisely_violated(_, _, _, _) }.
-#minimize { precisely_violated(_, _, _) }.
-#maximize { preference_time_met(_, _) }.
-#maximize { preference_day_met(_, _) }.
 #minimize { prefer_not_time_violated(_, _) }.
 #minimize { prefer_not_day_violated(_, _) }.
 #minimize { prefer_not_before_violated(_, _) }.
 #minimize { prefer_not_after_violated(_, _) }.
+#maximize { preference_time_met(_, _) }.
+#maximize { preference_day_met(_, _) }.
+#minimize { horizon_alloc(_) }.
+#minimize { precisely_violated(_, _, _, _, _) }.
+#minimize { precisely_violated(_, _, _, _) }.
+#minimize { precisely_violated(_, _, _) }.
 
 :- strictly_not_before_violated(C, T).
 :- strictly_not_after_violated(C, T).
