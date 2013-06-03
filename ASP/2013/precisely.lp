@@ -33,4 +33,15 @@
 %% precisely("120.1", 3, 3, 2, lab).
 %% precisely("120.1", 3, 3, 3, lab).
 %% Valid types: lecture, tutorial, lab.
-precisely("161", 1, 7, 1, lab).
+precisely("161", 2, 6, 1, lab).
+precisely("161", 2, 7, 1, lab).
+precisely("161", 2, 8, 1, lab).
+precisely("161", 2, 9, 1, lab).
+precisely("161", 5, 8, 1, lab).
+precisely("161", 5, 9, 1, lab).
+precisely("161", 1, 7, 2, lab).
+precisely("161", 1, 8, 2, lab).
+precisely("161", 4, 8, 2, lab).
+precisely("161", 4, 9, 2, lab).
+precisely("161", 5, 7, 2, lab).
+precisely("161", 5, 8, 2, lab).

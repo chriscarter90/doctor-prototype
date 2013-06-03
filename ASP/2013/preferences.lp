@@ -80,6 +80,7 @@
 %% prefer_not_day("471", 5).
 %% Or course 474 dislikes Mondays:
 %% prefer_not_day("474", 1).
+prefer_not_day("120.1", 1).
 
 
 
