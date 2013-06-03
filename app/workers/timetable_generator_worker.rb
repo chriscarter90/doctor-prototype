@@ -4,8 +4,6 @@ class TimetableGeneratorWorker
   def self.perform(year_no)
     year = Year.find_by_no(year_no)
 
-    year.update_attribute(:timetable_generated, false)
-
     year.terms.each do |term|
       term.weeks.each do |week|
         week.timetable_slots.destroy_all
