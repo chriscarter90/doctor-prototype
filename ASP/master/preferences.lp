@@ -16,9 +16,9 @@
 %% Strictly not after a time on any day:
 %% strictly_not_after(course, time).
 %% For example, course 471 should definitely not be after lunchtime:
-%% strictly_not_before("471", 4).
+%% strictly_not_after("471", 4).
 %% Or course 474 should not be after 4pm:
-%% strictly_not_before("474", 8).
+%% strictly_not_after("474", 8).
 
 
 
@@ -113,9 +113,9 @@
 %% Prefer not after a certain time:
 %% prefer_not_after(course, time).
 %% For example, course 471 prefers not after lunch:
-%% prefer_not_before("471", 4).
+%% prefer_not_after("471", 4).
 %% Or course 474 prefers not after 4pm:
-%% prefer_not_before("474", 8).
+%% prefer_not_after("474", 8).
 
 
 
