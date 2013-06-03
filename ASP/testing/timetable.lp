@@ -139,6 +139,7 @@ Min { alloc_gen_term(C, D, T, E, R, Type) : room(R) : day_time(D, T) : term(E) }
 
 alloc_gen(C, D, T) :- allocated(C, session(D, T, _, _), _, _).
 alloc_gen_type(C, D, T, Type) :- allocated(C, session(D, T, _, _), _, Type).
+alloc_gen_term_type(C, D, T, E, Type) :- allocated(C, session(D, T, _, E), _, Type).
 alloc_gen_term(C, D, T, E, R, Type) :- allocated(C, session(D, T, _, E), R, Type).
 alloc_no_type(C, S, R) :- allocated(C, S, R, _).
 alloc_no_room(C, S, Type) :- allocated(C, S, _, Type).
@@ -246,7 +247,9 @@ prefer_not_after_violated(C, T) :- alloc_no_room_or_type(C, session(_, T1, _, _)
 
 precisely_violated(C, D, T) :- precisely(C, D, T), not alloc_gen(C, D, T).
 precisely_violated(C, D, T, Type) :- precisely(C, D, T, Type), not alloc_gen_type(C, D, T, Type).
+precisely_violated(C, D, T, E, Type) :- precisely(C, D, T, E, Type), not alloc_gen_term_type(C, D, T, E, Type).
 
+#minimize { precisely_violated(_, _, _, _, _) }.
 #minimize { precisely_violated(_, _, _, _) }.
 #minimize { precisely_violated(_, _, _) }.
 #maximize { preference_time_met(_, _) }.
