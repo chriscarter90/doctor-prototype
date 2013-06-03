@@ -1,0 +1,22 @@
+<div class="row" id="inner-header">
+  <div class='span6 sub-header'>
+    <h2>
+      Preference Clauses
+    </h2>
+  </div>
+  <div class='span6 sub-header'>
+    <div class='header-actions'>
+      <%= back_button(@year.no, year_path(@year)) %>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<%= form_tag year_preference_clauses_path(@year), :method => :put do %>
+  <%= text_area_tag 'file_contents', @preferences_file, :class => 'file-editor' %>
+
+  <div class="form-actions">
+    <%= submit_tag "Submit", :class => "btn btn-primary" %>
+  </div>
+<% end %>

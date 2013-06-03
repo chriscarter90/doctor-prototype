@@ -5,7 +5,3 @@ tmp/
 .sass-cache/
 config/database.yml
 .DS_Store
-
-ASP/
-!ASP/master
-!ASP/testing

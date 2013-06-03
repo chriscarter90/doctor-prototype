@@ -31,6 +31,7 @@ class Year < ActiveRecord::Base
     master_dir = Rails.root.join('ASP', 'master')
     FileUtils::mkdir_p(Rails.root.join('ASP', no.to_s))
     FileUtils::cp(master_dir + 'timetable.lp', Rails.root.join('ASP', no.to_s, 'timetable.lp'))
-    FileUtils::cp(master_dir + 'precisely.lp', Rails.root.join('ASP', no.to_s, 'precisely'))
+    FileUtils::cp(master_dir + 'precisely.lp', Rails.root.join('ASP', no.to_s, 'precisely.lp'))
+    FileUtils::cp(master_dir + 'preferences.lp', Rails.root.join('ASP', no.to_s, 'preferences.lp'))
   end
 end

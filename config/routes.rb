@@ -25,6 +25,11 @@ DoctorPrototype::Application.routes.draw do
         put 'update'
       end
     end
+    resources :preference_clauses, :only => [:index] do
+      collection do
+        put 'update'
+      end
+    end
     resources :terms, :only => [] do
       member do
         get 'timetable_slots'
