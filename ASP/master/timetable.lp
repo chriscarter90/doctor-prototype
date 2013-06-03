@@ -27,6 +27,10 @@ course(X) :- b1(X).
 course(X) :- b2(X).
 course(X) :- b3(X).
 course(X) :- b4(X).
+course(X) :- b5(X).
+course(X) :- b6(X).
+course(X) :- bM(X).
+course(X) :- bZ(X).
 
 room(X) :- lecture_room(X).
 room(X) :- lab_room(X).
