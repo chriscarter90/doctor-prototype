@@ -207,7 +207,18 @@ total_per_week(C, M, W, t) :- course(C), week_term_hours(C, _, W, t, _), M = [ w
 
 week_term_hours(C, M, W, t, Type) :- course(C), week_term_hours(C, _, W, t, _, Type), M = [ week_term_hours(C, H, W, t, _, Type) = H ].
 
+%% Minimise teaching for 3rd, 4th, and 5th years on Fridays.
 #minimize { alloc_gen(C, 5, _) : not b1(C) : not b2(C) }.
+
+%% Don't put three hours of lectures consecutively for first years
+:- alloc_no_room(C1, session(D, T, W, E), lecture), alloc_no_room(C2, session(D, T + 1, W, E), lecture), alloc_no_room(C3, session(D, T + 2, W, E), lecture), b1(C1), b1(C2), b1(C3).
+:- alloc_no_room(C1, session(D, T, W, E), lecture), alloc_no_room(C2, session(D, T + 1, W, E), lecture), alloc_no_room(C3, session(D, T + 2, W, E), lecture), b2(C1), b2(C2), b2(C3).
+
+%% Don't put anything of the first and second years in Monday 8 & 9
+:- alloc_gen(C, 1, 8), b1(C).
+:- alloc_gen(C, 1, 8), b2(C).
+:- alloc_gen(C, 1, 9), b1(C).
+:- alloc_gen(C, 1, 9), b2(C).
 
 % ============================================= %
 %% Preferences
