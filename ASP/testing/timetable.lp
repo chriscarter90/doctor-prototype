@@ -171,6 +171,8 @@ never_clash(X, Y) :- b4(X), b4(Y), X != Y, not clash_exception(X, Y).
 %% Clash exceptions are ALLOWED to clash, doesn't mean that they SHOULD.
 clash_exception(X, Y) :- clash_exception(Y, X).
 
+clash_exception(X, Y) :- clash_wanted(X, Y).
+
 %% TEMPORARY to allow the timetable to not be over constrained
 % clash_exception(X, Y) :- b3(X), b3(Y), X != Y.
 % clash_exception(X, Y) :- b4(X), b4(Y), X != Y.

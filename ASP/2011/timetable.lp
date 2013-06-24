@@ -174,8 +174,8 @@ clash_exception(X, Y) :- clash_exception(Y, X).
 clash_exception(X, Y) :- clash_wanted(X, Y).
 
 %% TEMPORARY to allow the timetable to not be over constrained
-% clash_exception(X, Y) :- b3(X), b3(Y), X != Y.
-% clash_exception(X, Y) :- b4(X), b4(Y), X != Y.
+clash_exception(X, Y) :- b3(X), b3(Y), X != Y.
+clash_exception(X, Y) :- b4(X), b4(Y), X != Y.
 
 %% Only clash if they're compabible and we want to.
 clash_together(X, Y) :- clash_compatible(X, Y), clash_wanted(X, Y).
