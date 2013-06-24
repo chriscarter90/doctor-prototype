@@ -72,11 +72,15 @@
 
 <ul class='nav nav-pills nav-stacked models'>
   <li>
-    <% if @year.timetable_generated? %>
-      <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put', :confirm => "This will overwrite any previous timetable data. Are you sure?" %>
-      <%= link_to "View Tabletable", year_timetable_slots_path(@year) %>
+    <% if @year.timetable_generating? %>
+      Timetable is generating...
     <% else %>
-      <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put' %>
+      <% if @year.timetable_generated? %>
+        <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put', :confirm => "This will overwrite any previous timetable data. Are you sure?" %>
+        <%= link_to "View Tabletable", year_timetable_slots_path(@year) %>
+      <% else %>
+        <%= link_to "Generate Timetable", year_generate_timetable_path(@year), :method => 'put' %>
+      <% end %>
     <% end %>
   </li>
 </ul>

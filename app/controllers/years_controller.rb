@@ -58,7 +58,8 @@ class YearsController < ApplicationController
 
   def generate_timetable
     @year = Year.find_by_no(params[:id])
-    @year.update_attribute(:timetable_generated, false)
+    @year.update_attributes(:timetable_generated => false, :timetable_generating => true)
+    @year.save!
     Resque.enqueue(TimetableGeneratorWorker, @year.no)
     redirect_to year_path(@year), :notice => "Timetable is generating."
   end

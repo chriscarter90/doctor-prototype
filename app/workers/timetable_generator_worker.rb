@@ -38,7 +38,8 @@ class TimetableGeneratorWorker
 
     import_allocations(year, allocs)
 
-    year.update_attribute(:timetable_generated, true)
+    year.update_attributes(:timetable_generated => true, :timetable_generating => false)
+    year.save!
   end
 
   def self.format_allocations(allocations)
