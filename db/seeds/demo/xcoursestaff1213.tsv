@@ -1,0 +1,27 @@
+code	login	role	staffhours	term
+112	dfg	Lecturer	18	1
+113	wl	Lecturer	9	2
+113	axgopala	Lecturer	9	2
+130	nd	Lecturer	18	2
+140	imh	Lecturer	18	1
+202	pp500	Lecturer	9	2
+202	alw	Lecturer	9	2
+210	wl	Lecturer	9	2
+210	dt10	Lecturer	9	2
+211	cristic	Lecturer	9	2
+211	mjw03	Lab Organiser	0	2
+211	prp	Lecturer	9	2
+212	prp	Lecturer	9	2
+212	costa	Lecturer	9	2
+312	pjm	Lecturer	18	1
+317	dfg	Lecturer	0	2
+317	dr	Lecturer	18	2
+320	ae	Lecturer	18	1
+330	mrh	Lecturer	9	1
+330	ecl1	Lecturer	9	1
+417	eedwards	Lecturer	9	2
+417	dr	Lecturer	9	2
+418	gzy	Lecturer	18	1
+438	iccp	Lecturer	18	2
+440	afd	Lecturer	18	1
+(25 rows)

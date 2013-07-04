@@ -1,0 +1,15 @@
+course_size("112", large).
+course_size("113", large).
+course_size("130", large).
+course_size("140", large).
+course_size("202", large).
+course_size("210", large).
+course_size("211", large).
+course_size("212", large).
+course_size("317", medium).
+course_size("320", medium).
+course_size("330", medium).
+course_size("417", medium).
+course_size("418", medium).
+course_size("438", medium).
+course_size("440", medium).

@@ -1,0 +1,17 @@
+code	title	term	classes	lecturehours	tutorialhours	labhours	weeklyhours	popestimate	popregistered
+112	Hardware	1	c1	18	9	0	3	133	0
+113	Architecture	2	c1, j1	18	9	0	3	168	0
+130	Databases I	2	c1	18	9	0	3	133	0
+140	Logic	1	c1, j1	18	9	0	3	168	0
+202	Software Engineering - Algorithms	2	c2, j2, v5	18	9	0	3	171	0
+210	Computer Architecture	2	c2	18	9	0	3	82	0
+211	Operating Systems	2	c2, j2	18	9	0	3	156	0
+212	Networks and Communications	2	c2	18	9	0	3	161	0
+317	Graphics	2	c3, i3, j3, o3, s5, v5, x4	18	9	0	3	140	0
+320	Complex Systems	1	a5, c3, j3, j4, o3, o4, r5, s5	18	9	0	0	21	0
+330	Network Security	1	a5, c3, i4, j3, j4, o3, r5, s5, x4, y5	18	9	0	3	91	0
+417	Advanced Graphics and Visualisation	2	a5, c4, i4, j4, r5, s5	18	9	0	3	30	0
+418	Computer Vision	1	a5, c4, i4, j4, o4, r5, s5, x4, y5	18	9	0	3	79	0
+438	Complexity	2	a5, c4, i4, j4, r5, s5	18	9	0	3	24	0
+440	Software Reliability	1	c4, j4, o3	18	9	0	0	0	0
+(16 rows)

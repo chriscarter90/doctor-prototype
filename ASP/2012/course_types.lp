@@ -1,0 +1,15 @@
+course_type("112", a).
+course_type("113", b).
+course_type("130", c).
+course_type("140", a).
+course_type("202", b).
+course_type("210", b).
+course_type("211", a).
+course_type("212", b3).
+course_type("317", a).
+course_type("320", a).
+course_type("330", c).
+course_type("417", a).
+course_type("418", b).
+course_type("438", b).
+course_type("440", a).
