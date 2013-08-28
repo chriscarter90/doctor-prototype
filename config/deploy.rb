@@ -1,6 +1,6 @@
 require "bundler/capistrano"
 
-server "doctor.doc.ic.ac.uk", :web, :app, :db, :primary => true
+server "vm-doctor.doc.ic.ac.uk", :web, :app, :db, :primary => true
 
 set :application, "doctor-prototype"
 set :user, "deployer"
