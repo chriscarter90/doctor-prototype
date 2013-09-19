@@ -36,6 +36,7 @@ gem 'unicorn'
 
 # Deploy with Capistrano
 gem 'capistrano'
+gem 'rvm-capistrano'
 
 group :test do
   # Pretty printed test output

@@ -1,4 +1,4 @@
-require "bundler/capistrano"
+require 'rvm/capistrano'
 
 server "vm-doctor.doc.ic.ac.uk", :web, :app, :db, :primary => true
 
@@ -11,6 +11,8 @@ set :use_sudo, false
 set :scm, "git"
 set :repository,  "git@github.com:chriscarter90/#{application}.git"
 set :branch, "untested"
+
+require "bundler/capistrano"
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
@@ -38,7 +40,7 @@ namespace :deploy do
   %w[start stop restart].each do |command|
     desc "#{command} unicorn server"
     task command, roles: :app, except: {no_release: true} do
-      run "/etc/init.d/unicorn_#{application} #{command}"
+      # run "/etc/init.d/unicorn_#{application} #{command}"
     end
   end
 
@@ -58,8 +60,8 @@ namespace :deploy do
 
   desc "Make sure local git is in sync with remote."
   task :check_revision, roles: :web do
-    unless `git rev-parse HEAD` == `git rev-parse origin/master`
-      puts "WARNING: HEAD is not the same as origin/master"
+    unless `git rev-parse HEAD` == `git rev-parse origin/untested`
+      puts "WARNING: HEAD is not the same as origin/untested"
       puts "Run `git push` to sync changes."
       exit
     end
