@@ -1,4 +1,5 @@
-require 'rvm/capistrano'
+# require 'rvm/capistrano'
+require "bundler/capistrano"
 
 server "vm-doctor.doc.ic.ac.uk", :web, :app, :db, :primary => true
 
@@ -11,8 +12,6 @@ set :use_sudo, false
 set :scm, "git"
 set :repository,  "git@github.com:chriscarter90/#{application}.git"
 set :branch, "untested"
-
-require "bundler/capistrano"
 
 default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
@@ -45,8 +44,8 @@ namespace :deploy do
   end
 
   task :setup_config, roles: :app do
-    sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
-    sudo "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn_#{application}"
+    # run "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
+    # run "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn_#{application}"
     run "mkdir -p #{shared_path}/config"
     put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
